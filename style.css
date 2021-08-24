@@ -29,16 +29,23 @@ header{
     width: 200px;
     height: 250px;
     display: block;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 #titulo_das_listas{
     text-align: center;
     margin-top: 130px;
 }
 
-#licoes_aprendidas{
+#listas ol, ul{
     position: absolute;
     display: inline-block;
     margin-top: 75px;
+}
+
+#licoes_aprendidas{
     margin-left: 300px;
+}
+
+#licoes_a_aprender{
+    margin-left: 500px;
 }
