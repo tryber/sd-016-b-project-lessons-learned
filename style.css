@@ -1,13 +1,25 @@
 /* 1. Adicione uma cor de fundo específica para a página */
 body {
   background-color: rgb(253, 251, 251);
+  /*13. Utilizar o modelo o Box*/
   margin: 0;
   padding: 0;
   border: 0;
 }
 
-/* 2. Adicione uma barra superior com um título */
+/* 2. Adicione uma barra superior com um título*/
 #cabecalho {
   position: fixed;
   top: 0 fixed;
+}
+
+/*14. Altere atributos relacionados como fontes*/
+header h1 {
+  font-size: 50px;
+  color: rgba(61,73,92);
+  font-family: monospace;
+}
+
+p, li {
+  line-height: 25px;
 }
