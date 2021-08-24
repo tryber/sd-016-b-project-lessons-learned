@@ -3,6 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+
+body {
   background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  background-color: rgb(2, 43, 58);
+  position: fixed;
+  top: 0;
+  text-align: center;
+  width: 100%;
+}
+
+#titulo {
+  font-size: 34px;
+  color: white;
+  margin: 30px;
 }
