@@ -19,10 +19,12 @@ body{
     width: 250px;
     display: inline-block;
     margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 #main{
-    padding: 20px 30px;
+    padding: 10px 10px;
 }
 
 #licoes_aprendidas{
@@ -30,10 +32,19 @@ body{
 }
 
 #secao{
+    background-color: rgb(119, 119, 119);
+}
+
+#secao_list{
     display: inline-block;
     margin-right: 20px;
 }
 
 #licoes_a_aprender{
     font-family: 'Courier New', Courier, monospace;
+}
+
+#rodape{
+    background-color: rgb(119, 119, 119);
+    padding: 10px 10px;
 }
