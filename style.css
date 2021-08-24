@@ -11,6 +11,10 @@ body {
    font: bolder;
 }
 
+.raiz {
+    display: inline-block;
+}
+
 #minha_foto {
     width: 150px;
     margin-top: 5em;
