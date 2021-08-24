@@ -5,24 +5,26 @@ header {
   right: 0;
   left: 0;
   scrollbar-width: 0;
-  border: solid 2px rgb(0, 0, 0);
+  border: solid 2px black;
   background-color: rgb(0, 255, 128);
 
-
 }
 
-#titulo{
+#titulo {
   text-align: center;
+
 }
-h2{
+
+h2 {
   background-color: rgb(0, 255, 128);
   font-size: 30px;
   margin-top: 40px;
-  border: solid 2px rgb(0, 0, 0);
+  border: solid 2px black;
+
 }
 
 .picture {
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   padding: 10px;
   border-radius: 100%;
   margin-top: 100px;
@@ -31,14 +33,18 @@ h2{
   width: 300px;
 
 }
-.github{
+
+.github {
   padding: 20px;
-  background-color: rgb(7, 0, 0);
+  background-color: black;
   border-radius: 20px;
-  color: white
+  color: white;
+
 }
+
 .lado-esquerdo {
   display: inline-block;
+
 }
 
 .lado-direito {
@@ -50,29 +56,35 @@ body {
   background-color: rgb(253, 251, 251);
 
 }
-.principal{
+
+.principal {
   margin-top: 40px;
   width: 30%;
-  border: solid 2px rgb(0, 0, 0);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: solid 2px black;
+  font-family: -apple-system, sans-serif;
+
 }
 
 .secundario {
-  border: solid 2px rgb(0, 0, 0);
-  width:30%;
-  margin-top: 50px
-  
+  border: solid 2px black;
+  width: 30%;
+  margin-top: 50px;
+
 }
+
 footer {
   margin-top: 90px;
   font-size: 20px;
 
 }
-ul,ol {
+
+ul , ol {
   line-height: 30px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, sans-serif;
+
 }
+
 table {
   width: 30%;
-  
+
 }
