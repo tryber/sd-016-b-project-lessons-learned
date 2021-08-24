@@ -1,5 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
+  line-height: 1.5;
 }
 
 #cabecalho {
@@ -36,6 +38,14 @@ table {
 
 thead , tfoot {
   text-align: center;
+}
+
+thead {
+  color: rgb(56, 139, 0);
+}
+
+tfoot {
+  font-size: 0.7em;
 }
 
 th , td {
