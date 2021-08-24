@@ -7,5 +7,7 @@ body {
   top: 0;
 }
 
-#titulo {
+img {
+  height: 80px;
+  width: 80px;
 }
