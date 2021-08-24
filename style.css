@@ -5,4 +5,44 @@ body {
 #cabecalho {
   top: 0;
   position: fixed;
+  background-color: green;
+  width: 100%;
+  z-index: 99999;
+}
+
+#titulo {
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+main {
+  position: absolute;
+  top: 150px;
+}
+
+#navbar {
+  list-style: none;
+}
+
+#navbar li {
+  display: inline-flex;
+  margin-left: 20%;
+}
+
+#navbar li:hover {
+  background-color: rgb(0, 167, 14);
+}
+
+article , section {
+  position: relative;
+  width: 250px;
+  margin-left: 20px;
+  display: inline-block;
+  border: 2px solid black;
+}
+
+section {
+  margin-left: 700px;
+  bottom: 200px;
 }
