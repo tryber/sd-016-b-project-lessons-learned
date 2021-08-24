@@ -4,13 +4,15 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     line-height: 20px;
-    color: darkblue;
+    color: #333333;
     margin-top: 150px;
 }
 
 #cabecalho {
     position: fixed;
+    width: 92.5%;
     top: 0;
+    opacity: ;
 }
 
 #minha_foto {
@@ -18,7 +20,7 @@ body {
     width: 200px;
     border-radius: 100%;
 }
-
+ 
 #tabela_spec {
     border: 1px solid black;
 }
@@ -28,28 +30,48 @@ body {
     padding: 10px;
 }
 
-header, nav, img, article, section, ol, ul, aside, table, footer {
+nav {
+    background-color: #E3CFB3;
+    padding: 100px;
+}
+
+header, nav, article, section, ol, ul, aside, table, footer {
     margin: 10px;
     padding: 30px;
     border: 2px solid black;
 }
 
+img {
+    margin: 10px;
+    padding: 10x;
+    border: 1px solid black;
+    box-shadow: 5px 5px 25px black;
+}
+
 #sobre {
-    background-color: coral;
+    background-color: #818EB3;
     width: 40%;
 }
 
 #listas {
-    background-color: coral;
+    background-color: #BD4F74;
     width: 40%;
     margin-left: 650px;
     margin-top: -430px;
     }
 
 article {
-    background-color: rgb(80, 80, 179);
+    background-color: #97BEC7;
 }
 
 ol, ul {
-    background-color: rgb(109, 177, 63);
+    background-color:#E3CFB3;
+}
+
+#trajetoria {
+    background-color: #818EB3;
+}
+
+#rodape {
+    text-align: center;
 }
