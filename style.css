@@ -3,6 +3,11 @@ body {
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;}
-    
+  position: fixed;
+  top: 0;
+}
+
+#minha_foto {margin-top: 106px;
+  width: 200px;
+  border-radius: 100%;
+}
