@@ -84,13 +84,6 @@ body {
 }
 
 #minha_foto {
-    display: none;
-}
-
-.minha_foto {
-    background-image: url(./profile_picture.jpeg);
-    background-position: center;
-    background-size: cover;
     border-radius: 50%;
     height: 310px;
     margin-left: 15px;
