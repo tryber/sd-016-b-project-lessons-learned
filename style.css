@@ -24,8 +24,14 @@ body {
 #minha_foto {
     display: block;
     width: 200px;
-    position: absolute;
+    position: relative;
     margin-top: 70px;
     margin-left: 20px;
     
+}
+
+.licoes_enumeradas {
+    display: block;
+    margin-left: 50px;
+    margin-top: 20px;
 }
