@@ -27,7 +27,7 @@ body {
 #foto_section {
   background-color: rgba(80, 172, 66, 0.843);
   border-radius: 20px;
-  margin-top: 10%;
+  margin: 7% 35% 2%;
   max-width: 30%;
   padding: 20px;
   text-align: center;
@@ -35,4 +35,12 @@ body {
 
 #minha_foto {
   width: 350px;
+}
+
+article {
+  margin: 5%;
+}
+
+article div .lista_ordenada {
+  max-width: 30%;
 }
