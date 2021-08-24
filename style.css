@@ -44,6 +44,7 @@ div {
   border-radius: 300px;
   margin: auto;
 }
+
 .link {
   display: block;
   width: 100%;
@@ -51,7 +52,7 @@ div {
   padding: 20px;
   font-weight: bold;
   list-style: none;
- }
+}
 
 main {
   padding: 50px;
@@ -70,7 +71,6 @@ section div {
   margin: auto;
 }
 
-
 footer {
   margin-bottom: 0;
   width: 100%;
@@ -84,4 +84,16 @@ footer {
 
 h2, h4 {
   padding: 30px;
+}
+
+.lado_esquerdo {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+.lado_direito {
+  float: right;
+  width: 40%;
+  padding: 20px;
 }
