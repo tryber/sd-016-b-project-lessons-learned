@@ -69,3 +69,20 @@ body {
   padding: 20px;
   text-align: center;
 }
+
+article , aside {
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+article {
+  max-width: 50%;
+}
+
+aside {
+  background-color: lightgrey;
+  font-style: italic;
+  margin-left: 15px;
+  padding: 15px;
+  width: 40%;
+}
