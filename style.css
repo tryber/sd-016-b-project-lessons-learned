@@ -70,3 +70,13 @@ a {
     top: 100px;
 
 }
+
+.article2 {
+    display: block;
+    float: right;
+    width: 250px;
+    position: absolute;
+    left: 1000px;
+    top: 100px;
+
+}
