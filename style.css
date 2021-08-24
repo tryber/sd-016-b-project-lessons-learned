@@ -45,3 +45,11 @@ main {
   width: 30px;
   margin-left: 10px;
 }
+
+.artigo {
+  margin-top: 20px;
+}
+
+.artigo p {
+  text-align: justify;
+}
