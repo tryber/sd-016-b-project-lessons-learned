@@ -3,6 +3,8 @@ body{
 }
 
 #cabecalho{
+  height:70px;
+  background-color: rgb(106, 253, 106);
   margin-top:0;
   text-align: center;
 }
@@ -12,6 +14,17 @@ body{
 }
 
 #minha_foto{
+  margin-top:10px;
   width:150px;
   border-radius: 2%;
+}
+
+ol, ul{
+  display: inline-block;
+}
+
+article, aside{
+  margin-left:50px;
+  display: inline-block;
+  width:30%;
 }
