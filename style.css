@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(238, 234, 213);
+    background-color: rgb(253, 251, 251);
 }
 
 #cabecalho{
@@ -7,9 +7,14 @@ body{
     text-align: center;
     position: fixed=0;
     height: 50px;
+    top: 0;
 }
 
 #titulo{
     color: rgb(230, 228, 219);
     text-align: center;
+}
+
+#minha_foto{
+    width: 200px;
 }
