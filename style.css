@@ -16,4 +16,9 @@ body {
 #minha_foto {
   max-width: 25%;
   border-radius: 25%;
+  margin-top: 175px;
+}
+
+.visuallyhidden{
+  display: none;    
 }
