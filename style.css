@@ -25,7 +25,11 @@ body{
 
 #main{
     padding: 10px 10px;
-    background-color: rgb(119, 119, 119);
+    
+}
+
+#secao{
+    background-color: antiquewhite;
 }
 
 #licoes_aprendidas{
@@ -48,6 +52,12 @@ body{
     padding: 10px 10px;
 }
 
-#link{
+#externo{
     margin-left: 20px;
+    display: block;
+}
+
+#artigo{
+    background-color: antiquewhite;
+    padding: 10px 10px;
 }
