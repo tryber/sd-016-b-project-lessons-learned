@@ -8,21 +8,22 @@ body {
 
 
 h1 {
-  color: aqua;
-  line-height: 10px;
-  font-size: large
-      border 10px;
-  padding: 0%;
+  text-align: center;
   margin: 0%;
-  background-color: red;
-  text-align : center;
-}
+  padding: 0%;
+  background-color: chocolate;
+  border: aqua;
+  color: chocolate;
+  line-height: 0%;
+  font-size: large
+}    
+ 
 
 #cabecalho {
   display: inline-block;
   top: 0%;
   position : fixed
-  
+
 }
 
 #licoes_aprendidas {
