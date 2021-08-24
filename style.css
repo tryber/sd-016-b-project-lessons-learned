@@ -1,8 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
 body {
   background-color: rgb(253, 251, 251);
+  margin: 7%;
+  padding: 10px;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+}
+
+table tr td{
+  border: 2px solid black;
+  width: 500px;
+  padding: 50px;
+}
+
+h2 {
+  text-align: center;
+  font-family: Patrick Hand;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+footer a {
+  color: rgb(255, 0, 0);
+}
+
+footer {
+  font-size: 25px;
+}
+
+p {
+  line-height: 25px;
 }
