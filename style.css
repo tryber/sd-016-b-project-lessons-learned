@@ -63,12 +63,13 @@ ol, ul{
 
 .listas {
     width: 50%;
+    margin: 2em;
 }
 .listas h3 {
     text-align: center;
 }
 
-article::after {
+.listas::after {
     content: "";
     display: table;
     clear: both;
@@ -97,4 +98,11 @@ footer::after {
     content: "";
     display: table;
     clear: both;
+}
+
+
+/* Requisito 08 - OK */
+article {
+    background-color: palegoldenrod;
+    margin: 2em;
 }
