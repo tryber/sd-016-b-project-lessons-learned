@@ -26,6 +26,6 @@ main {
     width: 300px;
 }
 
-#licoes_aprendidas {
+#licoes_aprendidas, #licoes_a_aprender {
     padding-left: 30px;
 }
