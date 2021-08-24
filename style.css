@@ -5,6 +5,8 @@ aside, nav {
 }
 body {
   background-color: rgb(253, 251, 251);
+  font-size: 15px ;
+  line-height: normal;
 }
 
 #cabecalho {
@@ -20,6 +22,7 @@ body {
 footer {
   margin-top: 30px;
   font-family: monospace,sans-serif;
+  font-size: 10px;
 
 }
 #list {
