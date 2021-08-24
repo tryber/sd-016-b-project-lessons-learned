@@ -6,3 +6,7 @@ body {
 	position: fixed;
   top: 0;
 }
+
+.licoes {
+	display: inline-block;
+}
