@@ -2,11 +2,7 @@ body{
     background-color: rgb(253, 251, 251);
 }
 
-.cabecalho{
-     background-color: black;
-     position: fixed;
-     top: 0;
-     left: 0;
-     right: 0;
-     height: 35px;
+#cabecalho{
+    position: fixed;
+    top: 0;
 }
