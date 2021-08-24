@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(253, 251, 251) ;
+    background-color:rgb(253, 251, 251);
 }
 #cabecalho {
     border: 1px solid black;
@@ -10,4 +10,12 @@ body {
     width: 200px;
     position: absolute;
     top: 100px;    
+}
+h2 {
+    position: absolute;
+    top: 350px;   
+}
+#licoes_aprendidas {
+    position: absolute;
+    top: 400px;   
 }
