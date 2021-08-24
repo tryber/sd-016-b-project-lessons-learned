@@ -1,3 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+#navegacao a {
+	margin: 10px;
+	padding: 3px 8px;
+	background-color: #12130F;
+	text-decoration: none;
+	color: #F8F7F9;
+	border-radius: 30px;
+}
+
+#navegacao a:hover {
+	color: #F7EC59;
+	padding: 3px 15px;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -5,6 +29,17 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+	width: 100%;
+	background-color: #F7EC59;
+	text-align: left;
+	padding: 10px 10px 0px 10px;
+}
+
+
+
+#navegacao ul li {
+	display: inline-block;
+	margin: 10px 0px 12px 0px;
 }
 
 img {
