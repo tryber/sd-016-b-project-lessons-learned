@@ -7,3 +7,12 @@ body {
     position: fixed;
 }
 
+#minha_foto {
+    display: block;
+    margin-top: 5em;
+    padding: auto;
+    border: 10px;
+    height: 150px;
+    width: auto;
+}
+
