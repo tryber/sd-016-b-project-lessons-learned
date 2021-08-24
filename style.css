@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+#cabecalho {
+    top: 0px;
+    background-color: aquamarine
+}
+.head {
+    border-style: solid;
+    border-width: 0px;
+    display: inline;
+}
+#minha_foto {
+  display: inline;
+  width: 15%;
+}
