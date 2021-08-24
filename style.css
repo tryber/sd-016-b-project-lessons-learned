@@ -107,8 +107,26 @@ article {
     width: 70%;
 }
 
-/* Requisito 09 -  */
+/* Requisito 09 - OK */
 aside {
     background-color: slateblue;
     width: 30%;
+}
+
+/* Requisito 10 -  */
+nav li {
+    display: inline;
+    float: left;
+    margin: 0 1em 0 1em;
+    color: white;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: springgreen;
+    transition-duration: 200ms;
+    color: black;
 }
