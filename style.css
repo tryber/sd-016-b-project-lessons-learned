@@ -1,15 +1,45 @@
-body{
-    background-color: rgb(253, 251, 251);
-}
-#cabecalho{
-    position: fixed;
-    top: 0;
-    background-color: blueviolet;
-}
-#minha_foto{
-    display: block;
-    margin-top: 6em;
+body {
+  background-color: rgb(253, 251, 251);
+	color: rgb(51, 51, 51);
+	line-height: 1.5em;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h1 {
+	font-size: 25px;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: blueviolet;
+}
+
+#minha_foto {
+  display: block;
+  margin-top: 6em;
+	padding: 1px;
+	border: 2em;
+}
+#lado-a-lado {
+	display: inline-block;
+	margin-top: 1em;
+}
+
+.lado-esquerdo {
+	/* display: inline-block; */
+	width: 300px;
+	float: left;
+	/* height: 300px; */
+}
+
+.lado-direito {
+	display: inline;
+	width: 300px;
+	margin-left: 2em;
+	float: right;
+	/* height: 300px; */
 
 
+	
+}
