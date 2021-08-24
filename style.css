@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0;
+}
+
+#minha_foto { 
+    width: 200px;
+    top: 100px; 
+    position: absolute;
+    z-index: 1;
+}
+
+#licoes_aprendidas {
+    position: absolute;
+    z-index: 2;
+    top: 335px;
+}
+
+h4 {
+    position: absolute;
+    z-index: 3;
+    top: 295px;
+}
+
+#licoes_a_aprender {
+    position: absolute;
+    z-index: 4;
+    top: 580px;
+    
+}
+
+h3 {
+    position: absolute;
+    z-index: 5;
+    top: 540px;
+}
+
+article {
+    
+}
