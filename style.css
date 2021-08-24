@@ -8,3 +8,8 @@ body {
   border: 3px solid limegreen;
   width: 100%;
 }
+
+#minha_foto {
+  max-width: 25%;
+  border-radius: 25%;
+}
