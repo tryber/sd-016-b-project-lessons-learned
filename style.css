@@ -35,9 +35,41 @@ a:hover {
   background-color: rgb(110, 241, 193);
 }
 
+figure {
+  margin: 120px 15px 0;
+  width: 350px;
+  height: 350px;
+  float: left;
+}
+
 #minha_foto {
-  margin: 120px 0 0 15px;
   width: 300px;
   border-radius: 50%;
 }
 
+.licoes {
+  color: azure;
+  padding: 20px;
+  background-color: rgb(3, 107, 82);
+  border-radius: 20px;
+  margin: 130px 70px 0 10px;
+  float: right;
+  width: 300px;
+  display: inline-block;
+}
+
+.a_direita {
+  margin-right: 150px;
+}
+
+#licoes_aprendidas {
+  padding: 20px 30px;
+}
+
+#licoes_a_aprender {
+  padding: 20px 30px;
+}
+
+article {
+  clear: both;
+}
