@@ -3,42 +3,19 @@ body {
 }
 
 #cabecalho {
+    background-color: aqua;
     position: fixed;
     top: 0;
+    text-align: center;
 }
 
 #minha_foto { 
     width: 200px;
     top: 100px; 
-    position: absolute;
-    z-index: 1;
+    margin-top: 90px;
+    border-radius: 100px;
 }
 
-#licoes_aprendidas {
-    position: absolute;
-    z-index: 2;
-    top: 335px;
-}
-
-h4 {
-    position: absolute;
-    z-index: 3;
-    top: 295px;
-}
-
-#licoes_a_aprender {
-    position: absolute;
-    z-index: 4;
-    top: 580px;
-    
-}
-
-h3 {
-    position: absolute;
-    z-index: 5;
-    top: 540px;
-}
-
-article {
-    
+footer {
+    margin-top: 100px;
 }

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Primeiro projeto HTMl e CSS</title>
 </head>
 <body>
     <header id="cabecalho">
@@ -14,48 +14,65 @@
     
     <img id="minha_foto" src="erikfoto.png" alt="foto Erik Duarte">
 
-    
-    <h4>Lições Aprendidas:</h4>
+    <nav class="licoes">
+        <ul>
+            <li> <a href="#aprendizado">O que aprendi até o momento</a></li>
+            <li><a href="#aprendizado-futuro">O que ainda vou aprender</a></li>
+            <li><a href="#sobre-mim">Contato</a></li>
+        </ul>
+    </nav>
 
-    <ol id="licoes_aprendidas">
-        <li>Unix e Bash</li>
-        <li>Git</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>GitHub</li>
-        <li>HTML Semântico</li>
-        <li>Internet</li>
-        <li>Soft Skills</li>
-        <li>Zoom</li>
-        <li>Inspecionar</li>
-    </ol>
+    <section class="lessons.learned" id="aprendizado">
+      <h4>Lições Aprendidas:</h4>
+        <ol id="licoes_aprendidas">
+            <li>Unix e Bash</li>
+            <li>Git</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>GitHub</li>
+            <li>HTML Semântico</li>
+            <li>Internet</li>
+            <li>Soft Skills</li>
+            <li>Zoom</li>
+            <li>Inspecionar</li>
+        </ol>
+    </section> 
 
-    <h3> Lições a aprender:</h3>
+    <section class="lessons.to.learn" id="aprendizado-futuro">
+      <h3> Lições a aprender:</h3>
+        <ul id="licoes_a_aprender">
+            <li>React</li>
+            <li>Javascript</li>
+            <li>Banco de Dados</li>
+            <li>Server-Side</li>
+            <li>Autenticação</li>
+            <li>Segurança</li>
+            <li>Deploy</li>
+            <li>Algoritmos</li>
+            <li>Estrutura de Dados</li>
+            <li>Python</li>
+        </ul>
+    </section>
 
-    <ul id="licoes_a_aprender">
-        <li>React</li>
-        <li>Javascript</li>
-        <li>Banco de Dados</li>
-        <li>Server-Side</li>
-        <li>Autenticação</li>
-        <li>Segurança</li>
-        <li>Deploy</li>
-        <li>Algoritmos</li>
-        <li>Estrutura de Dados</li>
-        <li>Python</li>
-    </ul>
+    <h3 id="sobre-mim">Rede Social:</h3>
+    <a  href="https://www.linkedin.com/in/erik-duarte-rodrigues/" target="_blank" alt="Linkedin Erik">Meu Linkedin</a>
 
-    <a href="www.globo.com" target="_blank" alt="Site de Notícias">Globo.com</a>
-
-    <footer id="rodape">Primeiro projeto utilizando HTML e CSS.</footer>
-
-    <article>
-        Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. 
+    <article class="sobre-o-aprendizado">
+        <h2>O que vou aprender na Trybe:</h2>
+        
+        Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo 
+        utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou 
+        para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto 
+        para a editoração eletrônica, permanecendo essencialmente inalterado. 
     </article>
 
-    <aside>   
+    <aside class="sobre-o-aprendizado">   
+        <h2>Sobre o aprendizado:</h2>
+
         O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados. 
     </aside>
+
+    <footer id="rodape"><em><bold>Primeiro projeto utilizando HTML e CSS.</em></bold></footer>
 
 </body>
 </html>
