@@ -37,3 +37,19 @@ a {
     text-decoration: underline;
     line-height: 80px;
 }
+
+.artigo{    
+    max-width: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: green;
+    font-weight: 600;
+    line-height: 25px;
+
+}
+
+.artigo h2{
+    color: green;
+    text-align: center;
+    text-decoration: underline;
+}
