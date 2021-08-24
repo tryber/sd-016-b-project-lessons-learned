@@ -18,7 +18,6 @@ body {
   text-align: center;
   display: inline-block;
   width: 100%;
-  padding: 30px;
   background-color: rgb(6, 73, 6);
   color: white;
   border-bottom: 20px black solid;
@@ -45,5 +44,13 @@ main {
   margin-top: 100px;
 }
 
+footer {
+  margin-bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: ;
+}
 
 
