@@ -1,70 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
+#cabecalho {
   top: 0;
   position: fixed;
-  background-color: #77BA99;
-  border-bottom: 1px solid #6aa788;
+  background-color: rgb(119, 186, 153);
+  border-bottom: 1px solid rgb(106, 167, 136);
   width: 100%;
   z-index: 99;
-  
 }
 
-#cabecalho nav{
-  background-color: #77BA99;
-  border-bottom: 1px solid #6aa788;
+#cabecalho nav {
+  background-color: rgb(119, 186, 153);
+  border-bottom: 1px solid rgb(106, 167, 136);
 }
 
 #cabecalho #titulo {
   color: rgb(31, 31, 31);
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   text-decoration: underline;
 }
 
-#cabecalho nav ul{
-  font-family: 'Poppins', sans-serif;
+#cabecalho nav ul {
+  font-family: Poppins, sans-serif;
   font-size: 16px;
   margin-left: 20px;
 }
 
-#cabecalho nav ul li{
+#cabecalho ul li {
   display: inline-block;
   padding: 15px;
   list-style: none;
 }
 
-#cabecalho nav ul li a{
+#cabecalho ul li:hover {
+  background-color: rgb(101, 158, 129);
+}
+
+#cabecalho li a {
   text-decoration: none;
-}
-
-#cabecalho nav ul li:hover{
-  background-color: #659e81;
-}
-
-#cabecalho nav ul li a {
   color: white;
 }
 
-.section-hab{
+.section-hab {
   height: 60vh;
 }
 
-.imagem-wrapper{
+.imagem-wrapper {
   height: 50vh;
   display: inline-block;
 }
 
-#minha_foto{
+#minha_foto {
   position: absolute;
   margin-top: 20vh;
   margin-left: 5vh;
@@ -72,8 +68,8 @@ body{
   border: solid black 1px;
 }
 
-.sub-title-hab{
-  font-family: 'Poppins', sans-serif;
+.sub-title-hab {
+  font-family: Poppins, sans-serif;
   text-decoration: underline;
   position: absolute;
   top: 18vh;
@@ -85,109 +81,103 @@ body{
   position: absolute;
   top: 25vh;
   left: 40vh;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
-.sub-title-hab2{
-  font-family: 'Poppins', sans-serif;
+.sub-title-hab2 {
+  font-family: Poppins, sans-serif;
   text-decoration: underline;
   position: absolute;
   top: 67vh;
   left: 2vh;
 }
 
-
-#licoes_a_aprender{
-  font-family: 'Poppins', sans-serif;
+#licoes_a_aprender {
+  font-family: Poppins, sans-serif;
   position: absolute;
   top: 73vh;
   left: 5vh;
 
 }
 
-.sub-title{
-  font-family: 'Poppins', sans-serif;
+.sub-title {
+  font-family: Poppins, sans-serif;
   text-decoration: underline;
 }
 
 .lado-esquerdo {
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   position: absolute;
   left: 3vh;
   width: 70vh;
   display: inline-block;
 }
 
-.lado-esquerdo p{
-  line-height: 22px
+.lado-esquerdo p {
+  line-height: 22px;
 }
 
-.lado-direito{
-  font-family: 'Poppins', sans-serif;
+.lado-direito {
+  font-family: Poppins, sans-serif;
   line-height: 24px;
   position: absolute;
   right: 3vh;
   width: 60vh;
 }
 
-.lado-direito aside p{
+.lado-direito aside p {
   position: absolute;
   top: 5vh;
   right: 3vh;
 }
 
-.sub-title-aside{
-  font-family: 'Poppins', sans-serif;
+.sub-title-aside {
+  font-family: Poppins, sans-serif;
   text-decoration: underline;
   position: absolute;
   bottom: -4vh;
   right: 3vh;
 }
 
-.sub-title-contact{
+.sub-title-contact {
   position: absolute;
   top: 155vh;
   left: 94vh;
+  font-family: Poppins, sans-serif;
+  text-decoration: underline;
 }
 
-.tabel-section{
+.tabel-section {
   position: absolute;
   top: 162vh;
   left: 69vh;
 }
 
-.sub-title-contact{
-  font-family: 'Poppins', sans-serif;
-  text-decoration: underline;
+th , td {
+  font-family: Poppins, sans-serif;
 }
 
-th, td{
-  font-family: 'Poppins', sans-serif;
-}
-
-td{
+td {
   padding-left: 20px;
 }
 
-table{
+table {
   border: 1px solid black;
 }
 
-#rodape{
+#rodape {
   position: absolute;
   top: 173vh;
   padding: 20px;
-  background-color: #77BA99;
+  background-color: rgb(119, 186, 153);
   width: 100%;
-  border-top: 1px solid #6aa788;
+  border-top: 1px solid rgb(106, 167, 136);
   margin-top: 12px;
 }
 
-#rodape p{
+#rodape p {
   text-align: center;
 }
-
-
 
 .screen-reader-only {
   position: absolute;
