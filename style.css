@@ -16,3 +16,8 @@ body {
     width: 200px;
     margin-top: 50px;
 }
+
+#rodape {
+    text-align: center;
+    height: 200cm;
+}
