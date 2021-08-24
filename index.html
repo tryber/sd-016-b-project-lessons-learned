@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,35 +9,60 @@
 </head>
 <body>
   <div class="content">
-    <div id="cabecalho">
+    <header id="cabecalho">
       <h1 id="titulo">Bruno Marques - Lessons Learned</h1>
       <nav id="menu" class="navi">
-        <ul class="listaM listLine">
-            <li>Home</li>
-            <li>Login</li>
+        <ul class="lista-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Login</a></li>
         </ul>
       </nav>
+    </header>
+    <section class="profphoto">
+      <img id="minha_foto" src="./imgs/profilePhoto.jpg" width="200px" alt="minua_foto">
+    </section>
+
+    <div class="lists">
+      <h1>Lista de Skils</h1>
+      <ol id="icoes_aprendidas">
+        <li>Unix</li>
+        <li>Git</li>
+        <li>GitHub</li>
+        <li>Slack</li>
+        <li>Zoom+aspirina</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Empatia</li>
+        <li>Semantic Code</li>
+        <li>Logica de programação</li>
+      </ol>
+    <ul id="licoes_a_aprender">
+      <li>JavaScript</li>
+      <li>DOM</li>
+      <li>Forms</li>
+      <li>CSS Responsivo</li>
+      <li>ES6</li>
+      <li>HOF</li>
+      <li>Unit Tests</li>
+      <li>React</li>
+      <li>Node</li>
+      <li>SQL</li>
+    </ul>  
+    
     </div>
-<div class="profphoto">
-  <img id="minha_foto" src="./imgs/profilePhoto.jpg" width="200px">
-</div>
-
-<div class="lists">
-  <ol id="licoes_a_aprender">
-    <li>Unix</li>
-    <li>Git</li>
-    <li>GitHub</li>
-    <li>Slack</li>
-    <li>Zoom+aspirina</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Empatia</li>
-    <li>Semantic Code</li>
-    <li>Logica de programação</li>
-  </ol>
-</div>
-
-
+    <div class="artigos">
+      <article >   
+        <h1>sobre seu aprendizad "LOREM"</h1>
+        <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ad amet reiciendis pariatur nesciunt dicta laudantium atque nisi debitis, consequatur inventore voluptas facere quasi saepe est iusto ipsam. Quaerat, laborum.
+          
+        </section>
+        <aside class="lado-esquerdo"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae voluptatum eaque fugiat sunt consectetur, excepturi odit. Minus accusamus cumque id incidunt dolore inventore eius minima, nisi dolores voluptatibus, assumenda molestias!
+        </aside>
+      </article>
+    </div>
+    <footer id="rodape" class="footer">
+      <span class="by">Aluno Dev: <a href="https://github.com/blmarquess" target="_blank" >@blmarquess</a></span>
+    </footer>
 </div>
 </body>
 </html>
