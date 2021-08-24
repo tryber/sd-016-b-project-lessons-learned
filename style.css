@@ -12,8 +12,8 @@ body {
 .header {
     background-color:rgb(47, 193, 140);
     height:  50px;
-    position:  absolute;
-    top:  0;
+    position:  fixed;
+    top: 0;
     width:  100%;
 }
 
@@ -31,7 +31,14 @@ body {
 }
 
 .licoes_enumeradas {
-    display: block;
+    display: inline-block;
     margin-left: 50px;
     margin-top: 20px;
+}
+
+.licoes_naoenumeradas {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+
 }
