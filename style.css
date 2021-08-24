@@ -1,13 +1,37 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Sora', sans-serif;
 }
 
 #cabecalho {
+  background-color: #52b69a;
+  text-align: center;
   position: fixed;
   top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+}
+
+.link{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding-right: 3px;
+  padding-left: 3px;
+  margin-right: 10px;
+  border-radius: 10%;
+}
+
+header .link:hover{
+  background-color: #34a0a4;
 }
 
 #minha_foto {
   width: 300px;
-  margin-top: 80px;
+  border-radius: 50%;
+}
+
+section {
+  margin-top: 110px;
 }
