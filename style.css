@@ -17,9 +17,9 @@ header {
 }
 
 main {
-    position: absolute;
-    top: 101px;
+    margin-top: 101px;
     border: 1px solid green;
+    height: 100%;
 }
 
 #minha_foto {
@@ -29,3 +29,4 @@ main {
 #licoes_aprendidas, #licoes_a_aprender {
     padding-left: 30px;
 }
+
