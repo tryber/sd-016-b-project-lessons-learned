@@ -1,0 +1,100 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Reset configs */
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+/* Configurações padrões */
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+/* CSS       */
+/* Cabeçalho */
+
+header {
+  background-color: rgb(0, 155, 52);
+  padding: 100px 20px;
+
+  position: fixed;
+  top: 0;
+
+  width: 100vw;
+}
+
+header h1 { 
+  color: rgb(255, 255, 255);
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Conteudo */
+main { 
+  margin-top: 247px;
+}
+
+/* Seção do perfil */
+main section.profile {
+  padding: 40px 40px 10px 40px; 
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+main section.profile .item-profile {
+  width: 60%;
+  max-width: 40%;
+
+  text-align: center;
+}
+
+main section.profile figure {
+  padding: 10px;
+
+  text-align: center;
+}
+
+main section.profile figure figcaption {
+  
+
+  color: rgb(0, 155, 52);
+  font-size: 14pt;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+main section.profile figure img {
+   width: 100%;
+}
+
+/* Seção da Lista */
+main section.learned-list {
+  padding: 80px 40px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+main section.learned-list ul, main section.learned-list ol { 
+  background-color: rgb(235, 235, 235);
+  padding: 5% 10%;
+}
+
+main section.learned-list h3 {
+  margin: 0 0 10px -30px;
+
+  color: rgb(0, 155, 52);
+  font-family: 'Roboto', sans-serif;
+  text-decoration: uppercase;
+  font-size: 12pt;
+}
+
+/* Rodape */
