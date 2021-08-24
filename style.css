@@ -1,10 +1,14 @@
 body{
+    margin-top: 30px;
     background-color: rgb(253, 251, 251);
     border: 1px solid black;
-    ;
+}
+header{
+    top:0;
 }
 #cabecalho{
     top: 0;
+    position: fixed;
     background-color: grey;
     border: 1px solid black;
 }
@@ -17,4 +21,7 @@ main{
 }
 #licoes_aprendidas{
     display: inline-block;    
+}
+#licoes_a_aprender{
+    display: inline-block;
 }
