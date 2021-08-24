@@ -29,6 +29,7 @@ body {
     text-align: center;
     color: white;
     line-height: 65px;
+    clear: both;
 }
 
 a {
@@ -52,4 +53,8 @@ a {
     color: green;
     text-align: center;
     text-decoration: underline;
+}
+
+.grupo-artigos{
+    display: inline-block;
 }
