@@ -8,7 +8,7 @@ body {
   font: 400 16px sans-serif;
 }
 
-h1, h3 {
+h1 , h3 {
   font: 700 sans-serif;
 }
 
@@ -35,17 +35,22 @@ h1, h3 {
   width: 100px;
 }
 
-ol {
-  margin-left: 20px;
+.lists {
+  margin-top: 10px;
+  height: 250px;
+}
+
+#licoes_aprendidas {
+  margin-left: 25px;
   float: left;
   width: 50%;
 }
 
-ul {
+#licoes_a_aprender {
   float: right;
   width: 40%;
 }
 
-.lists {
-  margin-top: 10px;
+#rodape a {
+  text-decoration: none;
 }
