@@ -8,13 +8,13 @@ body {
   
 }
 
-.cabecalho {
+#cabecalho {
   top: 0;
   position: fixed;
   width: 100%;
 }
 
-.titulo {
+#titulo {
   text-align: center;
   display: inline-block;
   width: 100%;
@@ -24,7 +24,7 @@ body {
   border-bottom: 20px black solid;
 }
 
-.cabecalho ul li {
+#cabecalho ul li {
   display: inline-block;
   text-align: right;
   width: 100%;
@@ -33,7 +33,7 @@ body {
   margin-top: 30px;
 }
 
-.minha_foto {
+#minha_foto {
   display: inline-block;
   width: 100%;
   border-radius: 300px;
