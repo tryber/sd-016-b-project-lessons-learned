@@ -32,13 +32,11 @@ ol , ul {
 }
 
 article section p {
-  display: inline-block;
   margin: 50px;
   margin-right: 40%;
 }
 
 article section aside p {
-  display: inline-block;
   margin-left: 40%;
   margin-right: 50px;
 }
@@ -76,6 +74,10 @@ header nav ul li:nth-child( 1 ) {
 }
 
 article {
-  display: inline-block;
   width: 40%;
+  float: right;
+}
+
+div {
+  display: inline-block;
 }
