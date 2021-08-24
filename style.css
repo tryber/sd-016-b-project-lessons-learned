@@ -13,3 +13,10 @@ body{
     margin-top: 100px;
     width:200px;
 }
+
+#rodape{
+    background-color: chartreuse;
+    bottom: 0;
+    position: fixed;
+    width: 99%;
+}
