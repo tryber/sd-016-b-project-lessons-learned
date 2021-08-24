@@ -8,6 +8,11 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+.max-full {
+  max-width: 1280px;
+  margin: auto;
+}
+
 #cabecalho {
   background-color: rgb(2, 43, 58);
   color: white;
@@ -33,6 +38,21 @@ nav ul li {
 
 section {
   padding: 50px;
+}
+
+#licoes_aprendidas , #licoes_a_aprender {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+table , th , td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+td {
+  padding: 3px;
 }
 
 #rodape {
