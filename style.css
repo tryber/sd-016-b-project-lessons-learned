@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(244, 241, 222);
+    background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
@@ -72,12 +72,21 @@ https://www.maujor.com/tutorial/propriedade-css-line-height.php */
 }
 
 #artigo {
-    float: left;
+    
     border: 2px solid black;
     width: 72%;
+    font-size: 20px;
 }
 
-#lateral {
+.lado-direito {
     float: right;
     width: 20%;
+}
+
+.lado-esquerdo {
+    float: left;
+}
+
+nav {
+    target="_blank" 
 }
