@@ -1,14 +1,20 @@
+* {
+  margin: 0%;
+
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
+
 h1 {
-  top: 0;
-  background-color: rgb(79, 55, 90);
+  text-align: center;
   color:rgb(190, 104, 240)
 }
 
 #cabecalho{
-  
+  position:fixed
+  top 0
 }
 
 #licoes_aprendidas {
