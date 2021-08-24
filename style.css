@@ -39,11 +39,19 @@ div {
 }
 
 #minha_foto {
-  display: inline-block;
+  display: block;
   width: 300px;
   border-radius: 300px;
   margin: auto;
 }
+.link {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  list-style: none;
+ }
 
 main {
   padding: 50px;
