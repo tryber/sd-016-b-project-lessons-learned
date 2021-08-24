@@ -6,7 +6,6 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-
 h1 {
   text-align: center;
   margin: 0%;
@@ -16,8 +15,7 @@ h1 {
   color: chocolate;
   line-height: 0%;
   font-size: large
-}    
- 
+}
 
 #cabecalho {
   display: inline-block;
@@ -28,7 +26,7 @@ h1 {
 
 #licoes_aprendidas {
   color : black;
-  
+
 }
 
 #minha_foto {
