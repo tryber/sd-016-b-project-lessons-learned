@@ -19,24 +19,23 @@
       background-color: #EB8E26;
       margin-top: 10px;
   }
-  #minha_foto{
+  #minha_foto {
     width: 500px;
     margin-left: 10px;
     padding-bottom: 50px;
     border: rgb(253, 251, 251);
     border-radius: 200px;
   }
-  #Meu_nome{
+  #Meu_nome {
       font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       font-size: 20px;
   }
-  .lado_direito li{
+  .lado_direito li {
     line-height: 20px;
 }
-  }
-  .lado_esquerdo li{
+  .lado_esquerdo li {
     line-height: 20px; 
   }
-  .lado_esquerdo{
+  .lado_esquerdo {
       float: left;
   }
