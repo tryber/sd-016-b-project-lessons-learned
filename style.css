@@ -6,3 +6,15 @@ html {
 body {
   background-color: rgb(253, 251, 251);
 }
+.content {
+  align-items: center;
+}
+#cabecalho{
+  position: fixed;
+  top: 0;
+  background-color: rgb(9, 118, 226);
+  height: 300px;
+}
+#licoes_a_aprender {
+  background-color: rgb(9, 118, 226);
+}
