@@ -17,15 +17,29 @@ body {
 
 #titulo {
   font-size: 20px;
+  font-weight: 900;
 }
 
 #cabecalho {
   background-color: rgba(80, 172, 66, 0.843);
   color: white;
+  display: flex;
   padding: 20px;
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+#cabecalho nav a {
+  color: white;
+  font-size: 20px;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+#cabecalho nav a:hover {
+  color: black;
+  border-bottom: 2px solid black;
 }
 
 #foto_section {
