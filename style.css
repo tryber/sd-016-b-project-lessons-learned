@@ -9,10 +9,8 @@ body {
 #cabecalho {
   background-color: rgb(47, 193, 140);
   font-family: Arial, Helvetica, sans-serif;
-  /* padding: 10px 100%; */
   position: fixed;
   top: 0;
-  /* text-align: center; */
 }
 
 .indice {
@@ -36,6 +34,7 @@ table {
   margin: 10px 30px;
   display: inline-block;
   float: left;
+  line-height: 10px;
 }
 
 .ok {
