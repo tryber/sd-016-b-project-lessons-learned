@@ -16,13 +16,15 @@ body {
 }
 
 #titulo {
+  color: white;
   font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 900;
+  letter-spacing: 1px;
 }
 
 #cabecalho {
   background-color: rgba(80, 172, 66, 0.843);
-  color: white;
   display: flex;
   padding: 20px;
   position: fixed;
@@ -63,15 +65,11 @@ body {
   margin: 50px;
 }
 
-#rodape {
-  background-color: rgba(80, 172, 66, 0.843);
-  color: white;
-  padding: 20px;
-  text-align: center;
+.secao-aprendizado {
+  display: inline-block;
 }
 
 article , aside {
-  display: inline-block;
   margin-bottom: 50px;
 }
 
@@ -85,4 +83,21 @@ aside {
   margin-left: 15px;
   padding: 15px;
   width: 40%;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td , th {
+  border: 1px solid black;
+}
+
+#rodape {
+  background-color: rgba(80, 172, 66, 0.843);
+  color: white;
+  padding: 20px;
+  margin-top: 1%;
+  text-align: center;
 }
