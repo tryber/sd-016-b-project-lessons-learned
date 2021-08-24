@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(244, 241, 222);
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0;
+    background-color: rgb(61, 64, 91);
+    width: 100%;    
+}
+
+h1 {
+    color: rgb(244, 241, 222);
+}
+
+#minha_foto {
+    height: 500px;
+    top: 100px;
+}
