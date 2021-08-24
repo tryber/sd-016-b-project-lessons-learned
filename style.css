@@ -68,8 +68,10 @@ p {
 
 .lado-esquerdo {
   display: inline-block;
+  width: 40%;
 }
 
 .lado-direito {
   display: inline-block;
+  width: 45%;
 }
