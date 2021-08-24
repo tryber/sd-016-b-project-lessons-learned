@@ -1,5 +1,4 @@
 html , body {
-  margin: 0;
   font-family: monospace;
   background-color: rgb(253, 251, 251);
 }
@@ -54,6 +53,6 @@ table , th , td {
 
 p {
   font-size: 18px;
-  line-height: 2px;
+  line-height: 1.6;
   color: rgb(39, 39, 39);
 }
