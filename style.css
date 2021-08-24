@@ -28,9 +28,36 @@ header {
 }
 
 header h1 { 
+  margin-left: 3%;
   color: rgb(255, 255, 255);
 
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+/* Menu navegação */
+header nav { 
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+header nav ul { list-style: none; }
+header nav ul li { 
+  padding: 7px;
+
+  display: inline-block;
+}
+
+header nav ul li:hover {
+  background-color: rgb(000, 000, 000, .2);
+  transition: .3s;
+}
+
+header nav ul li a {
+  color: rgb(235, 235, 235);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* Conteudo */
@@ -88,13 +115,51 @@ main section.learned-list ul, main section.learned-list ol {
   padding: 5% 10%;
 }
 
-main section.learned-list h3 {
+main section.learned-list h1 {
   margin: 0 0 10px -30px;
 
   color: rgb(0, 155, 52);
   font-family: 'Roboto', sans-serif;
   text-decoration: uppercase;
-  font-size: 12pt;
+  font-size: 14pt;
 }
 
-/* Rodape */
+/* Artigo */
+
+main article {
+  padding: 5% 10%;
+
+  background-color: rgb(235, 235, 235);
+}
+
+main article h1 {
+  margin-bottom: 10px;
+
+  color: rgb(0, 155, 52);
+  font-family: 'Roboto', sans-serif;
+}
+
+main article p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11pt;
+
+  text-indent: 37pt; 
+  text-align: justify;
+}
+
+main article aside { 
+  margin: 20px auto; 
+  width: 80%;
+}
+
+main article aside p {
+  color: rgb(0, 155, 52);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11pt;
+  font-style: italic;
+
+  text-indent: 0;
+  text-align: justify;
+  text-align-last: center;
+}
+
