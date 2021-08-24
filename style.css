@@ -6,3 +6,27 @@ body {
     position: fixed;
     top: 0;
 }
+
+/* minhas alterações */
+#minha_foto {
+    margin-top: 50px;
+    height: 150px;
+}
+
+/* lista uma do lado da outra */
+#licoes_aprendidas {
+    display: inline-block;
+}
+
+#licoes_a_aprender {
+    display: inline-block;
+}
+
+.lado-esquerdo{
+    float: left;
+    border: solid;
+}
+.lado-direito {
+    margin: 0 700px 250px 350px;
+    border: solid;
+}
