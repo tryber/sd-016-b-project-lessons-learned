@@ -4,57 +4,75 @@
 	border: 0;
 }
 
-#navegacao a {
-	margin: 10px;
-	padding: 3px 8px;
-	background-color: #12130F;
-	text-decoration: none;
-	color: #F8F7F9;
-	border-radius: 30px;
-}
-
-#navegacao a:hover {
-	color: #F7EC59;
-	padding: 3px 15px;
-}
-
 body {
-  background-color: rgb(253, 251, 251);
+  	background-color: rgb(253, 251, 251);
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2, h3 {
-	font-family: Georgia, 'Times New Roman', Times, serif;
+h1 , h2 , h3 {
+	font-family: Georgia, "Times New Roman", "Times", serif;
 }
 
-h2, h3 {
+h2 , h3 {
 	font-size: 24px;
 }
 
-p, li {
+p , li {
 	font-size: 16px;
 	line-height: 20px;
 }
 
+img {
+	width: 200px;
+}
+
+/* Header */
+
+#navegacao a {
+	margin: 10px;
+	padding: 3px 8px;
+	background-color: #12130f;
+	text-decoration: none;
+	color: #f8f7f9;
+	border-radius: 30px;
+}
+
+#navegacao a:hover {
+	color: #f7ec59;
+	padding: 3px 15px;
+}
+
 #cabecalho {
-  position: fixed;
-  top: 0;
+  	position: fixed;
+  	top: 0;
 	width: 100%;
 	background-color: #F7EC59;
 	text-align: left;
-	padding: 10px 10px 0px 10px;
+	padding: 10px 10px 0px;
 }
 
 #navegacao ul li {
 	display: inline-block;
-	margin: 10px 0px 12px 0px;
+	margin: 10px 0px 12px;
 }
 
-img {
-  width: 200px;
-}
+/* Quem sou */
 
 #quem-sou {
 	margin-top: 100px;
 	margin-left: 10px;
 }
+
+.lado-esquerdo , .lado-direito {
+	display: inline-block;
+	width: 40%;
+}
+
+.lado-direito {
+	float: right;
+}
+
+div {
+	width: 960px;
+}
+
