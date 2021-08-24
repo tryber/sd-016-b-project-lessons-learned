@@ -63,6 +63,14 @@ section {
   padding: 50px;
 }
 
+section div {
+  display: inline-block;
+  padding: 50px;
+  width: auto;
+  margin: auto;
+}
+
+
 footer {
   margin-bottom: 0;
   width: 100%;
