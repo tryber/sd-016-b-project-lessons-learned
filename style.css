@@ -5,6 +5,7 @@ body{
     font-family: monospace;
     font-size: 15px;
     color: rgb(2, 34, 2);
+    line-height: 30px;
   }
   
   #cabecalho {
@@ -27,15 +28,17 @@ body{
   ol, ul{
     margin-top: 30px; 
     margin-left:50px; 
+    display: inline-block;
   }
   
   article section p{
-    display: block;
+    display: inline-block;
     margin: 50px; 
     margin-right: 40%;
   }
   
   article section aside p{
+    display: inline-block;
     margin-left: 40%;
     margin-right: 50px;
   }
@@ -68,4 +71,12 @@ body{
     margin-left: 40%;
     background-color: rgb(155, 241, 162);
     border: 5px solid green;
+    margin-top: 100px;
+    line-height:15px;
+  }
+
+  article{
+      display: inline-block;
+      width: 40%;
+      float: right;
   }
