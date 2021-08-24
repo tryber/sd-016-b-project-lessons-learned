@@ -9,9 +9,18 @@ body{
     width: 99%;
 }
 
+#navegacao li{
+    background-color: darkgoldenrod;
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+   
+}
+
 #minha_foto{
     margin-top: 100px;
     width:200px;
+
 }
 
 #rodape{
