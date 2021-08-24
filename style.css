@@ -55,11 +55,11 @@ body {
   width: 350px;
 }
 
-.article {
+.listas {
   display: inline-block;
 }
 
-.article div {
+.listas div {
   margin: 50px;
 }
 
