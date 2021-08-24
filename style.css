@@ -1,18 +1,22 @@
 body { background-color: rgb(253, 251, 251);
-    font-family: 'Anton', sans-serif;
-    color: rgb(44, 42, 42);
-    font-size: medium;line-height: 25px;}
+  font-family: Anton, sans-serif;
+  color: rgb(44, 42, 42);
+  font-size: medium;
+  line-height: 25px;}
 
 #cabecalho { top: 0;
-    background-color: aquamarine;
-    position: fixed;
-    padding-left: 540px;
-    padding-right: 540px;}
+  background-color: aquamarine;
+  position: fixed;
+  padding-left: 540px;
+  padding-right: 540px;}
 
 #minha_foto { margin-top: 110px;}
 
 #indice { margin-top: 200px;}
 
-#tabela { text-align:left;}
+#tabela { text-align: left;}
 
-.lado-direito, .lado-esquerdo { display: inline-block;margin: 10px;padding: 5px; border: 1px solid rgb(77, 168, 145);}
+.lado-direito , .lado-esquerdo { display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid rgb(77, 168, 145);}
