@@ -1,8 +1,10 @@
-body{
-    background-color: rgb(253, 251, 251);
-    font-family:'Courier New', Courier, monospace;
+body {
+
+  background-color: rgb(253, 251, 251);
+  font-family: 'Courier New', Courier, monospace;
 }
-header{
+header {
+
     position: fixed;
     top: 0;
     display: block;
@@ -10,66 +12,78 @@ header{
     width: 100%;
     background-color: rgb(136, 128, 128);
 }
-h1{
+h1 {
+
    text-align: center;
-   font-size:xx-large;
-   
+   font-size: xx-large;
 }
-section{
+section {
+
     display: block;
     margin-top: 12%;
 }
 
-.nav_links{
+.nav_links {
+
     text-decoration: none;
     margin: 2%;
-    font-size: ;
+    font-size: 14px;
     display: inline-block;
     color: rgb(105, 4, 126);
     background-color: rgb(221, 217, 217);
 }
-.conteudo_invisivel{
+.conteudo_invisivel {
+
     display: none;
 }
-nav{
+nav {
+
     width: 100%;
     display: inline-block;
     text-align: center;
     background-color: rgb(221, 217, 217);
 }
 
-table, th, td{
+table , th , td {
+
     border: 1px solid gray;
 }
-table{
+table {
+
     width: 100%;
 }
-ol li{
+ol li {
+
     line-height: 30px;
 }
-ul li{
+ul li {
+
     line-height: 30px;
 }
-main{
+main {
+
     display: inline-block;
     width: 100%;
 }
 
-.lado-direito{
+.lado-direito {
+
     float: right;
     margin-left: auto;
     display: block;
     width: 20%;
-    text-align: justify
+    text-align: justify;
 }
-.lado-esquerdo{
+.lado-esquerdo {
+
     float: left;
     margin-right: auto;
     width: 70%;
     display: block;
     text-align: justify;
 }
-aside{
+aside {
+    
     display: block;
     padding: 10px;
 }
