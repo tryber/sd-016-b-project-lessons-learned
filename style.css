@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(253, 251, 251);
+    font-family: monospace;
+  }
+  
+  #cabecalho {
+    display: block;
+    width:100%;
+    position: fixed;
+    background-color: green;
+    text-align: center;
+  }
+  
+  #minha_foto{
+    margin-top: 100px;
+    max-width: 250px;
+    margin-left: 50px; 
+    padding: 10px;
+    background-color: green;
+    border-radius: 8px; 
+  }
+  
+  ol, ul{
+    margin-top: 30px; 
+    margin-left:50px; 
+  }
+  
+  article section p{
+    display: block;
+    margin: 50px; 
+    margin-right: 40%;
+  }
+  
+  article section aside p{
+    margin-left: 40%;
+    margin-right: 50px;
+  }
+  
+  #rodape {
+    padding: 2px;
+    background-color: green;
+    text-align: center;
+    margin-top: 50px; 
+  }
+  
+  a{
+    font-weight: 600;
+    display: block;
+    margin-top: 20px;
+    margin-left: 75px; 
+    text-decoration: none;
+  }
