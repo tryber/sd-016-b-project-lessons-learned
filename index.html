@@ -9,7 +9,7 @@
 </head>
 <body>
     
-    <header id="cabecalho">
+    <header id="cabecalho" class="cover_width">
         <div class="container d_flex">
             <section class="d_flex center_all">
                 <h1 id="titulo">Me</h1>
@@ -29,27 +29,30 @@
     </header>
 
     <main>
-        <article>
-            <section>
-                <div>
-                    <h2>Gabriel Silvestre</h2>
-                </div>
-                <div>
-                    <ul>
-                        <li>Gender: Cis/Male</li>
-                        <li>Age: 20</li>
-                        <li>Nacionality: Brazilian</li>
-                    </ul>
-                </div>
-            </section>
-
-            <section>
-                <p><!-- Descrição breve --></p>
-            </section>
-
-            <section>
-                <img id="minha_foto" src="./profile_picture.jpeg" alt="profile picture of Gabriel Silvestre">
-            </section>
+        <article id="about_me">
+            <div class="container sec_about_me">
+                <section class="d_flex flex_column center_horizontal sec_ab_1">
+                    <div class="presentation">
+                        <h2 class="border_secondary cover_height">Gabriel Silvestre</h2>                    
+                    </div>
+                    <div class="my_infos border_secondary">
+                        <ul class="d_flex no_decoration">
+                            <li>Gender: Cis/Male</li>
+                            <li>Age: 20</li>
+                            <li>Nacionality: Brazilian</li>
+                        </ul>
+                    </div>
+                </section>
+    
+                <section class="sec_ab_2">
+                    <p class="border_secondary cover_height self_resume">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis placeat, soluta quia officiis dolor magni enim nam unde non quisquam, rem architecto quaerat voluptates quasi officia consectetur distinctio quas nostrum.</p>
+                </section>
+    
+                <section class="sec_ab_3">
+                    <div class="minha_foto border_secondary"></div>
+                    <img id="minha_foto" src="./profile_picture.jpeg" alt="Gabriel Silvestre profile picture">
+                </section>
+            </div>
         </article>
 
         <article>
