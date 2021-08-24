@@ -7,6 +7,11 @@
 /* Requisito 01 - OK */
 body {
     background-color: rgb(253, 251, 251);    ;
+    /* font-size: xx-large; */
+}
+
+main {
+    background-color: lightsalmon;
 }
 /* Requisito 02 -  */
 #cabecalho{
@@ -21,23 +26,44 @@ body {
     /* border fica pra fora com width 100% */
 }
 
-/* 
-#cabecalho::after {
-    content: "";
-    display: table;
-    clear: both;
-} */
-
 .barra-superior {
     background-color: greenyellow;
     width: 100%;
     height: 3em;
 
 }
-
+/* Requisito 03 - OK */
 #minha_foto {
     /* margin-top: 20%; */
     border-radius: 50%;
     width: 20%;
     border: 2px solid gray;
+}
+
+/* Requisito 04 -  */
+ol, ul{
+    margin-left: 2em;
+    text-align: justify;
+}
+
+/* Bônus 15 -  */
+.lado-esquerdo {
+    float: left;
+    width: 50%;
+    /* test */
+    background-color: lightsteelblue;
+}
+
+.lado-direito {
+    float: right;
+    width: 50%;
+    /* test */
+    background-color: lightpink;
+}
+
+.listas {
+    width: 50%;
+}
+.listas h3 {
+    text-align: center;
 }
