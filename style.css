@@ -50,3 +50,11 @@ h1{
 #licoes_aprendidas{
   display: block;
 }
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  color: blue;
+  line-height: 1.5;
+}
