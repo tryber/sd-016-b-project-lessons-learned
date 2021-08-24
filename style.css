@@ -1,5 +1,9 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  color: rgb(105, 105, 105);
+  line-height: 1.5;
 }
 
 #cabecalho {
@@ -14,5 +18,21 @@ body {
   height: 150px;
 }
 
+table, tr, td {
+  margin-top: 10px;  
+  border: 1px solid black;
+}
 
+.lado-esquerdo , .lado-direito{
+  display:inline-block    
+}
+.lado-esquerdo {
+  float: left;
+  width: 60%;
+}
 
+.lado-direito {
+  float: right;
+  width: 30%;
+      
+}
