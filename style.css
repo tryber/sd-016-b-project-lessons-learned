@@ -23,3 +23,16 @@ main {
 #minha_foto {
   width: 200px;
 }
+
+#licoes_aprendidas {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+}
+
+.list_title {
+  margin-top: 20px;
+}
