@@ -3,19 +3,28 @@ body{
 }
 
 #cabecalho{
-    position: fixed;
+    position:fixed;
     top: 0;
 }
 
-#minha_foto{
-    width:  300px;
-    display: block;
-    position: relative;
-    top: 80px;
+#titulo{
 }
 
-#section_list{
-    display: block;
-    position: relative;
+#minha_foto{
+    width:  200px;
+    position: absolute;
     top: 100px;
 }
+#licoes_aprendidas{
+    display: inline-block;
+}
+
+#licoes_a_aprender{
+    display: inline-block;
+}
+
+#section_list_1{
+    position: absolute;
+    top: 300px;
+}
+
