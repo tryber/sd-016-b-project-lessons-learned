@@ -6,19 +6,20 @@ html , body {
 
 #cabecalho {
   position: fixed;
-  height: 70px;
+  height: 60px;
   width: 100%;
-  background-color: rgb(106, 253, 106);
+  background-color: rgb(3, 179, 248);
   margin-top: 0;
   text-align: center;
 }
 
 #titulo {
-  margin-top: 0;
+  color: white;
 }
 
 #minha_foto {
-  margin-top: 100px;
+  margin-left: 10px;
+  margin-top: 70px;
   width: 150px;
   border-radius: 2%;
 }
@@ -58,4 +59,10 @@ p {
   font-size: 18px;
   line-height: 1.6;
   color: rgb(39, 39, 39);
+}
+
+.ajuste {
+  display: inline-block;
+  margin-left: 200px;
+  margin-top: 70px;
 }
