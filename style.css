@@ -5,10 +5,21 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  margin: 1% 20% 1% 40%;
 }
 
 #minha_foto {
+  position: static;
+  margin: 10% auto 3% 3%;
   width: 340px;
-  
+}
 
+h2 {
+  position: static;
+  margin-left: 3%;
+}
+
+#licoes_aprendidas{
+  position: static;
+  margin: auto auto 3% 1%;
 }
