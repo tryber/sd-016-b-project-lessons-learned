@@ -180,8 +180,19 @@ table{
   background-color: #77BA99;
   width: 100%;
   border-top: 1px solid #6aa788;
+  margin-top: 12px;
 }
 
 #rodape p{
   text-align: center;
+}
+
+
+
+.screen-reader-only {
+  position: absolute;
+  width: 1px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  white-space: nowrap;
 }
