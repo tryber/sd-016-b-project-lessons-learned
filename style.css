@@ -28,11 +28,10 @@ body {
 }
 .lists{
   display: inline;
-  position: relative;
-  top: 300px;
 }
 .artigos{
   display: inline;
+  line-height: 1.1;
 }
 .lado-esquerdo{
   float: left;
