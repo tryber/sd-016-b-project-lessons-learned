@@ -25,3 +25,12 @@ body {
 section {
   padding: 50px;
 }
+
+#rodape {
+  background-color: rgb(31, 122, 140);
+  text-align: center;
+}
+
+#rodape h1 {
+  color: white;
+}
