@@ -39,3 +39,9 @@ body {
     color: rgb(255, 174, 0);
     font-weight: bolder;
 }
+
+#minha_foto {
+    margin: 80px 0px 0px 40px;
+    border-radius: 100%;
+    width: 250px;
+}
