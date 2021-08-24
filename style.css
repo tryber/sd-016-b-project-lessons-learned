@@ -1,16 +1,22 @@
 body{
-    background-color: rgb(253, 251, 251); 
+    background-color: rgb(253, 251, 251);
+    
 }
 
 #cabecalho{
     position: fixed;
     top: 0px; 
+    width:100%;
+}
+#titulo{
+    text-align: center;
 }
 
 #minha_foto{
-    width: 200px;
+    display: block;
     position: absolute;
-    top: 100px; 
+    width: 200px;
+    top: 100px;
 }
 
 #licoes_aprendidas{
@@ -29,6 +35,12 @@ body{
 #rodape{
     position: absolute;
     top: 570px;
+}
+
+#link{
+    position:absolute;
+    top: 600px ;
+
 }
 
 
