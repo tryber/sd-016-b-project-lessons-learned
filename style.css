@@ -51,3 +51,28 @@ body {
   font-weight: 300;
   margin-bottom: 15px;
 }
+
+.lesson-learned {
+  padding-left: 25px;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.to-do {
+  display: inline-block;
+}
+.lado-esquerdo {
+  float: left;
+  border: 1px solid red;
+  width: 45%;
+}
+
+.lado-direito {
+  float: right;
+  border: 1px solid red;
+  width: 45%;
+}
+
+.clear {
+  clear: both;
+}
