@@ -60,12 +60,12 @@ img {
   text-align: center;
 }
 
-.licoes h4 {
+.licoes h2 {
   margin-bottom: 15px;
   font-style: italic;
   border: 2px solid black;
   border-radius: 10px;
-  padding: 5px;
+  padding: 5px 20px;
   background-color: rgb(47, 193, 140);
   color: white;
 }
@@ -82,6 +82,7 @@ img {
   margin-top: 80px;
   text-align: center;
   position: relative;
+  padding: 0 50px;
 }
 
 .lado-esquerdo , .lado-direito {
@@ -98,6 +99,7 @@ img {
   background-color: rgb(3, 107, 82);
   color: white;
   font-weight: 700;
+  padding: 10px 5px;
 }
 
 .artigos .lado-esquerdo h2 {
@@ -117,6 +119,7 @@ img {
   background-color: rgb(47, 193, 140);
   color: white;
   font-weight: 700;
+  padding: 10px 0;
 }
 
 .artigos .lado-direito h2 {
