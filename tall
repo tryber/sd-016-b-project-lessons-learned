@@ -1,0 +1,45 @@
+SUDO(8)                                                             BSD System Manager's Manual                                                             SUDO(8)
+
+NNAAMMEE
+     ssuuddoo, ssuuddooeeddiitt — execute a command as another user
+
+SSYYNNOOPPSSIISS
+     ssuuddoo --hh | --KK | --kk | --VV
+     ssuuddoo --vv [--AABBkknnSS] [--gg _g_r_o_u_p] [--hh _h_o_s_t] [--pp _p_r_o_m_p_t] [--uu _u_s_e_r]
+     ssuuddoo --ll [--AABBkknnSS] [--gg _g_r_o_u_p] [--hh _h_o_s_t] [--pp _p_r_o_m_p_t] [--UU _u_s_e_r] [--uu _u_s_e_r] [_c_o_m_m_a_n_d]
+     ssuuddoo [--AABBbbEEHHnnPPSS] [--CC _n_u_m] [--gg _g_r_o_u_p] [--hh _h_o_s_t] [--pp _p_r_o_m_p_t] [--rr _r_o_l_e] [--tt _t_y_p_e] [--TT _t_i_m_e_o_u_t] [--uu _u_s_e_r] [_V_A_R=_v_a_l_u_e] [--ii | --ss] [_c_o_m_m_a_n_d]
+     ssuuddooeeddiitt [--AABBkknnSS] [--CC _n_u_m] [--gg _g_r_o_u_p] [--hh _h_o_s_t] [--pp _p_r_o_m_p_t] [--TT _t_i_m_e_o_u_t] [--uu _u_s_e_r] _f_i_l_e _._._.
+
+DDEESSCCRRIIPPTTIIOONN
+     ssuuddoo allows a permitted user to execute a _c_o_m_m_a_n_d as the superuser or another user, as specified by the security policy.  The invoking user's real (_n_o_t
+     effective) user-ID is used to determine the user name with which to query the security policy.
+
+     ssuuddoo supports a plugin architecture for security policies and input/output logging.  Third parties can develop and distribute their own policy and I/O logging
+     plugins to work seamlessly with the ssuuddoo front end.  The default security policy is _s_u_d_o_e_r_s, which is configured via the file _/_e_t_c_/_s_u_d_o_e_r_s, or via LDAP.  See
+     the _P_l_u_g_i_n_s section for more information.
+
+     The security policy determines what privileges, if any, a user has to run ssuuddoo.  The policy may require that users authenticate themselves with a password or
+     another authentication mechanism.  If authentication is required, ssuuddoo will exit if the user's password is not entered within a configurable time limit.  This
+     limit is policy-specific; the default password prompt timeout for the _s_u_d_o_e_r_s security policy is 0 minutes.
+
+     Security policies may support credential caching to allow the user to run ssuuddoo again for a period of time without requiring authentication.  By default, the
+     _s_u_d_o_e_r_s policy caches credentials on a per-terminal basis for 15 minutes.  See the _t_i_m_e_s_t_a_m_p___t_y_p_e and _t_i_m_e_s_t_a_m_p___t_i_m_e_o_u_t options in sudoers(5) for more infor‐
+     mation.  By running ssuuddoo with the --vv option, a user can update the cached credentials without running a _c_o_m_m_a_n_d.
+
+     When invoked as ssuuddooeeddiitt, the --ee option (described below), is implied.
+
+     Security policies may log successful and failed attempts to use ssuuddoo.  If an I/O plugin is configured, the running command's input and output may be logged as
+     well.
+
+     The options are as follows:
+
+     --AA, ----aasskkppaassss
+                 Normally, if ssuuddoo requires a password, it will read it from the user's terminal.  If the --AA (_a_s_k_p_a_s_s) option is specified, a (possibly graphical)
+                 helper program is executed to read the user's password and output the password to the standard output.  If the SUDO_ASKPASS environment variable
+                 is set, it specifies the path to the helper program.  Otherwise, if sudo.conf(5) contains a line specifying the askpass program, that value will
+                 be used.  For example:
+
+                     # Path to askpass helper program
+                     Path askpass /usr/X11R6/bin/ssh-askpass
+
+                 If no askpass program is available, ssuuddoo will exit wit
