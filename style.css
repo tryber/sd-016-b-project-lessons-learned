@@ -3,6 +3,7 @@
     border: 0;
     padding: 0;
 }
+
 .lado-esquerdo{
     border: 5px solid white;
     border-style: dotted;
@@ -12,6 +13,7 @@
     background-color: cadetblue;
     margin-bottom: 1%;
 }
+
 .lado-direito{
     background-color: darkolivegreen;
     border: 5px solid white;
@@ -22,13 +24,16 @@
     margin-right: 1%;
     width: 45%;
 }
+
 body{
     background-color: rgb(253, 251, 251);
     font-family: sans-serif;
 }
+
 h1{
     font-size: 50px;
 }
+
 h3{
     font-size: 30px;
     line-height: 40px;
@@ -43,6 +48,7 @@ footer{
     margin-top: 0.5%;
     width: 99%;
 }
+
 header{
     background-color: green;
     border: 5px solid black;
@@ -54,12 +60,14 @@ header{
     top: 0;
     width: 99%;
 }
+
 main{
     background-color: green;
     width: 99%;
     margin-top: 10%;
     border: 5px solid black;
 }
+
 #minha_foto{
     width: 10%;
     border: 15px solid rgb(20, 20, 20);
@@ -69,6 +77,7 @@ main{
     
     
 }
+
 #licoes_aprendidas{
     color: antiquewhite;
     display: inline-block;
@@ -77,10 +86,12 @@ main{
     margin-top: 1%;
     
 }
+
 p{
     font-size: 25px;
     margin: 2%;
 }
+
 #licoes_a_aprender{
     color: rgb(255, 254, 253);
     display: inline-block;
