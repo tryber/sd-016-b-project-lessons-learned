@@ -35,15 +35,20 @@ body {
 
 #rodape {
   position: absolute;
-  top: 800px;
+  top: 900px;
 }
 
 #link { 
   position: absolute;
-  top: 700px;
+  top: 850px;
 }
 
 article {
   position: absolute;
   top: 560px;
+}
+
+aside{
+    position: absolute;
+    top: 680px;
 }
