@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(253, 251, 251);
+}
+header{
+    position: fixed;
+    top: 0;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgb(136, 128, 128);
+}
+h1{
+   text-align: center;
+}
+section{
+    display: block;
+    margin-top: 10%;
+}
+
+.nav_links{
+    text-decoration: none;
+    margin: 2%;
+    font-size: ;
+    display: inline-block;
+    color: rgb(105, 4, 126);
+    background-color: rgb(221, 217, 217);
+}
+.conteudo_invisivel{
+    display: none;
+}
+nav{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(221, 217, 217)
+
+}
