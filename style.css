@@ -1,16 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 body {
   background-color: rgb(253, 251, 251);
+  color: rgb(49, 47, 47);
+  font-family: "Poppins", sans-serif;
   margin-left: 5px;
-  max-width: 70%;
+  max-width: 100%;
+  line-height: 200%;
 }
 
 #cabecalho {
   background-color: rgb(224, 222, 222);
+  color: green;
+  font-size: 140%;
   left: 0;
   margin-top: 0;
   position: fixed;
-  padding-right: 64.4%;
+  padding-right: 46.1%;
   top: 0;
+}
+
+#ensinamentos_current {
+  max-width: 100%;
+}
+
+h2 {
+  color: green;
+  font-size: 200%;
+}
+
+p {
+  font-size: 120%;
 }
 
 #minha_foto {
