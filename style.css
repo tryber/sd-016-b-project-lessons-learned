@@ -7,13 +7,13 @@ body {
   top: 0;
 }
 
-#sitebala{
-  background-color: green; 
+#sitebala {
+  background-color: green;
   color: white;
   margin: 20px;
-  padding: 5px;  
+  padding: 5px;
   text-decoration: none;
-  border: none; 
+  border: none;
   font-family: sans-serif;
   line-height: normal;
 }
