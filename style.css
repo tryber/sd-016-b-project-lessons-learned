@@ -3,7 +3,7 @@
     border: 0;
     padding: 0;
 }
-article{
+.lado-esquerdo{
     border: 5px solid white;
     border-style: dotted;
     margin-left: 1%;
@@ -12,10 +12,9 @@ article{
     background-color: cadetblue;
     margin-bottom: 1%;
 }
-aside{
+.lado-direito{
     background-color: darkolivegreen;
     border: 5px solid white;
-    
     border-style: ridge;
     display: inline-block;
     float: right;
