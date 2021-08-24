@@ -24,3 +24,7 @@ nav h1 {
 .photo {
   display: none;
 }
+
+.lessons {
+  display: inline-block;
+}
