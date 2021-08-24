@@ -5,21 +5,23 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  
 }
 
 .cabecalho {
   top: 0;
-  background-color: darkslategrey;
+  position: fixed;
+  width: 100%;
 }
 
 .titulo {
-  position: fixed;
   text-align: center;
-  display: inline;
+  display: inline-block;
   width: 100%;
   padding: 30px;
   background-color: rgb(6, 73, 6);
   color: white;
+  border-bottom: 20px black solid;
 }
 
 .cabecalho ul li {
@@ -32,7 +34,16 @@ body {
 }
 
 .minha_foto {
-  float: left;
-  width: 33%;
-  padding: 50px;
+  display: inline-block;
+  width: 100%;
+  border-radius: 300px;
+  margin: auto;
 }
+
+main {
+  padding: 50px;
+  margin-top: 100px;
+}
+
+
+
