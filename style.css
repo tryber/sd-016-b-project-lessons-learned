@@ -1,8 +1,12 @@
 body {
     background-color: rgb(253, 251, 251);
     font-family:'Courier New', Courier, monospace;
+    font-size: 17px;
     color: rgb(46, 16, 16);
     margin: 0mm;
+}
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h2 {
@@ -36,15 +40,20 @@ section div {
     background-color: rgb(212, 186, 186);
     width: 220px;
     text-align: center;
+    border-radius: 10%;
 }
 
 section {
     padding: 1px;
-    width: 570px;
+    width: 70%;
     background-color: rosybrown;
+    border-radius: 0px 0px 50px 0px;
 }
 
 ul, ol {
     text-align: left;
 }
 
+.div_direito {
+    margin: 0px 0px 50px 0px;
+}
