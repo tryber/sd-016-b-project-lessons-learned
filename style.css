@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 body {
   background-color: rgb(253, 251, 251);
+  font-family: PT Sans, sans-serif;
 }
 
 #cabecalho {
   top: 0;
   position: fixed;
   background-color: rgb(170, 83, 11);
-  padding: 0px 10px;
+  padding: 0 10px;
   width: 100%;
 }
 
@@ -28,10 +31,28 @@ main {
   display: block;
 }
 
-.licoes p {
-  margin-left: 100px;
+p {
+  line-height: 20px;
 }
 
-table, th, td {
+table , th , td {
   border: solid 1px black;
+}
+
+th {
+  font-size: 20px;
+}
+
+.lado-direito {
+  float: right;
+  width: 40%;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 40%;
+}
+
+#rodape {
+  clear: both;
 }
