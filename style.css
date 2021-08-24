@@ -1,24 +1,22 @@
 body {
-    background-color: rgb(253, 251, 251);
+    background-color:  rgb(253, 251, 251);
 }
 
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    background-color: green;
-    width: 100%;
+    position:  fixed;
+    top:  0;
+    background-color:  green;
+    width:  100%;
 }
 
 
 #titulo {
-    color: white;
+    color:  white;
 }
 
 
-#minha_foto { 
-    padding-top: 5%;
-    width: 400px;
+#minha_foto {
+    padding-top:  5%;
+    width:  400px;
 }
-
-
