@@ -48,3 +48,10 @@ body {
 .article div {
   margin: 50px;
 }
+
+#rodape {
+  background-color: rgba(80, 172, 66, 0.843);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
