@@ -21,3 +21,7 @@ body {
     text-align: center;
     height: 200cm;
 }
+
+p {
+    margin-right: 50%;
+}
