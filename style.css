@@ -14,7 +14,7 @@ body{
   }
   
   #minha_foto{
-    margin-top: 100px;
+    margin-top: 150px;
     max-width: 250px;
     margin-left: 50px; 
     padding: 10px;
@@ -52,3 +52,13 @@ body{
     margin-left: 75px; 
     text-decoration: none;
   }
+
+  header nav ul li{
+    display: inline;
+  } 
+  
+  header nav ul li:nth-child(1){
+    margin-right: 30px;
+  } 
+
+  
