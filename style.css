@@ -7,6 +7,14 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
 #cabecalho {
   background-color: rgba(80, 172, 66, 0.843);
   color: white;
@@ -14,4 +22,17 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+#foto_section {
+  background-color: rgba(80, 172, 66, 0.843);
+  border-radius: 20px;
+  margin-top: 10%;
+  max-width: 30%;
+  padding: 20px;
+  text-align: center;
+}
+
+#minha_foto {
+  width: 350px;
 }
