@@ -3,5 +3,6 @@ body {
 }
 
 header {
-  top: 0
+  position: fixed;
+  top: 0;
 }
