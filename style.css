@@ -2,7 +2,50 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-header {
+#cabecalho {
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(174, 217, 255);
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 1em 1em auto;
+}
+
+main {
+  padding-top: 120px;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+thead , tfoot {
+  text-align: center;
+}
+
+th , td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0.2em 0.5em;
+}
+
+code {
+  background-color: rgb(199, 199, 199);
+  padding: 2px;
 }
