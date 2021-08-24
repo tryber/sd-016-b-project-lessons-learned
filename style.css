@@ -6,6 +6,7 @@
 
 body {
     background-color: rgb(253, 251, 251);
+    font-family: 'Quicksand', sans-serif;
 }
 
 #cabecalho {
@@ -18,8 +19,9 @@ body {
 
 #titulo {
     color: rgb(243, 213, 181);
+    font-size: 2.5em;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
 }
 
 .nav-principal {
@@ -34,11 +36,6 @@ body {
 }
 
 .nav-principal li:hover {
-    color: #ffedd8;
-    font-weight: bolder;
-    cursor: pointer;
-}
-.nav-principal li:active {
     color: #ffedd8;
     font-weight: bolder;
     cursor: pointer;
@@ -58,3 +55,6 @@ main {
     padding-left: 30px;
 }
 
+p {
+    line-height: 1.5em;
+}
