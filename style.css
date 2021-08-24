@@ -83,23 +83,55 @@ img {
 .artigos {
     margin-top: 80px;
     text-align: center;
+    position: relative;
+}
+
+#lado-esquerdo, #lado-direito {
+    line-height: 30px;
+    color: black;
 }
 
 #lado-esquerdo {
-    text-align: left;
-    max-width: 40%;
+    text-align: center;
+    width: 40%;
     display: inline-block;
-    background-color: #2fc18c;
+    margin-right: 650px;
+    border: 7px solid #2fc18c;
+    background-color: #036b52;
+    color: white;
+    font-weight: bold;
 }
 
 #lado-direito {
-    text-align: right;
-    max-width: 50%;
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    bottom: 0px;
     display: inline-block;
-    background-color: #036b52;
+    border: 7px solid #036b52;
+    background-color: #2fc18c;
+    color: white;
+    font-weight: bold;
+}
+
+#lado-direito h2 {
+    margin-bottom: 50px;
 }
 
 footer {
+    width: 100%;
     margin: 100px auto 10px auto;
     text-align: center;
+    height: 40px;
+    border-top: 7px solid #2fc18c;
+    background-color: #036b52;
+    margin-bottom: 0;
+}
+
+footer p {
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
 }
