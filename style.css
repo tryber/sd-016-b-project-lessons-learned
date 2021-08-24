@@ -15,7 +15,6 @@ body {
   /* text-align: center; */
 }
 
-
 .indice {
   display: inline-block;
   margin-top: 150px;
@@ -32,11 +31,27 @@ img {
 table {
   border: 1;
   font-size: 15px;
-  height: 5px;
+  height: 50px;
   padding: 10px;
   margin: 10px 30px;
+  display: inline-block;
+  float: left;
 }
 
 .ok {
   color: rgb(47, 193, 140);
+}
+
+.lado-direito {
+  display: inline-block;
+  float: right;
+  width: 35%;
+  padding-top: 20px;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  float: left;
+  width: 60%;
+  padding-top: 20px;
 }
