@@ -22,13 +22,32 @@ h1 , h2 {
   top: 0;
   background-color: green;
   color: white;
+  padding: 10px 0;
+}
+
+nav {
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 0 30px;
+  max-width: 700px;
+}
+
+nav a {
+  font: 500 17px sans-serif;
+  text-decoration: none;
+  color: gainsboro;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  color: white;
 }
 
 .container {
   margin: 0 auto;
   padding: 0 20px;
   max-width: 700px;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 #minha_foto {
@@ -36,7 +55,7 @@ h1 , h2 {
 }
 
 .lists {
-  margin-top: 10px;
+  margin-top: 25px;
   height: 250px;
 }
 
@@ -52,7 +71,7 @@ h1 , h2 {
 }
 
 .aprendizados {
-  margin-top: 10px;
+  margin-top: 25px;
   height: 200px;
 }
 
@@ -71,7 +90,10 @@ h1 , h2 {
 }
 
 #rodape {
-  margin-top: 20px;
+  background-color: lightgrey;
+  margin-top: 50px;
+  padding: 15px;
+  border: none;
 }
 
 #rodape a {
