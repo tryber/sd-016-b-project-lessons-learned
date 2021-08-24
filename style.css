@@ -52,3 +52,11 @@ body {
     position: absolute;
     bottom: 0;
 }
+
+a {
+    display: block;
+    text-decoration: none;
+    margin-top: 40px;
+    padding-left: 50px;
+    color: rgb(47, 193, 140;
+}
