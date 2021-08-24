@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(253, 251, 251);
+    text-align: left;
+}
+
+header{
+    position:0px;
+}
+
+#minha_foto {
+    display: block;
+    width: 300px;
+    border-radius: 100%;
+}
