@@ -5,11 +5,11 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font: 400 16px 'Roboto', sans-serif;
+  font: 400 16px sans-serif;
 }
 
 h1 {
-  font: 700 'Poppins', sans-serif;
+  font: 700 sans-serif;
 }
 
 .text-center {
@@ -20,6 +20,17 @@ h1 {
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: #019934;
-  color: #fff;
+  background-color: green;
+  color: white;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 700px;
+  margin-top: 50px;
+}
+
+#minha_foto {
+  width: 100px;
 }
