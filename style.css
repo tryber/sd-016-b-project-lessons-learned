@@ -3,6 +3,8 @@ body{
     padding: 0;
     background-color: rgb(253, 251, 251);
     font-family: monospace;
+    font-size: 15px;
+    color: rgb(2, 34, 2);
   }
   
   #cabecalho {
@@ -61,4 +63,9 @@ body{
     margin-right: 30px;
   } 
 
-  
+  table{
+    display: inline-block;
+    margin-left: 40%;
+    background-color: rgb(155, 241, 162);
+    border: 5px solid green;
+  }
