@@ -1,8 +1,47 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 header {
-    top: 0;
-    position: fixed;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 120px;
+  background-color: rgb(10, 126, 81);
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  text-decoration: none;
+  width: 80px;
+}
+
+main {
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+
+article {
+  width: 500px;
+  display: inline-block;
+}
+
+aside {
+  display: inline-block;
+  width: 400px;
+  float: right;
+}
+
+footer {
+  bottom: 5px;
+  text-align: center;
+  color: rgb(10, 126, 81);
 }
