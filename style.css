@@ -1,4 +1,6 @@
-body {
+html , body {
+  margin: 0;
+  font-family: monospace;
   background-color: rgb(253, 251, 251);
 }
 
@@ -44,8 +46,14 @@ table {
   margin-bottom: 30px;
 }
 
-table, th, td {
+table , th , td {
   border: 2px solid black;
   text-align: center;
   padding: 5px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 2px;
+  color: rgb(39, 39, 39);
 }
