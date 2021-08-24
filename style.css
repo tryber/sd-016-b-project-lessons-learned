@@ -42,3 +42,13 @@ body {
     margin-top: 20px;
 
 }
+
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(47, 193, 140);
+    text-align: center;
+    padding-top: 20px;
+    position: absolute;
+    bottom: 0;
+}
