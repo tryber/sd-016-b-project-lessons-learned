@@ -1,0 +1,39 @@
+body{
+  background-color:rgb(253, 251, 251); 
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: Helvetica, sans-serif; 
+    color: #525252;
+
+}
+
+#cabecalho{
+    background-color: #2fc18c;
+    height: 20%;
+    position: fixed;
+    width: 100%;
+}
+
+#title{
+    display: inline-block;
+    margin-left: 15%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    height: 20%;
+}
+
+#trybe-logo{
+    display: inline-block;
+    border-radius: 10%;
+    height: 85%;
+    margin-top: 9px;
+    margin-left: 9px;
+    
+}
+
