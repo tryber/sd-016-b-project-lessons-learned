@@ -42,9 +42,12 @@ body {
 }
 
 main {
-    margin-top: 101px;
     border: 1px solid green;
     height: 100%;
+    margin-left: auto;
+    margin-top: 101px;
+    margin-right: auto;
+    width: 80%;
 }
 
 #minha_foto {
@@ -57,4 +60,18 @@ main {
 
 p {
     line-height: 1.5em;
+}
+
+.lado-esquerdo {
+    float: left;
+    width: 60%;
+}
+
+.lado-direito {
+    float: right;
+    width: 40%;
+}
+
+.soft_skills {
+    clear: both;
 }
