@@ -6,3 +6,16 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+
+#cabecalho {
+    position: fixed;
+    margin-top: 0;
+}
+
+#titulo {
+
+}
+
+#minha_foto{
+    
+}
