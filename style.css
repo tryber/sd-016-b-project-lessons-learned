@@ -10,4 +10,11 @@ body{
 }
 #minha_foto{
     width: 300px;
+    display: inline-block;
+}
+main{
+    display: inline-block;
+}
+#licoes_aprendidas{
+    display: inline-block;    
 }
