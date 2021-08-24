@@ -1,10 +1,13 @@
 /* 1. Adicione uma cor de fundo específica para a página */
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 /* 2. Adicione uma barra superior com um título */
 #cabecalho {
   position: fixed;
-  top: 0;
+  top: 0 fixed;
 }
