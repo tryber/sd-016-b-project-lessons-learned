@@ -1,10 +1,19 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
-    position:fixed;
-    top:0
+#cabecalho {
+  position: fixed;
+  top: 0;
 }
 
-
+#sitebala{
+  background-color: green; 
+  color: white;
+  margin: 20px;
+  padding: 5px;  
+  text-decoration: none;
+  border: none; 
+  font-family: sans-serif;
+  line-height: normal;
+}
