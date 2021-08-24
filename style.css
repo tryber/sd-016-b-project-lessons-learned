@@ -26,3 +26,18 @@ body {
   left: 0;
   z-index: 1;
 }
+
+#licoes_aprendidas {
+  position: absolute;
+  top: 440px;
+  left: 0;
+  z-index: 2;
+}
+
+#titulo-licoes {
+  position: absolute;
+  color: rgb(1, 0, 66);
+  left: 0;
+  top: -60px;
+  width: 260px;
+}
