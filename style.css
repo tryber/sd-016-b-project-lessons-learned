@@ -33,8 +33,13 @@ body {
   display: inline;
   line-height: 1.1;
 }
-.lado-esquerdo{
+.lado-direito-centro{
   float: left;
+  width: 70%;
+}
+.lado-esquerdo{
+  width: 30%;
+  float: right;
 }
 .footer{
   position: absolute;
