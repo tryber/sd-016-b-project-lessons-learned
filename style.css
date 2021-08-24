@@ -59,3 +59,33 @@ code {
   background-color: rgb(199, 199, 199);
   padding: 2px;
 }
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
+.lado-esquerdo , .lado-direito {
+  max-width: 45%;
+}
+
+#main_header {
+  text-align: center;
+}
+
+#main_header div {
+  display: inline-block;
+  text-align: justify;
+}
+
+#main_header h2 {
+  margin: 1em 1em 0;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
