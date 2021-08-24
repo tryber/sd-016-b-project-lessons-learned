@@ -12,6 +12,15 @@ body {
   text-align: center;
 }
 
+#cabecalho h1 {
+  font-size: 22px;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 3px 50px;
+}
+
 .head {
   border-style: solid;
   border-width: 0px;
@@ -24,4 +33,54 @@ main {
 
 #minha_foto {
   width: 15%;
+}
+
+.listas {
+  display: inline-block;
+  width: 32%;
+}
+
+.listas h2 {
+  text-align: left;
+  font-size: 15px;
+  padding-left: 1px;
+}
+
+.listas li {
+  font-size: 12px;
+}
+
+.lado-esquerdo {
+  width: 63%;
+  display: inline-block;
+  padding-right: 2%;
+  text-align: justify;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 32%;
+  text-align: justify;
+}
+
+aside h2, article h2 {
+  font-size: 16px;
+}
+
+aside p, article p {
+  font-size: 13px;
+}
+
+.links {
+  font-size: 12px;
+}
+
+#rodape {
+  font-size: 10px;
+  font-family: sans-serif;
+  color: brown;
+  line-height: 2px;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid coral;
 }
