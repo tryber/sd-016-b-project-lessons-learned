@@ -65,6 +65,11 @@ body {
   margin: 50px;
 }
 
+p {
+  font-size: 18px;
+  line-height: 20px;
+}
+
 .secao-aprendizado {
   display: inline-block;
 }
