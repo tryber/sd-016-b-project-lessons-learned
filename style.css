@@ -13,14 +13,14 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: rgb(47, 193, 140);
+  background-color: rgb(3, 107, 82);
   width: 100%;
   height: 80px;
 }
 
 h1 {
   margin: 15px 10px;
-  color: bisque;
+  color: azure;
 }
 
 a {
@@ -58,18 +58,45 @@ figure {
   display: inline-block;
 }
 
+.licoes p {
+  font-weight: 600;
+}
+
 .a_direita {
   margin-right: 150px;
 }
 
-#licoes_aprendidas {
+#licoes_aprendidas , #licoes_a_aprender {
   padding: 20px 30px;
 }
 
-#licoes_a_aprender {
-  padding: 20px 30px;
+h2 {
+  margin-bottom: 20px;
 }
 
-article {
+.lado-esquerdo {
+  float: left;
+  clear: both;
+}
+
+.aprendizado {
+  color: azure;
+  background-color: rgb(3, 107, 82);
+  padding: 20px;
+  margin: 30px;
+  width: 500px;
+  border-radius: 20px;
+}
+
+.aprendizado p {
+  text-align: justify;
+}
+
+.lado-direito {
+  float: right;
+  margin-right: 150px;
+}
+
+footer {
   clear: both;
 }
