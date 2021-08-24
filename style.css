@@ -3,10 +3,10 @@ body {
 }
 
 #cabecalho {
-	position: fixed;
+  position: fixed;
   top: 0;
 }
 
 .licoes {
-	display: inline-block;
+  display: inline-block;
 }
