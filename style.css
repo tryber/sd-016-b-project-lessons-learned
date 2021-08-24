@@ -2,3 +2,8 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+/* 2. Adicione uma barra superior com um título */
+#cabecalho {
+  position:fixed;
+  top: 0; 
+}
