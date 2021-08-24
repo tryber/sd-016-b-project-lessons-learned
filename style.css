@@ -67,3 +67,13 @@ main {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.menu_principal {
+  text-align: left;
+}
+
+.menu_principal ul li {
+  list-style: none;
+  display: inline;
+  margin-left: 10px;
+}
