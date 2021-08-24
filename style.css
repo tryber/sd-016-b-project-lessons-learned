@@ -1,13 +1,34 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  text-align: center;
+  background-color: #a0c4ff;
+  width: 100%;
+  color: #fffffc;
 }
 
 #minha_foto {
   width: 300px;
   border-radius: 50%;
+  margin-top: 100px;
+}
+
+#rodape {
+  background-color: #a0c4ff;
+  width: 100%;
+}
+
+#rodape p {
+  text-align: end;
+  color: #fffffc;
+  padding: 10px;
+  padding-right: 30px;
+  margin-bottom: 0;
 }
