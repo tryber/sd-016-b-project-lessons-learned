@@ -31,8 +31,9 @@ h1{
     font-size: 50px;
 }
 h3{
-    font-size: 35px;
+    font-size: 30px;
     line-height: 40px;
+    
 }
 
 footer{
@@ -69,7 +70,7 @@ main{
     
     
 }
-ol{
+#licoes_aprendidas{
     color: antiquewhite;
     display: inline-block;
     margin-left: 23.5%;
@@ -81,8 +82,8 @@ p{
     font-size: 25px;
     margin: 2%;
 }
-ul{
-    color: antiquewhite;
+#licoes_a_aprender{
+    color: rgb(255, 254, 253);
     display: inline-block;
     margin-left: 30%;
     margin-top: 1%;
