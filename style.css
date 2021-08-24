@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, Times New Roman, Times, serif;
   font-size: medium;
   word-spacing: 4px;
   line-height: normal;
@@ -12,7 +12,7 @@ body {
   top: 0;
   display: block;
   width: 100%;
- background-color:#036b52;
+  background-color: green;
   overflow: hidden;
 }
 
@@ -20,7 +20,7 @@ body {
 h1 {
   display: inline-block;
   margin: 0;
-  color:#fff;
+  color: white;
 }
 
 /**
@@ -35,16 +35,16 @@ h1 {
   text-decoration: none;
   text-align: center;
   padding: 14px 16px;
-  color:#fff;
+  color: white;
 }
 
 .principal {
   margin-top: 55px;
-  background-color:#036b52;
+  background-color: green;
 }
 
 .menu a:hover {
-  background-color: #ddd;
+  background-color: white;
   color: black;
 }
 
@@ -54,6 +54,7 @@ h1 {
   max-height: 500px;
 
 }
+
 #minha_foto {
   width: 100%;
   max-height: 200px;
@@ -74,7 +75,7 @@ h1 {
   padding: 0px;
   margin-left: 50px;
   margin-right: 200px;
-  background-color:#fff;
+  background-color: white;
   list-style-type: none;
 }
 
@@ -82,7 +83,7 @@ h1 {
   display: inline-block;
   width: 500px;
   padding: 0px;
-  background-color:#fff;
+  background-color: white;
   list-style-type: none;
 }
 
@@ -90,15 +91,15 @@ h1 {
   display: inline-block;
   text-align: justify;
   width: 45%;
-  background-color:#fff;
-  padding: 10px 15px ;
+  background-color: white;
+  padding: 10px 15px;
 }
 
-.lado-direito{
+.lado-direito {
   display: inline-block;
   text-align: justify;
   width: 45%;
-  background-color:#fff;
+  background-color: white;
   padding: 10px 30px;
 }
 
@@ -106,13 +107,13 @@ h1 {
   display: block;
   height: 100px;
   text-align: center;
-  background-color:#036b52;
+  background-color: green;
 }
 
 #link-final {
   display: block;
   padding: 10px;
-  background-color:#fff;
+  background-color: white;
   text-decoration: none;
   width: 200px;
   border: 5px solid black;
