@@ -1,82 +1,81 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(253, 251, 251);
-    font-family: monospace;
-    font-size: 15px;
-    color: rgb(2, 34, 2);
-    line-height: 30px;
-  }
-  
-  #cabecalho {
-    display: block;
-    width:100%;
-    position: fixed;
-    background-color: green;
-    text-align: center;
-  }
-  
-  #minha_foto{
-    margin-top: 150px;
-    max-width: 250px;
-    margin-left: 50px; 
-    padding: 10px;
-    background-color: green;
-    border-radius: 8px; 
-  }
-  
-  ol, ul{
-    margin-top: 30px; 
-    margin-left:50px; 
-    display: inline-block;
-  }
-  
-  article section p{
-    display: inline-block;
-    margin: 50px; 
-    margin-right: 40%;
-  }
-  
-  article section aside p{
-    display: inline-block;
-    margin-left: 40%;
-    margin-right: 50px;
-  }
-  
-  #rodape {
-    padding: 2px;
-    background-color: green;
-    text-align: center;
-    margin-top: 50px; 
-  }
-  
-  a{
-    font-weight: 600;
-    display: block;
-    margin-top: 20px;
-    margin-left: 75px; 
-    text-decoration: none;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(253, 251, 251);
+  font-family: monospace;
+  font-size: 15px;
+  color: rgb(2, 34, 2);
+  line-height: 30px;
+}
 
-  header nav ul li{
-    display: inline;
-  } 
-  
-  header nav ul li:nth-child(1){
-    margin-right: 30px;
-  } 
+#cabecalho {
+  display: block;
+  width: 100%;
+  position: fixed;
+  background-color: green;
+  text-align: center;
+}
 
-  table{
-    display: inline-block;
-    margin-left: 40%;
-    background-color: rgb(155, 241, 162);
-    border: 5px solid green;
-    margin-top: 100px;
-    line-height:15px;
-  }
+#minha_foto {
+  margin-top: 150px;
+  max-width: 250px;
+  margin-left: 50px;
+  padding: 10px;
+  background-color: green;
+  border-radius: 8px;
+}
 
-  article{
-      display: inline-block;
-      width: 40%;
-      float: right;
-  }
+ol , ul {
+  margin-top: 30px;
+  margin-left: 50px;
+  display: inline-block;
+}
+
+article section p {
+  display: inline-block;
+  margin: 50px;
+  margin-right: 40%;
+}
+
+article section aside p {
+  display: inline-block;
+  margin-left: 40%;
+  margin-right: 50px;
+}
+
+#rodape {
+  padding: 2px;
+  background-color: green;
+  text-align: center;
+  margin-top: 50px;
+}
+
+a {
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+  margin-left: 75px;
+  text-decoration: none;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li:nth-child( 1 ) {
+  margin-right: 30px;
+}
+
+#data_table {
+  display: inline-block;
+  margin-left: 40%;
+  background-color: rgb(155, 241, 162);
+  border: 5px solid green;
+  margin-top: 100px;
+  line-height: 15px;
+}
+
+article {
+  display: inline-block;
+  width: 40%;
+}
