@@ -6,6 +6,11 @@
 
   #cabecalho {
     top: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
 }
   #titulo {
       text-align: center;     
@@ -25,9 +30,13 @@
       font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       font-size: 20px;
   }
-  .lado_esquerdo li{
-    line-height: 20px;
-  }
   .lado_direito li{
     line-height: 20px;
+}
+  }
+  .lado_esquerdo li{
+    line-height: 20px; 
+  }
+  .lado_esquerdo{
+      float: left;
   }
