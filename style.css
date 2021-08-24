@@ -4,10 +4,6 @@
 	border: 0;
 }
 
-ol, ul {
-	list-style: none;
-}
-
 #navegacao a {
 	margin: 10px;
 	padding: 3px 8px;
@@ -24,6 +20,20 @@ ol, ul {
 
 body {
   background-color: rgb(253, 251, 251);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2, h3 {
+	font-size: 24px;
+}
+
+p, li {
+	font-size: 16px;
+	line-height: 20px;
 }
 
 #cabecalho {
@@ -35,8 +45,6 @@ body {
 	padding: 10px 10px 0px 10px;
 }
 
-
-
 #navegacao ul li {
 	display: inline-block;
 	margin: 10px 0px 12px 0px;
@@ -44,4 +52,9 @@ body {
 
 img {
   width: 200px;
+}
+
+#quem-sou {
+	margin-top: 100px;
+	margin-left: 10px;
 }
