@@ -19,8 +19,12 @@ body {
   text-align: center;
 }
 
-nav, article, aside, section, footer {
+nav , article , aside , section , footer {
   border: dashed 1px rgb(58, 57, 97);
+}
+
+nav , section , footer {
+  clear: both;
 }
 
 nav ul {
@@ -38,12 +42,22 @@ nav ul li a {
 }
 
 #artigo {
-  width: 40%;
   text-align: justify;
 }
 
+.lado-direito {
+  float: right;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito , .lado-esquerdo {
+  max-width: 40%;
+}
+
 aside {
-  width: 40%;
   text-align: justify;
 }
 
