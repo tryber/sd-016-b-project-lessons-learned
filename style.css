@@ -1,11 +1,13 @@
 body {
   color: rgb(253, 251, 251);
 }
-#cabecalio {
+h1 {
   top: 0;
+  margin: ;
   background-color: rgb(79, 55, 90);
   color:rgb(190, 104, 240)
 }
+
 #licoes_aprendidas {
   color: black;
   
