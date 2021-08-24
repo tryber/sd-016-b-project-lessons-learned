@@ -15,6 +15,10 @@ body {
   float: right;
 }
 
+#titulo {
+  font-size: 20px;
+}
+
 #cabecalho {
   background-color: rgba(80, 172, 66, 0.843);
   color: white;
@@ -37,10 +41,10 @@ body {
   width: 350px;
 }
 
-article {
-  margin: 5%;
+.article {
+  display: inline-block;
 }
 
-article div .lista_ordenada {
-  max-width: 30%;
+.article div {
+  margin: 50px;
 }
