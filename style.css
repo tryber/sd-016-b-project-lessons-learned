@@ -50,7 +50,8 @@ article {
  display: inline-block;
 }
 
-aside {
+section {
  width: 500px;
  display: inline-block;
+ margin-top: 10px;
 }
