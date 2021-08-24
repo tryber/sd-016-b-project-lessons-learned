@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Projeto - Lições aprendidas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header id="cabecalho">
-        <h1>Lições aprendidas - HTML e CSS</h1>
+        <h1 id="titulo">Lições aprendidas - HTML e CSS</h1>
     </header>
     <img src="foto-pessoal.jpg" alt="Foto pessoal" id="minha_foto">
-    <main>
-        <h3>Lista de lições aprendidas</h3>
+    <section>
+        <h2>Lista de lições aprendidas</h2>
         <ol id="licoes_aprendidas">
             <li>Básico de bash</li>
             <li>Git</li>
@@ -38,7 +38,7 @@
             <li>Orientação à objetos</li>
             <li>Python</li>
         </ul>
-        <article>
+        <article id="artigo">
             <p>O curso na <b>Trybe</b> tem se mostrado a melhor escolha que eu fiz nos 
                 ultimos tempos. Os professores são ótimos, a didática perfeita e é dado ao
                 aluno a oportunidade de realmente aprender com os melhores.</p>
@@ -47,15 +47,34 @@
                 sempre dispostos a ajudar e um ambiente muito pacífico, onde o aluno é estimulado
                 a sempre questionar e nunca ter medo de perguntar se algo causou dúvida.
             </p>
-            <aside>
-                O aprendizado não é moleza! Todo o dia têm muito conteúdo e exercícios. É necessário
-                sempre dedicação do aluno pra conseguir se manter a par de todo o conteúdo apresentado.
-            </aside>              
+                          
         </article>
-        
-    </main>
-    <footer id="rodape"><b><a href="https://www.github.com/leboralli" 
-        id="link-externo">Github</a> </b></footer>
+        <aside id="lateral">
+            O aprendizado não é moleza! Todo o dia têm muito conteúdo e exercícios. É necessário
+            sempre dedicação do aluno pra conseguir se manter a par de todo o conteúdo apresentado.
+        </aside>
+    </section>
+<!-- 
+Para resolver o exercício bonus eu utilizei como consulta o site:
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/table      
+-->
+    
+    <br>
+    <table id="tabela">
+        <tr>
+            <td>Javascript</td>
+            <td>PHP</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>MongoDB</td>
+        </tr>
+    </table>
+    <footer id="rodape">
+        <nav> <b><a href="https://www.github.com/leboralli" 
+        id="link-externo">Github</a> </b>
+        </nav>    
+    </footer>
 </body>
 </html>
 
