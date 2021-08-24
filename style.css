@@ -13,7 +13,7 @@ body {
 main {
     background-color: lightsalmon;
 }
-/* Requisito 02 -  */
+/* Requisito 02 - OK */
 #cabecalho{
     position: fixed;
     top: 0;
@@ -40,7 +40,7 @@ main {
     border: 2px solid gray;
 }
 
-/* Requisito 04 -  */
+/* Requisito 04 e 05- OK */
 ol, ul{
     margin-left: 2em;
     text-align: justify;
@@ -66,4 +66,35 @@ ol, ul{
 }
 .listas h3 {
     text-align: center;
+}
+
+article::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Requisito 06 e 07 - OK */
+
+footer {
+    background-color: rgb(20, 52, 148);
+    margin: 1em;
+    padding: 1em;
+    border: 5px solid gray ;
+}
+
+footer p {
+    float: right;
+    font-style: italic;
+    color: blanchedalmond;
+}
+
+footer a {
+    color: blanchedalmond;
+}
+
+footer::after {
+    content: "";
+    display: table;
+    clear: both;
 }
