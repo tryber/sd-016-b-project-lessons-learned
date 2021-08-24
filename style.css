@@ -34,7 +34,14 @@ body {
   z-index: 2;
 }
 
-#titulo-licoes {
+#licoes_a_aprender {
+  position: absolute;
+  top: 440px;
+  left: 250px;
+  z-index: 2;
+}
+
+.lado-direito , .lado-esquerdo {
   position: absolute;
   color: rgb(1, 0, 66);
   left: 0;
