@@ -6,13 +6,26 @@
 
 body {
     background-color: rgb(253, 251, 251);
+    height: 100vh;
 }
 
 .header {
     background-color:rgb(47, 193, 140);
-    height:  100px;
-    position:  fixed;
+    height:  50px;
+    position:  absolute;
     top:  0;
     width:  100%;
 }
 
+.heading {
+    text-align: center;
+}
+
+#minha_foto {
+    display: block;
+    width: 200px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 20px;
+    
+}
