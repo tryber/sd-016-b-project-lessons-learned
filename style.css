@@ -5,13 +5,12 @@ body {
     color: rgb(46, 16, 16);
     margin: 0mm;
 }
-h1 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+
 
 h2 {
     font-size: 17px;
 }
+
 
 img {
     width: 20%;
@@ -22,6 +21,7 @@ img {
     padding: .6%;
     background-color: rosybrown;
 }
+
 
 #cabecalho {
     padding: 10px;
@@ -34,6 +34,7 @@ header h1 {
     margin-block-end: 0px;
 }
 
+
 section div {
     display: inline-block;
     margin: 30px 30px 30px 30px;
@@ -43,6 +44,7 @@ section div {
     border-radius: 10%;
 }
 
+
 section {
     padding: 1px;
     width: 70%;
@@ -50,10 +52,13 @@ section {
     border-radius: 0px 0px 50px 0px;
 }
 
+
 ul, ol {
     text-align: left;
 }
 
+
 .div_direito {
     margin: 0px 0px 50px 0px;
 }
+
