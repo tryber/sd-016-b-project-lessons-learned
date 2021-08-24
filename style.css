@@ -1,9 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    rgb(253, 251, 251)
+    background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    margin-top: 0;
     position: fixed;
 }
 
