@@ -45,12 +45,12 @@ nav {
     z-index: 3;
 }
 
-article {
+.lado-esquerdo {
  width: 500px;
  display: inline-block;
 }
 
-section {
+.lado-direito {
  width: 500px;
  display: inline-block;
  margin-top: 10px;
