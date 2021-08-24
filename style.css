@@ -35,6 +35,7 @@ main {
 #rodape {
   background-color: rgb(186, 194, 194);
   padding: 10px;
+  clear: both;
 }
 
 .list_title {
@@ -48,8 +49,21 @@ main {
 
 .artigo {
   margin-top: 20px;
+  width: 75%;
+  display: inline-block;
+  margin-right: 3%;
 }
 
 .artigo p {
   text-align: justify;
+}
+
+.sidebar {
+
+  /* display: inline-block; */
+  width: 20%;
+  text-align: justify;
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
