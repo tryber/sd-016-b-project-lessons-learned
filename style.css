@@ -86,14 +86,18 @@ h2, h4 {
   padding: 30px;
 }
 
-.lado_esquerdo {
+.lado-esquerdo {
   float: left;
   width: 50%;
   padding: 20px;
 }
 
-.lado_direito {
+.lado-direito {
   float: right;
   width: 40%;
   padding: 20px;
+}
+
+table {
+  width: 100%;
 }
