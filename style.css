@@ -44,3 +44,15 @@ nav {
     display: inline;
     z-index: 3;
 }
+
+article {
+ border: 5px solid red;
+ width: 500px;
+ display: inline-block;
+}
+
+section {
+ border: 5px solid blue;
+ width: 500px;
+ display: inline-block;
+}
