@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: Courier, Courier, monospace;
+  font-family: Courier, monospace;
 }
 
 header {
@@ -79,7 +79,8 @@ main {
   text-align: justify;
 }
 
-aside {    
+aside { 
   display: block;
   padding: 10px;
 }
+/n
