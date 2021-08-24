@@ -61,9 +61,9 @@ a {
     color: rgb(47, 193, 140);
 }
 
-.article1 {
+.lado-esquerdo{
     display: block;
-    float: right;
+    float: left;
     width: 400px;
     position: absolute;
     left: 500px;
@@ -76,7 +76,7 @@ a {
 
 }
 
-.article2 {
+.lado-direito {
     display: block;
     float: right;
     width: 250px;
