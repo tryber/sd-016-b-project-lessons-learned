@@ -1,8 +1,19 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
+  padding: 0;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(255, 208, 0);
+  text-align: center;
+  font-weight: 900;
+}
+
+#minha_foto {
+  width: 300px;
 }
