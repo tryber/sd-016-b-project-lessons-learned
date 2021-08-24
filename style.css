@@ -1,0 +1,53 @@
+:root {
+  --bg-color: rgb(253, 251, 251);
+  --bg-color-container: rgb(81, 90, 89);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: "Work Sans", sans-serif;
+}
+
+.container {
+  background-color: var(--bg-color-container);
+  border-radius: 10px;
+  border: 1px solid red;
+  margin: auto;
+  margin-top: 100px;
+  padding: 15px;
+  width: 90%;
+}
+
+#cabecalho {
+  background-color: aqua;
+  padding: 25px 35px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header {
+  border-bottom: 1px solid #000;
+  margin-bottom: 15px;
+}
+
+.figure {
+  margin-bottom: 40px;
+}
+
+#minha_foto {
+  border-radius: 5px;
+  width: 420px;
+}
+
+.header p {
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
