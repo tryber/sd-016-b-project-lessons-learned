@@ -31,6 +31,14 @@ body {
   width: 100%;
 }
 
+.nav ul li{
+  display: inline-block;
+}
+
+.nav a:hover {
+  
+}
+
 .header {
   border-bottom: 1px solid #000;
   margin-bottom: 15px;
@@ -50,6 +58,12 @@ body {
   font-size: 1.2em;
   font-weight: 300;
   margin-bottom: 15px;
+}
+
+.about-course {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
 }
 
 .lesson-learned {
