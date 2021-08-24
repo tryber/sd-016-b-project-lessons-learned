@@ -25,6 +25,19 @@ nav {
     margin: 90px 0px 30px 0px;
 }
 
+nav a {
+    border: 2px solid white;
+    background-color: #036b52;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+nav a:hover{
+    background-color: #2fc18c ;
+}
+
 nav ul {
     list-style: none;
     text-align: center;
@@ -37,9 +50,56 @@ nav ul li {
 }
 
 img {
+    border: 1px solid #2fc18c;
+    border-radius: 35px;
+    box-shadow: 15px 12px 7px grey;
     display: block;
     margin: 30px auto;
-    border-radius: 30px;
-    box-shadow: 10px 10px 5px grey;
 
+}
+
+.licoes {
+    text-align: center;
+}
+
+.licoes h4 {
+    margin-bottom: 15px;
+    font-style: italic;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #2fc18c;
+    color: #fff;
+}
+
+#licoes_aprendidas, #licoes_a_aprender {
+    margin-top: 60px;
+    display: inline-block;
+    line-height: 25px;
+    padding: 0px 150px;
+    font-weight: bold;
+}
+
+.artigos {
+    margin-top: 80px;
+    text-align: center;
+}
+
+#lado-esquerdo {
+    text-align: left;
+    max-width: 40%;
+    display: inline-block;
+    background-color: #2fc18c;
+}
+
+#lado-direito {
+    text-align: right;
+    max-width: 50%;
+    display: inline-block;
+    background-color: #036b52;
+}
+
+footer {
+    margin: 100px auto 10px auto;
+    text-align: center;
 }
