@@ -1,11 +1,9 @@
 body {
-
   background-color: rgb(253, 251, 251);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier, Courier, monospace;
 }
 
 header {
-
   position: fixed;
   top: 0;
   display: block;
@@ -15,19 +13,16 @@ header {
 }
 
 h1 {
-
   text-align: center;
   font-size: xx-large;
 }
 
 section {
-
   display: block;
   margin-top: 12%;
 }
 
 .nav_links {
-
   text-decoration: none;
   margin: 2%;
   font-size: 14px;
@@ -37,12 +32,10 @@ section {
 }
 
 .conteudo_invisivel {
-
   display: none;
 }
 
 nav {
-
   width: 100%;
   display: inline-block;
   text-align: center;
@@ -50,33 +43,27 @@ nav {
 }
 
 table , th , td {
-
   border: 1px solid gray;
 }
 
 table {
-
   width: 100%;
 }
 
 ol li {
-
   line-height: 30px;
 }
 
 ul li {
-
   line-height: 30px;
 }
 
 main {
-
   display: inline-block;
   width: 100%;
 }
 
 .lado-direito {
-
   float: right;
   margin-left: auto;
   display: block;
@@ -85,7 +72,6 @@ main {
 }
 
 .lado-esquerdo {
-
   float: left;
   margin-right: auto;
   width: 70%;
@@ -93,8 +79,7 @@ main {
   text-align: justify;
 }
 
-aside {
-    
+aside {    
   display: block;
   padding: 10px;
 }
