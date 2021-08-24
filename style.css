@@ -1,0 +1,44 @@
+    body {
+        background-color: rgb(253, 251, 251);
+        font-family: cursive, fantasy;
+        font-size: 18px;
+        color: rgb(1, 66, 104);
+        line-height: 30px;
+    }
+
+    #cabecalho {
+        top: 0;
+        position: fixed;
+    }
+
+    #minha_foto {
+        width: 230px;
+        margin: 1px;
+        padding: 1px;
+        border: 3px solid rgb(32, 32, 32);
+    }
+
+    #listas {
+        display: inline-block;
+        border: 5px solid rgb(32, 32, 32);
+        float: right;
+    }
+
+    ul, ol {
+        border: 1px solid white;
+    }
+
+    #article {
+        float: left;
+        top: 500px;
+    }
+
+    hr {
+        padding: 1px;
+        margin: 1px;
+        border: 10px solid rgb(32, 32, 32);
+    }
+
+    #titulo {
+        margin-top: auto;
+    }
