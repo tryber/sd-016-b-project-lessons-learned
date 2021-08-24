@@ -1,102 +1,100 @@
 * {
-    box-sizing:  border-box;
-    margin:  0;
-    padding:  0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
-    height: 100vh;
+  background-color: rgb(253, 251, 251);
+  height: 100vh;
 }
 
 .header {
-    background-color:rgb(47, 193, 140);
-    height:  50px;
-    position:  fixed;
-    top: 0;
-    width:  100%;
+  background-color: rgb(47, 193, 140);
+  height: 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .heading {
-    text-align: center;
+  text-align: center;
 }
 
 #minha_foto {
-    display: block;
-    width: 200px;
-    position: relative;
-    margin-top: 70px;
-    margin-left: 20px;
-    
+  display: block;
+  width: 200px;
+  position: relative;
+  margin-top: 70px;
+  margin-left: 20px;
 }
 
 .licoes_enumeradas {
-    display: inline-block;
-    margin-left: 50px;
-    margin-top: 20px;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 20px;
 }
 
 .licoes_naoenumeradas {
-    display: inline-block;
-    margin-left: 50px;
-    margin-top: 20px;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 20px;
 
 }
 
 .footer {
-    height: 50px;
-    width: 100%;
-    background-color: rgb(47, 193, 140);
-    text-align: center;
-    padding-top: 20px;
-    position: absolute;
-    bottom: 0;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(47, 193, 140);
+  text-align: center;
+  padding-top: 20px;
+  position: absolute;
+  bottom: 0;
 }
 
 a {
-    display: block;
-    text-decoration: none;
-    margin-top: 40px;
-    padding-left: 50px;
-    color: rgb(47, 193, 140);
+  display: block;
+  text-decoration: none;
+  margin-top: 40px;
+  padding-left: 50px;
+  color: rgb(47, 193, 140);
 }
 
-.lado-esquerdo{
-    display: block;
-    float: left;
-    width: 400px;
-    position: absolute;
-    left: 500px;
-    top: 100px;
-    font-family: sans-serif;
-    line-height: 15px;
-    letter-spacing: 2px;
-    color: blue;
-    font-size: 15px;
-
+.lado-esquerdo {
+  display: block;
+  float: left;
+  width: 400px;
+  position: absolute;
+  left: 500px;
+  top: 100px;
+  font-family: sans-serif;
+  line-height: 15px;
+  letter-spacing: 2px;
+  color: blue;
+  font-size: 15px;
 }
 
 .lado-direito {
-    display: block;
-    float: right;
-    width: 250px;
-    position: absolute;
-    left: 1000px;
-    top: 100px;
+  display: block;
+  float: right;
+  width: 250px;
+  position: absolute;
+  left: 1000px;
+  top: 100px;
 
 }
 
 .aulas {
-    display: block;
-    float: right;
-    width: 550px;
-    position: absolute;
-    left: 500px;
-    top: 300px;
-    border: 1px solid black;
+  display: block;
+  float: right;
+  width: 550px;
+  position: absolute;
+  left: 500px;
+  top: 300px;
+  border: 1px solid black;
 }
 
 .aulas td {
-    border: 1px solid black;
-    padding: 5px;
+  border: 1px solid black;
+  padding: 5px;
 }
