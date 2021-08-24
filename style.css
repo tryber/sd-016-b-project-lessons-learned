@@ -1,8 +1,12 @@
 :root {
-    --background_color: #FDFBFB;
-    --primary_color: #5E12F8;
-    --secondary_color: #25f812;
-    --tertiary_color: #A30CF5;
+    
+    --background_color: rgb(253, 251, 251);
+
+    --primary_color: rgb(94, 18, 248);
+
+    --secondary_color: rgb(37, 248, 18);
+
+    --tertiary_color: rgb(163, 12, 245);
 }
 
 * {
