@@ -5,7 +5,8 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
 }
 
 #cabecalho {
@@ -32,9 +33,14 @@ body {
   margin-top: 30px;
 }
 
+div {
+  width: auto;
+  margin: auto;
+}
+
 #minha_foto {
   display: inline-block;
-  width: 100%;
+  width: 300px;
   border-radius: 300px;
   margin: auto;
 }
@@ -42,6 +48,11 @@ body {
 main {
   padding: 50px;
   margin-top: 100px;
+  line-height: 35px;
+}
+
+section {
+  padding: 50px;
 }
 
 footer {
@@ -50,7 +61,11 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
-  text-decoration: ;
+  font-style: italic;
+  display: inline-block;
+  height: 100px;
 }
 
-
+h2, h4 {
+  padding: 30px;
+}
