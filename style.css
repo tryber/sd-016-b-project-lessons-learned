@@ -3,6 +3,7 @@ body {
 }
 
 header {
+  background-color: pink;
   position: fixed;
   top: 0;
 }
@@ -10,4 +11,16 @@ header {
 #minha_foto {
   margin-top: 60px;
   width: 370px;
+}
+
+#gitLink {
+  display: none;
+}
+
+nav h1 {
+  display: none;
+}
+
+h1.photo {
+  display: none;
 }
