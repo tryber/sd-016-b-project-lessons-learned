@@ -20,3 +20,11 @@ body {
   padding: 5px;
   width: 400px;
 }
+
+table {
+  width: 35%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
