@@ -82,11 +82,7 @@ footer {
   height: 100px;
 }
 
-h2 {
-  padding: 30px;
-}
-
-h3 {
+h2 , h3 {
   padding: 30px;
 }
 
