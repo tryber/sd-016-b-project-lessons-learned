@@ -1,5 +1,9 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(120, 70, 81);
+  line-height: 2em;
+  font-size: 1.2em;
 }
 
 #cabecalho {
