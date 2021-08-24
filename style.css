@@ -68,6 +68,11 @@ a {
     position: absolute;
     left: 500px;
     top: 100px;
+    font-family: sans-serif;
+    line-height: 15px;
+    letter-spacing: 2px;
+    color: blue;
+    font-size: 15px;
 
 }
 
