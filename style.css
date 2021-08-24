@@ -20,3 +20,11 @@ body{
     position: fixed;
     width: 99%;
 }
+
+.listas{
+    background-color: chocolate;
+}
+
+.article-aprendizado{
+    background-color: cornflowerblue;
+}
