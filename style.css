@@ -5,4 +5,21 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  font: 400 16px 'Roboto', sans-serif;
+}
+
+h1 {
+  font: 700 'Poppins', sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#cabecalho {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #019934;
+  color: #fff;
 }
