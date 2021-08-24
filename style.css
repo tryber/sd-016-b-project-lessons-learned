@@ -9,6 +9,10 @@ body {
   width: 100%;
 }
 
+#licoes_a_aprender{
+    list-style: square;
+}
+
 #minha_foto {
   max-width: 25%;
   border-radius: 25%;
