@@ -51,6 +51,10 @@ body{
   background-color: #659e81;
 }
 
+#cabecalho nav ul li a {
+  color: white;
+}
+
 .section-hab{
   height: 60vh;
 }
