@@ -1,0 +1,31 @@
+body { background-color: rgb(253, 251, 251);
+}
+
+ #cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:pink;
+ }
+
+ #titulo { 
+font-family: monospace;
+ }
+
+ #minha_foto {
+     top: 0;
+ }   
+
+ #licoes_aprendidas {
+     font-family: monospace;
+ }
+
+ #licoes_a_aprender {
+     font-family: monospace;
+ }
+
+ #rodape {
+     font-family: monospace;
+
+}
