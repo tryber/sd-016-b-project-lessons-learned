@@ -5,4 +5,33 @@ body {
 #cabecalho {
   top: 0;
   position: fixed;
+  background-color: rgb(170, 83, 11);
+  padding: 0px 10px;
+  width: 100%;
+}
+
+#cabecalho nav li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+#cabecalho nav li:hover {
+  color: aquamarine;
+}
+
+main {
+  margin-top: 130px;
+  padding: 10px;
+}
+
+.licoes div {
+  display: block;
+}
+
+.licoes p {
+  margin-left: 100px;
+}
+
+table, th, td {
+  border: solid 1px black;
 }
