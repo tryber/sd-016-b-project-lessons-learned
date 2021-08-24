@@ -41,7 +41,7 @@ nav ul li a {
   border-radius: 100%;
 }
 
-#artigo {
+#artigo , aside {
   text-align: justify;
 }
 
@@ -55,10 +55,6 @@ nav ul li a {
 
 .lado-direito , .lado-esquerdo {
   max-width: 40%;
-}
-
-aside {
-  text-align: justify;
 }
 
 section {
