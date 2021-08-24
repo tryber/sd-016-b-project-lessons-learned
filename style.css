@@ -74,7 +74,7 @@ h2 {
 
 .listas {
     display: flex;
-    margin-top: 60px;
+    margin: 60px 100px;
     gap: 50%;
 }
 
@@ -93,5 +93,9 @@ h2 {
 }
 
 footer {
+    font-family: monospace;
     background-color: black;
+    color: white;
+    text-align: right;
+    padding: 10px;
 }
