@@ -1,8 +1,13 @@
+* {
+    margin: 0;
+}
+
 body {
     background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
+    background-color: rgb(212, 209, 191);
     top: 0;
     position: fixed;
 }
@@ -15,4 +20,5 @@ body {
     height: 150px;
     width: auto;
 }
+
 
