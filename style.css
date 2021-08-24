@@ -1,9 +1,50 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(46, 16, 16);
+    margin: 0mm;
 }
 
+h2 {
+    font-size: 17px;
+}
 
 img {
     width: 20%;
     border-radius: 50%;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    padding: .6%;
+    background-color: rosybrown;
 }
+
+#cabecalho {
+    padding: 10px;
+    background-color: rgb(160, 115, 115);
+    width: 100%;
+    height: 100px;
+}
+header h1 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+section div {
+    display: inline-block;
+    margin: 30px 30px 30px 30px;
+    background-color: rgb(212, 186, 186);
+    width: 220px;
+    text-align: center;
+}
+
+section {
+    padding: 1px;
+    width: 570px;
+    background-color: rosybrown;
+}
+
+ul, ol {
+    text-align: left;
+}
+
