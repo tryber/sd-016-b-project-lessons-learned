@@ -1,5 +1,7 @@
 body {
     background-color: rgb(253, 251, 251);
+    margin-right: 15%;
+    margin-left: 15%;
 }
 
 #cabecalho {
@@ -25,4 +27,10 @@ body {
 
 #rodape {
     
+}
+
+#meu_aprendizado {
+    width: 200px;
+    display: inline-block;
+    margin-left: 75%;
 }
