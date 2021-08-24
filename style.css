@@ -1,3 +1,44 @@
 body{
     background-color: rgb(253, 251, 251);
 }
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+#cabecalho{
+    background-color: brown;
+    text-align: center;
+    color: cornsilk;
+    height: 100px;
+    width: 100%;
+    margin-right: 8px;
+    top: 0px;
+}
+
+
+#titulo{
+    padding-top: 27px;
+    margin-top: 0px;
+}
+
+#minha_foto{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    display: block;
+    margin-top: 200px;
+}
+#titulo_das_listas{
+    text-align: center;
+    margin-top: 130px;
+}
+
+#licoes_aprendidas{
+    position: absolute;
+    display: inline-block;
+    margin-top: 75px;
+    margin-left: 300px;
+}
