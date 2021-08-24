@@ -1,3 +1,8 @@
+aside, nav {
+    border-top: 2px black solid;
+    margin-top: 30px;
+    margin: auto;
+}
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -5,8 +10,21 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  border: 3px solid limegreen;
+  border: 3px solid black;
   width: 100%;
+  background-color: #8bcc8b;
+  text-align: center;
+  font-family: monospace, sans-serif;
+}
+
+footer {
+  margin-top: 30px;
+  font-family: monospace,sans-serif;
+
+}
+#list {
+  list-style: none;
+  color:black
 }
 
 #licoes_a_aprender {
@@ -16,9 +34,10 @@ body {
 #minha_foto {
   max-width: 25%;
   border-radius: 25%;
-  margin-top: 175px;
+  margin-top: 185px;
+}
+table {
+  padding: 10px;
+  border: 1px green solid
 }
 
-.visuallyhidden{
-  display: none;    
-}
