@@ -1,5 +1,6 @@
   body {
     background-color: rgb(253, 251, 251);
+    font-family: sans-serif;
 }
 
   #cabecalho {
@@ -8,7 +9,9 @@
   #titulo {
       text-align: center;     
       text-decoration: underline;
-      color: #1C9E19; 
+      color: #009E1C; 
+      background-color: #EB8E26;
+      margin-top: 10px;
   }
   #minha_foto{
     width: 500px;
@@ -16,6 +19,6 @@
     padding-bottom: 50px;
   }
   #Meu_nome{
-      font-family: 'Times New Roman', Times, serif;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       font-size: 20px;
   }
