@@ -16,5 +16,20 @@ body{
 }
 
 #minha_foto{
-    width: 200px;
+    width: 250px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#main{
+    padding: 20px 30px;
+}
+
+#licoes_aprendidas{
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#secao{
+    display: inline-block;
 }
