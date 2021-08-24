@@ -1,0 +1,17 @@
+/*Req 1 - Adicione uma cor de fundo específica para a página*/
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+#minha_foto {
+    border-radius: 50%;
+    padding: 100px;
+}
+
+.lista {
+    background-color: rgb(238, 212, 188);
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+}
