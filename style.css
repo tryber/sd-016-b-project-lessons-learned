@@ -97,6 +97,7 @@ h2 {
   margin-right: 150px;
 }
 
-footer {
+#rodape {
   clear: both;
+  text-align: center;
 }
