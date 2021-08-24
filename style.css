@@ -47,11 +47,6 @@ body {
     width: 250px;
 }
 
-/*#licoes_aprendidas {
-    color: black;
-    font-weight: bolder;
-}*/
-
 .lista {
     display: flex;
     margin-top: 80px;
@@ -75,4 +70,28 @@ h2 {
     color: black;
     font-weight: bolder;
     margin-top: 100px;
+}
+
+.listas {
+    display: flex;
+    margin-top: 60px;
+    gap: 50%;
+}
+
+.listas section h2 {
+    line-height: 60px;
+}
+
+#licoes_a_aprender {
+    color: black;
+    font-weight: bolder;
+}
+
+#licoes_aprendidas {
+    color: black;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: black;
 }
