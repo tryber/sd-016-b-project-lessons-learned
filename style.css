@@ -50,9 +50,14 @@ article {
 
 aside {
     position: absolute;
-    top: 680px;
+    top: 700px;
 }
 
 nav {
     position: absolute;
+}
+
+table {
+    position: absolute;
+    top: 810px;
 }
