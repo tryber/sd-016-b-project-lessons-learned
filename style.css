@@ -3,54 +3,52 @@ body {
 }
 
 #cabecalho {
-    top: 0;
-    border: solid;
-    text-align: center;
+  top: 0;
+  border: solid;
+  text-align: center;
 }
+
 #main_title {
-    font-size: 30px;
-    text-align: center;
-    
-    
+  font-size: 30px;
+  text-align: center;
 }
 
 #minha_foto {
-    width: 200px;
-    float: left;
-    margin-right: 25px;
+  width: 200px;
+  float: left;
+  margin-right: 25px;
 }
 .main-text {
-    font-size: 20px;
-    display: inline-block;
-    border: solid;
+  font-size: 20px;
+  display: inline-block;
+  border: solid;
 }
 
 .main-article {
-    margin-left: 20px;
-    display: inline-block;
+  margin-left: 20px;
+  display: inline-block;
 }
 
 .licoes-section {
-    border: solid;
+  border: solid;
 }
 
 #licoes_aprendidas {
-    display: inline-block;
-    margin-left: 35%;
-    padding: 20px 50px;
-
+  display: inline-block;
+  margin-left: 35%;
+  padding: 20px 50px;
 }
 
 #licoes_a_aprender {
-    display: inline-block;
-    padding: 20px 50px;
+  display: inline-block;
+  padding: 20px 50px;
 }
 
 .passagem-aprendizado {
-    border: solid;
+  border: solid;
 }
 
 
 #rodape {
-    border: solid;
+  border: solid;
 }
