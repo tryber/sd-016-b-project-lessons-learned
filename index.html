@@ -10,6 +10,18 @@
   <body>
     <header id="cabecalho">
       <h1 id="titulo">Título</h1>
+      <nav>
+        <ul id="indice">
+          <li><a href="#cabecalho">Início</a></li>
+          <li><a href="#licoes_aprendidas">Lições aprendidas</a></li>
+          <li><a href="#licoes_a_aprender">Lições a aprender</a></li>
+          <li><a href="#artigo_principal">Minha jornada</a></li>
+          <li><a href="#quick_fact">Quick fact!</a></li>
+          <a target="_blank" href="https://israelss.github.io"
+            >Visite meu site</a
+          >
+        </ul>
+      </nav>
     </header>
     <img
       src="profile-photo.jpg"
@@ -41,22 +53,24 @@
       <li>Testes automatizados</li>
       <li>Continuous Integration (CI)</li>
     </ul>
-    <a target="_blank" href="israelss.github.io">Visite meu site</a>
-    <article>
-      <header><h2>Minha jornada na Trybe</h2></header>
-      <section>
-        <p>
-          Quando entrei na Trybe não imaginava que aprenderia
-          <strong>tanto</strong> em tão pouco tempo! Não só habilidades técnicas
-          (<em>hard skills</em>), mas também habilidades sócio-emocionais (<em
-            >soft skills</em
-          >) têm sido trabalhadas todos os dias de forma muito bem integrada,
-          levando ao crescimento orgânico como profissional completo!
-        </p>
-      </section>
-    </article>
-    <aside>
-      <h2>Fun fact!</h2>
+
+    <main id="artigo_principal">
+      <article>
+        <header><h2>Minha jornada na Trybe</h2></header>
+        <section>
+          <p>
+            Quando entrei na Trybe não imaginava que aprenderia
+            <strong>tanto</strong> em tão pouco tempo! Não só habilidades
+            técnicas (<em>hard skills</em>), mas também habilidades
+            sócio-emocionais (<em>soft skills</em>) têm sido trabalhadas todos
+            os dias de forma muito bem integrada, levando ao crescimento
+            orgânico como profissional completo!
+          </p>
+        </section>
+      </article>
+    </main>
+    <aside id="quick_fact">
+      <h2>Quick fact!</h2>
       <p>
         Mesmo já possuindo algum conhecimento em programação, estou aprendendo
         algo novo a cada dia. Como o comando <kbd>apropos</kbd>
