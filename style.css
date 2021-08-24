@@ -1,0 +1,13 @@
+#cabecalho {
+  position: fixed;
+  top: 0;
+  display: inline-block;
+}
+
+body {display: inline-block;
+  background-color: rgb(211, 207, 195);
+}
+
+#minha_foto {width: 200px;
+border-radius: 100%;
+display: inline-block;}
