@@ -2,19 +2,25 @@ body {
     background-color: rgb(253, 251, 251);
     margin-right: 15%;
     margin-left: 15%;
+    font-family: Helvetica, sans-serif;
+    margin-top: 130px;
 }
 
-#cabecalho {
+#cabecalho {    
+    background-color: #434343;
+    margin: 0px;
     position: fixed;
-    top: 0;
+    top: 0%;
+    padding-right: 50%; 
 }
 
 #titulo {
-
+    
 }
 
 #minha_foto {
     width: 175px;
+    float: left;
 }
 
 #licoes_aprendidas {
@@ -33,4 +39,8 @@ body {
     width: 200px;
     display: inline-block;
     margin-left: 75%;
+}
+
+.lista_de_licoes {
+
 }
