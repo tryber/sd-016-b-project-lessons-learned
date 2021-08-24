@@ -27,6 +27,11 @@ body {
     border: 3px solid var(--secondary_color);
 }
 
+.bottom_part {
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+
 .button {
     background: var(--tertiary_color);
     border: 2px solid transparent;
@@ -81,6 +86,15 @@ body {
     flex-direction: column;
 }
 
+.lessons {
+    padding: 15px 0 0 35px;
+}
+
+.lessons li {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
 #minha_foto {
     border-radius: 50%;
     height: 310px;
@@ -127,7 +141,6 @@ body {
 .presentation {
     font-size: 3rem;
     height: 60%;
-    padding-left: 15px;
 }
 
 .presentation h2 {
@@ -162,15 +175,54 @@ body {
 }
 
 .sec_ab_3 {
+    text-align: right;
     grid-area: ab3;
 }
 
+.sec_divisor {
+    margin-top: 3rem;
+}
+
+.sec_skills {
+    width: 60%;
+}
+
+.sec_skills h4 {
+    border-radius: 0 0 25px 25px;
+    border-top: none;
+    font-size: 1.5rem;
+    padding: 5px 35px;
+}
+
 .sec_title {
-    font-size: 3rem;
+    font-size: 2.5rem;
+}
+
+#skill_title {
+    background-color: red;
+}
+
+.split_around {
+    justify-content: space-around;
+}
+
+.split_between {
+    justify-content: space-between;
+}
+
+.title_skills {
+    border-radius: 25px 0 0 25px;
+    border-right: none;
+    padding: 5px 25px;
 }
 
 #titulo {
     color: var(--secondary_color);
     font-size: 3rem;
     padding-right: 1rem;
+}
+
+aside {
+    margin-left: 2.6rem;
+    width: 410px;
 }
