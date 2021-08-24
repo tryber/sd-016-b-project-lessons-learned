@@ -8,8 +8,8 @@ body {
   font: 400 16px sans-serif;
 }
 
-h1 {
-  font: 700 32px sans-serif;
+h1, h3 {
+  font: 700 sans-serif;
 }
 
 .text-center {
@@ -37,4 +37,15 @@ h1 {
 
 ol {
   margin-left: 20px;
+  float: left;
+  width: 50%;
+}
+
+ul {
+  float: right;
+  width: 40%;
+}
+
+.lists {
+  margin-top: 10px;
 }
