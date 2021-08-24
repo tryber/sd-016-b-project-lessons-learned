@@ -3,11 +3,6 @@ body {
 }
 
 #cabecalho {
-  /* position: fixed;
-  height: 40px;
-  top: 0;
-  border: solid;
-  text-align: center; */
   background-color: white;
   position: fixed;
   top: 0;
@@ -30,18 +25,21 @@ body {
 }
 
 .main-text {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
+  line-height: 30px;
   display: inline-block;
   border: solid;
 }
 
-.main-article {
+#main-article {
   margin-top: 40px;
   margin-left: 20px;
   display: inline-block;
 }
 
-.licoes-section {
+#licoes-section {
   border: solid;
 }
 
