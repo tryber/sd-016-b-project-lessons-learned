@@ -1,6 +1,7 @@
   body {
     background-color: rgb(253, 251, 251);
     font-family: sans-serif;
+    color: #E2E7D9;
 }
 
   #cabecalho {
@@ -17,8 +18,16 @@
     width: 500px;
     margin-left: 10px;
     padding-bottom: 50px;
+    border: rgb(253, 251, 251);
+    border-radius: 200px;
   }
   #Meu_nome{
       font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       font-size: 20px;
+  }
+  .lado_esquerdo li{
+    line-height: 20px;
+  }
+  .lado_direito li{
+    line-height: 20px;
   }
