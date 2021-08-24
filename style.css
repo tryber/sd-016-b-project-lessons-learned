@@ -49,14 +49,14 @@ ol, ul{
 /* Bônus 15 -  */
 .lado-esquerdo {
     float: left;
-    width: 50%;
+    /* width: 50%; */
     /* test */
     background-color: lightsteelblue;
 }
 
 .lado-direito {
     float: right;
-    width: 50%;
+    /* width: 50%; */
     /* test */
     background-color: lightpink;
 }
@@ -104,5 +104,11 @@ footer::after {
 /* Requisito 08 - OK */
 article {
     background-color: palegoldenrod;
-    margin: 2em;
+    width: 70%;
+}
+
+/* Requisito 09 -  */
+aside {
+    background-color: slateblue;
+    width: 30%;
 }
