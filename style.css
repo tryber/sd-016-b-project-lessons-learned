@@ -1,9 +1,43 @@
 * {
     margin: 0;
     padding: 0;
-    border-radius: 1em;
+    /* border-radius: 1em; */
+    /* border: 5px solid gray; */
+}
+/* Requisito 01 - OK */
+body {
+    background-color: rgb(253, 251, 251);    ;
+}
+/* Requisito 02 -  */
+#cabecalho{
+    position: fixed;
+    top: 0;
+
+    /* test ok*/
+    width: 100%;
+    text-align: center;
+    background-color: aquamarine;
+    border: 5px solid gray;
+    /* border fica pra fora com width 100% */
 }
 
-body {
-    background-color: rgb(253, 251, 251);
+/* 
+#cabecalho::after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+.barra-superior {
+    background-color: greenyellow;
+    width: 100%;
+    height: 3em;
+
+}
+
+#minha_foto {
+    /* margin-top: 20%; */
+    border-radius: 50%;
+    width: 20%;
+    border: 2px solid gray;
 }
