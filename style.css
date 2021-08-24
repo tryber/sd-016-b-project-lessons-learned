@@ -1,5 +1,10 @@
 body{
-    background-color: rgb(253, 251, 251)
-
+    background-color: rgb(253, 251, 251);
+    border: 1px solid black;
     ;
+}
+#cabecalho{
+    top: 0;
+    background-color: grey;
+    border: 1px solid black;
 }
