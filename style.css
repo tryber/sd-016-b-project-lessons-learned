@@ -34,3 +34,18 @@ ol , ul {
 footer {
   text-align: center;
 }
+
+h5 {
+  text-align: center;
+}
+
+table {
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+table, th, td {
+  border: 2px solid black;
+  text-align: center;
+  padding: 5px;
+}
