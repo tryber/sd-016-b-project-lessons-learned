@@ -5,4 +5,17 @@
   #cabecalho {
     top: 0;
 }
-
+  #titulo {
+      text-align: center;     
+      text-decoration: underline;
+      color: #1C9E19; 
+  }
+  #minha_foto{
+    width: 500px;
+    margin-left: 10px;
+    padding-bottom: 50px;
+  }
+  #Meu_nome{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+  }
