@@ -2,6 +2,10 @@ body {
     background-color: rgb(253, 251, 251);
 }
 #cabecalho {
+    position: fixed;
     top: 0;
-    text-align: center;
+}
+#minha_foto {
+    margin-top: 50px;
+    width: 300px;
 }
