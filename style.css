@@ -3,15 +3,26 @@ body {
 }
 
 #cabecalho {
+  background-color: gold;
+  height: 125px;
+  left: 0;
   position: fixed;
   top: 0;
-  left: 0;
-  height: 125px;
   width: 100%;
-  background-color: gold;
+  z-index: 4;
 }
 
 #titulo {
   position: fixed;
   top: 0;
+  z-index: 4;
+}
+
+#minha_foto {
+  border-radius: 5%;
+  position: absolute;
+  top: 125px;
+  width: 260px;
+  left: 0;
+  z-index: 1;
 }
