@@ -9,7 +9,6 @@ body {
   left: 0;
   right: 0;
   height: 40px;
-  margin: 20px;
 }
 
 #titulo {
@@ -18,40 +17,47 @@ body {
   text-align: center;
 }
 
+.lado-esquerdo p {
+  padding-top: 30px;
+}
+
 #minha_foto {
   width: 200px;
   float: left;
   margin-right: 25px;
 }
 
-.main-text {
-  color: black;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20px;
-  line-height: 30px;
-  display: inline-block;
-  border: solid;
-}
-
-#main-article {
-  margin-top: 40px;
-  margin-left: 20px;
-  display: inline-block;
-}
-
-#licoes-section {
-  border: solid;
-}
-
 #licoes_aprendidas {
   display: inline-block;
-  margin-left: 35%;
-  padding: 20px 50px;
+  margin-left: 50px;
+  padding: 60px 50px;
 }
 
 #licoes_a_aprender {
   display: inline-block;
-  padding: 20px 50px;
+  padding: 60px 50px;
+}
+
+.lado-esquerdo {
+  margin-top: 60px;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 20px;
+  width: 50%;
+  display: inline-block;
+  
+}
+
+.lado-direito {
+  position: absolute;
+  top: 20px;
+  margin-top: 50px;
+  margin-left: 20px;
+  display: inline-block;
+  width: 600px;
+  height: 300px;
 }
 
 .passagem-aprendizado {
@@ -62,3 +68,5 @@ body {
 #rodape {
   border: solid;
 }
+
+
