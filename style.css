@@ -80,3 +80,18 @@ a {
     top: 100px;
 
 }
+
+.aulas {
+    display: block;
+    float: right;
+    width: 550px;
+    position: absolute;
+    left: 500px;
+    top: 300px;
+    border: 1px solid black;
+}
+
+.aulas td {
+    border: 1px solid black;
+    padding: 5px;
+}
