@@ -26,10 +26,14 @@ body{
 }
 
 #licoes_aprendidas{
-    display: inline-block;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #secao{
     display: inline-block;
+    margin-right: 20px;
+}
+
+#licoes_a_aprender{
+    font-family: 'Courier New', Courier, monospace;
 }
