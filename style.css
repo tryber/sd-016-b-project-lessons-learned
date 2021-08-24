@@ -13,12 +13,19 @@ h1 {
 }
 
 #cabecalho{
+  display: inline-block;
+  top: 0%;
   position:fixed
-  top 0
+  
 }
 
 #licoes_aprendidas {
   color: black;
+   
+}
+#minha_foto {
+width: 100px;
+border-radius: 70%;
+display: inline-block;
   
-
 }
