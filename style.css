@@ -58,5 +58,15 @@ a {
     text-decoration: none;
     margin-top: 40px;
     padding-left: 50px;
-    color: rgb(47, 193, 140;
+    color: rgb(47, 193, 140);
+}
+
+.article1 {
+    display: block;
+    float: right;
+    width: 400px;
+    position: absolute;
+    left: 500px;
+    top: 100px;
+
 }
