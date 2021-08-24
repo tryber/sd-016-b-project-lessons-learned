@@ -13,14 +13,34 @@ h1{
 
 }
 
+h2{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h3{
+    
+}
+
 #cabecalho{
     background-color: #2fc18c;
+    border-style: inset;
+    border-width: 0 0 8px 0;
+    border-color: rgb(6, 82, 13);
     height: 20%;
     position: fixed;
     width: 100%;
 }
 
-#title{
+#minha_foto{
+    margin-top: 0%;
+    border-radius: 50%;
+    margin-left: 12%;
+    margin-bottom: 25px;
+    
+}
+#titulo{
     display: inline-block;
     margin-left: 15%;
     -webkit-text-stroke-width: 1px;
@@ -36,4 +56,38 @@ h1{
     margin-left: 9px;
     
 }
+
+.main{
+    margin-top:9%;
+    height: 90%;
+    width: 100%;
+    background-color:rgb(253, 251, 251);
+}
+
+.profile{
+    width:20%;
+    height:80%;
+    background-color: rgb(176, 196, 160);
+    position: fixed;
+    border-style: inset;
+    border-width: 7px 0 0 0;
+    border-color: rgb(6, 108, 35);
+    
+}
+
+.nome {
+    padding-top: 5px;
+    margin-left: 26px;
+    width : 90%;
+    background-color: rgb(176, 196, 160);
+    
+}
+
+.personal-links{
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
 
