@@ -40,14 +40,14 @@ main {
   width: 32%;
 }
 
+aside h2 , article h2 {
+  font-size: 16px;
+}
+
 .listas h2 {
   text-align: left;
   font-size: 15px;
   padding-left: 1px;
-}
-
-aside h2,article h2 {
-  font-size: 16px;
 }
 
 .listas li {
@@ -67,7 +67,7 @@ aside h2,article h2 {
   text-align: justify;
 }
 
-aside p,article p {
+aside p , article p {
   font-size: 13px;
 }
 
