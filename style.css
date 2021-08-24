@@ -2,11 +2,36 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+#cabecalho ul {
+  list-style: none;
+}
+
+#cabecalho h1 {
+  text-align: center;
+}
+
+.tabela1 {
+  border: 1px solid black;
+  margin: 0;
+  width: 250px;
+  text-align: center;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
+  width: 100%;
+  background-color: rgb(173, 231, 173);
+  border: 1px solid black;
 }
 
 #minha_foto {
-  width: 100px;
+  width: 200px;
+  margin-left: 20px;
+  padding: 0;
+  border: 1px solid black;
+}
+
+#main {
+  margin-top: 12%;
 }
