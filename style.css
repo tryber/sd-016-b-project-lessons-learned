@@ -3,3 +3,32 @@
     border: 0;
     padding: 0;
 }
+body{
+    background-color: rgb(253, 251, 251);
+}
+header{
+    background-color: green;
+    border: 5px solid black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 99%;
+   
+    
+}
+main{
+    background-color: green;
+    width: 99%;
+    margin-top: 5%;
+    border: 5px solid black;
+}
+#minha_foto{
+    width: 25%;
+    
+    border: 15px solid white;
+    border-radius: 15%;
+    margin: 15px;
+}
+
