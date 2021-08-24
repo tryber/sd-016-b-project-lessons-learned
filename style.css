@@ -8,12 +8,40 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-header {
+#cabecalho {
+    background-color: rgb(88, 49, 1);
+    height: 130px;
     position: fixed;
     top: 0;
-    border: 1px solid red;
     width: 100%;
-    height: 100px;
+    }
+
+#titulo {
+    color: rgb(243, 213, 181);
+    text-align: center;
+    padding: 20px;
+}
+
+.nav-principal {
+    text-align: center;
+}
+
+.nav-principal li {
+    color: #a47148;
+    display: inline-block;
+    list-style: none;
+    padding: 15px 20px;
+}
+
+.nav-principal li:hover {
+    color: #ffedd8;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.nav-principal li:active {
+    color: #ffedd8;
+    font-weight: bolder;
+    cursor: pointer;
 }
 
 main {
