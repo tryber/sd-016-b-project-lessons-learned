@@ -9,10 +9,12 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  height: 50px;
+  height: 110px;
+  z-index: 1;
 }
 
 #titulo {
+  padding-top: 25px;
   color:darkgreen;
   margin-top: 0;
   font-size: 40px;
@@ -23,6 +25,7 @@ body {
   width: 200px;
   float: left;
   margin-right: 25px;
+  border: solid;
 }
 
 #licoes_aprendidas {
@@ -49,7 +52,6 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   line-height: 30px;
-  margin-bottom: 40px;
   width: 40%;
   display: inline-block;
 }
@@ -71,24 +73,27 @@ body {
 }
 
 .passagem-aprendizado {
-  font-size: 25px;
+  text-align: center;
+  font-size: 20px;
   background-color:lightgray;
   display: inline-block;
   width: 70%;
-  border: solid;
+  height: 180px;
 }
 
 .sub2 {
   margin-bottom: 30px;
+  background-color:lightgray;
+  margin-right: 30px;
 }
-
-
-#rodape {
-text-align: right;}
 
 .tabela {
   display: inline-block;
+  background-color:lightgray;
   text-align: center;
-  font-size: 25px;
-  margin-left: 40px;
+  font-size: 20px;
+}
+
+#rodape {
+  text-align: right;
 }
