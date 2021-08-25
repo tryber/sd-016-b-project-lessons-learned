@@ -1,0 +1,63 @@
+#estilo{
+  background-color: rgb(29, 136, 29);
+  font-family: fantasy;
+  color: aliceblue;
+  font-size: px;
+  font-weight: bold;
+  background-size: 90px;
+  top: 0;
+  text-align: center;
+  bottom: 10;
+  width: 500px;
+  border: 10px solid #73AD21;
+}
+
+body{
+  background-color:  rgb(253, 251, 251);
+  line-height: 25px;
+}
+
+#minha_foto{
+  line-height: 100px;
+  margin: 10px;
+  border: 30px;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+  font-size: 20px;
+  list-style-type: none
+}
+
+#licoes_a_aprender{
+  display: inline-block;
+  font-size: 20px;
+  list-style-type: none
+}
+
+ 
+#rodape{
+  font-family:Arial, sans-serif;
+}
+
+#article{
+ width: 400px;
+}
+
+#aside{
+  width: 40%;
+  float: right;
+  font-style: italic;
+  border-width: medium;
+ border-style: solid;
+ border-color: rgb(216, 128, 128);
+}
+
+#borderaside{
+border-width: medium;
+border-style: solid;
+border-color: rgb(216, 128, 128);
+font-style: italic;
+}
+ 
+  
