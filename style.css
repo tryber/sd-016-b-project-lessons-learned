@@ -20,6 +20,7 @@ body {
 #rodape {
     text-align: center;
     height: 200cm;
+    clear: left;
 }
 
 .article {
@@ -28,12 +29,14 @@ body {
     padding: 5px;
 }
 
-.right {
-    float: right;
-    text-align: justify;
-    margin-right: 30%;
-    padding: 5px;
-
+ol, .left {
+    float: left;
+    clear: left;
+    width: 200px;
 }
 
-
+ul, .right {
+    float: right;
+    clear: right;
+    width: 200px;;
+}
