@@ -5,7 +5,7 @@
 }
 
   #cabecalho {
-    top:0px
+    top:0px;
     position: fixed;
     text-align: :right;
     right: 100px;
@@ -58,5 +58,7 @@
   color: rgb(1, 0, 66);
   left: 300px;
   position: absolute;
-  top: 713px
+  top: 713px;
+  float:right;
+  margin right: 450px;
 }
