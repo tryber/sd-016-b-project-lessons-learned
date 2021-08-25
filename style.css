@@ -46,10 +46,10 @@ div {
   display: inline-block;
 }
 
-  #container-a {
-float: left;
+.lado-esquerdo {
+  float: left;
 }
 
-  #container-b {
+.lado-direito{
   float: left;
 }
