@@ -29,7 +29,6 @@ body {
     text-align: center;
     color: white;
     line-height: 65px;
-    clear: both;
 }
 
 a {
@@ -46,15 +45,16 @@ a {
     color: green;
     font-weight: 600;
     line-height: 25px;
-
 }
 
-.artigo h2{
-    color: green;
+.tabela{
+    width: 50%;
     text-align: center;
-    text-decoration: underline;
 }
 
-.grupo-artigos{
-    display: inline-block;
+.title-table{
+    width: 50%;
+    text-align: center;
+    color: green;
+    text-decoration: underline;
 }
