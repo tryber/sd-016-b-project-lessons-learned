@@ -84,16 +84,26 @@ footer {
 }
 
 article {
-    margin: 2%;
+    color: rgb(253, 251, 251);
+    padding: 2px 2px 2px 20px;
+    margin-left: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
     display: block;
     width: 800px;
     font-size: 90%;
-    background-color: green;
+    background-color: rgb(134, 75, 75);
+    border-radius: 0px 20px 20px 0px;
 }
 
 
 article h2 {
-    margin-left: 20px;
+    margin-left: 50px;
+}
+
+
+article p{
+    margin-left: 30px;
 }
 
 
@@ -101,8 +111,8 @@ article h2 {
 aside {
     width: 280px;
     position: absolute;
-    right: 25px;
-    top: 400px;
+    right: 13px;
+    top: 290px;
     font-size: 90%;
 }
 
