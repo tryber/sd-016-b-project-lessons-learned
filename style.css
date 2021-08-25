@@ -50,6 +50,10 @@ textarea {
 
 /* TAG */
 
+a {
+    margin: 5px;
+}
+
 body {
     background-color: var(--cor-fundo);
 }
@@ -140,7 +144,12 @@ main {
     max-width: 1200px;
 }
 
-#artigo_meu_aprendizado {}
+#artigo_meu_aprendizado {
+    background-image: url(/sd-016-b-project-lessons-learned/img/old-paper.jpg);
+    border: solid 2px var(--cor-foto);
+    border-radius: 10px;
+    padding: 5px;
+}
 
 #artigo_box {
     align-content: flex-start;
@@ -156,7 +165,12 @@ main {
     text-shadow: 2px 1px var(--cor-FloralWhite);
 }
 
-#notas {}
+#notas {
+    background-image: url(/sd-016-b-project-lessons-learned/img/old-paper.jpg);
+    border: solid 2px var(--cor-foto);
+    border-radius: 10px;
+    padding: 5px;
+}
 
 #notas_do_artigo {
     align-content: flex-start;
@@ -172,7 +186,15 @@ main {
     text-shadow: 2px 1px var(--cor-FloralWhite);
 }
 
-#rodape {}
+#rodape {
+    margin: 50px;
+}
+
+#rodape__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
 
 /* ----------------------------------------------------------------------------------------------- */
@@ -182,8 +204,12 @@ main {
 
 .list__box {
     align-content: flex-start;
+    background-image: url(/sd-016-b-project-lessons-learned/img/old-paper.jpg);
+    border: solid 2px var(--cor-foto);
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
+    padding: 5px;
     width: 400px;
 }
 
@@ -207,6 +233,13 @@ main {
 .icon {
     height: 50px;
     width: 50px;
+}
+
+.rodape__list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
 }
 
 
