@@ -59,18 +59,18 @@ p {
   margin-left: 10px;
 }
 
-.artigo {
+.lado-esquerdo {
   margin-top: 20px;
   width: 75%;
   display: inline-block;
   margin-right: 3%;
 }
 
-.artigo p {
+.lado-esquerdo p {
   text-align: justify;
 }
 
-.sidebar {
+.lado-direito {
 
   /* display: inline-block; */
   width: 20%;
