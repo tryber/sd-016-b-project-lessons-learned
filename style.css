@@ -10,20 +10,17 @@ body {
 }
 
 h1 , h2 , h3 {
-	font-family: Georgia, "Times New Roman", "Times", serif;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2 , h3 {
 	font-size: 24px;
+	margin-top: 15px;
 }
 
 p , li {
 	font-size: 16px;
 	line-height: 20px;
-}
-
-img {
-	width: 200px;
 }
 
 /* Header */
@@ -63,6 +60,28 @@ img {
 	margin-left: 10px;
 }
 
+#minha_foto {
+	width: 200px;
+	margin-top: 15px;
+}
+
+.redes-list {
+	margin-top: 10px;
+}
+
+.redes-list li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.redes-list a {
+	padding: 3px 8px;
+	background-color: #f7ec59;
+	text-decoration: none;
+	color: #12130f;
+	border-radius: 30px;
+}
+
 .lado-esquerdo , .lado-direito {
 	display: inline-block;
 	width: 40%;
@@ -72,7 +91,6 @@ img {
 	float: right;
 }
 
-div {
+.container-aprendizado {
 	width: 960px;
 }
-
