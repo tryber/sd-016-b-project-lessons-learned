@@ -1,24 +1,37 @@
 body { 
 background-color: rgb(253, 251, 251);
 }
-#cabecalho{ top: 0%;
+#cabecalho{ top: 0;
     background-color: pink;
-
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
 
 }
-#titulo {
+
+#titulo {font-size: 50px;
+   
 
 }
 #minha_foto{
+    width: 100px;
+    right: 60px;
+    margin: 30px;
+    display: unset;
+
+  
 
 }
 
-#licoes_aprendidas{
+#licoes_aprendidas{ 
+     margin-left: 25px;
+    background-color: plum;
 
 
 }
 
-#licoes_a_aprender {
+#licoes_a_aprender { margin-left: 25px;
+    background-color: rgb(221, 160, 191);
 
 }
 
@@ -27,6 +40,7 @@ background-color: rgb(253, 251, 251);
 
 }
 
-.tabela {
-    
-}
+
+nav{text-align: left;
+padding: 5px;
+margin-left: 30px;}
