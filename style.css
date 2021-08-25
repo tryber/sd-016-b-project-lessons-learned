@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin-left: 20px;
 }
 
 #cabecalho {
@@ -8,17 +9,14 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  height: 40px;
+  height: 50px;
 }
 
 #titulo {
+  color:darkgreen;
   margin-top: 0;
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
-}
-
-.lado-esquerdo p {
-  padding-top: 30px;
 }
 
 #minha_foto {
@@ -29,41 +27,68 @@ body {
 
 #licoes_aprendidas {
   display: inline-block;
-  margin-left: 50px;
-  padding: 60px 50px;
+  padding: auto;
+  background-color:darkolivegreen;
+  width: 400px;
+  height: 450px;
 }
 
 #licoes_a_aprender {
   display: inline-block;
-  padding: 60px 50px;
+  padding: auto;
+  background-color: darkslategray;
+  height: 450px;
+  width: 280px;
+  margin-left: -6px;
 }
 
 .lado-esquerdo {
-  margin-top: 60px;
+  background-color: grey;
+  margin-top: 102px;
   color: black;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   line-height: 30px;
-  margin-left: 20px;
-  width: 50%;
+  margin-bottom: 40px;
+  width: 40%;
   display: inline-block;
 }
 
 .lado-direito {
+  font-size: 20px;
   position: absolute;
-  top: 20px;
-  margin-top: 50px;
-  margin-left: 20px;
+  top: 90px;
+  line-height: 45px;
+  margin-left: auto;
   display: inline-block;
-  width: 600px;
-  height: 300px;
+  width: 1000px;
+  height: 460px;
+}
+
+.link {
+  font-size: 15px;
+  text-align: right;
 }
 
 .passagem-aprendizado {
+  font-size: 25px;
+  background-color:lightgray;
+  display: inline-block;
+  width: 70%;
   border: solid;
+}
+
+.sub2 {
+  margin-bottom: 30px;
 }
 
 
 #rodape {
-  border: solid;
+text-align: right;}
+
+.tabela {
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  margin-left: 40px;
 }
