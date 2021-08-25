@@ -5,11 +5,13 @@
 }
 
   #cabecalho {
-    top: 0.%;
+    top:0px
     position: fixed;
-    text-align: center;
+    text-align: :right;
     right: 100px;
     line-height: 10px;
+    margin-top: 0;
+    padding-top: 0;
 }
   #titulo {
       text-align: center;     
@@ -17,7 +19,7 @@
       color: #009E1C; 
       background-color: #EB8E26;
       margin-top: 10px;
-      top: 0.%;
+      padding: 20px;
   }
   #minha_foto {
     width: 500px;
