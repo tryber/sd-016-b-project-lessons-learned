@@ -2,6 +2,8 @@
 
     --background_color: rgb(253, 251, 251);
 
+    --foot_color: rgb(32, 52, 168);
+
     --primary_color: rgb(94, 18, 248);
 
     --secondary_color: rgb(37, 248, 18);
@@ -18,6 +20,10 @@
     font-family: var(--font_raleway);
     margin: 0;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 #about_me {
@@ -91,6 +97,14 @@ body {
     flex-direction: column;
 }
 
+.lado-direito {
+    float: right;
+}
+
+.lado-esquerdo {
+    float: left;
+}
+
 .lessons {
     padding: 15px 0 0 35px;
 }
@@ -156,6 +170,15 @@ body {
     border-right: transparent;
     border-radius: 25px 0 0 25px;
     padding: 15px 10px;
+}
+
+#rodape {
+    background-color: var(--foot_color);
+    color: var(--background_color);
+}
+
+#rodape li a {
+    color: var(--background_color);
 }
 
 .self_resume {
