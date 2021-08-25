@@ -1,17 +1,89 @@
-body {
-  background-color: rgb(253, 251, 251);
+* {
   margin: 0;
 }
 
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: monospace;
+  font-size: 1.15em;
+  color: rgb(119, 119, 119);
+}
+
+a {
+  color: rgb(119, 119, 119);
+}
+
+main {
+  background-color: rgb(31, 31, 31);
+  margin: 3%;
+  margin-bottom: 0%;
+}
+
 #cabecalho {
+  display: inline-block;
   position: fixed;
   top: 0;
-  background-color: rgb(253, 251, 1);
+  background-color: rgb(64, 64, 64);
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 94%;
+}
+
+#cabecalho h1 {
+  float: left;
+  margin-left: 3%;
+}
+
+#cabecalho h2 {
+  clear: left;
+  text-align: left;
+  margin-left: 14.28%;
+}
+
+nav p {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+nav ul {
+  display: inline-block;
+  float: right;
+  margin-right: 10%;
+  list-style: none;
   text-align: center;
-  padding-right: 100%;
 }
 
 #minha_foto {
   height: 300px;
-  margin-top: 10%;
+  margin-top: 4%;
+}
+
+.unbold {
+  font-weight: 100;
+  font-style: italic;
+}
+
+table {
+  font-size: 0.9em;
+  caption-side: bottom;
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(64, 64, 64);
+  margin-inline: 3%;
+  padding-bottom: 6%;
+}
+
+footer ul {
+  float: right;
+  margin-right: 18%;
+  margin-top: 1%;
+  list-style: none;
+  width: auto;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-top: 10px;
 }
