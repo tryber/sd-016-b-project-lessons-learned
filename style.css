@@ -45,9 +45,11 @@ div {
   height: 100px;
   display: inline-block;
 }
-#container-a{
+
+  #container-a {
 float: left;
 }
-#container-b {
+
+  #container-b {
   float: left;
 }
