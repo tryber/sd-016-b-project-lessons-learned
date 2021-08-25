@@ -1,0 +1,113 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  background-color: gold;
+  height: 125px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+}
+
+#titulo {
+  position: fixed;
+  top: 0;
+  z-index: 4;
+}
+
+#minha_foto {
+  border-radius: 5%;
+  left: 0;
+  position: absolute;
+  top: 125px;
+  width: 260px;
+  z-index: 1;
+}
+
+#licoes_aprendidas {
+  left: 0;
+  position: absolute;
+  top: 440px;
+  z-index: 2;
+}
+
+#licoes_a_aprender {
+  left: 250px;
+  position: absolute;
+  top: 440px;
+  z-index: 2;
+}
+
+.lado-direito , .lado-esquerdo {
+  color: rgb(1, 0, 66);
+  left: 0;
+  position: absolute;
+  top: -60px;
+  width: 260px;
+}
+
+#rodape {
+  left: 0;
+  position: absolute;
+  top: 900px;
+}
+
+.contatos:hover {
+  color: chartreuse;
+  font-weight: 900;
+}
+
+.navegacao {
+  display: inline;
+  list-style: none;
+  position: fixed;
+  top: 50px;
+  width: 100%;
+}
+
+.nav {
+  float: left;
+  padding: 5px;
+}
+
+.inicio:hover , .listas:hover , .final:hover {
+  background-color: greenyellow;
+  border: solid black;
+  border-radius: 10%;
+  font-weight: 900;
+}
+
+a {
+  color: black;
+  font-style: normal;
+  text-decoration: none;
+}
+
+#info {
+  left: 0;
+  position: absolute;
+  top: 700px;
+  width: 45%;
+}
+
+aside {
+  border: 10px solid rgb(1, 0, 66);
+  float: right;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 200px;
+  width: 20%;
+}
+
+p {
+  color: rgb(1, 0, 66);
+  font-family: Courier, monospace;
+  font-size: 90%;
+  line-height: 15px;
+}
+
