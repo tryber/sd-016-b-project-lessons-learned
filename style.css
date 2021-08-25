@@ -1,10 +1,12 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Sora', sans-serif;
+  font-family: monospace;
+  font-size: 16px;
 }
 
 #cabecalho {
-  background-color: #52b69a;
+  background-color: rgb(183, 228, 199);
+  border-bottom: 2px solid black;
   text-align: center;
   position: fixed;
   top: 0;
@@ -13,9 +15,8 @@ body {
   width: 100%;
 }
 
-.link{
+.link {
   color: black;
-  font-weight: bold;
   text-decoration: none;
   padding-right: 3px;
   padding-left: 3px;
@@ -23,15 +24,57 @@ body {
   border-radius: 10%;
 }
 
-header .link:hover{
-  background-color: #34a0a4;
+header .link:hover {
+  background-color: rgb(149, 213, 178);
 }
 
 #minha_foto {
+  border-radius: 15%;
+  display: inline-block;
+  margin-left: 20%;
   width: 300px;
-  border-radius: 50%;
 }
 
-section {
-  margin-top: 110px;
+aside {
+  margin-top: 9%;
+  display: inline-block;
+  width: 50%;
+}
+
+aside p {
+  margin-left: 50px;
+  display: inline-block;
+}
+
+.lado-direito h2 {
+  text-align: center;
+}
+
+.lado-direito {
+  display: inline-block;
+  margin-top: 3%;
+  padding-right: 20px;
+  width: 500px;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+  margin-right: 80px;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+}
+
+.lado-esquerdo h2 {
+  text-align: center;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 26px;
+  font-family: sans-serif;
+  width: 515px;
+
 }
