@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: pink;
+  background-color: rgb(253, 226, 228);
   position: fixed;
   text-align: center;
   padding: 0;
@@ -51,4 +51,42 @@ nav h1 {
 
 .lessons {
   display: inline-block;
+}
+
+tr {
+  display: inline-block;
+  width: 550px;
+  padding: 40px;
+}
+
+div p {
+  text-align: center;
+}
+
+#myLearning {
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
+#passagem {
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+#rodape {
+  background-color: rgb(253, 226, 228);
+  padding: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+footer p {
+  padding: 7px;
+  margin: 0;
 }
