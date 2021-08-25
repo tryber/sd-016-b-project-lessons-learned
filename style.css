@@ -40,15 +40,12 @@ h1 , h2 {
 
 .lado-esquerdo {
   margin-top: 50px;
-  display: inline-block;
 }
 
 .lado-direito {
   margin-top: 50px;
   margin-bottom: 50px;
   width: 75%;
-  display: inline-block;
-  margin-left: 10px;
 }
 
 #list {
