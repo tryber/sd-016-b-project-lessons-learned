@@ -22,12 +22,11 @@ body {
 header h1 {
   font-size: 30px;
   font-weight: 600;
-  color: rgba(61,73,92);
+  color: rgba(61, 73, 92);
   font-family: monospace;
 }
 
-p,
-li {
+p,li {
   line-height: 25px;
 }
 
@@ -75,7 +74,7 @@ main {
 }
 
 header {
-  background-color: rgb(129,124,124);
+  background-color: rgb(129, 124, 124);
   width: 100%;
   text-align: left;
   color: white;
@@ -88,8 +87,7 @@ table {
   margin-right: auto;
 }
 
-th,
-td {
+th,td {
   border: 1px solid;
 }
 
