@@ -57,6 +57,7 @@ main {
   font-size: 20px;
   font-style: italic;
   text-decoration: underline;
+  line-height: 30px;
 }
 
 #container_ul h2 {
@@ -69,13 +70,48 @@ main {
   font-size: 20px;
   font-style: italic;
   text-decoration: underline;
+  line-height: 20px;
+  line-height: 30px;
 }
 
 /* Conteúdo dos artigos */
 
-#conteudo {
+#container_conteudos {
   background-color: coral;
   margin-top: 100px;
   padding: 20px;
+  text-align: justify;
 }
+
+.lado-esquerdo {
+  width: 500px;
+  display: inline-block;
+  border-style: dotted;
+  border-color: rgb(91, 207, 188);
+  padding: 10px;
+}
+
+.lado-direito {
+  width: 700px;
+  display: inline-block;
+}
+
+#conteudo_lado_direito {
+  width: 400px;
+  display: inline-block;
+  border-style: dotted;
+  border-color: rgb(91, 207, 188);
+  padding: 10px;
+}
+
+#conteudo_a_parte {
+  width: 250px;
+  display: inline-block;
+  box-sizing: border-box;
+  border: black;
+  border-style: solid;
+  border-color: rgb(42, 54, 163);
+  padding: 10px;
+}
+
 
