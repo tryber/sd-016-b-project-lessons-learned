@@ -46,7 +46,6 @@ nav p {
 }
 
 nav ul {
-  display: inline-block;
   float: right;
   margin-right: 10%;
   list-style: none;
@@ -72,12 +71,12 @@ table {
 footer {
   background-color: rgb(64, 64, 64);
   margin-inline: 3%;
-  padding-bottom: 6%;
+  padding-bottom: 1%;
 }
 
 footer ul {
   float: right;
-  margin-right: 18%;
+  margin-right: 15%;
   margin-top: 1%;
   list-style: none;
   width: auto;
@@ -86,4 +85,12 @@ footer ul {
 footer ul li {
   display: inline-block;
   margin-top: 10px;
+}
+
+.footerText {
+  display: inline-flexbox;
+  padding-top: 1.78%;
+  margin-left: 3%;
+  text-align: center;
+  font-style: italic;
 }
