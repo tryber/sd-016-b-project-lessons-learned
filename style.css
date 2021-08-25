@@ -15,12 +15,11 @@ body{
     text-align: center;
 }
 
-#minha_foto{
-    width: 250px;
-    display: inline-block;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 20px;
+#nav{
+    padding: 10px 10px;
+    background-color: antiquewhite;
+    border: 2px solid black ;
+    position: fixed=0;
 }
 
 #main{
@@ -30,10 +29,18 @@ body{
 
 #secao{
     background-color: antiquewhite;
+    border: 2px solid black ;
+    margin-top: 20px;
+    display: inline-block;
+    max-width:80%;
 }
 
-#licoes_aprendidas{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#minha_foto{
+    width: 250px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 #secao_list{
@@ -41,8 +48,34 @@ body{
     margin-right: 20px;
 }
 
+#licoes_aprendidas{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 #licoes_a_aprender{
     font-family: 'Courier New', Courier, monospace;
+}
+
+
+#artigo{
+    background-color: antiquewhite;
+    padding: 10px 10px;
+    display: inline-block;
+}
+#aside{
+    adding: 10px 10px;
+    background-color: antiquewhite;
+    border: 2px solid black ;
+    display: inline-block;
+    max-width: 18%;
+    position: relative;
+    float: right;
+    margin-top: 20px;
+}
+
+#externo{
+    display: inline-block;
+    margin-right: 30px;
 }
 
 #rodape{
@@ -50,14 +83,6 @@ body{
     color: aliceblue;
     text-align: center;
     padding: 10px 10px;
-}
-
-#externo{
-    margin-left: 20px;
+    margin-top: 20px;
     display: block;
-}
-
-#artigo{
-    background-color: antiquewhite;
-    padding: 10px 10px;
 }
