@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 120px;
+  background-color: rgb(10, 126, 81);
+  border-radius: 0 0 5% 5%;
+}
+
+img {
+  width: 300px;
+  margin: 20px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  text-decoration: none;
+  width: 80px;
+}
+
+main {
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+
+.lado-direito {
+  width: 400px;
+  float: right;
+  background-color: rgba(10, 126, 81, 0.15);
+  padding: 20px;
+  border-radius: 10%;
+  border: 1px solid rgb(10, 126, 81);
+  margin: 20px;
+}
+
+table , tr , th , td {
+  border: 0.5px solid rgb(10, 126, 81);
+  display: inline-block;
+}
+
+tr , th , td {
+  width: 200px;
+}
+
+th , td {
+  height: 40px;
+  text-align: center;
+}
+
+
+aside {
+  width: 400px;
+  float: right;
+  line-height: 1.4;
+  background-color: rgba(10, 126, 81, 0.08);
+  padding: 20px;
+  border-radius: 10%;
+  border: 1px solid rgb(10, 126, 81);
+}
+
+aside h2 {
+  position: relative;
+  margin-top: 0;
+}
+
+footer {
+  bottom: 5px;
+  text-align: center;
+  color: rgb(10, 126, 81);
+  font: 20px Arial, sans-serif;
+}
