@@ -34,3 +34,7 @@ h2:nth-of-type(2) {
     top: 400px;
     left: 300px; 
     }
+p {
+    position: absolute;
+    top: 600px;
+    }
