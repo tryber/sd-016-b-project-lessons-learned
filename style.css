@@ -1,6 +1,8 @@
 /* Requisito 1 */
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
 }
 
 header {
@@ -53,4 +55,28 @@ table , th , td {
   background-color: cornflowerblue;
   color: black;
   border: 1px ridge red;
+}
+
+article p {
+  text-indent: 10px;
+  line-height: 30px;
+  
+  
+}
+
+aside p{
+  text-indent: 10px;
+  line-height: 30px;
+}
+
+.content-list {
+  display: inline-block;
+}
+
+.lista-ordenada {
+  display: inline-block;
+}
+
+.lista-nao-ordenada {
+  display: inline-block;
 }
