@@ -17,7 +17,7 @@ body {
     line-height: 2.0em;
 }
 
-h2 {
+h2,h3,h4 {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
@@ -78,22 +78,23 @@ img {
 }
 
 .section {
-    float: right;
     width: 65%;
     margin: 10px;
     font-size: 1.0em;
 }
 
+.lado-direito {
+    float: right;
+}
+
 .article {
-    float: left;
     width: 30%;
     margin: 10px;
     text-align: justify;
     font-size: 1.2em;
 }
-
-.aside {
-    clear: both;
+.lado-esquerdo {
+    float: left;
 }
 
 .alinha-foto {
@@ -111,7 +112,7 @@ img {
 }
 
 .table {
-    width: 90%;
+    width: 70%;
     font-size: 0.8em;
     margin-left: auto;
     margin-right: auto;
