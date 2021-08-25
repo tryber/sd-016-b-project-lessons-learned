@@ -16,7 +16,7 @@ img {
     width: 20%;
     border-radius: 50%;
     position: absolute;
-    right: 40px;
+    right: 23px;
     top: 20px;
     padding: .6%;
     background-color: rosybrown;
@@ -24,7 +24,7 @@ img {
 
 
 #cabecalho {
-    padding: 10px;
+    padding: 10px 0px;
     background-color: rgb(160, 115, 115);
     width: 100%;
     height: 100px;
@@ -47,7 +47,7 @@ section div {
 
 section {
     padding: 1px;
-    width: 70%;
+    width: 75%;
     background-color: rosybrown;
     border-radius: 0px 0px 50px 0px;
 }
@@ -57,8 +57,56 @@ ul, ol {
     text-align: left;
 }
 
-
-.div_direito {
-    margin: 0px 0px 50px 0px;
+nav {
+    width: 150px;
+    height: 42px;
+    background-color: rosybrown;
+    border-radius: 10px;
+    margin: 0px 0px 0px 20px;
 }
 
+
+nav li a:hover {
+    color: rgb(160, 115, 115);
+}
+
+nav:hover {
+    background-color: rgb(212, 186, 186);
+    color: rgb(212, 186, 186);
+}   
+
+footer {
+    margin: 30px 0px 0px 0px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(160, 115, 115);
+    border-radius: 0px 20px 0px 0px;
+}
+
+article {
+    margin: 2%;
+    display: block;
+    width: 800px;
+    font-size: 90%;
+    background-color: green;
+}
+
+
+article h2 {
+    margin-left: 20px;
+}
+
+
+
+aside {
+    width: 280px;
+    position: absolute;
+    right: 25px;
+    top: 400px;
+    font-size: 90%;
+}
+
+
+aside h2 {
+    text-align: center;    
+}
