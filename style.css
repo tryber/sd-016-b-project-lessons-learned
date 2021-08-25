@@ -3,10 +3,14 @@
 body {
   background-color: rgb(253, 251, 251);
   color: rgb(49, 47, 47);
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   margin-left: 5px;
   max-width: 100%;
   line-height: 200%;
+}
+
+.bloco {
+  display: flex;
 }
 
 #cabecalho {
@@ -20,8 +24,10 @@ body {
   top: 0;
 }
 
-#ensinamentos_current {
-  max-width: 100%;
+#coding_cat {
+  margin-top: 2%;
+  margin-left: 30%;
+  width: 42%;
 }
 
 h2 {
@@ -29,8 +35,26 @@ h2 {
   font-size: 200%;
 }
 
-p {
+.lado-esquerdo {
+  max-width: 60%;
+}
+
+.lado-direito {
+  margin-left: 9%;
+  max-width: 40%;
+}
+
+#licoes_lista {
+  max-width: 35%;
+}
+
+li a {
+  text-decoration: none;
   font-size: 120%;
+}
+
+a:hover {
+  color: rgb(189, 189, 39);
 }
 
 #minha_foto {
@@ -41,10 +65,15 @@ p {
   width: 400px;
 }
 
-table {
-  width: 35%;
+p {
+  font-size: 120%;
 }
 
-table, th, td {
+table {
+  width: 40%;
+  font-size: 120%;
+}
+
+table , th , td {
   border: 1px solid black;
 }
