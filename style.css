@@ -1,6 +1,12 @@
     /*cor da de fundo da pagina toda*/
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
     body {
         background-color: rgb(253, 251, 251);
+       
     }
     /*inicio do titolo*/
     .section-title {
@@ -9,23 +15,27 @@
     }
     /**/
     #cabecalho {
+        margin-top: 0%;
         font-weight: 600;
-        top: 0;
-                        
+        margin: 0;
+                         
     }
-    /**/
+    /*cor de fundo/ cor letra/ centralizado/ tamanho da fonte/ tamanho da borda*/
     #titulo {
-        background-color: rgb(53, 82, 207);
-        color: rgb(21, 51, 21);
+        background-color: rgb(36, 62, 182);
+        color: rgb(13, 14, 13);
         padding: 0px 400px;
         font-size: 28px;  
         line-height: 42px;
+        
            
     }
     /**/
     .imgtitolo {
         border-radius: 50%;
         width: 80px;
+        
+       
     }
     /*navegador/ centralizar/ largura/ */
     nav{
@@ -40,4 +50,9 @@
         padding: 0px 10px;
         text-decoration: none;
 
+    }
+    /*imagem de fundo/ tanho da imagem*/
+    .img-main{
+        background-image: url("/imagens/");
+        background-size: cover;
     }
