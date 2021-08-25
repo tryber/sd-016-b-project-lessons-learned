@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <title>Document</title>
 </head>
 
@@ -13,71 +14,70 @@
   <header id="cabecalho" class="header">
     <h1 id="titulo">Lessons Learned</h1>
   </header>
-  <nav>
-    <ul>
+  <nav class="navigation">
+    <ul class="nav_list">
       <li><a href="#cabecalho">Início</a></li>
-      <li><a href="#licoes_aprendidas">Lições Aprendidas</a></li>
-      <li><a href="#licoes_a_aprender">Lições a Aprender</a></li>
+      <li><a href="#licoes_aprendidas">Lições</a></li>
+      <li><a href="#meu_aprendizado">Meu aprendizado</a></li>
       <li><a href="https://www.linkedin.com/in/tainnaps/"
           target="_blank">Linkedin</a></li>
       <li><a href="https://github.com/tainnaps" target="_blank">Github</a></li>
     </ul>
   </nav>
-  <section>
+  <div class="content">
+    <section class="learned section_setup">
+      <h2>Lições Aprendidas</h2>
+      <ol id="licoes_aprendidas">
+        <li>Conhecer sistemas baseados em Unix</li>
+        <li>Utilizar o Bash</li>
+        <li>Versionar arquivos com Git</li>
+        <li>Utilizar o GitHub</li>
+        <li>Compreender o funcionamento da Internet</li>
+        <li>Estruturar páginas web com HTML</li>
+        <li>Estilizar tags HTML com CSS</li>
+        <li>Posicionar elementos numa página web</li>
+        <li>Utilizar HTML semântico para criar páginas web acessíveis</li>
+        <li>Praticar o autoconhecimento</li>
+      </ol>
+    </section>
     <img id="minha_foto"
       src="https://media-exp1.licdn.com/dms/image/C4D03AQGNzMBMSt9ARQ/profile-displayphoto-shrink_800_800/0/1628638444292?e=1635379200&v=beta&t=ppkX48-iCDbSTrt333QTNw3CuyHcgXSi_iFDUWnOFJU"
       alt="Jovem preta com cabelo cacheado solto vista de frente">
-  </section>
-  <section>
-    <h2>Lições Aprendidas</h2>
-    <ol id="licoes_aprendidas">
-      <li>Conhecer sistemas baseados em Unix</li>
-      <li>Utilizar o Bash</li>
-      <li>Versionar arquivos com Git</li>
-      <li>Utilizar o GitHub</li>
-      <li>Compreender o funcionamento da Internet</li>
-      <li>Estruturar páginas web com HTML</li>
-      <li>Estilizar tags HTML com CSS</li>
-      <li>Posicionar elementos numa página web</li>
-      <li>Utilizar HTML semântico para criar páginas web acessíveis</li>
-      <li>Praticar o autoconhecimento</li>
-    </ol>
-  </section>
-  <section>
-    <h2>Lições a Aprender</h2>
-    <ul id="licoes_a_aprender">
-      <li>Desenvolver códigos em JavaScript</li>
-      <li>Realizar testes automatizados</li>
-      <li>Utilizar bancos de dados</li>
-      <li>Conhecer arquitetura de redes</li>
-      <li>Dar e receber feedbacks</li>
-      <li>Desenvolver códigos em Python</li>
-      <li>Aprender estruturas de dados</li>
-      <li>Aprender metodologias ágeis</li>
-      <li>Aprender programação orientada a objetos</li>
-      <li>Metodologias para resolução de problemas</li>
-    </ul>
-  </section>
-  <article>
-    <h2>Meu aprendizado</h2>
-    <p>Durante as duas semanas completas como estudante da Trybe, puder notar
-      um grande avanço na curva de aprendizado. Além de adquirir novas
-      habilidades, como utilizar Git e Github e desenvolver páginas web com
-      HTML e CSS, também aprendi a realizar pesquisas de forma eficaz para
-      sanar qualquer dúvida que surja no processo, ou seja, aprendi a aprender
-      e carrego a certeza de que, ao longo da minha formação, aprenderei muito
-      mais.</p>
-  </article>
-  <aside>
-    <h2>Para inspirar</h2>
-    <p>O filósofo Aristóteles afirmou que "A educação tem raízes amargas, mas
-      os seus frutos são doces". Nem sempre o processo de aprendizado é fácil,
-      então, quando as coisas pareceram amargas, lembre-se que, ao final da
-      caminhada, o sabor será doce.</p>
-  </aside>
-  <footer id="rodape">
-    <p>Conteúdo produzido e atualizado por <em>Tainá Santana</em>, 2021.</p>
-  </footer>
+    <section class="to_learn section_setup">
+      <h2>Lições a Aprender</h2>
+      <ul id="licoes_a_aprender">
+        <li>Desenvolver códigos em JavaScript</li>
+        <li>Realizar testes automatizados</li>
+        <li>Utilizar bancos de dados</li>
+        <li>Conhecer arquitetura de redes</li>
+        <li>Dar e receber feedbacks</li>
+        <li>Desenvolver códigos em Python</li>
+        <li>Aprender estruturas de dados</li>
+        <li>Aprender metodologias ágeis</li>
+        <li>Aprender programação orientada a objetos</li>
+        <li>Metodologias para resolução de problemas</li>
+      </ul>
+    </section>
+    <article id="meu_aprendizado" class="lado-esquerdo">
+      <h2>Meu aprendizado</h2>
+      <p>Durante as duas semanas completas como estudante da Trybe, pude notar
+        um grande avanço na curva de aprendizado. Além de adquirir novos
+        conhecimentos em desenvolvimento web, também aprendi a realizar
+        pesquisas de forma eficaz para sanar dúvidas que surjam no processo, ou
+        seja, aprendi a
+        aprender.</p>
+    </article>
+    <aside class="lado-direito">
+      <h2>Para inspirar</h2>
+      <p>O filósofo Aristóteles afirmou que "A educação tem raízes amargas, mas
+        os seus frutos são doces". Nem sempre o processo de aprendizado é
+        fácil, então, quando as coisas pareceram amargas, lembre-se que, ao
+        final da caminhada, o sabor será doce.</p>
+    </aside>
+    <footer id="rodape">
+      <p>Conteúdo produzido e atualizado por <em>Tainá Santana</em>, 2021.</p>
+    </footer>
+  </div>
 </body>
 
 </html>
