@@ -10,7 +10,7 @@
 
 body {
   background-color: var(--bg-color);
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .container {
@@ -24,7 +24,7 @@ body {
 
 #cabecalho {
   background-color: rgb(30, 36, 36);
-  color: #fff;
+  color: #ffffff;
   padding: 15px;
   padding-bottom: 0;
   position: fixed;
@@ -36,13 +36,13 @@ body {
   margin: 15px 0px;
 }
 
-.nav ul li{
+.nav ul li {
   display: inline-block;
 }
 
 .nav a {
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
   margin-right: 25px;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 .header {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #000000;
   margin-bottom: 15px;
 }
 
@@ -65,7 +65,7 @@ body {
 }
 
 .header p {
-  color: #fff;
+  color: #ffffff;
   font-size: 1.2em;
   font-weight: 300;
   margin-bottom: 15px;
@@ -86,6 +86,7 @@ body {
 .to-do {
   display: inline-block;
 }
+
 .lado-esquerdo {
   float: left;
   border: 1px solid red;
