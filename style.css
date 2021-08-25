@@ -19,6 +19,7 @@ h1 {
     display: inline-block;
     position: fixed;
     top: 0;
+    padding: 15px;
 }
 
 #minha_foto {
@@ -71,4 +72,15 @@ h2 {
     text-align: center;
     height: 100px;
     width: 500px;
+}
+
+.lado_esquerdo {
+    width: 200px;
+    display: inline-block;
+}
+
+.lado_direito {
+    width: 200px;
+    display: inline-block;
+    margin-top: 10px;
 }
