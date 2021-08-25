@@ -52,4 +52,5 @@ table , th , td {
 .link:hover {
   background-color: cornflowerblue;
   color: black;
+  border: 1px ridge red;
 }
