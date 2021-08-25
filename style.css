@@ -52,11 +52,13 @@ body {
 
 #licoes_aprendidas {
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 2px;
   font-size: 18px;
 }
 
 #licoes_a_aprender {
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 2px;
   font-size: 18px;
 }
 
