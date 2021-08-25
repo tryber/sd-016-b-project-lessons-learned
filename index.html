@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&display=swap" rel="stylesheet">
+    <title>Lessons Learned</title>
+</head>
+<body>
+    
+    <header id="cabecalho" class="cover_width">
+        <div class="container d_flex">
+            <section class="d_flex center_all">
+                <h1 class="titles" id="titulo">Me</h1>
+                <img src="./coffee.svg" alt="home icon">
+            </section>
+
+            <section>
+                <nav class="navbar navbar_header">
+                    <ul class="no_decoration">
+                        <a href="#about_me"><li class="button">About me</li></a>
+                        <a href="#skills"><li class="button">Skills</li></a>
+                        <a href="#contact"><li class="button">Contact</li></a>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+    </header>
+
+    <main>
+        <section id="about_me">
+            <div class="container sec_about_me">
+                <section class="d_flex flex_column sec_ab_1">
+                    <div class="presentation">
+                        <h2 class="titles border_secondary cover_height">Gabriel Silvestre</h2>                    
+                    </div>
+                    <div class="my_infos border_secondary cover_height">
+                        <ul class="d_flex no_decoration">
+                            <li>Gender: Cis/Man</li>
+                            <li>Age: 20</li>
+                            <li>Nacionality: Brazilian</li>
+                        </ul>
+                    </div>
+                </section>
+    
+                <article class="sec_ab_2">
+                    <p class="border_secondary cover_height self_resume">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis placeat, soluta quia officiis dolor magni enim nam unde non quisquam, rem architecto quaerat voluptates quasi officia consectetur distinctio quas nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quo alias reiciendis itaque veritatis omnis, odio, exercitationem tenetur, nisi adipisci illo odit! Autem nemo eveniet aliquam voluptatum. Cum, ratione iure.</p>
+                </article>
+    
+                <section class="sec_ab_3">
+                    <img id="minha_foto" class="border_secondary" src="./Profile_picture_square.jpeg" alt="Gabriel Silvestre profile picture">
+                </section>
+            </div>
+        </section>
+
+        <div class="d_flex container sec_divisor split_between">
+            <section id="skills" class="cover_width">
+                <div class="sec_title">
+                    <h3 class="titles title_skills border_secondary">Skills</h3>
+                </div>  
+                <div class="sec_skills d_flex split_between">              
+                    <section>
+                        <ol id="licoes_aprendidas" class="d_flex flex_column split_between lessons cover_height">
+                            <li>Unix & Bash</li>
+                            <li>GIT</li>
+                            <li>GitHub</li>
+                            <li>Web Work-flow</li>
+                            <li>HTTP Protocols</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Semantic HTML</li>
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                        </ol>
+                    </section>
+        
+                    <section>
+                        <h4 class="titles border_secondary">Not-Learned</h4>
+                        <ul id="licoes_a_aprender" class="d_flex flex_column split_between no_decoration lessons">
+                            <li>Web-responsivity</li>
+                            <li>Jest.js</li>
+                            <li>React.js</li>
+                            <li>Redux.js</li>
+                            <li>Agile Methodology</li>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+                            <li>Socket</li>
+                        </ul>
+                    </section>
+                </div>
+            </section>
+    
+            <section id="contact" class="personal_info">
+                <div>
+                    <nav class="navbar">
+                        <ul class="d_flex split_between social_icons">
+                            <li>
+                                <a href="https://github.com/gabrielh-silvestre" target="_blank" rel="noopener noreferrer"><img src="./github.svg" alt="github icon"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/gabrielh-silvestre/" target="_blank" rel="noopener noreferrer"><img src="./linkedin.svg" alt="linkedin icon"></a>
+                            </li>
+                            <li>
+                                <a href="mailto:gabriel.h.silvestre11@gmail.com"><img src="./mail.svg" alt="email icon"></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <aside class="short_resume">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus illum ut vero at, commodi reiciendis?</p>
+                </aside>
+            </section>
+        </div>
+    </main>
+
+    <footer id="rodape" class="cover_width sec_divisor">
+        <div class="container d_flex split_between center_all">
+            <div class="lado-esquerdo">
+                <nav class="navbar">
+                    <ul class="no_decoration">
+                        <li>
+                            <a href="https://github.com/gabrielh-silvestre" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/gabrielh-silvestre/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+                        </li>
+                        <li>
+                            <a href="mailto:gabriel.h.silvestre11@gmail.com" target="_blank" rel="noopener noreferrer">E-mail</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+    
+            <div class="lado-direito">
+                <table>
+                    <tr>
+                        <td><p>Last update:</p></td>
+                        <td><p>25 ago 2021</p></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
