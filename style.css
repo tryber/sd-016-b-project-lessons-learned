@@ -18,5 +18,11 @@ body {
   font-size: 20px;
 }
 
+#minha_foto {
+  height: 20%;
+  width: 20%;
+  border-radius: 10%;
+  margin-top: 70px;
+}
 
 
