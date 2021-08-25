@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: black;
+  color: green;
+  width: 100%;
+  text-align: center;
+}
