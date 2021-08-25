@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+main {
+  padding: 100px 30px;
+}
+
+p {
+  font-family: serif;
+  font-size: 17px;
+  line-height: 135%;
+}
+
+#cabecalho {
+  background-color: rgb(186, 194, 194);
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+#minha_foto {
+  width: 200px;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+  margin-right: 25px;
+  margin-bottom: 10px;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+#list_title {
+  margin-top: 20px;
+}
+
+.link_redes_sociais img {
+  margin-left: 10px;
+  width: 30px;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  margin-right: 3%;
+  margin-top: 20px;
+  width: 75%;
+}
+
+.lado-esquerdo p {
+  text-align: justify;
+}
+
+.lado-direito {
+  float: right;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: justify;
+  width: 20%;
+}
+
+.menu_principal {
+  text-align: left;
+}
+
+.menu_principal ul li {
+  display: inline;
+  list-style: none;
+  margin-left: 10px;
+}
+
+.menu_principal a {
+  color: blue;
+  text-decoration: none;
+}
+
+.menu_principal a:hover {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.tabela , th , td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 4px;
+}
+
+.tabela {
+  background-color: rgb(233, 233, 233);
+  display: inline-block;
+  margin-left: 5%;
+  position: relative;
+  right: 13px;
+  z-index: 1;
+}
+
+#rodape {
+  background-color: rgb(186, 194, 194);
+  clear: both;
+  padding: 10px;
+}
+
+#rodape a {
+  text-decoration: none;
+}
+
+#rodape a span {
+  display: none;
+}
+
+.copyright {
+  margin-left: 16px;
+}
