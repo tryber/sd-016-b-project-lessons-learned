@@ -2,11 +2,6 @@ aside , nav {
   margin-top: 30px;
 }
 
-aside {
-  display: block;
-  padding: 10px;
-}
-
 body {
   background-color: rgb(253, 251, 251);
   font-size: 15px;
@@ -31,21 +26,28 @@ footer {
   margin-top: 30px;
   font-family: monospace, sans-serif;
   font-size: 10px;
+  margin-left: 10px;
 }
 
 h1 , h2 {
   font-family: monospace , sans-serif;
 }
 
+h2 {
+  margin-left: 10px;
+}
+
 .lado-direito {
   margin-top: 50px;
   float: right;
+  margin-right: 50px;
 }
 
 .lado-esquerdo {
   margin-top: 50px;
   margin-bottom: 50px;
   width: 75%;
+  margin-left: 10px;
 }
 
 #list {
@@ -66,5 +68,5 @@ h1 , h2 {
 table {
   padding: 10px;
   border: 1px green solid;
+  margin-left: 10px;
 }
-
