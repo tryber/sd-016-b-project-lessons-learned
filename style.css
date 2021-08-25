@@ -4,6 +4,7 @@ body {
 
 h3 {
   background-color: rgb(110, 196, 154);
+  color: antiquewhite;
 }
 
 #cabecalho {
@@ -34,7 +35,7 @@ h3 {
   padding: 30px 10px 10px 10px;
   width: 40%;
   margin: 0;
-  display: inline-block;
+  display: inline-table;
 }
 
 #licoes_a_aprender {
@@ -42,13 +43,12 @@ h3 {
   padding: 30px 10px 10px 10px;
   width: 40%;
   margin: 0;
-  display: inline-block;
+  display: inline-table;
 }
 
 #rodape {
   background-color: rgb(83, 162, 127);
   text-align: center
-;
   color: antiquewhite;
   height: 30px;
 }
