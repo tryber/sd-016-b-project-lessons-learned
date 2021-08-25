@@ -1,0 +1,63 @@
+body {
+        background-color: rgb(253, 251, 251);
+        font-family: sans-serif;
+}
+
+
+#cabecalho {
+        position: fixed;
+        top: 0;
+        background-color: green;
+        width: 100%;
+}
+
+
+#titulo {
+        color: white;
+        text-align: center;
+}
+
+
+#minha_foto {
+        padding-top: 5%;
+        width: 400px;
+}
+
+#rodape h2 {
+        background-color: green;
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        color: white;
+        line-height: 65px;
+}
+
+a {
+        font-size: 30px;
+        color: green;
+        text-decoration: underline;
+        line-height: 80px;
+}
+
+.artigo {
+        width: 20%;
+        margin: 10px;
+        color: green;
+        font-weight: 600;
+        line-height: 25px;
+        text-align: center;
+        display: inline-block;
+        vertical-align: top;
+}
+
+.tabela {
+        width: 50%;
+        text-align: center;
+}
+
+.title-table {
+        width: 50%;
+        text-align: center;
+        color: green;
+        text-decoration: underline;
+}
