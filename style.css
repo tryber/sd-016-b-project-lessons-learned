@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#cabecalho {
+    color: red;
+    background-color: yellow;
+    align="center";
+    top: 0;
+}
+#minhafoto { 
+    width: 250px;
+}
+#licoes_aprendidas, #licoes_a_aprender { 
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+title{
+ 
+}
+body {
+    background-color: rgb(253, 251, 251);
+}
+
