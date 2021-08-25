@@ -3,6 +3,7 @@
 }
 
 body{
+    max-width: 1366px;
     background-color: rgb(253, 251, 251);
     font-family: 'Montserrat', sans-serif;
 }
@@ -32,6 +33,7 @@ header{
 
 .lista{
     display: inline-block; 
+    max-width: 25%;
     margin: auto;
     padding-right: 100px;
 }
@@ -44,5 +46,21 @@ header{
     display: inline-block; 
     padding-top: 50px;
     width: 100%;
-    padding-left: 500px;
+    padding-left: 290px;
+}
+
+#rodape{
+    background-image: url("imagem/capa.jpg");
+}
+
+footer{
+    margin-top: 50px;
+    color: rgb(253, 251, 251);
+    margin-bottom: 0;
+    text-align: center;
+}
+
+footer a{
+    color: rgb(253, 251, 251);
+    text-decoration: none;
 }
