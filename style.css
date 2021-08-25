@@ -40,17 +40,18 @@ textarea {
 /* VARIAVEIS */
 
 :root {
-    --cor-de-fundo: rgb(253, 251, 251);
+    --cor-fundo: rgb(253, 251, 251);
     --cor-cabecalho: #228B22;
     --cor-menu: #006400;
     --cor-foto: #afafaf;
+    --cor-fundo2: #32CD32;
 }
 
 
 /* TAG */
 
 body {
-    background-color: var(--cor-de-fundo);
+    background-color: var(--cor-fundo);
 }
 
 h1 {}
@@ -60,6 +61,7 @@ h2 {}
 h3 {}
 
 main {
+    background-image: linear-gradient(to top, var(--cor-fundo), var(--cor-cabecalho));
     padding-top: 100px;
 }
 
@@ -83,27 +85,33 @@ main {
 }
 
 #titulo {
-    font-size: 1.5rem;
+    font-size: 22pt;
 }
 
 #perfil {}
 
 #perfil__box_img {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
 #minha_foto {
+    background-color: var(--cor-fundo2);
     border: solid 2px var(--cor-foto);
-    border-radius: 100%;
+    border-radius: 10px;
     height: 200px;
-    margin: 20px;
+    margin: 10px 0;
     width: 215px;
 }
 
-#meu_nome {}
+#meu_nome {
+    font-family: 'Lobster', cursive;
+    font-size: 22pt;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
 
 #listas {}
 
@@ -121,6 +129,8 @@ main {
 
 #notas_do_artigo {}
 
+#rodape {}
+
 
 /* ----------------------------------------------------------------------------------------------- */
 
@@ -132,6 +142,11 @@ main {
 .list_item {}
 
 .text {}
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
 
 
 /* ----------------------------------------------------------------------------------------------- */
