@@ -4,23 +4,23 @@
   border: 0;
 }
 body {
-  background-color:rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
   font-family: Arial, sans-serif;
   font-size: 14px;
-  color:rgba(14, 0, 0, 0.568);
+  color: rgba(14, 0, 0, 0.568);
   width: 1366px;
   align-self: start;
 }
 table {
-  margin:10px;
+  margin: 10px;
   border: 10px;
 }
 tr {
-  margin:10px;
+  margin: 10px;
   border: 10px;
 }
 td {
-  margin:10px;
+  margin: 10px;
   border: 10px;
 }
 .profphoto {
@@ -47,7 +47,7 @@ td {
 .footer {
   position: absolute;
   bottom: 0;
-  background-color:rgb(5, 73, 100);
+  background-color: rgb(5, 73, 100);
   width: 100%;
 }
 #cabecalho {
@@ -57,7 +57,7 @@ td {
   display: inline;
   top: 0;
   margin-bottom: 5px;
-  background-color:rgb(226, 89, 9);
+  background-color: rgb(226, 89, 9);
 }
 #minha_foto {
   border-radius: 195px;
