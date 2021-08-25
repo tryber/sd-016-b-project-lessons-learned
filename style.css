@@ -45,19 +45,20 @@ nav{
 }
 
 #licoes_aprendidas{
-    margin-left: 300px;
+    margin-left: 500px;
     margin-top: auto;
 }
 
 #licoes_a_aprender{
-    margin-left: 500px;
+    margin-left: 800px;
     margin-top: auto;
 }
 
 #artigos{
     position: absolute;
-    margin-top: 37%;
+    margin-top: 20%;
     border: solid 1px black;
+    margin-left: 20%;
 }
 
 article{
