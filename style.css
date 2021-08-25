@@ -75,6 +75,24 @@ main {
     padding-top: 100px;
 }
 
+table,
+th,
+td {
+    border: 1px solid var(--cor-Black);
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    background-color: var(--cor-FloralWhite);
+    padding: 10px;
+}
+
 
 /* ----------------------------------------------------------------------------------------------- */
 
@@ -126,8 +144,9 @@ main {
 }
 
 #listas {
+    align-items: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     margin: 100px auto;
     max-width: 1200px;
@@ -167,7 +186,7 @@ main {
 #notas {
     background-image: url(/sd-016-b-project-lessons-learned/img/old-paper.jpg);
     border: solid 2px var(--cor-foto);
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 5px;
 }
 
@@ -182,10 +201,31 @@ main {
     margin: 50px;
 }
 
-#rodape__nav {
+#rodape__ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#tabela {
+    align-items: center;
+    background-image: url(/sd-016-b-project-lessons-learned/img/old-paper.jpg);
+    border: solid 2px var(--cor-foto);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 5px;
+    width: 400px;
+}
+
+#tabela__titulo {
+    font-size: 16pt;
+    margin: 10px;
+    text-align: center;
+    text-shadow: 2px 1px var(--cor-FloralWhite);
 }
 
 
@@ -198,9 +238,10 @@ main {
     align-content: flex-start;
     background-image: url(/sd-016-b-project-lessons-learned/img/old-paper.jpg);
     border: solid 2px var(--cor-foto);
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
+    margin: 50px;
     padding: 5px;
     width: 400px;
 }
