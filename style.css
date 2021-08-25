@@ -34,7 +34,7 @@ nav {
   color: white;
   padding: 10px;
   border: 1px solid black;
-  margin: 1px 1px 35px 75px;  
+  margin: 1px 1px 35px 75px;
 }
 
 .link:hover {
@@ -85,26 +85,4 @@ aside p {
 
 .lista-nao-ordenada h2 {
   font-size: 20px;
-}
-
-article p {
-  text-indent: 10px;
-  line-height: 30px;
-}
-
-aside p {
-  text-indent: 10px;
-  line-height: 30px;
-}
-
-.content-list {
-  display: inline-block;
-}
-
-.lista-ordenada {
-  display: inline-block;
-}
-
-.lista-nao-ordenada {
-  display: inline-block;
 }
