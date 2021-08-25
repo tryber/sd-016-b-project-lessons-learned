@@ -4,12 +4,13 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 0; 
+  top: 0;
   width: 100%;
   background-color: aqua;
 }
 
-#titulo {text-align: center;
+#titulo {
+  text-align: center;
 }
 
 #minha_foto {
@@ -24,12 +25,12 @@ body {
 }
 
 #licoes_a_aprender {
-  display: inline-block; 
+  display: inline-block;
 }
 
 #section_list_1 {
   position: absolute;
-  top: 300px; 
+  top: 300px;
 }
 
 #rodape {
@@ -37,7 +38,7 @@ body {
   top: 900px;
 }
 
-#link { 
+#link {
   position: absolute;
   top: 850px;
 }
