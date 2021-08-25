@@ -9,6 +9,7 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+/*configurations - header*/
 .header-Title {
   top: 0px;
   background-color: teal;
@@ -23,13 +24,15 @@ body {
   padding-top: 20px;
 }
 
+/*configurations profile */
 .figurePhotoMain {
-  width: 300px;
+  width: 25%;
   height: 300px;
   background-color: whitesmoke;
   position: relative;
   margin-top: 80px;
   background-color: transparent;
+  display: inline-block;
 }
 
 .my-photo {
@@ -44,6 +47,25 @@ figcaption {
   margin-left: 130px;
 }
 
+/*configurations - article and aside*/
+
+.lado-direito {
+  width: 20%;
+  height: 300px;
+  background-color: blueviolet;
+  position: relative;
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  width: 40%;
+  height: 300px;
+  position: relative;
+  background-color: blueviolet;
+  display: inline-block;
+}
+
+/*configurations - section lessons*/
 .lessons {
   color: white;
   text-align: center;
@@ -82,6 +104,7 @@ ul li {
   margin-left: 70px;
 }
 
+/*Footer configurations*/
 #rodape {
   height: 200px;
   position: relative;
