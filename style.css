@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+main a {
+  display: block;
+}
+
+#cabecalho {
+  background-color: rgb(80, 80, 80);
+  overflow: hidden;
+  padding: 5px 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+.profile_container {
+  margin-top: 105px;
+  width: 230px;
+}
+
+#minha_foto {
+  width: 100%;
+}
+
+.profile_container a {
+  color: palevioletred;
+  text-align: center;
+}
+
+.licoes_container {
+  margin-left: 30px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.licoes_container h2 {
+  margin: 5px;
+}
+
+.lista {
+  border: solid 2px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.lista p {
+  font-family: Georgia, Times New Roman, Times, serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  text-decoration: underline;
+}
+
+.lista li {
+  line-height: 19px;
+}
+
+#menu ul {
+  margin-top: 10px;
+}
+
+#menu ul li {
+  display: inline-block;
+  font-size: 22px;
+  padding: 10px 20px;
+}
+
+#artigo_sobre_aprendizado {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 40%;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  padding: 2px 30px;
+}
+
+#passagem_sobre_aprendizado {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 30%;
+}
+
+.lado-direito {
+  display: inline-block;
+  padding: 2px 30px;
+  position: absolute;
+  right: 0;
+  text-align: right;
+}
+
+#rodape p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.tecnologias {
+  display: inline-block;
+  border: 1px solid;
+  padding: 0;
+  margin-top: 70px;
+  position: absolute;
+  right: 30px;
+}
+
+.tecnologias th {
+  border: 1px solid;
+  padding: 5px;
+  text-align: left;
+}
+
+.tecnologias td {
+  border: 1px solid;
+  padding: 5px;
+  text-align: left;
+}
