@@ -64,15 +64,9 @@ body {
     background-color: var(--cor-fundo);
 }
 
-h1 {}
-
-h2 {}
-
-h3 {}
-
 main {
     background-image: linear-gradient(to top, var(--cor-fundo), var(--cor-ForestGreen));
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 table,
@@ -102,7 +96,10 @@ td {
 #cabecalho {
     background-color: var(--cor-ForestGreen);
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
+    padding: 10px;
 }
 
 #menu_titulo {
@@ -117,7 +114,14 @@ td {
     font-size: 22pt;
 }
 
-#perfil {}
+#menu_nav {
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#menu_nav :hover {}
 
 #perfil__box_img {
     align-items: center;
@@ -234,6 +238,25 @@ td {
 
 /* CLASS */
 
+.menubar {
+    background-color: var(--cor-FloralWhite);
+    border: outset;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 2px;
+    text-align: center;
+}
+
+.menu_icon {
+    flex-direction: row;
+    margin: 0;
+}
+
+.menu_text {
+    font-size: 10pt;
+    margin: 5px;
+}
+
 .list__box {
     align-content: flex-start;
     background-image: url(/sd-016-b-project-lessons-learned/img/old-paper.jpg);
@@ -281,6 +304,12 @@ td {
     height: 50px;
     margin: 10px;
     width: 50px;
+}
+
+.icon_icon {
+    height: 30px;
+    margin: 5px;
+    width: 30px;
 }
 
 .rodape__list {

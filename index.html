@@ -21,110 +21,142 @@
         <div id="menu_titulo">
             <h1 id="titulo">Lições Aprendidas - Trybe!</h1>
         </div>
+        <div>
+            <nav id="menu_nav">
+                <div class="menubar">
+                    <a class="menu_icon" href="#licoes_aprendidas"><img class="icon_icon" src="/sd-016-b-project-lessons-learned/icon/checkmark.png" alt="Home">
+                        <p class="menu_text">Lições Aprendidas</p>
+                    </a>
+                </div>
+                <div class="menubar">
+                    <a class="menu_icon" href="#licoes_a_aprender"><img class="icon_icon" src="/sd-016-b-project-lessons-learned/icon/brainstorm.png" alt="Home">
+                        <p class="menu_text">Lições a Aprender</p>
+                    </a>
+                </div>
+                <div class="menubar">
+                    <a class="menu_icon" href="#artigo_meu_aprendizado"><img class="icon_icon" src="/sd-016-b-project-lessons-learned/icon/notebook.png" alt="Home">
+                        <p class="menu_text">Meu Aprendizado</p>
+                    </a>
+                </div>
+                <div class="menubar">
+                    <a class="menu_icon" href="#artigo_meu_aprendizado"><img class="icon_icon" src="/sd-016-b-project-lessons-learned/icon/notes.png" alt="Home">
+                        <p class="menu_text">Notas de Aprendizado</p>
+                    </a>
+                </div>
+                <div class="menubar">
+                    <a class="menu_icon" href="#tabela"><img class="icon_icon" src="/sd-016-b-project-lessons-learned/icon/heart.png" alt="Home">
+                        <p class="menu_text">Minha Família</p>
+                    </a>
+                </div>
+                <div class="menubar">
+                    <a class="menu_icon" href="#rodape"><img class="icon_icon" src="/sd-016-b-project-lessons-learned/icon/sience.png" alt="Home">
+                        <p class="menu_text">Links Externos</p>
+                    </a>
+                </div>
+            </nav>
+        </div>
     </header>
     <main>
-        <article>
-            <!-- Perfil -->
-            <section id="perfil">
-                <div id="perfil__box_img">
-                    <img id="minha_foto" src="/sd-016-b-project-lessons-learned/img/Lucas_2021-3.jpg" alt="Imagem de Perfil">
-                    <h2 id="meu_nome">Lucas Camargo</h2>
+        <!-- Perfil -->
+        <section id="perfil">
+            <div id="perfil__box_img">
+                <img id="minha_foto" src="/sd-016-b-project-lessons-learned/img/Lucas_2021-3.jpg" alt="Imagem de Perfil">
+                <h2 id="meu_nome">Lucas Camargo</h2>
+            </div>
+        </section>
+        <!-- Listas -->
+        <section id="listas">
+            <div class="list__box">
+                <h2>Lições Aprendidas</h2>
+                <ol id="licoes_aprendidas">
+                    <li class="list_item">Fundamentos do Desenvolvimento Web</li>
+                    <li class="list_item">Unix & Shell</li>
+                    <li class="list_item">Unix & Bash</li>
+                    <li class="list_item">Git & Github</li>
+                    <li class="list_item">Internet</li>
+                    <li class="list_item">HTML & CSS</li>
+                    <li class="list_item">TAG's HTML</li>
+                    <li class="list_item">HTML Semântico</li>
+                    <li class="list_item">Seletores e Posicionamento com CSS</li>
+                    <li class="list_item">Soft Skill - Inteligência Emocional</li>
+                </ol>
+            </div>
+            <div class="list__box">
+                <h2>Lições a Aprender</h2>
+                <ul id="licoes_a_aprender">
+                    <li class="list_item">Introdução a JavaScript</li>
+                    <li class="list_item">DOM e Seletores com JavaScript</li>
+                    <li class="list_item">Introdução a JavaScript ES6</li>
+                    <li class="list_item">Primeiros passos no Jest</li>
+                    <li class="list_item">Introdução à React</li>
+                    <li class="list_item">Metodologias Ágeis</li>
+                    <li class="list_item">Sof Skill - Comunicação</li>
+                    <li class="list_item">Sof Skill - Liderança</li>
+                    <li class="list_item">Desenvolvimento Back-end</li>
+                    <li class="list_item">Ciência da Computação</li>
+                </ul>
+            </div>
+        </section>
+        <!-- Artigo -->
+        <section id="artigo">
+            <article id="artigo_meu_aprendizado">
+                <div class="lado-esquerdo">
+                    <h2 id="artigo_titulo">Meu Aprendizado</h2>
+                    <p class="text">Diferente dos demais cursos de programação a trybe me trouxe uma experiência diferente do que jamais presentiei antes. Na trybe meu aprendizado esta me rendendo um conhecimento muito melhor e mais satisfatório do que em outras experiências
+                        que ja tive anteriormente.</p>
+                    <p class="text">Iniciei meus estudos na trybe com um certo nivel básico de experiência e logo imaginei que não iria aprender conteúdos novos no inicio do curso, porém foi totalmente diferente como imaiginava, além de aprender novos conteúdos pode
+                        ter a oportunidade de aprimorar ainda mais meus conhecimentos em HTML e CSS.</p>
                 </div>
-            </section>
-            <!-- Listas -->
-            <section id="listas">
-                <div class="list__box">
-                    <h2>Lições Aprendidas</h2>
-                    <ol id="licoes_aprendidas">
-                        <li class="list_item">Fundamentos do Desenvolvimento Web</li>
-                        <li class="list_item">Unix & Shell</li>
-                        <li class="list_item">Unix & Bash</li>
-                        <li class="list_item">Git & Github</li>
-                        <li class="list_item">Internet</li>
-                        <li class="list_item">HTML & CSS</li>
-                        <li class="list_item">TAG's HTML</li>
-                        <li class="list_item">HTML Semântico</li>
-                        <li class="list_item">Seletores e Posicionamento com CSS</li>
-                        <li class="list_item">Soft Skill - Inteligência Emocional</li>
-                    </ol>
+            </article>
+            <aside id="notas">
+                <div class="lado-direito">
+                    <h2 id="notas_titulo">Notas de Aprendizado</h2>
+                    <p class="text">Iniciei meus estudos na trybe com o objetivo principal de desenvolver minhas habilidades tecnicas em programação web, mas pode perceber logo de inicio que na trybe estou muito além disso, contribuindo também com meu desenvolvimento
+                        pessoal.
+                    </p>
                 </div>
-                <div class="list__box">
-                    <h2>Lições a Aprender</h2>
-                    <ul id="licoes_a_aprender">
-                        <li class="list_item">Introdução a JavaScript</li>
-                        <li class="list_item">DOM e Seletores com JavaScript</li>
-                        <li class="list_item">Introdução a JavaScript ES6</li>
-                        <li class="list_item">Primeiros passos no Jest</li>
-                        <li class="list_item">Introdução à React</li>
-                        <li class="list_item">Metodologias Ágeis</li>
-                        <li class="list_item">Sof Skill - Comunicação</li>
-                        <li class="list_item">Sof Skill - Liderança</li>
-                        <li class="list_item">Desenvolvimento Back-end</li>
-                        <li class="list_item">Ciência da Computação</li>
-                    </ul>
-                </div>
-            </section>
-            <!-- Artigo -->
-            <section id="artigo">
-                <article id="artigo_meu_aprendizado">
-                    <div class="lado-esquerdo">
-                        <h2 id="artigo_titulo">Meu Aprendizado</h2>
-                        <p class="text">Diferente dos demais cursos de programação a trybe me trouxe uma experiência diferente do que jamais presentiei antes. Na trybe meu aprendizado esta me rendendo um conhecimento muito melhor e mais satisfatório do que em outras
-                            experiências que ja tive anteriormente.</p>
-                        <p class="text">Iniciei meus estudos na trybe com um certo nivel básico de experiência e logo imaginei que não iria aprender conteúdos novos no inicio do curso, porém foi totalmente diferente como imaiginava, além de aprender novos conteúdos pode
-                            ter a oportunidade de aprimorar ainda mais meus conhecimentos em HTML e CSS.</p>
-                    </div>
-                </article>
-                <aside id="notas">
-                    <div class="lado-direito">
-                        <h2 id="notas_titulo">Notas de Aprendizado</h2>
-                        <p class="text">Iniciei meus estudos na trybe com o objetivo principal de desenvolver minhas habilidades tecnicas em programação web, mas pode perceber logo de inicio que na trybe estou muito além disso, contribuindo também com meu desenvolvimento
-                            pessoal.
-                        </p>
-                    </div>
-                </aside>
-            </section>
-            <section id="tabela">
-                <h2 id="tabela__titulo">Minha Família</h2>
-                <table>
-                    <tr>
-                        <td>Parentesco</td>
-                        <td>Nome</td>
-                        <td>Idade</td>
-                    </tr>
-                    <tr>
-                        <td>Mãe</td>
-                        <td>Odila</td>
-                        <td>61 anos</td>
-                    </tr>
-                    <tr>
-                        <td>Pai</td>
-                        <td>José Carlos</td>
-                        <td>57 anos</td>
-                    </tr>
-                    <tr>
-                        <td>Namorada</td>
-                        <td>Jaqueline</td>
-                        <td>26 anos</td>
-                    </tr>
-                    <tr>
-                        <td>Pet Dog</td>
-                        <td>Apolo</td>
-                        <td>9 anos</td>
-                    </tr>
-                    <tr>
-                        <td>Pet Dog</td>
-                        <td>Luke</td>
-                        <td>8 meses</td>
-                    </tr>
-                    <tr>
-                        <td>Pet Calopsita</td>
-                        <td>Kiko</td>
-                        <td>3 anos</td>
-                    </tr>
-                </table>
-            </section>
-        </article>
+            </aside>
+        </section>
+        <section id="tabela">
+            <h2 id="tabela__titulo">Minha Família</h2>
+            <table>
+                <tr>
+                    <td>Parentesco</td>
+                    <td>Nome</td>
+                    <td>Idade</td>
+                </tr>
+                <tr>
+                    <td>Mãe</td>
+                    <td>Odila</td>
+                    <td>61 anos</td>
+                </tr>
+                <tr>
+                    <td>Pai</td>
+                    <td>José Carlos</td>
+                    <td>57 anos</td>
+                </tr>
+                <tr>
+                    <td>Namorada</td>
+                    <td>Jaqueline</td>
+                    <td>26 anos</td>
+                </tr>
+                <tr>
+                    <td>Pet Dog</td>
+                    <td>Apolo</td>
+                    <td>9 anos</td>
+                </tr>
+                <tr>
+                    <td>Pet Dog</td>
+                    <td>Luke</td>
+                    <td>8 meses</td>
+                </tr>
+                <tr>
+                    <td>Pet Calopsita</td>
+                    <td>Kiko</td>
+                    <td>3 anos</td>
+                </tr>
+            </table>
+        </section>
     </main>
     <!-- Rodapé -->
     <footer id="rodape">
@@ -146,6 +178,7 @@
                     <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><img class="icon" src="/sd-016-b-project-lessons-learned/icon/gmail_.png" alt="G-mail">G-mail</a>
                 </li>
             </ul>
+            <a id="home" href="#"><img class="icon" src="/sd-016-b-project-lessons-learned/icon/rocket.png" alt="Home"> Home</a>
         </nav>
     </footer>
 </body>
