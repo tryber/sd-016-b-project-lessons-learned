@@ -5,9 +5,12 @@ body{
 #cabecalho{
     background-color: rgb(22, 21, 19);
     text-align: center;
-    position: fixed=0;
-    height: 50px;
+    position: fixed;
+    height: 60px;
     top: 0;
+    width: 100%;
+    margin: auto;
+   
 }
 
 #titulo{
@@ -20,6 +23,8 @@ body{
     background-color: antiquewhite;
     border: 2px solid black ;
     position: fixed=0;
+    margin-top: 50px;
+
 }
 
 #main{
@@ -32,7 +37,7 @@ body{
     border: 2px solid black ;
     margin-top: 20px;
     display: inline-block;
-    max-width:80%;
+    max-width:85%;
 }
 
 #minha_foto{
@@ -62,12 +67,13 @@ body{
     padding: 10px 10px;
     display: inline-block;
 }
+
 #aside{
     adding: 10px 10px;
     background-color: antiquewhite;
     border: 2px solid black ;
     display: inline-block;
-    max-width: 18%;
+    max-width: 13%;
     position: relative;
     float: right;
     margin-top: 20px;
