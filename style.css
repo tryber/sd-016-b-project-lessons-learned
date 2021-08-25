@@ -79,3 +79,25 @@ aside p {
 .lista-nao-ordenada {
   display: inline-block;
 }
+
+article p {
+  text-indent: 10px;
+  line-height: 30px;
+}
+
+aside p {
+  text-indent: 10px;
+  line-height: 30px;
+}
+
+.content-list {
+  display: inline-block;
+}
+
+.lista-ordenada {
+  display: inline-block;
+}
+
+.lista-nao-ordenada {
+  display: inline-block;
+}
