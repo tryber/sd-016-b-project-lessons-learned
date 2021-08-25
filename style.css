@@ -1,84 +1,84 @@
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-	width: 100%;
-	height: 10%;
-	position: fixed;
-	padding: 10px;
-	top: 0;
-	left: 0;
-	text-align: center;
-	background-color: rgb(162, 216, 185);
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  text-align: center;
+  background-color: rgb(162, 216, 185);
 }
 
 #titulo {
-	font-family: -apple-system, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-	margin: 0 auto;
-	color: rgba(255, 255, 255, .8);
+  font-family: -apple-system, sans-serif;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 #minha_foto {
-	position: absolute;
-	top: 27%;
-	left: 3%;
-	width: 80px;
+  top: 27%;
+  position: absolute;
+  left: 3%;
+  width: 80px;
 }
 
 #navegacao {
-	position: fixed;
-	top: 84px;
-	background-color: rgb(23, 21, 21);
-	width: 100%;
-	padding: 10px;
+  position: fixed;
+  top: 84px;
+  background-color: rgb(23, 21, 21);
+  width: 100%;
+  padding: 10px;
 }
 
 #navegacao a {
-	text-decoration: none;
-	margin: 5px;
-	font-weight: 700;
-	color: rgba(255, 255, 255, .8);
+  text-decoration: none;
+  margin: 5px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.8);
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
-	list-style: decimal;
+#licoes_aprendidas , #licoes_a_aprender {
+  list-style: decimal;
 }
 
 .lado-esquerdo {
-	margin-top: 10px;
-	margin-left: 20px;
-	margin-right: 20px;
-	padding: 10px 35px;
-	width: 25%;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px 35px;
+  margin-top: 10px;
+  width: 25%;
 }
 
 .lado-direito {
-	margin-top: 10px;
-	margin-left: 20px;
-	margin-right: 20px;
-	padding: 10px 35px;
-	width: 25%;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px 35px;
+  width: 25%;
 }
 
 .container_licoes_aprendidas {
-	margin: 130px 20px 10px;
-	padding: 10px 35px;
-	width: 25%;
+  padding: 10px 35px;
+  width: 25%;
+  margin: 130px 20px 10px;
 }
 
 .container_licoes_a_aprender {
-	margin-left: 20px;
-	margin-right: 20px;
-	padding: 10px 35px;
-	width: 25%;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px 35px;
+  width: 25%;
 }
 
 div {
-	border: 1px solid red;
+  border: 1px solid red;
 }
