@@ -4,13 +4,12 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 0px; 
-  width:100%;
+  top: 0; 
+  width: 100%;
   background-color: aqua;
 }
 
-#titulo {
-  text-align: center;
+#titulo {text-align: center;
 }
 
 #minha_foto {
@@ -21,7 +20,7 @@ body {
 }
 
 #licoes_aprendidas {
-  display: inline-block; 
+  display: inline-block;
 }
 
 #licoes_a_aprender {
@@ -49,15 +48,15 @@ article {
 }
 
 aside {
-    position: absolute;
-    top: 700px;
+  position: absolute;
+  top: 700px;
 }
 
 nav {
-    position: absolute;
+  position: absolute;
 }
 
 table {
-    position: absolute;
-    top: 810px;
+  position: absolute;
+  top: 810px;
 }
