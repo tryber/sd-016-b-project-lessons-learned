@@ -16,6 +16,7 @@ nav li {
   border-radius: 4px;
   padding: 10px 5px;
   margin-left: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 section {
@@ -23,6 +24,11 @@ section {
   max-width: 100%;
   display: inline;
   text-align: center;
+}
+
+table a {
+    text-decoration: none;
+    color: black;
 }
 
 #table { 
