@@ -27,11 +27,37 @@ body{
 
 
    
-ul {
-  
+#licoes_aprendidas {
   
   display: inline-block;
   font-size: 20px;
+  list-style-type: none
 }
+#licoes_a_aprender{
+  display: inline-block;
+  font-size: 20px;
+  list-style-type: none
+  
+}
+
+ 
+#rodape{
+  font-family:Arial, sans-serif;
+  
+}
+
+#article{
+ width: 400px;
+
+}
+
+#aside{
+  width: 40%;
+  float: right;
+  font-style: italic;
+  
+  
+}
+
  
   
