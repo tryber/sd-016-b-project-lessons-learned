@@ -51,17 +51,12 @@ main {
   margin: 20px;
 }
 
-table , 
-tr , 
-th , 
-td {
+table , tr , th , td {
   border: 0.5px solid rgb(10, 126, 81);
   display: inline-block;
 }
 
-tr , 
-th , 
-td {
+tr , th , td {
   width: 200px;
 }
 
