@@ -1,11 +1,9 @@
-/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* Reset configs */
 * {
   margin: 0;
   padding: 0;
-
   box-sizing: border-box;
 }
 
@@ -14,221 +12,37 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-.clear { clear: both; }
-.lado-esquerdo { float: left; }
-.lado-direito { float: right; }
+.clear {
+  clear: both;
+}
 
-/* CSS             */
-/* Cabeçalho       */
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
+/* CSS */
 header {
   background-color: rgb(0, 155, 52);
   padding: 100px 20px;
-
   position: fixed;
   top: 0;
-
   width: 100vw;
 }
 
-header h1 { 
+header h1 {
   margin-left: 3%;
-  color: rgb(255, 255, 255);
-
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, serif;
 }
 
-/* Menu navegação */
-header nav { 
+.m-nav {
   position: absolute;
   bottom: 10%;
   right: 10%;
-}
-header nav ul { list-style: none; }
-header nav ul li { 
-  padding: 7px;
-
-  display: inline-block;
-}
-
-header nav ul li:hover {
-  background-color: rgb(000, 000, 000, .2);
-  transition: .3s;
-}
-
-header nav ul li a {
-  color: rgb(235, 235, 235);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-/* Conteudo */
-main { 
-  margin-top: 247px;
-}
-
-main p {
-  line-height: 1.5;
-}
-
-/* Seção do perfil */
-main section.profile {
-  padding: 40px 40px 10px 40px; 
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-
-}
-
-main section.profile .item-profile {
-  width: 60%;
-  max-width: 40%;
-
-  text-align: center;
-}
-
-main section.profile figure {
-  padding: 10px;
-
-  text-align: center;
-}
-
-main section.profile figure figcaption {
-  color: rgb(0, 155, 52);
-  font-size: 14pt;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-main section.profile figure img {
-   width: 100%;
-}
-
-/* Seção artigo - Configurações */
-main section.article {
-  background-color: rgb(235, 235, 235);
-  padding: 5%;
-
-  display: table;
-}
-
-/* Seção aprender */
-main section.article section.learn {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-
-  width: 39%;
-} 
-
-main section.article section.learn ul li,
-main section.article section.learn ol li
- { line-height: 1.5;}
-
-main section.learn h1 {
-  margin: 0 0 10px -30px;
-
-  color: rgb(0, 155, 52);
-  font-family: 'Roboto', sans-serif;
-  text-decoration: uppercase;
-  font-size: 14pt;
-}
-
-/* Seção Artigo */
-main section.article article { width: 49%; }
-
-main section.article article h1 {
-  margin-bottom: 10px;
-
-  color: rgb(0, 155, 52);
-  font-family: 'Roboto', sans-serif;
-}
-
-main section.article article p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11pt;
-  text-indent: 37pt; 
-  text-align: justify;
-}
-
-main section.article article aside { 
-  margin: 20px auto; 
-  width: 80%;
-}
-
-main section.article article aside p {
-  color: rgb(0, 155, 52);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11pt;
-  font-style: italic;
-
-  text-indent: 0;
-  text-align: justify;
-  text-align-last: center;
-}
-
-/* Seção calendário */
-main section.calendar { padding: 20px; }
-main section.calendar table {
-  margin: 0 auto;
-
-  cursor: pointer;
-
-  font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
-  border: 5px solid rgb(0, 155, 52);
-}
-
-main section.calendar table caption {
-  background-color:rgb(0, 155, 52);
-  padding: 5px;
-  
-  color: rgb(255, 255, 255);
-  font-weight: 600;
-}
-
-main section.calendar table tr th { 
-  padding: 5px;
-
-  text-align: center;
-}
-
-main section.calendar table tr td {
-  padding: 5px;
-
-  text-align: center;
-}
-
-main section.calendar table tr th:nth-child(2n+1),
-main section.calendar table tr td:nth-child(2n+1) {
-  background-color: rgb(231, 252, 238);
-}
-
-main section.calendar table tr td:hover {
-  background-color: rgb(189, 238, 205);
-}
-
-main section.calendar table tr td.day {
-  background-color: rgb(0, 155, 52);
-  color: rgb(235, 235, 235);
-  font-weight: 600;
-}
-
-main section.calendar table tr td.day:hover {
-  background-color: rgb(2, 134, 46);
-}
-
-/* Rodape */
-footer {
-  background-color:rgb(0, 77, 26);
-  padding: 40px 20px;
-  position: relative; 
-  
-  display: table;
-  width: 100%;
-
 }
 
 footer ul {
@@ -236,55 +50,208 @@ footer ul {
   padding: 3%;
 }
 
-footer ul h1 {
-  margin: 0 0 10px -30px;
-
-  color: rgb(214, 214, 214);
-  font-family: 'Roboto', sans-serif;
-  font-size: 12pt;
-  text-transform: uppercase;
-}
+.m-nav ul { list-style: none; }
 
 footer ul li { list-style: none; }
 
+.m-nav ul li {
+  padding: 7px;
+  display: inline-block;
+}
+
+main .learn ol li , main .learn li li {
+  line-height: 1.5;
+}
+
+.m-nav ul li:hover {
+  background-color: rgb(000, 000, 000, 0.2);
+  transition: 0.3s;
+}
+
 footer ul li a {
   color: rgb(214, 214, 214);
-
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 11pt;
   line-height: 1.5;
   text-decoration: none;
   text-transform: uppercase;
 }
 
+.m-nav ul li a {
+  color: rgb(235, 235, 235);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+main {
+  margin-top: 247px;
+}
+
+main p {
+  line-height: 1.5;
+}
+
+main .profile {
+  padding: 40px 40px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+main .profile .item-profile {
+  width: 60%;
+  max-width: 40%;
+  text-align: center;
+}
+
+main .profile figure {
+  padding: 10px;
+  text-align: center;
+}
+
+main .profile figure figcaption {
+  color: rgb(0, 155, 52);
+  font-size: 14pt;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+main .profile figure img {
+  width: 43%;
+}
+
+main .article {
+  background-color: rgb(235, 235, 235);
+  padding: 5%;
+  display: table;
+}
+
+main .learn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 39%;
+}
+
+main article h1 {
+  margin-bottom: 10px;
+  color: rgb(0, 155, 52);
+  font-family: Roboto, sans-serif;
+}
+
+footer ul h1 {
+  margin: 0 0 10px -30px;
+  color: rgb(214, 214, 214);
+  font-family: Roboto, sans-serif;
+  font-size: 12pt;
+  text-transform: uppercase;
+}
+
+main .learn h1 {
+  margin: 0 0 10px -30px;
+  color: rgb(0, 155, 52);
+  font-family: Roboto, sans-serif;
+  text-decoration: uppercase;
+  font-size: 14pt;
+}
+
+main article { width: 49%; }
+
+main article p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11pt;
+  text-indent: 37pt;
+  text-align: justify;
+}
+
+main article aside {
+  margin: 20px auto;
+  width: 80%;
+}
+
+main article aside p {
+  color: rgb(0, 155, 52);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11pt;
+  font-style: italic;
+  text-indent: 0;
+  text-align: justify;
+  text-align-last: center;
+}
+
+main .calendar { padding: 20px; }
+
+main table {
+  margin: 0 auto;
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+  border: 5px solid rgb(0, 155, 52);
+}
+
+main table caption {
+  background-color: rgb(0, 155, 52);
+  padding: 5px;
+  color: white;
+  font-weight: 600;
+}
+
+main table tr th {
+  padding: 5px;
+  text-align: center;
+}
+
+main table tr td {
+  padding: 5px;
+  text-align: center;
+}
+
+main table tr th:nth-child( 2n+1 ) , main table tr td:nth-child( 2n+1 ) {
+  background-color: rgb(231, 252, 238);
+}
+
+main table tr td:hover {
+  background-color: rgb(189, 238, 205);
+}
+
+main table tr .day {
+  background-color: rgb(0, 155, 52);
+  color: rgb(235, 235, 235);
+  font-weight: 600;
+}
+
+main table tr .day:hover {
+  background-color: rgb(2, 134, 46);
+}
+
+footer {
+  background-color: rgb(0, 77, 26);
+  padding: 40px 20px;
+  position: relative;
+  display: table;
+  width: 100%;
+}
+
 footer ul li a:hover {
   color: rgb(0, 61, 20);
 }
 
-footer {
-  position: relative;
-}
-
-footer section.dedicat {
+footer .dedicat {
   background-color: rgb(253, 251, 251);
   padding: 2%;
-
   position: absolute;
   bottom: 20%;
-  
   max-width: 40%;
-
   border-radius: 7px;
 }
 
-footer section.dedicat p {
+footer .dedicat p {
   color: rgb(2, 134, 46);
   font-size: 11pt;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: italic;
-
   line-height: 1.5;
-
   text-align: justify;
-  
 }
