@@ -6,19 +6,19 @@ body {
   position: fixed;
   top: 0;
   background-color: rgb(2, 141, 95);
-  color: #fff;
+  color: white;
   width: 100%;
   height: 140px;
   text-align: center;
 }
 
-.menu ul{
-  padding:0px;
-  margin:0px;
-  list-style:none;
+.menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
-.menu ul li{
+.menu ul li {
   display: inline;
   padding-left: 30px;
 }
@@ -27,8 +27,8 @@ body {
   padding: 10px;
   width: 80px;
   display: inline-block;
-  background-color:rgb(3, 81, 92);
-  color: rgb(255, 255, 255);
+  background-color: rgb(3, 81, 92);
+  color: white;
   text-decoration: none;
   font-size: 18px;
   font-style: bold;
@@ -39,7 +39,7 @@ body {
   padding-top: 130px;
 }
 
-.licoes{
+.licoes {
   margin: 10px;
   padding: 20px;
   border: 2px solid rgb(5, 100, 76);
@@ -48,7 +48,7 @@ body {
 
 #rodape {
   background-color: rgb(2, 141, 95);
-  color: #fff;
+  color: white;
   width: 100%;
   height: 100px;
 }
@@ -58,7 +58,7 @@ body {
   text-align: center;
 }
 
-.dados_rodape{ 
+.dados_rodape {
   display: inline-block;
   text-align: left;
 }
