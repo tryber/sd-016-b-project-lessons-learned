@@ -1,3 +1,22 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
+  margin: 0;
 }
+
+#cabecalho {
+  background-color: #eee;
+  padding: 5px;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  position: fixed;
+}
+
+#titulo {
+  color: #343a40;
+  font-size: 20px;
+}
+
+
+
