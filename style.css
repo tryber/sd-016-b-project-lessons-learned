@@ -72,7 +72,7 @@ h1 {
 #licoes_aprendidas {
   display: inline-block;
   width: 500px;
-  padding: 0px;
+  padding: px;
   margin-left: 50px;
   margin-right: 200px;
   background-color: white;
@@ -82,7 +82,7 @@ h1 {
 #licoes_a_aprender {
   display: inline-block;
   width: 500px;
-  padding: 0px;
+  padding: px;
   background-color: white;
   list-style-type: none;
 }
