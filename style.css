@@ -34,7 +34,7 @@ h1 {
   font-size: 50px;
 }
 
-h3 {
+h2 {
   font-size: 30px;
   line-height: 40px;
 }
@@ -73,6 +73,18 @@ main {
   border-radius: 15%;
   margin: 1%;
   float: left;    
+}
+
+#navbar li{
+  list-style: none;
+  display: inline-block;
+  background-color:rgb(22, 22, 189);
+  border: 5px solid black;
+  border-radius: 35%;
+  margin-top: 1%;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 5px;
 }
 
 #licoes_aprendidas {
