@@ -3,9 +3,28 @@ body {
 }
 
 #cabecalho {
-  color: blue;
+  background-color: rgb(3, 107, 82);
+  border-bottom: 7px solid rgb(47, 193, 140);
   position: fixed;
-  top: 0px;
+  top: 0;
+  width: 100%;
+}
+
+#titulo {
+  color: rgb(255, 255, 255);
+  float: left;
+  margin: 17.44px 72px;
+}
+
+#navegacao {
+  color: rgb(255, 255, 255);
+  float: right;
+  margin: 28.44px 72px;
+
+}
+
+.link {
+  color: rgb(255, 255, 255);
 }
 
 #tabela {
