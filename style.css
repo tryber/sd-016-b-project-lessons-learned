@@ -47,7 +47,8 @@ header h1 {
 
 footer ul {
   position: relative;
-  padding: 3%;
+  padding: 4%;
+  width: 20%;
 }
 
 .m-nav ul { list-style: none; }
