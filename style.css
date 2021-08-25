@@ -7,7 +7,9 @@
 /* Requisito 01 - OK */
 body {
     background-color: rgb(253, 251, 251);    ;
-    /* font-size: xx-large; */
+    line-height: 2.5em;
+    font-family: 'Mina','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
 }
 
 main {
@@ -113,7 +115,7 @@ aside {
     width: 30%;
 }
 
-/* Requisito 10 -  */
+/* Requisito 10 - OK */
 nav li {
     display: inline;
     float: left;
@@ -130,3 +132,24 @@ li a:hover {
     transition-duration: 200ms;
     color: black;
 }
+
+/* Requisito 12 - */
+table {
+    float: right;
+    background-color: tomato;
+    width: 30%;
+}
+
+tr {
+    background-color: teal;
+}
+
+th {
+    background-color: yellow;
+}
+
+td {
+    background-color: violet;
+}
+
+
