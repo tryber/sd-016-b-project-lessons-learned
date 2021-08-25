@@ -133,7 +133,10 @@ main {
     margin: 0 auto;
 }
 
-#artigo {}
+#artigo {
+    display: flex;
+    flex-direction: column;
+}
 
 #artigo_meu_aprendizado {}
 
