@@ -1,3 +1,7 @@
+*{
+    margin:0;
+    padding: 0;
+}
 body{
     background-color:rgb(253, 251, 251);
 }
@@ -9,7 +13,8 @@ body{
     text-align: center;
     position:fixed;
     top: 0;
-    width: 99%;
+    padding: 20px;
+    width: 100%;
 }
 
 #navegacao li{
@@ -19,7 +24,8 @@ body{
     text-align: center;
     padding: 10px;
     width: 100px;
-    margin-right: 50px;
+    margin-right: 20px;
+    margin-top: 10px;
     font-size: 18px;
    
 }
@@ -32,10 +38,12 @@ body{
 }
 
 #rodape{
-    background-color: chartreuse;
+    background-color: rgb(231, 231, 231);
     bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
     position: fixed;
-    width: 99%;
+    width: 100%;
 }
 
 .listas{
@@ -46,12 +54,15 @@ body{
     width: 250px;
     float:right;
     margin-top: 150px;
-    margin-right:100px;
+    margin-right:80px;
+}
 
+#licoes_aprendidas ,#licoes_a_aprender{
+    margin:10px 50px 10px 50px;
 }
 
 h2{
-    
+
     text-align: center;
     background-color: #2ec18c;
     color:#ffff;
@@ -61,11 +72,15 @@ h2{
 
 .article-aprendizado{
     background-color: cornflowerblue;
+    width: 300px;
+    display: inline-block;
+    margin-top: 100px;
 }
 
 .secao{
     background-color: crimson;
     display: inline-block;
     width: 200px;
+    margin-bottom: 100px;
 }
 
