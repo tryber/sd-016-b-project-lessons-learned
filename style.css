@@ -12,17 +12,17 @@ main {
 
 p {
   font-family: serif;
-  line-height: 135%;
   font-size: 17px;
+  line-height: 135%;
 }
 
 #cabecalho {
-  position: fixed;
-  top: 0;
   background-color: rgb(186, 194, 194);
-  width: 100%;
-  text-align: center;
   padding: 10px;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
   z-index: 2;
 }
 
@@ -33,6 +33,7 @@ p {
 #licoes_aprendidas {
   display: inline-block;
   margin-right: 25px;
+  margin-bottom: 10px;
 }
 
 #licoes_a_aprender {
@@ -40,30 +41,20 @@ p {
   margin-bottom: 20px;
 }
 
-#rodape {
-  background-color: rgb(186, 194, 194);
-  padding: 10px;
-  clear: both;
-}
-
-#rodape a span {
-  display: none;
-}
-
-.list_title {
+#list_title {
   margin-top: 20px;
 }
 
 .link_redes_sociais img {
-  width: 30px;
   margin-left: 10px;
+  width: 30px;
 }
 
 .lado-esquerdo {
-  margin-top: 20px;
-  width: 75%;
   display: inline-block;
   margin-right: 3%;
+  margin-top: 20px;
+  width: 75%;
 }
 
 .lado-esquerdo p {
@@ -71,13 +62,11 @@ p {
 }
 
 .lado-direito {
-
-  /* display: inline-block; */
-  width: 20%;
-  text-align: justify;
   float: right;
-  margin-top: 20px;
   margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: justify;
+  width: 20%;
 }
 
 .menu_principal {
@@ -85,8 +74,8 @@ p {
 }
 
 .menu_principal ul li {
-  list-style: none;
   display: inline;
+  list-style: none;
   margin-left: 10px;
 }
 
@@ -101,16 +90,34 @@ p {
 }
 
 .tabela , th , td {
-  border: 1px solid black;
   border-collapse: collapse;
+  border: 1px solid black;
   padding: 4px;
 }
 
 .tabela {
+  background-color: rgb(233, 233, 233);
   display: inline-block;
   margin-left: 5%;
   position: relative;
   right: 13px;
-  background-color: rgb(233, 233, 233);
   z-index: 1;
+}
+
+#rodape {
+  background-color: rgb(186, 194, 194);
+  clear: both;
+  padding: 10px;
+}
+
+#rodape a {
+  text-decoration: none;
+}
+
+#rodape a span {
+  display: none;
+}
+
+.copyright {
+  margin-left: 15px;
 }
