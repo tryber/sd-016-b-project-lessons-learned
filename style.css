@@ -16,27 +16,38 @@ body {
 .container {
   background-color: var(--bg-color-container);
   border-radius: 10px;
-  border: 1px solid red;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 120px;
   padding: 15px;
   width: 90%;
 }
 
 #cabecalho {
-  background-color: aqua;
-  padding: 25px 35px;
+  background-color: rgb(30, 36, 36);
+  color: #fff;
+  padding: 15px;
+  padding-bottom: 0;
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+.nav ul {
+  margin: 15px 0px;
 }
 
 .nav ul li{
   display: inline-block;
 }
 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 25px;
+}
+
 .nav a:hover {
-  
+  text-decoration: underline;
 }
 
 .header {
@@ -78,6 +89,7 @@ body {
 .lado-esquerdo {
   float: left;
   border: 1px solid red;
+  line-height: 1.5em;
   width: 45%;
 }
 
