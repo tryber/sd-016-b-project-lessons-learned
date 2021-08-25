@@ -1,16 +1,14 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 17px;
   color: rgb(46, 16, 16);
   margin: 0mm;
 }
 
-
 h2 {
   font-size: 17px;
 }
-
 
 img {
   width: 20%;
@@ -18,11 +16,10 @@ img {
   position: absolute;
   right: 23px;
   top: 20px;
-  padding: .6%;
+  padding: 0.6%;
   background-color: rosybrown;
   z-index: 2;
 }
-
 
 #cabecalho {
   top: 0px;
@@ -38,7 +35,6 @@ header h1 {
   margin-block-end: 0px;
 }
 
-
 section div {
   display: inline-block;
   margin: 30px 30px 30px 30px;
@@ -49,7 +45,6 @@ section div {
   border-radius: 10%;
 }
 
-
 section {
   margin-top: 100px;
   padding: 1px;
@@ -58,8 +53,8 @@ section {
   border-radius: 0px 0px 50px 0px;
 }
 
-
-ul, ol {
+ul,
+ol {
   text-align: left;
 }
 
@@ -71,7 +66,6 @@ nav {
   margin: 0px 0px 0px 20px;
 }
 
-
 nav a:hover {
   color: rgb(160, 115, 115);
 }
@@ -79,7 +73,7 @@ nav a:hover {
 nav:hover {
   background-color: rgb(212, 186, 186);
   color: rgb(212, 186, 186);
-}   
+}
 
 footer {
   margin: 30px 0px 0px 0px;
@@ -102,24 +96,20 @@ article {
   border-radius: 0px 20px 20px 0px;
 }
 
-
 article h2 {
   margin-left: 50px;
 }
 
-
-article p{
+article p {
   margin-left: 18px;
 }
-
-
 
 aside {
   color: rgb(253, 251, 251);
   width: 260px;
   padding-right: 13px;
   padding-left: 13px;
-  padding-top: 290px ;
+  padding-top: 290px;
   position: absolute;
   right: 16px;
   top: 0px;
