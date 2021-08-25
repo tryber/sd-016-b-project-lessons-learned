@@ -29,7 +29,6 @@ textarea {
     font-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    list-style: none;
     line-height: 1;
 }
 
@@ -41,10 +40,11 @@ textarea {
 
 :root {
     --cor-fundo: rgb(253, 251, 251);
-    --cor-cabecalho: #228B22;
-    --cor-menu: #006400;
     --cor-foto: #afafaf;
-    --cor-fundo2: #32CD32;
+    --cor-FloralWhite: #FFFAF0;
+    --cor-LimeGreen: #32CD32;
+    --cor-ForestGreen: #228B22;
+    --cor-DarkGreen: #006400;
 }
 
 
@@ -61,7 +61,7 @@ h2 {}
 h3 {}
 
 main {
-    background-image: linear-gradient(to top, var(--cor-fundo), var(--cor-cabecalho));
+    background-image: linear-gradient(to top, var(--cor-fundo), var(--cor-ForestGreen));
     padding-top: 100px;
 }
 
@@ -72,7 +72,7 @@ main {
 /* ID */
 
 #cabecalho {
-    background-color: var(--cor-cabecalho);
+    background-color: var(--cor-ForestGreen);
     position: fixed;
     width: 100%;
 }
@@ -81,10 +81,11 @@ main {
     font-weight: 100;
     margin: 1rem;
     text-align: center;
-    text-shadow: 2px 2px var(--cor-menu);
+    text-shadow: 2px 2px var(--cor-DarkGreen);
 }
 
 #titulo {
+    color: var(--cor-FloralWhite);
     font-size: 22pt;
 }
 
@@ -98,7 +99,7 @@ main {
 }
 
 #minha_foto {
-    background-color: var(--cor-fundo2);
+    background-color: var(--cor-LimeGreen);
     border: solid 2px var(--cor-foto);
     border-radius: 10px;
     height: 200px;
@@ -110,14 +111,27 @@ main {
     font-family: 'Lobster', cursive;
     font-size: 22pt;
     font-weight: 200;
+    letter-spacing: 2px;
     margin-bottom: 50px;
 }
 
-#listas {}
+#listas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 30px auto;
+    max-width: 1200px;
+}
 
-#licoes_aprendidas {}
+#licoes_aprendidas {
+    list-style: decimal;
+    margin: 0 auto;
+}
 
-#licoes_a_aprender {}
+#licoes_a_aprender {
+    list-style: initial;
+    margin: 0 auto;
+}
 
 #artigo {}
 
@@ -137,9 +151,23 @@ main {
 
 /* CLASS */
 
-.list__box {}
+.list__box {
+    align-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
 
-.list_item {}
+.list__box h2 {
+    font-size: 16pt;
+    margin: 10px;
+    text-align: center;
+    text-shadow: 2px 1px var(--cor-FloralWhite);
+}
+
+.list_item {
+    margin: 10px;
+}
 
 .text {}
 
