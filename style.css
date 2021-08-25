@@ -26,6 +26,8 @@ background-color: rgb(253, 251, 251);
     margin-left: 40%;
     letter-spacing:2px;
     color: black;
+    line-height: 1px;
+    padding: 1px;
 }
 
 #minha_foto {
@@ -55,4 +57,8 @@ background-color: rgb(253, 251, 251);
     margin-left: 39%;
     font-size: 25px;
     margin-top: 24px;
+    border-width:medium;
+    border-style: solid;
+    display: inline;
+    padding: 2px;
 }
