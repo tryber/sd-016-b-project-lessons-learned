@@ -68,7 +68,7 @@ body {
 }
 
 #aside {
-  padding: 10px 10px;
+  padding: 10px;
   background-color: antiquewhite;
   border: 2px solid black;
   display: inline-block;
@@ -83,7 +83,7 @@ body {
   margin-right: 30px;
 }
 
-#rodape { 
+#rodape {
   background-color: rgb(22, 21, 19);
   color: aliceblue;
   text-align: center;
