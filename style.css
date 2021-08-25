@@ -1,0 +1,90 @@
+.back-color{
+    background-color:rgb(253, 251, 251);
+}
+.foto-perfil{
+    margin-top:95px;
+}
+
+header{
+    background-color: steelblue;
+    top:0px;
+    text-align: center;
+    position: fixed;
+    width:100%;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: rgba(0, 0, 0, 0.863);
+}
+
+h1{
+    text-align: center;
+}
+h3{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:3px;
+    letter-spacing:2px;
+    word-spacing:1px;
+    text-decoration:underline;
+}
+
+.nome{
+    color:chartreuse;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: x-large;
+    font-style: italic;
+    clear: both;
+}
+
+.contato{
+    background-color: steelblue;
+    width:100%;
+}
+
+.lista-esquerda{
+    display: inline-block;
+    margin:20px;
+    border: solid black;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.lista-direita{
+    display: inline-block;
+    margin:20px;
+    border: solid black;
+    padding-left:50px;
+    padding-right:20px;
+}
+
+.lado-esquerdo{
+    float: left;
+    width:40%;
+}
+
+.lado-direito{
+    float: right;
+    width:40%;
+}
+footer{
+    clear:both;
+    font-style:italic;
+}
+
+.licoes h3{
+    text-align: center;
+    background-color: chartreuse;   
+}
+
+.tabela{
+    background-color: chartreuse;
+    margin-top:20px;
+    margin-left:62px;
+}
+.link-ajuda{
+    clear:both;
+    text-decoration: underline;
+    margin-top:50px;
+}
