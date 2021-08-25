@@ -38,6 +38,10 @@ main {
   clear: both;
 }
 
+#rodape a span {
+  display: none;
+}
+
 .list_title {
   margin-top: 20px;
 }
