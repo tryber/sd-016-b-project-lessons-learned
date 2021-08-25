@@ -48,3 +48,40 @@ body {
   top: -60px;
   width: 260px;
 }
+
+#rodape {
+  position: absolute;
+  left: 0;
+  top: 700px;
+}
+
+a.contatos:hover {
+  color: chartreuse;
+  font-weight: 900;
+}
+
+ul.navegacao {
+  display: inline;
+  position: fixed;
+  top: 50px;
+  width: 100%;
+  list-style: none;
+}
+
+li.nav {
+  float: left;
+  padding: 5px;
+}
+
+.inicio:hover , .listas:hover , .final:hover {
+  background-color: greenyellow;
+  font-weight: 900;
+  border: solid black;
+  border-radius: 10%;
+}
+
+a {
+  font-style: normal;
+  color: black;
+  text-decoration: none;
+}
