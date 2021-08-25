@@ -1,268 +1,265 @@
 :root {
 
-    --background_color: rgb(253, 251, 251);
+  --background_color: rgb(253, 251, 251);
 
-    --foot_color: rgb(32, 52, 168);
+  --foot_color: rgb(32, 52, 168);
 
-    --primary_color: rgb(94, 18, 248);
+  --primary_color: rgb(94, 18, 248);
 
-    --secondary_color: rgb(37, 248, 18);
+  --secondary_color: rgb(37, 248, 18);
 
-    --tertiary_color: rgb(163, 12, 245);
+  --tertiary_color: rgb(163, 12, 245);
 
-    --font_oswald: 'Oswald', sans-serif;
+  --font_oswald: 'Oswald', sans-serif;
 
-    --font_raleway: 'Raleway', sans-serif;
+  --font_raleway: 'Raleway', sans-serif;
 }
 
 * {
-    box-sizing: border-box;
-    font-family: var(--font_raleway);
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font_raleway);
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #about_me {
-    margin-top: 200px;
+  margin-top: 200px;
 }
 
 body {
-    background-color: var(--background_color);
+  background-color: var(--background_color);
 }
 
 .border_secondary {
-    border: 3px solid var(--secondary_color);
+  border: 3px solid var(--secondary_color);
 }
 
 .bottom_part {
-    justify-content: space-between;
-    margin-top: 10rem;
+  justify-content: space-between;
+  margin-top: 10rem;
 }
 
 .button {
-    background: var(--tertiary_color);
-    border: 2px solid transparent;
-    border-radius: 25px;
-    padding: 5px 25px;
+  background: var(--tertiary_color);
+  border: 2px solid transparent;
+  border-radius: 25px;
+  padding: 5px 25px;
 }
 
 .button:hover {
-    border: 2px solid var(--secondary_color);
+  border: 2px solid var(--secondary_color);
 }
 
 #cabecalho {
-    background-color: var(--primary_color);
-    position: fixed;
-    top: 0;
+  background-color: var(--primary_color);
+  position: fixed;
+  top: 0;
 }
 
 #cabecalho div {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .center_all {
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .center_horizontal {
-    justify-content: center;
+  justify-content: center;
 }
 
 .center_vertical {
-    align-items: center;
+  align-items: center;
 }
 
 .container {
-    margin: 0 8rem;
+  margin: 0 8rem;
 }
 
 .cover_height {
-    height: 100%;
+  height: 100%;
 }
 
 .cover_width {
-    width: 100%;
+  width: 100%;
 }
 
 .d_flex {
-    display: flex;
+  display: flex;
 }
 
 .flex_column {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .lado-direito {
-    float: right;
+  float: right;
 }
 
 .lado-esquerdo {
-    float: left;
+  float: left;
 }
 
 .lessons {
-    padding: 15px 0 0 35px;
+  padding: 15px 0 0 35px;
 }
 
 .lessons li {
-    font-size: 20px;
-    padding-bottom: 5px;
+  font-size: 20px;
+  padding-bottom: 5px;
 }
 
 #minha_foto {
-    border-radius: 50%;
-    height: 310px;
-    margin-left: 15px;
-    width: 310px;
+  border-radius: 50%;
+  height: 310px;
+  margin-left: 15px;
+  width: 310px;
 }
 
 .my_infos {
-    border-left: none;
-    border-radius: 0 25px 25px 0;
-    border-top: none;
-    font-size: 18px;
-    padding: 15px 0 25px 15px;
+  border-left: none;
+  border-radius: 0 25px 25px 0;
+  border-top: none;
+  font-size: 18px;
+  padding: 15px 0 25px 15px;
 }
 
 .my_infos ul {
-    justify-content: space-between;
-    width: 70%;
+  justify-content: space-between;
+  width: 70%;
 }
 
 .navbar {
-    padding: 2rem 0;
+  padding: 2rem 0;
 }
 
 .navbar_header {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .navbar ul {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 .navbar ul li {
-    margin: 0 0.3rem;
+  margin: 0 0.3rem;
 }
 
 .no_decoration {
-    list-style: none;
-    text-decoration: none;
+  list-style: none;
+  text-decoration: none;
 }
 
 .personal_info {
-    margin-left: 2.6rem;
-    width: 410px;
+  margin-left: 2.6rem;
+  width: 410px;
 }
 
 .presentation {
-    font-size: 3rem;
-    height: 60%;
+  font-size: 3rem;
+  height: 60%;
 }
 
 .presentation h2 {
-    border-right: transparent;
-    border-radius: 25px 0 0 25px;
-    padding: 15px 10px;
+  border-right: transparent;
+  border-radius: 25px 0 0 25px;
+  padding: 15px 10px;
 }
 
 #rodape {
-    background-color: var(--foot_color);
-    color: var(--background_color);
+  background-color: var(--foot_color);
+  color: var(--background_color);
 }
 
 #rodape li a {
-    color: var(--background_color);
+  color: var(--background_color);
 }
 
 .self_resume {
-    border-right: none;
-    border-top: none;
-    border-radius: 25px 0 0 25px;
-    padding: 15px 10px;
-    text-align: justify;
+  border-right: none;
+  border-top: none;
+  border-radius: 25px 0 0 25px;
+  padding: 15px 10px;
+  text-align: justify;
 }
 
 .sec_about_me {
-    display: grid;
-    grid-template-areas: 'ab1 ab1 ab3'
-                         'ab2 ab2 ab3';
-    grid-template-columns: 35% 35% 30%;
-    grid-template-rows: 200px
-                        auto;
+  display: grid;
+  grid-template-areas: 'ab1 ab1 ab3'
+    'ab2 ab2 ab3';
 }
 
 .sec_ab_1 {
-    grid-area: ab1;
+  grid-area: ab1;
 }
 
 .sec_ab_2 {
-    grid-area: ab2;
+  grid-area: ab2;
 }
 
 .sec_ab_3 {
-    text-align: right;
-    grid-area: ab3;
+  text-align: right;
+  grid-area: ab3;
 }
 
 .sec_divisor {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .sec_skills {
-    width: 60%;
+  width: 60%;
 }
 
 .sec_skills h4 {
-    border-radius: 0 0 25px 25px;
-    border-top: none;
-    font-size: 1.5rem;
-    padding: 5px 35px;
+  border-radius: 0 0 25px 25px;
+  border-top: none;
+  font-size: 1.5rem;
+  padding: 5px 35px;
 }
 
 .sec_title {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .short_resume {
-    text-align: justify;
-    line-height: 25px;
+  text-align: justify;
+  line-height: 25px;
 }
 
 #skill_title {
-    background-color: red;
+  background-color: red;
 }
 
 .social_icons li img {
-    width: 36px;
+  width: 36px;
 }
 
 .split_around {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 .split_between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .titles {
-    font-family: var(--font_oswald);
+  font-family: var(--font_oswald);
 }
 
 .title_skills {
-    border-radius: 25px 0 0 25px;
-    border-right: none;
-    padding: 5px 25px;
+  border-radius: 25px 0 0 25px;
+  border-right: none;
+  padding: 5px 25px;
 }
 
 #titulo {
-    color: var(--secondary_color);
-    font-size: 3rem;
-    padding-right: 1rem;
+  color: var(--secondary_color);
+  font-size: 3rem;
+  padding-right: 1rem;
 }
