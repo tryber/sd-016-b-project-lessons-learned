@@ -65,6 +65,10 @@ main {
   margin-top: 247px;
 }
 
+main p {
+  line-height: 1.5;
+}
+
 /* Seção do perfil */
 main section.profile {
   padding: 40px 40px 10px 40px; 
@@ -167,8 +171,19 @@ main section.calendar { padding: 20px; }
 main section.calendar table {
   margin: 0 auto;
 
+  cursor: pointer;
+
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
+  border: 5px solid rgb(0, 155, 52);
+}
+
+main section.calendar table caption {
+  background-color:rgb(0, 155, 52);
+  padding: 5px;
+  
+  color: rgb(255, 255, 255);
+  font-weight: 600;
 }
 
 main section.calendar table tr th { 
@@ -183,8 +198,22 @@ main section.calendar table tr td {
   text-align: center;
 }
 
+/* rgb(231, 252, 238) */
+main section.calendar table tr th:nth-child(2n+1),
+main section.calendar table tr td:nth-child(2n+1) {
+  background-color: rgb(231, 252, 238);
+}
+
+main section.calendar table tr td:hover {
+  background-color: rgb(189, 238, 205);
+}
+
 main section.calendar table tr td.day {
   background-color: rgb(0, 155, 52);
   color: rgb(235, 235, 235);
   font-weight: 600;
+}
+
+main section.calendar table tr td.day:hover {
+  background-color: rgb(2, 134, 46);
 }
