@@ -1,0 +1,170 @@
+body{
+  background-color:rgb(253, 251, 251); 
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: Helvetica, sans-serif; 
+    color: #525252;
+
+}
+
+h2{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cabecalho{
+    background-color: #2fc18c;
+    border-style: inset;
+    border-width: 0 0 8px 0;
+    border-color: rgb(6, 82, 13);
+    height: 20%;
+    position: fixed;
+    width: 100%;
+}
+
+#minha_foto{
+    margin-top: 0%;
+    border-radius: 50%;
+    margin-left: 12%;
+    margin-bottom: 25px;
+    
+}
+#titulo{
+    display: inline-block;
+    margin-left: 15%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    height: 20%;
+}
+
+#trybe-logo{
+    display: inline-block;
+    border-radius: 10%;
+    height: 85%;
+    margin-top: 9px;
+    margin-left: 9px;
+    
+}
+
+.main{
+    margin-top:9%;
+    height: 90%;
+    width: 100%;
+    background-color:rgb(253, 251, 251);
+    display: inline-block;
+}
+
+.profile{
+    width:20%;
+    height:600px;
+    background-color: rgb(176, 196, 160);
+    border-style: inset;
+    border-width: 7px 0 0 0;
+    border-color: rgb(6, 108, 35);
+    display: inline-block;
+    
+}
+
+.nome {
+    padding-top: 5px;
+    margin-left: 26px;
+    width : 90%;
+    background-color: rgb(176, 196, 160);
+    line-height: 25px;
+    
+}
+
+.personal-links{
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.lado-esquerdo{
+    margin-top: 50px;
+    margin-left: 50px;   
+    display: inline-block;
+    position: absolute;
+    height: 250px;
+    width: 350px;
+    background-color: rgb(16, 191, 245);
+    text-align: center;
+    border-style: solid;
+}
+
+.lado-direito{
+    margin-top: 50px;
+    margin-left: 450px;
+    position:absolute;
+    display: inline-block;
+    height: 250px;
+    width: 350px;
+    background-color:crimson;
+    text-align: center;
+    border-style: solid;
+}
+
+#l_aprendidas{ 
+    margin-top: 350px;
+    margin-left: 50px;  
+    display: inline-block;
+    position: absolute;
+    height: 230px;
+    width: 350px;
+    background-color: rgb(225, 225, 238);
+    text-align: center;
+    border-style: dotted;
+    
+    
+}
+#lol{
+    margin-top: 350px;
+    margin-left: 450px;
+    position:absolute;
+    display: inline-block;
+    height: 130px;
+    width: 350px;
+    background-color: rgb(225, 225, 238);
+    text-align: center;
+    border-style: dotted;
+}
+
+#licoes_aprendidas{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    
+}
+
+#licoes_a_aprender{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.text{
+    width: 75%;
+    margin-left: 50px;
+    text-align: center;
+}
+
+#rodape{
+    width: 100%;
+    height: 50%;
+    background-color: green;
+}
+
+
