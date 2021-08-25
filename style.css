@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+.header-Title {
+  top: 0px;
+  background-color: teal;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+}
+
+#titulo {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.figurePhotoMain {
+  width: 300px;
+  height: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  margin-top: 80px;
+  background-color: transparent;
+}
+
+.my-photo {
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  margin-left: 60px;
+  border-radius: 10%;
+}
+
+figcaption {
+  margin-left: 130px;
+}
+
+.lessons {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  background-color: rgb(96, 124, 124);
+  margin-top: 80px;
+}
+
+.list {
+  position: relative;
+  background-color: blue;
+  height: 300px;
+  padding-top: 30px;
+  padding-left: 25%;
+  color: yellowgreen;
+  font-size: 20px;
+}
+
+ol {
+  float: left;
+  padding-left: 35%;
+  position: absolute;
+}
+
+ul {
+  float: left;
+  margin-left: 60px;
+  position: absolute;
+}
+
+ol li {
+  margin-left: 70px;
+}
+
+ul li {
+  margin-left: 70px;
+}
+
+#rodape {
+  height: 200px;
+  position: relative;
+  margin: 0;
+  background-color: teal;
+  padding-top: 30px;
+}
+
+.div-rodape img {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin-left: 15%;
+}
