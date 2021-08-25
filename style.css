@@ -1,0 +1,192 @@
+
+body{
+
+    background-color: rgb(253, 251, 251);
+
+}
+
+.style-nav{
+ 
+    display: block;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 15px;
+    margin-left: 40px;
+    text-align: left;
+
+}
+
+#titulo{
+
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+h1{
+
+    margin-left: 50px;
+    
+}
+
+
+h2{
+    
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 20px;
+
+}
+
+p{
+padding: 20px 20px 20px 20px;
+}
+#cabecalho{
+
+    background-color:#036b52;
+    color: wheat;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+
+}
+
+#minha_foto{
+
+    display: block;
+    margin-left: 30px;
+    border-radius: 50%;
+    margin-top: 12%;
+    height: 150px;
+
+}
+
+a{
+    
+    color: white;
+
+}
+
+ul{
+
+    margin-left: 70px;
+    letter-spacing: 2px;
+    line-height: 25px;
+
+}
+
+ol{
+
+    letter-spacing: 2px;   
+    line-height: 25px;
+
+}
+
+#rodape{
+
+   margin-top: 100px;
+   display: inline-block;
+   width: 100%;  
+   background-color: #036b52;
+   text-align: center;
+   font-size: 20px;
+   font-weight: 700px;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   
+}
+
+.container-listas{
+
+    display: flex;
+    margin-left: 30px;
+    
+}
+
+.lado-esquerdo{
+
+float: none;
+font-size: 15px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+height: 200px;
+letter-spacing: 2px;
+line-height: 25px;
+text-align: justify;
+width: 650px;
+
+
+
+}
+
+
+
+.lado-direito{
+
+float: none;
+font-size: 15px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+height: 200px;
+letter-spacing: 2px;
+line-height: 25px;
+text-align: justify;
+width: 650px;
+
+
+}
+
+.container-alinhamento-artigo-aseide{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    
+}
+table, th, td {
+
+    border:1px solid black;
+    letter-spacing: 6px;
+    line-height: 35px;
+    
+  }
+
+  /*https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container*/
+
+  .tabela-style{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+#empresa{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+
+#contato{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+#cidade{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    
+}
