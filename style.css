@@ -1,12 +1,81 @@
+a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #202426;
+}
+
+article h2 {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+article p {
+  text-align: justify;
+  text-indent: 30px;
+}
+
+aside p {
+  font-weight: 700;
+  text-align: center;
+}
+
 body {
   background-color: rgb(253, 251, 251);
-  margin 0;
+  color: #202426;
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
 }
 
 header {
+  border: none;
+  margin: 0;
+  padding: 0;
   position: fixed;
   top: 0;
+}
+
+header h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+footer {
+  color: #476C5E;
+  font-size: 14px;
+  font-style: italic;
+  text-align: right;
+}
+
+.menu {
+  background-color: #476C5E;
+  color: #F2F2F2;
+  line-height: 30px;
+  text-align: center;
+
+
+}
+
+.menu h2 {
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+.menu p {
+  font-style: italic;
+  font-weight: 600;
   margin: 0;
-  padding: 0
-  border: none;
+  
+}
+
+nav a {
+  color: #F2EBC4;
 }
