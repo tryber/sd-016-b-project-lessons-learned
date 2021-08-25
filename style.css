@@ -26,11 +26,28 @@ h1 {
 
 #licoes_aprendidas {
   color : black;
+  display: inline-block;
 
+}
+
+#licoes_a_aprender {
+  display: inline-block;
 }
 
 #minha_foto {
   width: 100px;
   border-radius : 70%;
   display: inline-block;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+#container-a{
+float: left;
+}
+#container-b {
+  float: left;
 }
