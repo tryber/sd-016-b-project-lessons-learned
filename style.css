@@ -22,7 +22,8 @@ section nav {
 
 #minha_foto {
   width: 200px;
-  padding: 150px 0 50px;
+  padding: 100px 0 25px;
+  margin: 50px 25px 10px;
 }
 
 table , th , td {
@@ -37,4 +38,18 @@ table , th , td {
 .not-check {
   background-color: red;
   text-align: center;
+}
+
+.link {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 1px 1px 35px 75px;
+  display: inline-block;
+}
+
+.link:hover {
+  background-color: cornflowerblue;
+  color: black;
 }
