@@ -1,15 +1,39 @@
 body {
   background-color: rgb(253, 251, 251);
+  color: rgb(33, 37, 41);
+  font-family: Heebo, sans-serif;
+  line-height: 25px;
 }
 
 header {
   background-color: pink;
   position: fixed;
+  text-align: center;
+  padding: 0;
   top: 0;
+  left: 0;
+  right: 0;
+}
+
+header h1 {
+  font-size: 45px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding-top: 15px;
+}
+
+.navMenu {
+  display: inline-block;
+  margin: 7px;
+  text-decoration: none;
 }
 
 #minha_foto {
-  margin-top: 60px;
+  border: 4px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 135px;
   width: 370px;
 }
 
