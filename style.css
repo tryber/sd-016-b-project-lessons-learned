@@ -27,7 +27,7 @@ a {
 }
 
 #about_me {
-  margin-top: 200px;
+  margin-top: 10rem;
 }
 
 body {
@@ -47,6 +47,7 @@ body {
   background: var(--tertiary_color);
   border: 2px solid transparent;
   border-radius: 25px;
+  color: var(--background_color);
   padding: 5px 25px;
 }
 
@@ -55,7 +56,7 @@ body {
 }
 
 #cabecalho {
-  background-color: var(--primary_color);
+  background-color: var(--background_color);
   position: fixed;
   top: 0;
 }
@@ -173,7 +174,7 @@ body {
 }
 
 #rodape {
-  background-color: var(--foot_color);
+  background-color: var(--primary_color);
   color: var(--background_color);
 }
 
