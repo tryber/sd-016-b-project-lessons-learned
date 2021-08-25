@@ -3,8 +3,10 @@
 }
 header{
     background-color: steelblue;
-    top:0;
+    top:0px;
     text-align: center;
+    position: fixed;
+    width:100%;
 }
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -25,7 +27,11 @@ h3{
 }
 
 .nome{
-    color: red;
+    color:chartreuse;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: x-large;
+    font-style: italic;
+    clear: both;
 }
 
 .contato{
