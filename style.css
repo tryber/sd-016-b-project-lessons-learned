@@ -1,0 +1,80 @@
+/** 
+* Cores de fonte retiradas do site da Trybe
+* Source: https://www.betrybe.com/
+*/
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  line-height: 21px;
+  padding: 1%;
+}
+
+main {
+  font-size: 16px;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  margin: 1% 20% 1% 38%;
+  font-size: 17px;
+  color: #2fc18c;
+}
+
+#minha_foto {
+  position: static;
+  margin: 10% auto 3% 3%;
+  width: 340px;
+}
+
+h2 {
+  position: static;
+  margin-left: 3%;
+  color: #2fc18c;
+}
+
+#licoes_aprendidas {
+  position: static;
+  margin: auto auto 1% 1%;
+  width: 30%;
+  color: #036b52;
+}
+
+#licoes_a_aprender {
+  position: absolute;
+  left: 19%;
+  top: 85.4%;
+  color: #41197f;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  margin-right: 2%;
+  margin-left: 2.5%;
+  color: #41197f;
+}
+
+.lado-direito {
+  display: inline-block;
+  color: #036b52;
+}
+
+table, th {
+  border: 1px solid black;
+  position: relative;
+  width: 2%;
+  margin: 1% auto 3% auto;
+  top: 10.1%;
+}
+
+#links_pessoais {
+  margin-left: 2%;
+  margin-bottom: 1%;
+}
+
+#rodape {
+  position: relative;
+  left: 47.9%;
+}
+
