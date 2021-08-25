@@ -14,9 +14,12 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-/* CSS       */
-/* Cabeçalho */
+.clear { clear: both; }
+.lado-esquerdo { float: left; }
+.lado-direito { float: right; }
 
+/* CSS             */
+/* Cabeçalho       */
 header {
   background-color: rgb(0, 155, 52);
   padding: 100px 20px;
@@ -93,8 +96,6 @@ main section.profile figure {
 }
 
 main section.profile figure figcaption {
-  
-
   color: rgb(0, 155, 52);
   font-size: 14pt;
   font-weight: 600;
@@ -105,21 +106,28 @@ main section.profile figure img {
    width: 100%;
 }
 
-/* Seção da Lista */
-main section.learned-list {
-  padding: 80px 40px;
+/* Seção artigo - Configurações */
+main section.article {
+  background-color: rgb(235, 235, 235);
+  padding: 5%;
 
+  display: table;
+}
+
+/* Seção aprender */
+main section.article section.learn {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
 
-main section.learned-list ul, main section.learned-list ol { 
-  background-color: rgb(235, 235, 235);
-  padding: 5% 10%;
-}
+  width: 39%;
+} 
 
-main section.learned-list h1 {
+main section.article section.learn ul li,
+main section.article section.learn ol li
+ { line-height: 1.5;}
+
+main section.learn h1 {
   margin: 0 0 10px -30px;
 
   color: rgb(0, 155, 52);
@@ -128,35 +136,29 @@ main section.learned-list h1 {
   font-size: 14pt;
 }
 
-/* Artigo */
+/* Seção Artigo */
+main section.article article { width: 49%; }
 
-main article {
-  padding: 5% 10%;
-
-  background-color: rgb(235, 235, 235);
-}
-
-main article h1 {
+main section.article article h1 {
   margin-bottom: 10px;
 
   color: rgb(0, 155, 52);
   font-family: 'Roboto', sans-serif;
 }
 
-main article p {
+main section.article article p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 11pt;
-
   text-indent: 37pt; 
   text-align: justify;
 }
 
-main article aside { 
+main section.article article aside { 
   margin: 20px auto; 
   width: 80%;
 }
 
-main article aside p {
+main section.article article aside p {
   color: rgb(0, 155, 52);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 11pt;
@@ -167,6 +169,7 @@ main article aside p {
   text-align-last: center;
 }
 
+/* Seção calendário */
 main section.calendar { padding: 20px; }
 main section.calendar table {
   margin: 0 auto;
@@ -198,7 +201,6 @@ main section.calendar table tr td {
   text-align: center;
 }
 
-/* rgb(231, 252, 238) */
 main section.calendar table tr th:nth-child(2n+1),
 main section.calendar table tr td:nth-child(2n+1) {
   background-color: rgb(231, 252, 238);
@@ -216,4 +218,73 @@ main section.calendar table tr td.day {
 
 main section.calendar table tr td.day:hover {
   background-color: rgb(2, 134, 46);
+}
+
+/* Rodape */
+footer {
+  background-color:rgb(0, 77, 26);
+  padding: 40px 20px;
+  position: relative; 
+  
+  display: table;
+  width: 100%;
+
+}
+
+footer ul {
+  position: relative;
+  padding: 3%;
+}
+
+footer ul h1 {
+  margin: 0 0 10px -30px;
+
+  color: rgb(214, 214, 214);
+  font-family: 'Roboto', sans-serif;
+  font-size: 12pt;
+  text-transform: uppercase;
+}
+
+footer ul li { list-style: none; }
+
+footer ul li a {
+  color: rgb(214, 214, 214);
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 11pt;
+  line-height: 1.5;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+footer ul li a:hover {
+  color: rgb(0, 61, 20);
+}
+
+footer {
+  position: relative;
+}
+
+footer section.dedicat {
+  background-color: rgb(253, 251, 251);
+  padding: 2%;
+
+  position: absolute;
+  bottom: 20%;
+  
+  max-width: 40%;
+
+  border-radius: 7px;
+}
+
+footer section.dedicat p {
+  color: rgb(2, 134, 46);
+  font-size: 11pt;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+
+  line-height: 1.5;
+
+  text-align: justify;
+  
 }

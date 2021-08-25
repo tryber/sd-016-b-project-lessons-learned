@@ -17,7 +17,7 @@
                 <li><a href="#minha_foto">Sobre</a></li>
                 <li><a href="#licoes_aprendidas">Aprendi</a></li>
                 <li><a href="#licoes_a_aprender">Aprender</a></li>
-                <li><a href="#artigo_apr">Artigo</a></li>
+                <li><a href="#artigo">Artigo</a></li>
                 <li><a href="#rodape">Rodape</a></li>
             </ul>
         </nav>
@@ -32,39 +32,44 @@
                 <p>Johnson nasceu em 2 de maio de 1972, na cidade californiana de Hayward. A luta livre sempre esteve no sangue do artista. Seu pai, Rocky ‘Soul Man’ Johnson era integrante do primeiro time de campeões afro-americanos, e seu avô, Peter Maivia, estabeleceu-se como um dos pioneiros lutadores de Samoa.</p>
             </div>
         </section>
-        <section class="learned-list">
-            <ol id="licoes_aprendidas">
-                <h1> Ja aprendi </h1>
-                <li>Unix</li>
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>Empatia</li>
-                <li>HTML</li>
-                <li>HTML Semântico</li>
-                <li>CSS</li>
-                <li>Slack</li>
-                <li>Inspect</li>
-                <li>Zoom</li>
-            </ol>
-            <ul id="licoes_a_aprender">
-                <h1> Quero aprender </h1>
-                <li>JavaScript</li>
-                <li>DOM</li>
-                <li>Forms</li>
-                <li>CSS Responsive</li>
-                <li>ES6</li>
-                <li>HOF</li>
-                <li>Unit Tests</li>
-                <li>React</li>
-                <li>Node</li>
-                <li>SQL</li>
+
+        <!-- Artigo -->
+        <section id="artigo" class="article">
+            <section class="learn lado-direito">
+                <ol id="licoes_aprendidas">
+                    <h1> Ja aprendi </h1>
+                    <li>Unix</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>Empatia</li>
+                    <li>HTML</li>
+                    <li>HTML Semântico</li>
+                    <li>CSS</li>
+                    <li>Slack</li>
+                    <li>Inspect</li>
+                    <li>Zoom</li>
+                </ol>
+                <ul id="licoes_a_aprender">
+                    <h1> Quero aprender </h1>
+                    <li>JavaScript</li>
+                    <li>DOM</li>
+                    <li>Forms</li>
+                    <li>CSS Responsive</li>
+                    <li>ES6</li>
+                    <li>HOF</li>
+                    <li>Unit Tests</li>
+                    <li>React</li>
+                    <li>Node</li>
+                    <li>SQL</li>
+            </section>
+            <article class="lado-esquerdo">
+                <h1>Meu aprendizado</h1>
+                <p>Tenho aprendido bastante como um aluno. Desde os comandos mais básicos até os mais populares sobre o sistema Unix. Também bastante sobre HTML com tags, HTML Semântico e CSS. E uma das coisas mais interessantes que ainda estou desenvolvendo mas que estou gostando muito são as aulas de softskills. Estão me possibilitando adquirir um olhar diferente para meus proprios sentimentos.</p>
+                
+                <aside><p>Eu tenho gostado muito do meu desenvolvimento e tenho descoberto em mim qualidades que eu nem imaginava existirem.</p></aside>
+            </article>
         </section>
-        <article id="artigo_apr">
-            <h1>Meu aprendizado</h1>
-            <p>Tenho aprendido bastante como um aluno. Desde os comandos mais básicos até os mais populares sobre o sistema Unix. Também bastante sobre HTML com tags, HTML Semântico e CSS. E uma das coisas mais interessantes que ainda estou desenvolvendo mas que estou gostando muito são as aulas de softskills. Estão me possibilitando adquirir um olhar diferente para meus proprios sentimentos.</p>
-            
-            <aside><p>Eu tenho gostado muito do meu desenvolvimento e tenho descoberto em mim qualidades que eu nem imaginava existirem.</p></aside>
-        </article>
+        <div class="clear"></div>
         <section class="calendar">
             <table>
                 <thead>
@@ -124,14 +129,27 @@
                         <td headers="ter">31</td>
                     </tr>
                 </tbody>
-                <tfoot>
-                </tfoot>
             </table>
         </section>
     </main>
+    
+    <!-- Rodape -->
     <footer id="rodape">
-        <ul>
-            <li><a href="https://pt.wikipedia.org/wiki/Dwayne_Johnson" target="_blank" alt="opens new window">Link Wikipedia (opens new window)</a></li>
+        <section class="dedicat">
+            <p>A conclusão deste projeto resume-se em dedicação, dedicação pelos envolvidos no curso até e pela minha inspiração em <strong>Bruna Papaleo<strong>.</p>
+        </section>
+
+        <div class="clear"></div>
+
+        <ul class="lado-direito">
+            <h1>Referências 2</h1>
+            <li><a href="https://pt.wikipedia.org/wiki/Dwayne_Johnson" target="_blank" alt="opens new window">Wikipedia (opens new window)</a></li>
+        </ul>
+        <ul class="lado-direito" style="margin-right: 7%;">
+            <h1>Referências</h1>
+            <li><a href="https://www.w3.org/">w3</a></li>
+            <li><a href="https://www.w3schools.com/">w3schools</a></li>
+            <li><a href="https://developer.mozilla.org/pt-BR/">MDN Web docs</a></li>
         </ul>
     </footer>
 </body>
