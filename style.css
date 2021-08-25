@@ -1,8 +1,12 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin 0;
 }
 
 header {
   position: fixed;
   top: 0;
+  margin: 0;
+  padding: 0
+  border: none;
 }
