@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
+#titulo {
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+#cabecalho {
+  background-color: rgba(80, 172, 66, 0.843);
+  display: flex;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#cabecalho nav a {
+  color: white;
+  font-size: 20px;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+#cabecalho nav a:hover {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+#foto_section {
+  background-color: rgba(80, 172, 66, 0.843);
+  border-radius: 20px;
+  margin: 7% 35% 2%;
+  max-width: 30%;
+  padding: 20px;
+  text-align: center;
+}
+
+#minha_foto {
+  width: 350px;
+}
+
+.listas {
+  display: inline-block;
+}
+
+.listas div {
+  margin: 50px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.secao-aprendizado {
+  display: inline-block;
+}
+
+article , aside {
+  margin-bottom: 50px;
+}
+
+article {
+  max-width: 50%;
+}
+
+aside {
+  background-color: lightgrey;
+  font-style: italic;
+  margin-left: 15px;
+  padding: 15px;
+  width: 40%;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td , th {
+  border: 1px solid black;
+}
+
+#rodape {
+  background-color: rgba(80, 172, 66, 0.843);
+  color: white;
+  padding: 20px;
+  margin-top: 1%;
+  text-align: center;
+}
