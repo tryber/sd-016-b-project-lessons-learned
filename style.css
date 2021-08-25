@@ -61,12 +61,20 @@ a {
   font-family: sans-serif;
 }
 
-.lado-direito {
+.lado-esquerdo {
+  float: left;
+
   line-height: 25px;
+  width: 430px;
+  margin-left: 10px;
 }
 
-.lado-esquerdo {
+.lado-direito {
+  float:right;
   line-height: 25px;
+  width: 430px;
+  height: 232px;
+  margin-right: 10px;
 }
 
 #rodape {
