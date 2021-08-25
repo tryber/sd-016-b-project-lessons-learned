@@ -54,6 +54,7 @@ main {
   margin: 3%;
   margin-bottom: 0%;
   padding-bottom: 2.5%;
+  padding-top: 1%;
 }
 
 main img {
@@ -62,6 +63,8 @@ main img {
   margin-left: auto;
   height: 420px;
   margin-top: 4%;
+  padding: 4px;
+  background-color: rgb(64, 64, 64);
 }
 
 .lado-esquerdo {
@@ -90,7 +93,7 @@ table {
   margin-left: auto;
 }
 
-.unbold {
+.corner {
   font-weight: 100;
   font-style: italic;
 }
@@ -104,7 +107,7 @@ footer {
 
 footer ul {
   float: right;
-  margin-right: 15%;
+  margin-right: 10%;
   margin-top: 1%;
   list-style: none;
   width: auto;
@@ -116,9 +119,8 @@ footer ul li {
 }
 
 .footerText {
-  display: inline-flexbox;
-  padding-top: 1.78%;
-  margin-left: 3%;
+  padding-top: 1.6%;
+  margin-left: 7%;
   text-align: center;
   font-style: italic;
 }
