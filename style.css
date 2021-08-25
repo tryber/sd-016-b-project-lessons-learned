@@ -9,6 +9,7 @@
     position: fixed;
     text-align: center;
     right: 100px;
+    line-height: 10px;
 }
   #titulo {
       text-align: center;     
@@ -29,7 +30,7 @@
       font-family:Impact,'Arial Narrow Bold', sans-serif;
       font-size: 20px;
   }
-  #licoes_aprendidas{
+  #licoes_aprendidas {
     display: inline-block;
     margin:20px;
     border: solid red;
@@ -37,7 +38,7 @@
     padding-right:20px;
 }
 
-#licoes_a_aprender{
+#licoes_a_aprender {
     display: inline-block;
     margin:20px;
     border: solid red;
@@ -46,10 +47,14 @@
 }
 
 .lado_esquerdo{
-    float: left;
-    width:40%;
+  color: rgb(1, 0, 66);
+  left: 0;
+  position: initial;
+  width: 260p
 }
-
 .lado_direito{
-    float: right;
-    width:40%;
+  color: rgb(1, 0, 66);
+  left: 300px;
+  position: absolute;
+  top: 713px
+}
