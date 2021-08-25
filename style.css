@@ -52,7 +52,7 @@ body {
 #rodape {
   position: absolute;
   left: 0;
-  top: 700px;
+  top: 900px;
 }
 
 a.contatos:hover {
@@ -84,4 +84,27 @@ a {
   font-style: normal;
   color: black;
   text-decoration: none;
+}
+
+#info {
+  position: absolute;
+  left: 0;
+  top: 700px;
+  width: 45%;
+}
+
+aside {
+  position: absolute;
+  right: 0;
+  top: 200px;
+  float: right;
+  width: 20%;
+  border: solid rgb(1, 0, 66);
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 90%;
+  color: rgb(1, 0, 66);
+  line-height: 15px;
 }
