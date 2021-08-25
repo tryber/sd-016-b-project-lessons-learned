@@ -1,0 +1,154 @@
+html {
+  font-family: Lato, sans-serif;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+header {
+  background-color: rgb(3, 107, 82);
+  border-bottom: 7px solid rgb(47, 193, 140);
+  color: white;
+  padding: 10px 90px 10px 94px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+nav {
+  margin: 90px 30px;
+}
+
+nav a {
+  border: 2px solid white;
+  background-color: rgb(3, 107, 82);
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  background-color: rgb(47, 193, 140);
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+nav ul li {
+  display: inline;
+  padding: 50px;
+}
+
+img {
+  border: 1px solid rgb(47, 193, 140);
+  border-radius: 35px;
+  box-shadow: 15px 12px 7px grey;
+  display: block;
+  margin: 30px auto;
+}
+
+.licoes {
+  text-align: center;
+}
+
+.licoes h2 {
+  margin-bottom: 15px;
+  font-style: italic;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px 20px;
+  background-color: rgb(47, 193, 140);
+  color: white;
+}
+
+#licoes_aprendidas , #licoes_a_aprender {
+  margin-top: 60px;
+  display: inline-block;
+  line-height: 25px;
+  padding: 0 150px;
+  font-weight: 700;
+}
+
+.artigos {
+  margin-top: 80px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  padding: 0 50px;
+}
+
+.lado-esquerdo , .lado-direito {
+  line-height: 30px;
+  color: black;
+}
+
+.lado-esquerdo {
+  text-align: center;
+  width: 40%;
+  display: inline-block;
+  margin-right: 650px;
+  border: 7px solid rgb(47, 193, 140);
+  background-color: rgb(3, 107, 82);
+  color: white;
+  font-weight: 700;
+  padding: 10px 5px;
+}
+
+.artigos .lado-esquerdo h2 {
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.lado-direito {
+  text-align: center;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 50px;
+  bottom: 0;
+  display: inline-block;
+  border: 7px solid rgb(3, 107, 82);
+  background-color: rgb(47, 193, 140);
+  color: white;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+.artigos .lado-direito h2 {
+  margin-bottom: 50px;
+  text-decoration: underline;
+}
+
+table {
+  border: 3px solid rgb(47, 193, 140);
+  background-color: rgb(3, 107, 82);
+  color: white;
+  margin: auto;
+  margin-top: 80px;
+}
+
+footer {
+  width: 100%;
+  margin: 100px auto 10px;
+  text-align: center;
+  height: 40px;
+  border-top: 7px solid rgb(47, 193, 140);
+  background-color: rgb(3, 107, 82);
+  margin-bottom: 0;
+}
+
+footer p {
+  margin-top: 10px;
+  color: white;
+  font-weight: 700;
+}
