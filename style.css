@@ -24,3 +24,17 @@ section nav {
   width: 200px;
   padding: 150px 0 50px;
 }
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.check {
+  background-color: green;
+  text-align: center;
+}
+
+.not-check {
+  background-color: red;
+  text-align: center;
+}
