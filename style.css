@@ -37,10 +37,20 @@ textarea {
 /* ----------------------------------------------------------------------------------------------- */
 
 
+/* VARIAVEIS */
+
+:root {
+    --cor-de-fundo: rgb(253, 251, 251);
+    --cor-cabecalho: #228B22;
+    --cor-menu: #006400;
+    --cor-foto: #afafaf;
+}
+
+
 /* TAG */
 
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: var(--cor-de-fundo);
 }
 
 h1 {}
@@ -60,7 +70,7 @@ main {
 /* ID */
 
 #cabecalho {
-    background-color: #228B22;
+    background-color: var(--cor-cabecalho);
     position: fixed;
     width: 100%;
 }
@@ -69,7 +79,7 @@ main {
     font-weight: 100;
     margin: 1rem;
     text-align: center;
-    text-shadow: 2px 2px #006400;
+    text-shadow: 2px 2px var(--cor-menu);
 }
 
 #titulo {
@@ -86,7 +96,7 @@ main {
 }
 
 #minha_foto {
-    border: solid 2px #afafaf;
+    border: solid 2px var(--cor-foto);
     border-radius: 100%;
     height: 200px;
     margin: 20px;
