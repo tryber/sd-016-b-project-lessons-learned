@@ -3,7 +3,7 @@ body {
   margin-bottom: 30px;
   background-color: rgb(253, 251, 251);
   border: 1px, solid, black;
-  font-family: 'Hina Mincho', serif;
+  font-family: Hina Mincho , serif;
   font-size: 16px;
   line-height: 20px;
   color: rgb(51, 51, 51);
@@ -47,7 +47,7 @@ main {
   border-radius: 5px;
   width: 300px;
   height: 300px;
-  margin-left: 10px;  
+  margin-left: 10px;
 }
 
 #licoes_aprendidas {
