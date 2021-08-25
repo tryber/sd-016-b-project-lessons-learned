@@ -41,13 +41,15 @@ body {
   float: right;
 }
 
-h2 {display: inline-block;
+h2 {
+  display: inline-block;
   margin-left: 40px;
   margin-top: 10px;
   text-align: center;
 }
 
-#experiencia {display: inline-block;
+#experiencia {
+  display: inline-block;
   margin-left: 40px;
   margin-top: 50px;
   text-align: center;
