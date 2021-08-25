@@ -1,30 +1,35 @@
 * {
-    margin: 0;
+    margin: auto;
     padding: 0;
+
     /* border-radius: 1em; */
+
     /* border: 5px solid gray; */
 }
+
 /* Requisito 01 - OK */
 body {
     background-color: rgb(253, 251, 251);    ;
     line-height: 2.5em;
-    font-family: 'Mina','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Mina', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: small;
 }
 
 main {
     background-color: lightsalmon;
 }
+
 /* Requisito 02 - OK */
-#cabecalho{
+#cabecalho {
     position: fixed;
     top: 0;
 
-    /* test ok*/
+    /* test ok */
     width: 100%;
     text-align: center;
     background-color: aquamarine;
     border: 5px solid gray;
+
     /* border fica pra fora com width 100% */
 }
 
@@ -34,31 +39,36 @@ main {
     height: 3em;
 
 }
+
 /* Requisito 03 - OK */
 #minha_foto {
-    /* margin-top: 20%; */
+    margin-top: 1em;
     border-radius: 50%;
-    width: 20%;
+    width: 90%;
     border: 2px solid gray;
 }
 
 /* Requisito 04 e 05- OK */
-ol, ul{
+ol, ul {
     margin-left: 2em;
     text-align: justify;
 }
 
-/* Bônus 15 -  */
+/* Bônus 15 - OK */
 .lado-esquerdo {
     float: left;
+
     /* width: 50%; */
+
     /* test */
     background-color: lightsteelblue;
 }
 
 .lado-direito {
     float: right;
+
     /* width: 50%; */
+
     /* test */
     background-color: lightpink;
 }
@@ -78,12 +88,11 @@ ol, ul{
 }
 
 /* Requisito 06 e 07 - OK */
-
 footer {
     background-color: rgb(20, 52, 148);
     margin: 1em;
     padding: 1em;
-    border: 5px solid gray ;
+    border: 5px solid gray;
 }
 
 footer p {
@@ -102,7 +111,6 @@ footer::after {
     clear: both;
 }
 
-
 /* Requisito 08 - OK */
 article {
     background-color: palegoldenrod;
@@ -113,6 +121,10 @@ article {
 aside {
     background-color: slateblue;
     width: 30%;
+}
+
+aside p {
+    font-style: italic;
 }
 
 /* Requisito 10 - OK */
@@ -133,11 +145,44 @@ li a:hover {
     color: black;
 }
 
-/* Requisito 12 - */
-table {
-    float: right;
+/* Requisito 12 - OK */
+.cartao {
+    background-color: teal;
+
+    /* width:30%; */
+    width: min-content;
+    text-align: center;
+
+    /* margin: auto; */
+    margin-top: 2em;
+ 
+    border-radius: 1em;
+    box-shadow: 2px 2px 4px purple;
+    padding-bottom: 1em;
+    transition-duration: 400ms;
+}
+
+.cartao:hover {
+    transform: scale(1.25) rotate(-2.5deg);
+    transition-duration: 1500ms;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    box-shadow: 4px 4px 8px black;
+    
+}
+
+.tabela {
+
+    /* float: right; */
     background-color: tomato;
-    width: 30%;
+    text-align: center;
+
+    /* margin: auto; */
+}
+
+table {
+
+    /* margin: auto; */
+    white-space: nowrap;
 }
 
 tr {
@@ -145,11 +190,11 @@ tr {
 }
 
 th {
-    background-color: yellow;
+    background-color: darkkhaki;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 td {
-    background-color: violet;
+    background-color: cornflowerblue;
 }
-
-
