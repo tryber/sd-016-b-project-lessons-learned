@@ -63,14 +63,13 @@ a {
 
 .lado-esquerdo {
   float: left;
-
   line-height: 25px;
   width: 430px;
   margin-left: 10px;
 }
 
 .lado-direito {
-  float:right;
+  float: right;
   line-height: 25px;
   width: 430px;
   height: 232px;
