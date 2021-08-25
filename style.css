@@ -39,7 +39,7 @@ a {
     line-height: 80px;
 }
 
-.artigo{    
+.artigo {    
     width: 20%;
     margin: 10px;
     color: green;
@@ -50,21 +50,14 @@ a {
     vertical-align: top;
 }
 
-.tabela{
+.tabela { 
     width: 50%;
     text-align: center;
 }
 
-.title-table{
+.title-table {
     width: 50%;
     text-align: center;
     color: green;
     text-decoration: underline;
 }
-
-
-    
-    
-
-
-
