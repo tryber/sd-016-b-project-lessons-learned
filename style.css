@@ -26,9 +26,20 @@ body {
 }
 
 #licoes_aprendidas {
+  color: #868e96;
   font-size: 8px;
 }
 
 #licoes_a_aprender {
+  color: #868e96;
   font-size: 8px;
 }
+
+#rodape {
+  background-color: #eee;
+  color: #868e96;
+  font-size: 7px;
+  line-height: 20px;
+  text-align: center;
+}
+
