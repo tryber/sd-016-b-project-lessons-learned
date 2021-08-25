@@ -1,6 +1,8 @@
 /* Requisito 1 */
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
 }
 
 header {
@@ -24,6 +26,22 @@ section nav {
   width: 200px;
   padding: 100px 0 25px;
   margin: 50px 25px 10px;
+  display: inline-block;
+}
+
+.link {
+  background-color: blue;
+  color: white;
+  padding: 15px;
+  border: 1px solid black;
+  margin: 1px 1px 35px 75px;
+  display: inline-block;
+}
+
+.link:hover {
+  background-color: cornflowerblue;
+  color: black;
+  border: 1px ridge red;
 }
 
 table , th , td {
@@ -40,17 +58,24 @@ table , th , td {
   text-align: center;
 }
 
-.link {
-  background-color: blue;
-  color: white;
-  padding: 20px;
-  border: 1px solid black;
-  margin: 1px 1px 35px 75px;
+article p {
+  text-indent: 10px;
+  line-height: 30px;
+}
+
+aside p {
+  text-indent: 10px;
+  line-height: 30px;
+}
+
+.content-list {
   display: inline-block;
 }
 
-.link:hover {
-  background-color: cornflowerblue;
-  color: black;
-  border: 1px ridge red;
+.lista-ordenada {
+  display: inline-block;
+}
+
+.lista-nao-ordenada {
+  display: inline-block;
 }
