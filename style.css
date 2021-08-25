@@ -10,6 +10,12 @@ main {
   padding: 100px 30px;
 }
 
+p {
+  font-family: serif;
+  line-height: 135%;
+  font-size: 17px;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -17,6 +23,7 @@ main {
   width: 100%;
   text-align: center;
   padding: 10px;
+  z-index: 2;
 }
 
 #minha_foto {
@@ -83,6 +90,16 @@ main {
   margin-left: 10px;
 }
 
+.menu_principal a {
+  color: blue;
+  text-decoration: none;
+}
+
+.menu_principal a:hover {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 .tabela , th , td {
   border: 1px solid black;
   border-collapse: collapse;
@@ -94,4 +111,6 @@ main {
   margin-left: 5%;
   position: relative;
   right: 13px;
+  background-color: rgb(233, 233, 233);
+  z-index: 1;
 }
