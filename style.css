@@ -25,8 +25,8 @@ section nav {
   padding: 150px 0 50px;
 }
 
-table, th, td {
-    border: 1px solid black;
+table , th , td {
+  border: 1px solid black;
 }
 
 .check {
