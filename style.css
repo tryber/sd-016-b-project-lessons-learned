@@ -96,12 +96,12 @@ a {
 aside {
   border: 10px solid rgb(1, 0, 66);
   float: right;
+  margin: 0;
+  padding: 0;
   position: absolute;
   right: 0;
   top: 200px;
   width: 20%;
-  padding: 0;
-  margin: 0;
 }
 
 p {
