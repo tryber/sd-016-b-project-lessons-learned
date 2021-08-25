@@ -5,12 +5,12 @@
 }
 
 body {
-  	background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 , h2 , h3 {
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: Georgia, Times, serif;
 }
 
 p , li {
@@ -29,36 +29,35 @@ p , li {
 #navegacao a {
 	margin: 10px;
 	padding: 3px 8px;
-	background-color: #12130f;
+	background-color: rgb(18, 19, 15);
 	text-decoration: none;
-	color: #f8f7f9;
+	color: rgb(248, 247, 249);
 	border-radius: 30px;
 }
 
 #navegacao a:hover {
-	color: #f7ec59;
+	color: rgb(247, 236, 89);
 	padding: 3px 15px;
 }
 
 #cabecalho {
-  	position: fixed;
-  	top: 0;
+  position: fixed;
+  top: 0;
 	width: 100%;
-	background-color: #F7EC59;
+	background-color: rgb(247, 236, 89);
 	text-align: left;
-	padding: 10px 10px 0px;
+	padding: 10px 10px 0;
 }
 
 #navegacao ul li {
 	display: inline-block;
-	margin: 10px 0px 12px;
+	margin: 10px 0 12px;
 }
 
 /* Quem sou */
 
 #quem-sou {
-	margin-left: 10px;
-	margin: 130px 0px 50px 0px;
+	margin: 130px 0 50px 10px;
 }
 
 #quem-sou h2 , h3 {
@@ -73,39 +72,39 @@ p , li {
 	margin-bottom: 15px;
 }
 
-.redes-list {
-	margin-top: 10px;
+#quem-sou .redes-list {
+  margin-top: 10px;
 	margin-left: 5px;
 }
 
-.redes-list li {
+#quem-sou .redes-list li {
 	display: inline-block;
 	margin-right: 15px;
 }
 
-.redes-list a {
+#quem-sou .redes-list a {
 	padding: 3px 8px;
-	background-color: #f7ec59;
+	background-color: rgb(247, 236, 89);
 	text-decoration: none;
-	color: #12130f;
+	color: rgb(18, 19, 15);
 	border-radius: 30px;
 }
 
-.redes-list a:hover {
+#quem-sou .redes-list a:hover {
 	color: #7A7978;
 }
 
 /* Lições */
 
 #licoes {
-	background-color: #090809;
+	background-color: rgb(9, 8, 9);
 	margin-top: 20px;
 	padding: 50px;
-	color: #f8f7f9;
+	color: rgb(248, 247, 249);
 }
 
 #licoes h2 , #licoes h3 {
-	color: #f7ec59;
+	color: rgb(247, 236, 89);
 }
 
 #licoes ul , #licoes ol {
@@ -139,11 +138,11 @@ p , li {
 }
 
 th {
-	padding: 0px 25px 5px 25px;
+	padding: 0 25px 5px 25px;
 }
 
 .table-border {
-	border-right: solid 3px #f7ec59;
+	border-right: solid 3px rgb(247, 236, 89);
 }
 
 /* Aprendizado */
@@ -181,9 +180,9 @@ th {
 /* Rodape */
 
 #rodape {
-	background-color: #090809;
+	background-color: rgb(9, 8, 9);
 	height: 15px;
 	clear: both;
-	color: #f8f7f9;
+	color: rgb(248, 247, 249);
 	padding: 15px;
 }
