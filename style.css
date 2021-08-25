@@ -45,12 +45,18 @@ textarea {
     --cor-LimeGreen: #32CD32;
     --cor-ForestGreen: #228B22;
     --cor-DarkGreen: #006400;
+    --cor-Black: #000000;
 }
 
 
 /* TAG */
 
 a {
+    align-items: center;
+    color: var(--cor-Black);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Rampart One', cursive;
     margin: 5px;
 }
 
@@ -232,6 +238,7 @@ main {
 
 .icon {
     height: 50px;
+    margin: 10px;
     width: 50px;
 }
 
