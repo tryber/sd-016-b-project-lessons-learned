@@ -37,7 +37,7 @@ h3 {
 
 #licoes_aprendidas {
   line-height: 30px;
-  padding: 30px 10px 10px 10px;
+  padding: 30px 5% 10px 2%;
   width: 40%;
   margin: 0;
   display: inline-table;
@@ -45,7 +45,7 @@ h3 {
 
 #licoes_a_aprender {
   line-height: 30px;
-  padding: 30px 10px 10px 10px;
+  padding: 30px 2% 10px 5%;
   width: 40%;
   margin: 0;
   display: inline-table;
