@@ -20,12 +20,14 @@ body{
     padding: 10px;
     width: 100px;
     margin-right: 50px;
+    font-size: 18px;
    
 }
 
 #minha_foto{
-    margin-top: 100px;
+    margin-top: 150px;
     width:200px;
+    /* filter: grayscale(100%); */
 
 }
 
@@ -37,7 +39,24 @@ body{
 }
 
 .listas{
-    background-color: chocolate;
+    background-color: rgb(231, 231, 231);
+    color: #3d495c;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+    width: 250px;
+    float:right;
+    margin-top: 150px;
+    margin-right:100px;
+
+}
+
+h2{
+    
+    text-align: center;
+    background-color: #2ec18c;
+    color:#ffff;
+    font-weight: lighter;
+    padding: 15px;
 }
 
 .article-aprendizado{
@@ -46,4 +65,7 @@ body{
 
 .secao{
     background-color: crimson;
+    display: inline-block;
+    width: 200px;
 }
+
