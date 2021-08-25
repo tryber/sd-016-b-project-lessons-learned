@@ -55,12 +55,12 @@ body {
   top: 900px;
 }
 
-a.contatos:hover {
+.contatos:hover {
   color: chartreuse;
   font-weight: 900;
 }
 
-ul.navegacao {
+.navegacao {
   display: inline;
   position: fixed;
   top: 50px;
@@ -68,7 +68,7 @@ ul.navegacao {
   list-style: none;
 }
 
-li.nav {
+.nav {
   float: left;
   padding: 5px;
 }
@@ -103,7 +103,7 @@ aside {
 }
 
 p {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier, monospace;
   font-size: 90%;
   color: rgb(1, 0, 66);
   line-height: 15px;
