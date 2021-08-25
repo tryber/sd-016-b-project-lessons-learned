@@ -7,71 +7,85 @@
     <link rel="stylesheet" href="style.css">
     <title>Marllon Martins | Lessons Learned</title>
 </head>
-    <body>
-    <!--Req 2 - Adicione uma barra superior com um título-->
-        <header id="cabecalho">
-            <h1 id="titulo">Projeto Lessons Learned | Trybe</h2>
-        </header>
+<body>
+    <header id="cabecalho">
+        <h1 id="titulo">Projeto Lessons Learned | Trybe</h1>
+        <nav class="nav-main">
+            <h1 style="display: none;">Navegação</h1>
+                <ul>
+                    <li><a href=#>Home</a></li>
+                    <li><a href=#>Artigos</a></li>
+                    <li><a href="https://www.facebook.com/MarlloMartin/" target="_blank">Facebook</a></li>
+                </ul>
+        </nav>
+    </header>
     
-    <!-- Req 3 - Adicione uma foto sua à página-->
+    <main>
         <img id="minha_foto" 
         src="https://scontent.fsdu25-1.fna.fbcdn.net/v/t1.6435-1/p200x200/127700541_3574619105938511_6430599194567254385_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=7206a8&_nc_eui2=AeGiNWbdrgbzK1cbBQX8c5aRZyF2irBH6HlnIXaKsEfoeRyUREMVOqJrFmx785VoW86Jb-WIn69cXB63gy3QbLmt&_nc_ohc=fB9LJRHyQLQAX-byMEq&tn=qou3SiMQKNVSO0n7&_nc_ht=scontent.fsdu25-1.fna&oh=2e688aec3a27857f18512af9d826a71e&oe=614B80DF" 
         alt="Minha foto"
         width="200px"
         />
+   
 
-    <!--Req 4 - Adicione uma lista de lições aprendidas à página-->    
-    <div class="lista" style="float: left;">
-    <h2>Lições Aprendidas</h2>
-    <ol id="licoes_aprendidas">
-        <li>Linux</li>
-        <li>Unix</li>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Empatia</li>
-        <li>Inteligência Emocional</li>
-        <li>Slack</li>
-        <li>Paciência</li>
-    </ol>
-
-
-    <!--Req 5 - Crie uma lista de lições que ainda deseja aprender para a página-->
-
-    <h2>Lições a Aprender</h2>
-    <ul id="licoes_a_aprender">
-        <li>Python</li>
-        <li>SQL</li>
-        <li>React</li>
-        <li>Node</li>
-        <li>Testes Unitários</li>
-        <li>JavaScript</li>
-        <li>ES6</li>
-        <li>HOF</li>
-        <li>Forms</li>
-        <li>Comunicação</li>
-    </ul>
-    </div>
-    <!--Req 8 - Crie um artigo sobre seu aprendizado-->
     <article id="artigo">
-        <h2>Lorem ipsum</h2>
             <section>
+            <h2>Lorem ipsum</h2>
+            <br>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. <br>
             Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <br>
             Donec quam felis, ultricies nec, pellentesque eu, pretium.</p>
             </section>
     </article>
-    <aside>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. <br>
-        Aenean massa. Cum sociis natoque penatibus et magnis dis.</p>
-    </aside>
-    <!--Req 7 - Insira pelo menos um link externo na página-->
-    <a href="https://www.facebook.com/MarlloMartin/" target="_blank" >Facebook</a>
 
-    <!--Req 6 - Adicione um rodapé para a página-->
+    <article>
+    <section class="lado-esquerdo">
+        <ol id="licoes_aprendidas">
+            <h2>Lições Aprendidas</h2>
+            <br>
+            <li>Linux</li>
+            <li>Unix</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Empatia</li>
+            <li>Inteligência Emocional</li>
+            <li>Slack</li>
+            <li>Paciência</li>
+        </ol>
+    </section>
+    
+    <section class="lado-direito">
+        <ul id="licoes_a_aprender">
+            <h2>Lições a Aprender</h2>
+            <br>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>React</li>
+            <li>Node</li>
+            <li>Testes Unitários</li>
+            <li>JavaScript</li>
+            <li>ES6</li>
+            <li>HOF</li>
+            <li>Forms</li>
+            <li>Comunicação</li>
+        </ul>
+    </section>
+</article>
+    <article>
+        <aside>
+            <h3>Lorem ipsum</h2>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. <br>
+            Aenean massa. Cum sociis natoque penatibus et magnis dis.</p>
+        </aside>
+    </article>
+    </main>
+
+
         <footer id="rodape">
-            <p style="font-family: 'Courier New', Courier, monospace; font-size: 11px">© marllon | 2021</p>
+            <p id="footer-text" style="font-family: 'Courier New', Courier, monospace; font-size: 11px">© marllon | 2021</p>
         </footer>
     </body>
 </html>
