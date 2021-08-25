@@ -1,15 +1,28 @@
-body {
+body {margin: 0;
   background-color: rgb(253, 251, 251);
 }
 
-#cabecalho {
+#cabecalho {background-color:rgb(205, 255, 220);
   position: fixed;
   top: 0;
+  padding: 15px;
+  border: solid 5px; 
+  width: 100%;
 }
 
-#minha_foto {margin-top: 106px;
+#minha_foto {margin-top: 160px;
+  margin-left: 50px;
   width: 200px;
   border-radius: 100%;
 }
 
-.table{border: solid;}
+#experiencia {margin: 40px;
+text-align: center;}
+
+#aside {margin: 30px;}
+
+.table{border: solid;
+margin: 50px;
+padding: 10px;}
+
+#rodape{text-align: center;}
