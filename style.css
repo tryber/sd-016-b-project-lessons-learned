@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+	width: 100%;
+	height: 10%;
+	position: fixed;
+	padding: 10px;
+	top: 0;
+	left: 0;
+	text-align: center;
+	background-color: rgb(162, 216, 185);
+}
+
+
+#titulo {
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin: 0 auto;
+	color: rgba(255, 255, 255, .8);
+}
+
+#minha_foto {
+	position: absolute;
+	top: 27%;
+	left: 3%;
+	width: 80px;
+}
+
+#navegacao {
+	position: fixed;
+	top: 84px;
+	background-color: #171515;
+	width: 100%;
+	padding: 10px;
+}
+
+#navegacao a {
+	text-decoration: none;
+	margin: 5px;
+	font-weight: 700;
+	color: rgba(255, 255, 255, .8);
+}
+
+
+#licoes_aprendidas, #licoes_a_aprender {
+	list-style: decimal;
+}
+
+
+
+.lado-esquerdo {
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 10px 35px;
+	width: 25%;
+}
+
+.lado-direito {
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 10px 35px;
+	width: 25%;
+}
+
+.container_licoes_aprendidas {
+	margin: 130px 20px 10px 20px;
+	padding: 10px 35px;
+	width: 25%;
+}
+
+.container_licoes_a_aprender {
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 10px 35px;
+	width: 25%;
+}
+
+div {
+	border: 1px solid red;
+}
