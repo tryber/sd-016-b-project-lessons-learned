@@ -9,19 +9,26 @@
     }
     /**/
     #cabecalho {
-        
         font-weight: 600;
         top: 0;
+                
     }
     /**/
-    .titulo {
-        background-color: rgb(93, 86, 138);
-        color: darkgreen;
-        font-family:
+    #titulo {
+        background-color: rgb(12, 45, 190);
+        color: rgb(21, 51, 21);
+        padding: 0px 555px;
     }
     /**/
     .imgtitolo {
         border-radius: 50%;
         width: 80px;
     }
-    /**/
+    /*navegador/ centralizar*/
+    nav{
+        background-color:  rgb(243, 244, 246);
+        padding: 0px 555px;
+    }
+    .bot-nav{
+        padding: 0px 15px;
+    }
