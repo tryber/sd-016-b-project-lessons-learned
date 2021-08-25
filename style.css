@@ -1,10 +1,14 @@
 body {
   background-color: rgb(253, 251, 251);
+  border:5px solid rgb(83, 162, 127);
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 h3 {
   background-color: rgb(110, 196, 154);
   color: antiquewhite;
+  font-family: Georgia, Times, serif;
 }
 
 #cabecalho {
@@ -25,6 +29,7 @@ h3 {
 }
 
 #minha_foto {
+
   padding: 0 10px 10px 0;
   width: 300px;  
   display: block;
@@ -47,8 +52,11 @@ h3 {
 }
 
 #rodape {
+  position: absolute;
   background-color: rgb(83, 162, 127);
-  text-align: center
+  text-align: center;
   color: antiquewhite;
   height: 30px;
+  left: 0;
+  right: 0;
 }
