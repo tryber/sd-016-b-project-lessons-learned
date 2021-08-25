@@ -2,19 +2,34 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: rgb(253, 251, 251);
+    font-family: 'Lato', sans-serif;
+}
+
 #cabecalho {
     color: red;
     background-color: yellow;
-    align="center";
+    position:fixed;
     top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
+
 #minhafoto { 
     width: 250px;
 }
-#licoes_aprendidas, #licoes_a_aprender { 
+#licoes_aprendidas, #licoes_a_aprender  { 
     margin-top: 10px;
     margin-left: 50px;
 }
+.div-2 {
+    margin-left: 80px;
+    bottom: 500px;
+}
+
 
 title{
  
