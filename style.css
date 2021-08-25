@@ -35,33 +35,40 @@ h3 {
   text-align: center;
 }
 
-header {
+.cabecalho {
+  background-color: #F2EBC4;
   border: none;
   margin: 0;
-  padding: 0;
+  padding: 20px;
   position: fixed;
   top: 0;
+  width: 100%;
 }
 
-header h1 {
+.cabecalho h1 {
   font-size: 32px;
+  margin: 0;
   text-align: center;
 }
 
-footer {
+.rodape {
   color: #476C5E;
   font-size: 14px;
   font-style: italic;
+  padding: 20px;
   text-align: right;
+}
+
+.rodape p {
+  margin: 0;
 }
 
 .menu {
   background-color: #476C5E;
   color: #F2F2F2;
   line-height: 30px;
+  padding-top: 100px;
   text-align: center;
-
-
 }
 
 .menu h2 {
@@ -69,11 +76,15 @@ footer {
   margin-bottom: 0px;
 }
 
+.menu img {
+  border-radius: 100%;
+}
+
 .menu p {
   font-style: italic;
   font-weight: 600;
   margin: 0;
-  
+
 }
 
 nav a {
