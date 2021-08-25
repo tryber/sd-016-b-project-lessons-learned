@@ -101,7 +101,7 @@ main .profile {
   justify-content: space-around;
 }
 
-main .profile .item-profile {
+main .item-profile {
   width: 60%;
   max-width: 40%;
   text-align: center;
@@ -127,6 +127,7 @@ main .article {
   background-color: rgb(235, 235, 235);
   padding: 5%;
   display: table;
+  width: 100%;
 }
 
 main .learn {
