@@ -10,7 +10,6 @@ body{
     top: 0%;
     width: 100%;
     margin: auto;
-   
 }
 
 #titulo{
@@ -24,12 +23,10 @@ body{
     border: 2px solid black ;
     position: fixed=0;
     margin-top: 50px;
-
 }
 
 #main{
     padding: 10px 10px;
-    
 }
 
 #secao{
