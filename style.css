@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    padding: 5;
 }
 
 body {
@@ -22,6 +22,18 @@ body {
     height: 200cm;
 }
 
-p {
-    margin-right: 50%;
+.article {
+    margin-right: 30%;
+    text-align: justify;
+    padding: 5px;
 }
+
+.right {
+    float: right;
+    text-align: justify;
+    margin-right: 30%;
+    padding: 5px;
+
+}
+
+
