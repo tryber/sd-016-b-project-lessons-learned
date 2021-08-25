@@ -49,6 +49,10 @@ h2 {}
 
 h3 {}
 
+main {
+    padding-top: 100px;
+}
+
 
 /* ----------------------------------------------------------------------------------------------- */
 
@@ -74,13 +78,19 @@ h3 {}
 
 #perfil {}
 
-#perfil__box_img {}
+#perfil__box_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 #minha_foto {
-    height: 200px;
-    width: 225px;
-    border: 1px;
+    border: solid 2px #afafaf;
     border-radius: 100%;
+    height: 200px;
+    margin: 20px;
+    width: 215px;
 }
 
 #meu_nome {}
