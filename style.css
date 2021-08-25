@@ -11,24 +11,33 @@
     #cabecalho {
         font-weight: 600;
         top: 0;
-                
+                        
     }
     /**/
     #titulo {
-        background-color: rgb(12, 45, 190);
+        background-color: rgb(53, 82, 207);
         color: rgb(21, 51, 21);
-        padding: 0px 555px;
+        padding: 0px 400px;
+        font-size: 28px;  
+        line-height: 42px;
+           
     }
     /**/
     .imgtitolo {
         border-radius: 50%;
         width: 80px;
     }
-    /*navegador/ centralizar*/
+    /*navegador/ centralizar/ largura/ */
     nav{
-        background-color:  rgb(243, 244, 246);
-        padding: 0px 555px;
+        background-color:  rgb(216, 203, 30);
+        padding: 0px 500px;
+        line-height: 30px;
+        font-size: 14px;
+        
     }
+    /*botão navegador/ espaço entre eles/ sem sublinhado/*/
     .bot-nav{
-        padding: 0px 15px;
+        padding: 0px 10px;
+        text-decoration: none;
+
     }
