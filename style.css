@@ -119,7 +119,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 30px auto;
+    margin: 100px auto;
     max-width: 1200px;
 }
 
@@ -135,16 +135,42 @@ main {
 
 #artigo {
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 100px auto;
+    max-width: 1200px;
 }
 
 #artigo_meu_aprendizado {}
 
-#artigo_box {}
+#artigo_box {
+    align-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+#artigo_titulo {
+    font-size: 16pt;
+    margin: 10px;
+    text-align: center;
+    text-shadow: 2px 1px var(--cor-FloralWhite);
+}
 
 #notas {}
 
-#notas_do_artigo {}
+#notas_do_artigo {
+    align-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+#notas_titulo {
+    font-size: 16pt;
+    margin: 10px;
+    text-align: center;
+    text-shadow: 2px 1px var(--cor-FloralWhite);
+}
 
 #rodape {}
 
@@ -172,7 +198,11 @@ main {
     margin: 10px;
 }
 
-.text {}
+.text {
+    line-height: 1.5;
+    margin: 5px;
+    text-indent: 1.5em;
+}
 
 .icon {
     height: 50px;
