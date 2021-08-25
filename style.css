@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: monospace;
+  color: rgb(120, 70, 81);
+  line-height: 2em;
+  font-size: 1.2em;
+}
+
+#cabecalho {
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+}
+
+#titulo {
+  width: 100%;
+  text-align: center;
+}
+
+nav , article , aside , section , footer {
+  border: dashed 1px rgb(58, 57, 97);
+}
+
+nav , section , footer {
+  clear: both;
+}
+
+nav ul {
+  list-style: upper-roman;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+#minha_foto {
+  width: fit-content;
+  border: solid 2px rgb(58, 57, 97);
+  border-radius: 100%;
+}
+
+#artigo , aside {
+  text-align: justify;
+}
+
+.lado-direito {
+  float: right;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito , .lado-esquerdo {
+  max-width: 40%;
+}
+
+section {
+  margin: 10px 125px;
+  width: 80%;
+}
+
+#contatos {
+  border: dashed 1px rgb(58, 57, 97);
+}
