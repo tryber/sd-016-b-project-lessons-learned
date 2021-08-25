@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Rubik, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin-top: 100px;
+  padding: 20px;
+}
+
+div {
+  padding: 0 20px;
+}
+
+table {
+  width: 60%;
+}
+
+table , th , td {
+  border: 1px solid black;
+}
+
+tr td {
+  text-align: center;
+}
+
+#cabecalho {
+  background-color: aqua;
+  height: 100px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#navegacao ul {
+  list-style: none;
+  padding: 0 20px;
+}
+
+#navegacao ul li {
+  display: inline;
+  padding-right: 20px;
+}
+
+#navegacao ul li a {
+  color: rgb(26, 0, 69);
+  text-decoration: none;
+}
+
+#minha_foto {
+  border-radius: 40px;
+  padding: 20px;
+  width: 40%;
+}
+
+#titulo {
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+.lado-esquerdo , .lado-direito {
+  width: 45%;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
