@@ -32,7 +32,9 @@ h1 , h2 , h3 , th {
 }
 
 main {
+  margin: 0 auto;
   margin-top: 100px;
+  max-width: 720px;
 }
 
 #minha_foto {
@@ -40,7 +42,7 @@ main {
 }
 
 td {
-  border: 1px solid rgb(51, 51, 51);
+  border: 1px solid rgb(50, 50, 50);
   padding: 5px;
 }
 
@@ -50,4 +52,36 @@ p {
 
 li {
   margin: 5px 0;
+}
+
+.lado-esquerdo {
+  width: 60%;
+  float: left;
+
+}
+
+.lado-direito {
+  width: 40%;
+  float: left;
+}
+
+.linha:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+article {
+  padding-right: 30px;
+}
+
+article , aside {
+  text-align: justify;
+  box-sizing: border-box;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  color: gray;
 }
