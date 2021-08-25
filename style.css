@@ -1,5 +1,4 @@
 aside , nav {
-  border-top: 2px black solid;
   margin-top: 30px;
 }
 
@@ -38,11 +37,12 @@ h1 , h2 {
   font-family: monospace , sans-serif;
 }
 
-.lado-esquerdo {
+.lado-direito {
   margin-top: 50px;
+  float: right;
 }
 
-.lado-direito {
+.lado-esquerdo {
   margin-top: 50px;
   margin-bottom: 50px;
   width: 75%;
