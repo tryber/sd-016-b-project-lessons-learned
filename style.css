@@ -1,131 +1,132 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family:'Courier New', Courier, monospace;
-    font-size: 17px;
-    color: rgb(46, 16, 16);
-    margin: 0mm;
+  background-color: rgb(253, 251, 251);
+  font-family:'Courier New', Courier, monospace;
+  font-size: 17px;
+  color: rgb(46, 16, 16);
+  margin: 0mm;
 }
 
 
 h2 {
-    font-size: 17px;
+  font-size: 17px;
 }
 
 
 img {
-    width: 20%;
-    border-radius: 50%;
-    position: absolute;
-    right: 23px;
-    top: 20px;
-    padding: .6%;
-    background-color: rosybrown;
-    z-index: 2;
+  width: 20%;
+  border-radius: 50%;
+  position: absolute;
+  right: 23px;
+  top: 20px;
+  padding: .6%;
+  background-color: rosybrown;
+  z-index: 2;
 }
 
 
 #cabecalho {
-    top: 0cm;
-    padding: 0px 0px 20px 0px;
-    background-color: rgb(160, 115, 115);
-    width: 100%;
-    height: 100px;
-    position: sticky;
-    z-index: 1;
+  top: 0px;
+  padding: 0px 0px 20px 0px;
+  background-color: rgb(160, 115, 115);
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 1;
 }
 header h1 {
-    margin-block-start: 0px;
-    margin-block-end: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
 
 
 section div {
-    display: inline-block;
-    margin: 30px 30px 30px 30px;
-    padding-left: 5px;
-    background-color: rgb(212, 186, 186);
-    width: 220px;
-    text-align: center;
-    border-radius: 10%;
+  display: inline-block;
+  margin: 30px 30px 30px 30px;
+  padding-left: 5px;
+  background-color: rgb(212, 186, 186);
+  width: 220px;
+  text-align: center;
+  border-radius: 10%;
 }
 
 
 section {
-    padding: 1px;
-    width: 75%;
-    background-color: rosybrown;
-    border-radius: 0px 0px 50px 0px;
+  margin-top: 100px;
+  padding: 1px;
+  width: 75%;
+  background-color: rosybrown;
+  border-radius: 0px 0px 50px 0px;
 }
 
 
 ul, ol {
-    text-align: left;
+  text-align: left;
 }
 
 nav {
-    width: 150px;
-    height: 42px;
-    background-color: rosybrown;
-    border-radius: 10px;
-    margin: 0px 0px 0px 20px;
+  width: 150px;
+  height: 42px;
+  background-color: rosybrown;
+  border-radius: 10px;
+  margin: 0px 0px 0px 20px;
 }
 
 
-nav li a:hover {
-    color: rgb(160, 115, 115);
+nav a:hover {
+  color: rgb(160, 115, 115);
 }
 
 nav:hover {
-    background-color: rgb(212, 186, 186);
-    color: rgb(212, 186, 186);
+  background-color: rgb(212, 186, 186);
+  color: rgb(212, 186, 186);
 }   
 
 footer {
-    margin: 30px 0px 0px 0px;
-    width: 100%;
-    height: 60px;
-    background-color: rgb(160, 115, 115);
-    border-radius: 0px 20px 0px 0px;
+  margin: 30px 0px 0px 0px;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(160, 115, 115);
+  border-radius: 0px 20px 0px 0px;
 }
 
 article {
-    color: rgb(253, 251, 251);
-    padding: 2px 2px 2px 20px;
-    margin-left: 0;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    display: block;
-    width: 800px;
-    font-size: 90%;
-    background-color: rgb(134, 75, 75);
-    border-radius: 0px 20px 20px 0px;
+  color: rgb(253, 251, 251);
+  padding: 2px 2px 2px 20px;
+  margin-left: 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: block;
+  width: 800px;
+  font-size: 90%;
+  background-color: rgb(134, 75, 75);
+  border-radius: 0px 20px 20px 0px;
 }
 
 
 article h2 {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 
 article p{
-    margin-left: 18px;
+  margin-left: 18px;
 }
 
 
 
 aside {
-    color: rgb(253, 251, 251);
-    width: 260px;
-    padding-right: 13px;
-    padding-left: 13px;
-    padding-top: 290px ;
-    position: absolute;
-    right: 16px;
-    top: 0px;
-    font-size: 90%;
-    background-color: rgb(134, 75, 75);
-    z-index: 0;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 80%;
+  color: rgb(253, 251, 251);
+  width: 260px;
+  padding-right: 13px;
+  padding-left: 13px;
+  padding-top: 290px ;
+  position: absolute;
+  right: 16px;
+  top: 0px;
+  font-size: 90%;
+  background-color: rgb(134, 75, 75);
+  z-index: 0;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 80%;
 }
