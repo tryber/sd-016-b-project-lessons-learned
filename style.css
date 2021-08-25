@@ -30,6 +30,7 @@ main {
 
 #licoes_a_aprender {
   display: inline-block;
+  margin-bottom: 20px;
 }
 
 #rodape {
@@ -80,4 +81,17 @@ main {
   list-style: none;
   display: inline;
   margin-left: 10px;
+}
+
+.tabela , th , td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 4px;
+}
+
+.tabela {
+  display: inline-block;
+  margin-left: 5%;
+  position: relative;
+  right: 13px;
 }
