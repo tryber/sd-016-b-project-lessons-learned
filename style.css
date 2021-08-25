@@ -1,126 +1,121 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
 
-body{
-    max-width: 1366px;
-    background-color: rgb(253, 251, 251);
-    font-family: 'Montserrat', sans-serif;
+body {
+  max-width: 1366px;
+  background-color: rgb(253, 251, 251);
+  font-family: 'Montserrat', sans-serif;
 }
 
-nav li{
-    list-style: none;
-    display: inline;
-    background-color: #c0c0c0;
-    border: 1px solid black;
-    border-radius: 4px;
-    padding: 10px 5px;
-    margin-left: 50px;
+nav li {
+  list-style: none;
+  display: inline;
+  background-color: silver;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px 5px;
+  margin-left: 50px;
 }
 
 section {
-    font-weight: 700;
-    max-width: 100%;
-    display: inline;
-    text-align: center;
+  font-weight: 700;
+  max-width: 100%;
+  display: inline;
+  text-align: center;
 }
 
-#table{
-    margin-left: auto;
-    margin-right: auto;
+#table { 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 section th {
-    background-color: #c0c0c0;
+  background-color: silver;
 }
 
-
-
-.sub-menu{
-    max-width: 93%;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    
+.sub-menu {
+  max-width: 93%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;   
 }
 
-.sub-menu a{
-    text-decoration: none;
-    color: #000;
+.sub-menu a {
+  text-decoration: none;
+  color: black;
 }
 
-aside{
-    display: inline;
-    background-color: #c0c0c0;
-    max-width: 20%;
-    margin-top: 44px;
-    margin-right: 50px;
-    padding-left: 20px;
-    float: right;
-
-    
+aside {
+  display: inline;
+  background-color: silver;
+  max-width: 20%;
+  margin-top: 44px;
+  margin-right: 50px;
+  padding-left: 20px;
+  float: right;
 }
 
-body h2{
-    text-align: center;
-    padding: 30px;
+body h2 {
+  text-align: center;
+  padding: 30px;
 }
 
-header{
-    background-image: url("imagem/capa.jpg");
-    text-align: center;
-    color: rgb(253, 251, 251);
-    height: 100px;
-    background-position: 100% 35%;
-    padding-top: 10px;
+header {
+  background-image: url("imagem/capa.jpg");
+  text-align: center;
+  color: rgb(253, 251, 251);
+  height: 100px;
+  background-position: 100% 35%;
+  padding-top: 10px;
 }
 
-#minha_foto{
-    width: 200px;
-    display: block;
-    margin-top: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
+#minha_foto {
+  width: 200px;
+  display: block;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
 }
 
-.lista{
-    display: inline-block; 
-    max-width: 25%;
-    margin: auto;
-    padding-right: 100px;
+.lista {
+  display: inline-block; 
+  max-width: 25%;
+  margin: auto;
+  padding-right: 100px;
 }
 
-.listas #licoes_a_aprender{
-    list-style: square;
+.listas #licoes_a_aprender {
+  list-style: square;
 }
 
-.listas{
-    display: inline-block; 
-    padding-top: 50px;
-    width: 100%;
-    padding-left: 290px;
+.listas {
+  display: inline-block; 
+  padding-top: 50px;
+  width: 100%;
+  padding-left: 290px;
 }
 
-#rodape{
-    background-image: url("imagem/capa.jpg");
+#rodape {
+  background-image: url("imagem/capa.jpg");
 }
 
-footer{
-    margin-top: 50px;
-    color: rgb(253, 251, 251);
-    margin-bottom: 0;
-    text-align: center;
+footer {
+  margin-top: 50px;
+  color: rgb(253, 251, 251);
+  margin-bottom: 0;
+  text-align: center;
 }
 
-footer a{
-    color: rgb(253, 251, 251);
-    text-decoration: none;
+footer a {
+  color: rgb(253, 251, 251);
+  text-decoration: none;
 }
 
-article{
-    display: inline-block;
-    max-width: 60%;
-    padding-top: 50px;
-    padding-left: 30px;
+article {
+  display: inline-block;
+  max-width: 60%;
+  padding-top: 50px;
+  padding-left: 30px;
 }
