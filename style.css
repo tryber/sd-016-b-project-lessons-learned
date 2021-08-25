@@ -138,6 +138,11 @@ body {
     text-decoration: none;
 }
 
+.personal_info {
+    margin-left: 2.6rem;
+    width: 410px;
+}
+
 .presentation {
     font-size: 3rem;
     height: 60%;
@@ -202,6 +207,10 @@ body {
     background-color: red;
 }
 
+.social_icons li img {
+    width: 36px;
+}
+
 .split_around {
     justify-content: space-around;
 }
@@ -220,9 +229,4 @@ body {
     color: var(--secondary_color);
     font-size: 3rem;
     padding-right: 1rem;
-}
-
-aside {
-    margin-left: 2.6rem;
-    width: 410px;
 }
