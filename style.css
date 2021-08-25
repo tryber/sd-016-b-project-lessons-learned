@@ -40,12 +40,14 @@ a {
 }
 
 .artigo{    
-    max-width: 20%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    width: 20%;
+    margin: 10px;
     color: green;
     font-weight: 600;
-    line-height: 25px;
+    line-height: 25px;        
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .tabela{
@@ -59,3 +61,10 @@ a {
     color: green;
     text-decoration: underline;
 }
+
+
+    
+    
+
+
+
