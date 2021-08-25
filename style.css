@@ -1,17 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
 body {
   background-color: rgb(253, 251, 251);
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
-  color: rgb(18, 16, 117);
+}
+#titulo {
+  background-color: rgb(42, 126, 4);
+  color: rgb(255, 255, 255);
+  font-size: 5px;
+  overflow: hidden;
+  width: 1366px;
+  height: 20%;
+  text-align: center;
 }
 
 #cabecalho {
-  background-color: rgb(42, 126, 4);
-  position: fixed;
   top: 0;
-  width: 1366px;
-  height: 20px;
+  position: fixed;
+}
+#minha_foto {
+  width: 80px;
+  height: 70px;
+}
+
+table {
+  font-size: 5px;
 }
 
 img {
@@ -21,4 +34,12 @@ img {
 
 th {
   text-align: justify;
+}
+
+article,
+aside,
+footer {
+  font-size: 5px;
+  width: 50%;
+  align-items: justify;
 }
