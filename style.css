@@ -7,17 +7,26 @@ body {
 #titulo {
   background-color: rgb(42, 126, 4);
   color: rgb(255, 255, 255);
-  font-size: 5px;
-  overflow: hidden;
-  width: 1366px;
-  height: 20%;
-  text-align: center;
+  font-size: 10px;
+  width: 768px;
+
+  text-align: inherit;
 }
 
 #cabecalho {
   top: 0;
   position: fixed;
+  margin: 1;
+  padding: 1;
+  border: hidden 1px;
 }
+#section_up {
+  margin: 15%;
+  padding: 1;
+  border: hidden 1px;
+  font-size: 8px;
+}
+
 #minha_foto {
   width: 80px;
   height: 70px;
