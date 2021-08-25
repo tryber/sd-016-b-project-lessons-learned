@@ -10,70 +10,81 @@
 <body>
 
 	<header id="cabecalho">
-		<h1 id="titulo">Lições aprendidas - Trybe!</h1>
-		<nav id="navegacao">
-			<ul>
-				<li><a href="#quem-sou">Quem sou</a></li>
-				<li><a href="#redes-sociais">Redes Sociais</a></li>
-				<li><a href="#aprendizado">Aprendizado</a></li>
-			</ul>
-		</nav>
+		<div class="container">
+			<h1 id="titulo">Lições aprendidas - Trybe!</h1>
+			<nav id="navegacao">
+				<ul>
+					<li><a href="#quem-sou">Quem sou</a></li>
+					<li><a href="#licoes">Lições</a></li>
+					<li><a href="#aprendizado">Aprendizado</a></li>
+				</ul>
+			</nav>
+		</div>
 	</header>
 
 	<section id="quem-sou">
-		<h2>Victor Hugo Bezerra</h2>
-		<img id="minha_foto" src="minha-foto.jpg" alt="Foto pessoal de Victor Hugo">
-		<h2 id="redes-sociais">Redes Sociais</h2>
-		<ul class="redes-list">
-			<li><a href="https://www.linkedin.com/in/victorhbm/" target="_blank">LinkedIn</a></li>
-			<li><a href="https://github.com/Victorhbm" target="_blank">GitHub</a></li>
-		</ul>
+		<div class="container">
+			<h2>Victor Hugo Bezerra</h2>
+			<img id="minha_foto" src="minha-foto.jpg" alt="Foto pessoal de Victor Hugo">
+			<ul class="redes-list">
+				<li><a href="https://www.linkedin.com/in/victorhbm/" target="_blank">LinkedIn</a></li>
+				<li><a href="https://github.com/Victorhbm" target="_blank">GitHub</a></li>
+			</ul>
+		</div>
 	</section>
 
-	<section class="licoes">
-		<h2>Lições aprendidas</h2>
-		<ol id="licoes_aprendidas">
-			<li>Unix</li>
-			<li>Bash</li>
-			<li>Git</li>
-			<li>GitHub</li>
-			<li>Inteligência Emocional</li>
-			<li>Emoções</li>
-			<li>HTML</li>
-			<li>CSS</li>
-			<li>HTML Semântico</li>
-			<li>Box Model</li>
-		</ol>
-		<h2>Lições a aprender</h2>
-		<ul id="licoes_a_aprender">
-			<li>JavaScript</li>
-			<li>React</li>
-			<li>DOM</li>
-			<li>CSS Responsivo</li>
-			<li>Autoconhecimento</li>
-			<li>Comunicação</li>
-			<li>SQL</li>
-			<li>Node JS</li>
-			<li>Python</li>
-			<li>Algoritmos</li>
-		</ul>
-		<h2>Mais sobre as lições</h2>
-		<table id="table-licoes">
-			<thead>
-				<tr>
-					<th>Lição que mais gostei</th>
-					<th>Lição tive mais dificuldade</th>
-					<th>Lição que estou mais ansioso para aprender</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Git e GitHub</td>
-					<td>Git e GitHub</td>
-					<td>JavaScript</td>
-				</tr>
-			</tbody>
-		</table>
+	<section id="licoes">
+		<div class="container">
+			<div class="licoes-aprendidas licoes-geral">
+				<h2>Lições aprendidas</h2>
+				<ol id="licoes_aprendidas">
+					<li>Unix</li>
+					<li>Bash</li>
+					<li>Git</li>
+					<li>GitHub</li>
+					<li>Inteligência Emocional</li>
+					<li>Emoções</li>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>HTML Semântico</li>
+					<li>Box Model</li>
+				</ol>
+			</div>
+			<div class="licoes-a-aprender licoes-geral">
+				<h2>Lições a aprender</h2>
+				<ul id="licoes_a_aprender">
+					<li>JavaScript</li>
+					<li>React</li>
+					<li>DOM</li>
+					<li>CSS Responsivo</li>
+					<li>Autoconhecimento</li>
+					<li>Comunicação</li>
+					<li>SQL</li>
+					<li>Node JS</li>
+					<li>Python</li>
+					<li>Algoritmos</li>
+				</ul>
+			</div>
+			<div class="mais-licoes">
+				<h2>Mais sobre as lições</h2>
+				<table id="table-licoes">
+					<thead>
+						<tr>
+							<th class="table-border">Lição que mais gostei</th>
+							<th  class="table-border">Lição que tive maior dificuldade</th>
+							<th>Lição que mais quero aprender</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td  class="table-border">Git e GitHub</td>
+							<td  class="table-border">Git e GitHub</td>
+							<td>JavaScript</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
 	</section>
 	
 	<div class="container-aprendizado">

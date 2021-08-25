@@ -13,7 +13,7 @@ h1 , h2 , h3 {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h2 , h3 {
+#quem-sou h2 , h3 {
 	font-size: 24px;
 	margin-top: 15px;
 }
@@ -56,17 +56,19 @@ p , li {
 /* Quem sou */
 
 #quem-sou {
-	margin-top: 100px;
 	margin-left: 10px;
+	margin: 130px 0px 50px 0px;
 }
 
 #minha_foto {
 	width: 200px;
-	margin-top: 15px;
+	margin-top: 30px;
+	margin-bottom: 15px;
 }
 
 .redes-list {
 	margin-top: 10px;
+	margin-left: 5px;
 }
 
 .redes-list li {
@@ -82,6 +84,66 @@ p , li {
 	border-radius: 30px;
 }
 
+.redes-list a:hover {
+	color: #7A7978;
+}
+
+/* Lições */
+
+#licoes {
+	background-color: #090809;
+	margin-top: 20px;
+	padding: 50px;
+	color: #f8f7f9;
+}
+
+#licoes h2 , #licoes h3 {
+	color: #f7ec59;
+}
+
+#licoes ul , #licoes ol {
+	text-align: left;
+	margin: 15px;
+}
+
+#licoes li {
+	margin-bottom: 5px;
+}
+
+.licoes-geral {
+	display: inline-block;
+}
+
+.licoes-aprendidas {
+	margin-right: 20%;
+}
+
+.mais-licoes {
+	margin: 30px 10px 10px 10px;
+}
+
+.mais-licoes h2 {
+	margin-bottom: 15px;
+}
+
+.mais-licoes table {
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+th {
+	padding: 0px 25px 5px 25px;
+}
+
+.table-border {
+	border-right: solid 3px #f7ec59;
+}
+
+
+
+
+
+
 .lado-esquerdo , .lado-direito {
 	display: inline-block;
 	width: 40%;
@@ -93,4 +155,10 @@ p , li {
 
 .container-aprendizado {
 	width: 960px;
+}
+
+.container {
+	max-width: 60%;
+	margin: 0 auto;
+	text-align: center;
 }
