@@ -5,6 +5,10 @@
 
 body {
     background-color: rgb(253, 251, 251);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #3f4238;
+    line-height: 20px;
 }
 
 h1 {
