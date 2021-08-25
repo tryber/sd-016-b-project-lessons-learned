@@ -28,5 +28,8 @@
     "mochawesome-report-generator": "^4.1.0",
     "stylelint": "^13.8.0",
     "stylelint-config-standard": "^20.0.0"
+  },
+  "dependencies": {
+    "html_codesniffer": "^2.5.1"
   }
 }

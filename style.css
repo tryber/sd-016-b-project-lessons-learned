@@ -7,36 +7,64 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
+h1 {
+    text-align: center;
+}
+
 #cabecalho {
+    display: inline-block;
     position: fixed;
-    margin-top: 0;
+    top: 0;
 }
 
 #minha_foto {
-    width: 200px;
-    margin-top: 50px;
+    width: 150px;
+    border-radius: 100%;
+    display: inline-block;
+    float: right;
+    clear: both;
 }
 
 #rodape {
     text-align: center;
-    height: 200cm;
-    clear: left;
+    height: 100px;
+    clear: both;
 }
 
-.article {
-    margin-right: 30%;
+#licoes_aprendidas {
+    display: inline-block;
+}
+
+#licoes_a_aprender {
+    display: inline-block;
+}
+
+#artigo, .article {
     text-align: justify;
-    padding: 5px;
+    padding: 15px;
+    margin: 0px;
+    width: 500px;
 }
 
-ol, .left {
+.left {
     float: left;
-    clear: left;
-    width: 200px;
 }
 
-ul, .right {
+.right {
     float: right;
-    clear: right;
-    width: 200px;;
+}
+
+.menu li {
+    width: 150px;
+    padding: 15px;
+    border: 15px;
+    margin: 20px;
+    float: left;
+    list-style: none;
+}
+
+h2 {
+    text-align: center;
+    height: 100px;
+    width: 500px;
 }
