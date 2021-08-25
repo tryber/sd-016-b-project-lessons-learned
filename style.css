@@ -1,5 +1,9 @@
-body {background-color: rgb(253, 251, 251);
-  display: block;
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+h3 {
+  background-color: rgb(110, 196, 154);
 }
 
 #cabecalho {
@@ -9,7 +13,9 @@ body {background-color: rgb(253, 251, 251);
   right: 0;
   background-color: rgb(83, 162, 127);
   height: 100px;
-}
+  z-index: 2;
+} 
+
 
 #titulo {
   color: whitesmoke;
@@ -18,14 +24,31 @@ body {background-color: rgb(253, 251, 251);
 }
 
 #minha_foto {
-  padding: 9px 10px 10px 0;
+  padding: 0 10px 10px 0;
   width: 300px;  
+  display: block;
 }
 
 #licoes_aprendidas {
   line-height: 30px;
+  padding: 30px 10px 10px 10px;
+  width: 40%;
+  margin: 0;
+  display: inline-block;
 }
 
 #licoes_a_aprender {
   line-height: 30px;
+  padding: 30px 10px 10px 10px;
+  width: 40%;
+  margin: 0;
+  display: inline-block;
+}
+
+#rodape {
+  background-color: rgb(83, 162, 127);
+  text-align: center
+;
+  color: antiquewhite;
+  height: 30px;
 }
