@@ -60,11 +60,9 @@ table , th , td {
 article p {
   text-indent: 10px;
   line-height: 30px;
-  
-  
 }
 
-aside p{
+aside p {
   text-indent: 10px;
   line-height: 30px;
 }
