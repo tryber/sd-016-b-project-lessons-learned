@@ -3,6 +3,10 @@ body {
   margin-bottom: 30px;
   background-color: rgb(253, 251, 251);
   border: 1px, solid, black;
+  font-family: 'Hina Mincho', serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(51, 51, 51);
 }
 
 header {
@@ -12,9 +16,10 @@ header {
 #cabecalho {
   top: 0;
   position: fixed;
-  background-color: grey;
-  width: 100%;
-  padding: 0px, 0px, 10px, 0px;
+  background-color: rgb(216, 216, 216);
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 #titulo {
@@ -28,6 +33,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
+  border: 1px solid black;
 }
 
 main {
@@ -37,21 +43,18 @@ main {
 #aprendizado {
   float: left;
   margin-top: 50px;
-  background-color: grey;
+  background-color: rgb(216, 216, 216);
   border-radius: 5px;
-  border: 1px, solid, black;
   width: 300px;
   height: 300px;
-  margin-left: 10px;
-  
+  margin-left: 10px;  
 }
 
 #licoes_aprendidas {
   float: right;
   margin-top: 50px;
-  background-color: grey;
+  background-color: rgb(216, 216, 216);
   border-radius: 5px;
-  border: 1px, solid, black;
   width: 300px;
   height: 300px;
   margin-right: 20px;
@@ -60,9 +63,8 @@ main {
 #licoes_a_aprender {
   float: right;
   margin-top: 50px;
-  background-color: grey;
+  background-color: rgb(216, 216, 216);
   border-radius: 5px;
-  border: 1px, solid, black;
   width: 300px;
   height: 300px;
   margin-right: 10px;
@@ -73,23 +75,17 @@ aside {
   display: inline-block;
   margin-top: 50px;
   width: 300px;
-  
 }
 
 #breve_licao {
   display: inline-block;
-  background-color: rgb(182, 182, 182);
+  background-color: rgb(216, 216, 216);
   border-radius: 5px;
-  margin: 10px;
+  margin-top: 10px;
   border: 1px solid black;
 }
 
-.tabela {
-  float: right;
-  margin: 100px;
-}
-
-table, th, td {
+table , th , td {
   border: 1px solid black;
   text-align: center;
   width: 280px;
@@ -102,8 +98,12 @@ p {
   text-align: justify;
 }
 
-h1, h2, h3 {
-  margin: 10px;;
+h1 , h2 , h3 {
+  margin: 10px;
+}
+
+article , ol , ul {
+  border: 1px solid black;
 }
 
 footer {
