@@ -20,38 +20,38 @@ body {
 
 #minha_foto {
   border-radius: 5%;
+  left: 0;
   position: absolute;
   top: 125px;
   width: 260px;
-  left: 0;
   z-index: 1;
 }
 
 #licoes_aprendidas {
+  left: 0;
   position: absolute;
   top: 440px;
-  left: 0;
   z-index: 2;
 }
 
 #licoes_a_aprender {
+  left: 250px;
   position: absolute;
   top: 440px;
-  left: 250px;
   z-index: 2;
 }
 
 .lado-direito , .lado-esquerdo {
-  position: absolute;
   color: rgb(1, 0, 66);
   left: 0;
+  position: absolute;
   top: -60px;
   width: 260px;
 }
 
 #rodape {
-  position: absolute;
   left: 0;
+  position: absolute;
   top: 900px;
 }
 
@@ -62,10 +62,10 @@ body {
 
 .navegacao {
   display: inline;
+  list-style: none;
   position: fixed;
   top: 50px;
   width: 100%;
-  list-style: none;
 }
 
 .nav {
@@ -75,36 +75,39 @@ body {
 
 .inicio:hover , .listas:hover , .final:hover {
   background-color: greenyellow;
-  font-weight: 900;
   border: solid black;
   border-radius: 10%;
+  font-weight: 900;
 }
 
 a {
-  font-style: normal;
   color: black;
+  font-style: normal;
   text-decoration: none;
 }
 
 #info {
-  position: absolute;
   left: 0;
+  position: absolute;
   top: 700px;
   width: 45%;
 }
 
 aside {
+  border: 10px solid rgb(1, 0, 66);
+  float: right;
   position: absolute;
   right: 0;
   top: 200px;
-  float: right;
   width: 20%;
-  border: solid rgb(1, 0, 66);
+  padding: 0;
+  margin: 0;
 }
 
 p {
+  color: rgb(1, 0, 66);
   font-family: Courier, monospace;
   font-size: 90%;
-  color: rgb(1, 0, 66);
   line-height: 15px;
 }
+
