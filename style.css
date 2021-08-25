@@ -8,6 +8,59 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+nav li{
+    list-style: none;
+    display: inline;
+    background-color: #c0c0c0;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 5px;
+    margin-left: 50px;
+}
+
+section {
+    font-weight: 700;
+    max-width: 100%;
+    display: inline;
+    text-align: center;
+}
+
+#table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section th {
+    background-color: #c0c0c0;
+}
+
+
+
+.sub-menu{
+    max-width: 93%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+}
+
+.sub-menu a{
+    text-decoration: none;
+    color: #000;
+}
+
+aside{
+    display: inline;
+    background-color: #c0c0c0;
+    max-width: 20%;
+    margin-top: 44px;
+    margin-right: 50px;
+    padding-left: 20px;
+    float: right;
+
+    
+}
+
 body h2{
     text-align: center;
     padding: 30px;
@@ -63,4 +116,11 @@ footer{
 footer a{
     color: rgb(253, 251, 251);
     text-decoration: none;
+}
+
+article{
+    display: inline-block;
+    max-width: 60%;
+    padding-top: 50px;
+    padding-left: 30px;
 }
