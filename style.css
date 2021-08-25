@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: "Rubik", sans-serif;
+  font-family: Rubik, sans-serif;
   font-size: 14px;
   line-height: 20px;
   margin: 0;
@@ -14,6 +14,18 @@ main {
 
 div {
   padding: 0 20px;
+}
+
+table {
+  width: 60%;
+}
+
+table , th , td {
+  border: 1px solid black;
+}
+
+tr td {
+  text-align: center;
 }
 
 #cabecalho {
@@ -49,4 +61,16 @@ div {
 #titulo {
   font-size: 24px;
   padding-left: 20px;
+}
+
+.lado-esquerdo , .lado-direito {
+  width: 45%;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
 }
