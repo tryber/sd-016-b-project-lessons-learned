@@ -1,13 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 body {
   background-color: rgb(253, 251, 251);
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: rgb(18, 16, 117);
 }
 
 #cabecalho {
+  background-color: rgb(42, 126, 4);
   position: fixed;
   top: 0;
+  width: 1366px;
+  height: 20px;
 }
 
 img {
   height: 80px;
   width: 80px;
+}
+
+th {
+  text-align: justify;
 }
