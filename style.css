@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(253, 251, 251);
+    color: #3d495c;
+    font-family: monospace, courier;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+#cabecalho {
+    position: fixed;
+    margin-top: 0;
+    background-color: #28a745;
+    color: #f5f5f5;
+    padding: 15px 30px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.margem {
+    padding: 30px 15px;
+    margin: 30px;
+}
+
+#minha_foto{
+  width: 300px;
+  height: 300px;
+  margin-top: 100px;
+}
+
+table {
+  text-align: justify;
+  padding: 15px 30px;
+  border: 2px solid #28a745;
+  line-height: 50px;
+}
+
+nav {
+    display: inline;
+    z-index: 3;
+}
+
+.lado-esquerdo {
+ width: 500px;
+ display: inline-block;
+}
+
+.lado-direito {
+ width: 500px;
+ display: inline-block;
+ margin-top: 10px;
+}
