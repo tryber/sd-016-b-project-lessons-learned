@@ -1,91 +1,93 @@
-body{
-    background-color: rgb(253, 251, 251);
+body {
+  background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
-    background-color: rgb(22, 21, 19);
-    text-align: center;
-    position: fixed;
-    height: 60px;
-    top: 0%;
-    width: 100%;
-    margin: auto;
+#cabecalho {
+  background-color: rgb(22, 21, 19);
+  text-align: center;
+  position: fixed;
+  height: 60px;
+  top: 0%;
+  width: 100%;
+  margin: auto;
 }
 
-#titulo{
-    color: rgb(230, 228, 219);
-    text-align: center;
+#titulo {
+  color: rgb(230, 228, 219);
+  text-align: center;
 }
 
-#nav{
-    padding: 10px 10px;
-    background-color: antiquewhite;
-    border: 2px solid black ;
-    position: fixed=0;
-    margin-top: 50px;
+#nav {
+  padding: 10px;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  position: fixed=0;
+  margin-top: 50px;
 }
 
-#main{
-    padding: 10px 10px;
+#main {
+  padding: 10px;
 }
 
-#secao{
-    background-color: antiquewhite;
-    border: 2px solid black ;
-    margin-top: 20px;
-    display: inline-block;
-    max-width:85%;
+#secao {
+  background-color: antiquewhite;
+  border: 2px solid black;
+  margin-top: 20px;
+  display: inline-block;
+  max-width: 85%;
 }
 
-#minha_foto{
-    width: 250px;
-    display: inline-block;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 20px;
+#minha_foto {
+  width: 250px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
-#secao_list{
-    display: inline-block;
-    margin-right: 20px;
+#secao_list {
+  display: inline-block;
+  margin-right: 20px;
 }
 
-#licoes_aprendidas{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#licoes_aprendidas {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
 
-#licoes_a_aprender{
-    font-family: 'Courier New', Courier, monospace;
+#licoes_a_aprender {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
 
 
-#artigo{
-    background-color: antiquewhite;
-    padding: 10px 10px;
-    display: inline-block;
+#artigo {
+  background-color: antiquewhite;
+  padding: 10px;
+  display: inline-block;
 }
 
-#aside{
-    adding: 10px 10px;
-    background-color: antiquewhite;
-    border: 2px solid black ;
-    display: inline-block;
-    max-width: 13%;
-    position: relative;
-    float: right;
-    margin-top: 20px;
+#aside {
+  padding: 10px 10px;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  display: inline-block;
+  max-width: 12%;
+  position: relative;
+  float: right;
+  margin-top: 20px;
 }
 
-#externo{
-    display: inline-block;
-    margin-right: 30px;
+#externo {
+  display: inline-block;
+  margin-right: 30px;
 }
 
-#rodape{
-    background-color: rgb(22, 21, 19);
-    color: aliceblue;
-    text-align: center;
-    padding: 10px 10px;
-    margin-top: 20px;
-    display: block;
+#rodape { 
+  background-color: rgb(22, 21, 19);
+  color: aliceblue;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  display: block;
 }
