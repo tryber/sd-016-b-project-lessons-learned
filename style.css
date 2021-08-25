@@ -52,6 +52,12 @@ main {
 ol, ul {
     margin-left: 2em;
     text-align: justify;
+    padding: 1em;
+}
+
+
+.listas h3 {
+    padding: 1em 1em 0 1em;
 }
 
 /* Bônus 15 - OK */
@@ -117,14 +123,20 @@ article {
     width: 70%;
 }
 
+article p, article h2 {
+    padding: 0 3em 1em 3em;
+}
+
 /* Requisito 09 - OK */
 aside {
     background-color: slateblue;
     width: 30%;
 }
 
-aside p {
+
+aside p, aside h2 {
     font-style: italic;
+    padding: 0 3em 1em 3em;
 }
 
 /* Requisito 10 - OK */
@@ -197,4 +209,5 @@ th {
 
 td {
     background-color: cornflowerblue;
+    padding: 0 1em;
 }
