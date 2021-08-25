@@ -1,0 +1,323 @@
+/* RESET CSS */
+
+html,
+body,
+div,
+span,
+figure,
+figcaption,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ol,
+ul,
+li,
+header,
+main,
+article,
+footer,
+section,
+textarea {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 1;
+}
+
+
+/* ----------------------------------------------------------------------------------------------- */
+
+
+/* VARIAVEIS */
+
+:root {
+    --cor-fundo: rgb(253, 251, 251);
+    --cor-foto: #afafaf;
+    --cor-FloralWhite: #FFFAF0;
+    --cor-LimeGreen: #32CD32;
+    --cor-ForestGreen: #228B22;
+    --cor-DarkGreen: #006400;
+    --cor-Black: #000000;
+}
+
+
+/* TAG */
+
+a {
+    align-items: center;
+    color: var(--cor-Black);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Rampart One', cursive;
+    margin: 5px;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+
+main {
+    background-image: linear-gradient(to top, var(--cor-fundo), var(--cor-ForestGreen));
+    padding-top: 150px;
+}
+
+table,
+th,
+td {
+    border: 1px solid var(--cor-Black);
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    background-color: var(--cor-FloralWhite);
+    padding: 10px;
+}
+
+
+/* ----------------------------------------------------------------------------------------------- */
+
+
+/* ID */
+
+#cabecalho {
+    background-color: var(--cor-ForestGreen);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+#menu_titulo {
+    font-weight: 100;
+    margin: 1rem;
+    text-align: center;
+    text-shadow: 2px 2px var(--cor-DarkGreen);
+}
+
+#titulo {
+    color: var(--cor-FloralWhite);
+    font-size: 22pt;
+}
+
+#menu_nav {
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#menu_nav :hover {}
+
+#perfil__box_img {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#minha_foto {
+    background-color: var(--cor-LimeGreen);
+    border: solid 2px var(--cor-foto);
+    border-radius: 10px;
+    height: 200px;
+    margin: 10px 0;
+    width: 215px;
+}
+
+#meu_nome {
+    font-family: 'Lobster', cursive;
+    font-size: 22pt;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+#listas {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 100px auto;
+    max-width: 1200px;
+}
+
+#licoes_aprendidas {
+    list-style: decimal;
+    margin: 0 auto;
+}
+
+#licoes_a_aprender {
+    list-style: initial;
+    margin: 0 auto;
+}
+
+#artigo {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px auto;
+    max-width: 1200px;
+}
+
+#artigo_meu_aprendizado {
+    background-image: url(/sd-016-b-project-lessons-learned/img/old-paper.jpg);
+    border: solid 2px var(--cor-foto);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#artigo_titulo {
+    font-size: 16pt;
+    margin: 10px;
+    text-align: center;
+    text-shadow: 2px 1px var(--cor-FloralWhite);
+}
+
+#notas {
+    background-image: url(/sd-016-b-project-lessons-learned/img/old-paper.jpg);
+    border: solid 2px var(--cor-foto);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#notas_titulo {
+    font-size: 16pt;
+    margin: 10px;
+    text-align: center;
+    text-shadow: 2px 1px var(--cor-FloralWhite);
+}
+
+#rodape {
+    margin: 50px;
+}
+
+#rodape__ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#tabela {
+    align-items: center;
+    background-image: url(/sd-016-b-project-lessons-learned/img/old-paper.jpg);
+    border: solid 2px var(--cor-foto);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 5px;
+    width: 400px;
+}
+
+#tabela__titulo {
+    font-size: 16pt;
+    margin: 10px;
+    text-align: center;
+    text-shadow: 2px 1px var(--cor-FloralWhite);
+}
+
+
+/* ----------------------------------------------------------------------------------------------- */
+
+
+/* CLASS */
+
+.menubar {
+    background-color: var(--cor-FloralWhite);
+    border: outset;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 2px;
+    text-align: center;
+}
+
+.menu_icon {
+    flex-direction: row;
+    margin: 0;
+}
+
+.menu_text {
+    font-size: 10pt;
+    margin: 5px;
+}
+
+.list__box {
+    align-content: flex-start;
+    background-image: url(/sd-016-b-project-lessons-learned/img/old-paper.jpg);
+    border: solid 2px var(--cor-foto);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding: 5px;
+    width: 400px;
+}
+
+.list__box h2 {
+    font-size: 16pt;
+    margin: 10px;
+    text-align: center;
+    text-shadow: 2px 1px var(--cor-FloralWhite);
+}
+
+.list_item {
+    margin: 10px;
+}
+
+.lado-esquerdo {
+    align-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.lado-direito {
+    align-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.text {
+    line-height: 1.5;
+    margin: 5px;
+    text-indent: 1.5em;
+}
+
+.icon {
+    height: 50px;
+    margin: 10px;
+    width: 50px;
+}
+
+.icon_icon {
+    height: 30px;
+    margin: 5px;
+    width: 30px;
+}
+
+.rodape__list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+
+/* ----------------------------------------------------------------------------------------------- */
