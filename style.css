@@ -7,10 +7,15 @@
     --secondary_color: rgb(37, 248, 18);
 
     --tertiary_color: rgb(163, 12, 245);
+
+    --font_oswald: 'Oswald', sans-serif;
+
+    --font_raleway: 'Raleway', sans-serif;
 }
 
 * {
     box-sizing: border-box;
+    font-family: var(--font_raleway);
     margin: 0;
     padding: 0;
 }
@@ -203,6 +208,11 @@ body {
     font-size: 2.5rem;
 }
 
+.short_resume {
+    text-align: justify;
+    line-height: 25px;
+}
+
 #skill_title {
     background-color: red;
 }
@@ -217,6 +227,10 @@ body {
 
 .split_between {
     justify-content: space-between;
+}
+
+.titles {
+    font-family: var(--font_oswald);
 }
 
 .title_skills {
