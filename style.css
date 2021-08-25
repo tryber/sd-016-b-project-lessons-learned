@@ -157,13 +157,6 @@ main {
     padding: 5px;
 }
 
-#artigo_box {
-    align-content: flex-start;
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-}
-
 #artigo_titulo {
     font-size: 16pt;
     margin: 10px;
@@ -176,13 +169,6 @@ main {
     border: solid 2px var(--cor-foto);
     border-radius: 10px;
     padding: 5px;
-}
-
-#notas_do_artigo {
-    align-content: flex-start;
-    display: flex;
-    flex-direction: column;
-    width: 400px;
 }
 
 #notas_titulo {
@@ -228,6 +214,20 @@ main {
 
 .list_item {
     margin: 10px;
+}
+
+.lado-esquerdo {
+    align-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.lado-direito {
+    align-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
 }
 
 .text {
