@@ -52,7 +52,7 @@ header {
   background-color: green;
   border: 5px solid black;
   color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,sans-serif;
+  font-family: sans-serif;
   height: 15%;
   position: fixed;
   text-align: center;
@@ -60,7 +60,7 @@ header {
   width: 99%;
 }
 
-main { 
+main {
   background-color: green;
   width: 99%;
   margin-top: 8%;
@@ -72,13 +72,13 @@ main {
   border: 15px solid rgb(20, 20, 20);
   border-radius: 15%;
   margin: 1%;
-  float: left;    
+  float: left;  
 }
 
-#navbar li{
+#navbar li {
   list-style: none;
   display: inline-block;
-  background-color:rgb(22, 22, 189);
+  background-color: rgb(22, 22, 189);
   border: 5px solid black;
   border-radius: 35%;
   margin-top: 1%;
@@ -92,7 +92,7 @@ main {
   display: inline-block;
   margin-left: 23.5%;
   padding-bottom: 50px;
-  margin-top: 1%;  
+  margin-top: 1%;
 }
 
 p {
