@@ -1,10 +1,6 @@
 * {
     margin: auto;
     padding: 0;
-
-    /* border-radius: 1em; */
-
-    /* border: 5px solid gray; */
 }
 
 /* Requisito 01 - OK */
@@ -16,28 +12,28 @@ body {
 }
 
 main {
-    background-color: lightsalmon;
+    padding: 1em;
 }
 
 /* Requisito 02 - OK */
 #cabecalho {
     position: fixed;
     top: 0;
-
-    /* test ok */
     width: 100%;
     text-align: center;
-    background-color: aquamarine;
-    border: 5px solid gray;
+}
 
-    /* border fica pra fora com width 100% */
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: .5em;
+    
+    color: white;
+    text-shadow:#BE876B 2px 2px 4px;
 }
 
 .barra-superior {
-    background-color: greenyellow;
     width: 100%;
-    height: 3em;
-
+    height: 3.5em;
 }
 
 /* Requisito 03 - OK */
@@ -55,35 +51,30 @@ ol, ul {
     padding: 1em;
 }
 
-
-.listas h3 {
-    padding: 1em 1em 0 1em;
+.la {
+    background-color: #F8FFE0;
+    border: 1px solid #be876b;
+    border-radius: 1em;
+    margin: 1em
 }
 
 /* Bônus 15 - OK */
 .lado-esquerdo {
     float: left;
-
-    /* width: 50%; */
-
-    /* test */
-    background-color: lightsteelblue;
 }
 
 .lado-direito {
     float: right;
-
-    /* width: 50%; */
-
-    /* test */
-    background-color: lightpink;
 }
 
 .listas {
-    width: 50%;
-    margin: 2em;
+    padding-bottom: 1em;
+    margin: 1em;
+    max-width: max-content;
 }
+
 .listas h3 {
+    padding: 1em 1em 0 1em;
     text-align: center;
 }
 
@@ -95,10 +86,12 @@ ol, ul {
 
 /* Requisito 06 e 07 - OK */
 footer {
-    background-color: rgb(20, 52, 148);
-    margin: 1em;
-    padding: 1em;
+    padding: 0 1em;
     border: 5px solid gray;
+}
+
+footer ul {
+    padding: 0;
 }
 
 footer p {
@@ -119,7 +112,6 @@ footer::after {
 
 /* Requisito 08 - OK */
 article {
-    background-color: palegoldenrod;
     width: 70%;
 }
 
@@ -129,14 +121,19 @@ article p, article h2 {
 
 /* Requisito 09 - OK */
 aside {
-    background-color: slateblue;
     width: 30%;
 }
-
 
 aside p, aside h2 {
     font-style: italic;
     padding: 0 3em 1em 3em;
+}
+
+
+.centro::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* Requisito 10 - OK */
@@ -159,17 +156,13 @@ li a:hover {
 
 /* Requisito 12 - OK */
 .cartao {
-    background-color: teal;
-
-    /* width:30%; */
     width: min-content;
     text-align: center;
-
-    /* margin: auto; */
     margin-top: 2em;
- 
+    margin-bottom: 5em;
+    border: 2px gray solid;
     border-radius: 1em;
-    box-shadow: 2px 2px 4px purple;
+    box-shadow: 2px 2px 4px #BE876B;
     padding-bottom: 1em;
     transition-duration: 400ms;
 }
@@ -179,35 +172,38 @@ li a:hover {
     transition-duration: 1500ms;
     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     box-shadow: 4px 4px 8px black;
-    
 }
 
 .tabela {
-
-    /* float: right; */
-    background-color: tomato;
     text-align: center;
-
-    /* margin: auto; */
 }
 
 table {
-
-    /* margin: auto; */
     white-space: nowrap;
 }
 
-tr {
-    background-color: teal;
-}
-
 th {
-    background-color: darkkhaki;
     padding-left: 1em;
     padding-right: 1em;
+    font-size: x-large;
 }
 
-td {
-    background-color: cornflowerblue;
-    padding: 0 1em;
+progress {
+    width: 90%;
+}
+
+.cor-1 {
+    background-color: #3D5F9C;
+}
+
+.cor-2 {
+    background-color: #5AA6A1;
+}
+
+.cor-3 {
+    background-color: #CFEED7;
+}
+
+.cor-4 {
+    background-color: #F8FFE0;
 }
