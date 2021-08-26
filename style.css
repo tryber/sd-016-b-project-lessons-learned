@@ -1,0 +1,106 @@
+header {
+  font-family: Segoe UI, Tahoma, Verdana, sans-serif;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  scrollbar-width: 0;
+  color: white;
+  border-bottom: solid 10px rgb(3, 107, 82);
+  background-color: rgb(47, 193, 140);
+
+}
+
+h2 {
+  background-color: rgb(47, 193, 140);
+  font-size: 30px;
+  margin-top: 40px;
+  border-bottom: solid 5px rgb(3, 107, 82);
+  color: white;
+
+}
+
+.picture {
+  background-color: black;
+  padding: 10px;
+  border-radius: 100%;
+  margin-top: 130px;
+  margin-bottom: 50px;
+  height: 300px;
+  width: 300px;
+
+}
+
+.github {
+  padding: 20px;
+  background-color: rgb(47, 193, 140);
+  border-radius: 20px;
+  color: white;
+
+}
+
+.lado-esquerdo {
+  display: inline-block;
+
+}
+
+.lado-direito {
+  display: inline-block;
+
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+
+}
+
+.principal {
+  margin-top: 40px;
+  width: 30%;
+  border: solid 5px rgb(3, 107, 82);
+  font-family: -apple-system, sans-serif;
+  background-color: rgb(47, 193, 140);
+  color: white;
+
+}
+
+.secundario {
+  border: solid 5px rgb(47, 193, 140);
+  width: 30%;
+  margin-top: 50px;
+  background-color: rgb(3, 107, 82);
+  color: white;
+
+}
+
+footer {
+  font-family: monospace;
+  margin-top: 40px;
+  scrollbar-width: 0;
+  color: white;
+  border-bottom: solid 10px rgb(3, 107, 82);
+  background-color: rgb(47, 193, 140);
+
+
+}
+
+ul , ol {
+  line-height: 30px;
+  font-family: -apple-system, sans-serif;
+
+}
+
+table {
+  width: 30%;
+  background-color: rgb(47, 193, 140);
+  border: rgb(3, 107, 82);
+  color: white;
+
+}
+
+a {
+  color: white;
+  font-family: cursive;
+  font-size: 20px;
+}
+
