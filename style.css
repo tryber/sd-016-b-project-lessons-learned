@@ -4,11 +4,13 @@
 
 body {
     background-color: rgb(253, 251, 251);
-
+    font-family: sans-serif;
+    font-size: 16px;
+    letter-spacing: .2rem;
 }
 
 #cabecalho {
-    background-color: rgb(212, 209, 191);
+    background-color: rgb(233, 230, 213);
     top: 0;
     position: fixed;
     width: 100%;
@@ -34,8 +36,10 @@ body {
 
 #tabela {
     background-color: rgb(247, 240, 205);
-    width: 700px;
+    width: 100%;
+    text-align: center;
     height: 180px;
+    font-size: 18px;
 }
 
 #licoes {
@@ -46,7 +50,7 @@ body {
 #licoes_aprendidas {
     background-color: rgb(243, 226, 169);
     border: 5px;
-    font-size: 0,5em;
+    font-size: 14px;
     margin: 0px;
     float: left;
 }
@@ -54,8 +58,11 @@ body {
 #licoes_a_aprender {
     background-color: rgb(243, 226, 169);
     border: 5px;
-    font-size: 0,5em;
+    font-size: 14px;
     margin: 0px;
     float: right;
+}
+#links_externos {
+    display: flex;
 }
 
