@@ -32,6 +32,7 @@ body {
 }
 #rodape {
     left: 200px;
+    margin-bottom: 0%;
     padding: 1px;
     border: 2px solid black;
     bottom: 0%;
