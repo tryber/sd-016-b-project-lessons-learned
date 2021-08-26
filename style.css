@@ -26,11 +26,11 @@ body {
 
 /*configurations profile */
 .figurePhotoMain {
-  width: 25%;
-  height: 300px;
-  background-color: whitesmoke;
+  width: 250px;
+  height: 250px;
   position: relative;
-  margin-top: 80px;
+  margin-top: 130px;
+  padding-left: 50px;
   background-color: transparent;
   display: inline-block;
 }
@@ -38,31 +38,35 @@ body {
 .my-photo {
   width: 100%;
   height: 100%;
-  padding-top: 10px;
-  margin-left: 60px;
   border-radius: 10%;
 }
 
-figcaption {
-  margin-left: 130px;
+.figcaption-my-photo {
+  margin-left: 50px;
+  width: 150px;
 }
 
 /*configurations - article and aside*/
 
 .lado-direito {
-  width: 20%;
+  width: 300px;
   height: 300px;
-  background-color: blueviolet;
   position: relative;
   display: inline-block;
+  margin-left: 150px;
+  text-align: justify;
+  text-indent: 4em;
 }
 
 .lado-esquerdo {
   width: 40%;
   height: 300px;
   position: relative;
-  background-color: blueviolet;
   display: inline-block;
+  margin-left: 80px;
+  line-height: 25px;
+  text-align: justify;
+  text-indent: 4em;
 }
 
 /*configurations - section lessons*/
