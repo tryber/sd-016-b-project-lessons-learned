@@ -2,13 +2,14 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 5px;
   line-height: normal;
 }
+
 #titulo {
   background-color: rgb(42, 126, 4);
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: 10px;
   width: 768px;
   text-align: justify;
@@ -20,8 +21,6 @@ body {
   margin: 1;
   padding: 1;
   border: hidden 1px;
-}
-#section_up {
 }
 
 #minha_foto {
