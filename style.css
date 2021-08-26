@@ -1,0 +1,96 @@
+/* 1. Adicione uma cor de fundo específica para a página */
+body {
+  background-color: rgb(253, 251, 251);
+
+  /* 13. Utilizar o modelo o Box */
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  /* Meus ajustes */
+  text-align: center;
+  font-family: monospace;
+}
+
+/* 2. Adicione uma barra superior com um título */
+#cabecalho {
+  position: fixed;
+  top: 0 fixed;
+}
+
+/* 14. Altere atributos relacionados como fontes */
+header h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgba(61, 73, 92);
+  font-family: monospace;
+}
+
+p , li {
+  line-height: 25px;
+}
+
+/* 15. Posicione o seu artigo e a seção sobre aprendizados um ao lado do outro */
+.caixa {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin: 10px;
+  padding: 5px;
+  text-align: justify;
+  font-size: 15px;
+  line-height: 36px;
+}
+
+.listas {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin: 10px;
+  padding: 5px;
+  text-align: justify;
+  font-size: 15px;
+  line-height: 36px;
+}
+
+img {
+  width: 300px;
+  margin-left: 100px;
+}
+
+#rodape {
+  position: relative;
+  padding: 0;
+  bottom: 0;
+  width: 100%;
+  top: 67px;
+  border-top: 1px black solid;
+  background-color: rgb(129, 124, 124);
+  color: white;
+}
+
+main {
+  padding: 150px 0 0;
+}
+
+header {
+  background-color: rgb(129, 124, 124);
+  width: 100%;
+  text-align: left;
+  color: white;
+}
+
+table {
+  border: 1px solid;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th , td {
+  border: 1px solid;
+}
+
+legend {
+  text-align: center;
+}
