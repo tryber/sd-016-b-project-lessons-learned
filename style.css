@@ -1,43 +1,32 @@
 body {
     background-color: rgb(253, 251, 251);
 }
-
 #cabecalho {
     position: fixed;
     top: 0;
 }
-
 #titulo {
    font: bolder;
 }
-
 .aprendi {
     float: left;
-    text-align: center;
 }
-
 .vouaprender {
-
     float: right;
 }
-
 #licoes_aprendidas {
     clear: both;
 }
-
 #minha_foto {
     width: 150px;
     margin-top: 5em;
 }
-
 #artigo {
     width: 40%;
 }
-
 .tabela {
     border: 5px solid black;
 }
-
 #rodape {
     background-color: blue;
     color: black;
