@@ -4,12 +4,23 @@
 
 body {
     background-color: rgb(253, 251, 251);
+
 }
 
 #cabecalho {
     background-color: rgb(212, 209, 191);
     top: 0;
     position: fixed;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+#titulo {
+    text-align: right;
+    color: black;
+    font-size: 400%;
+    display: block;
 }
 
 #minha_foto {
@@ -21,6 +32,30 @@ body {
     width: auto;
 }
 
+#tabela {
+    background-color: rgb(247, 240, 205);
+    width: 700px;
+    height: 180px;
+}
+
 #licoes {
     display: inline-block;
+
 }
+
+#licoes_aprendidas {
+    background-color: rgb(243, 226, 169);
+    border: 5px;
+    font-size: 0,5em;
+    margin: 0px;
+    float: left;
+}
+
+#licoes_a_aprender {
+    background-color: rgb(243, 226, 169);
+    border: 5px;
+    font-size: 0,5em;
+    margin: 0px;
+    float: right;
+}
+
