@@ -32,10 +32,13 @@
     }
     /**/
     .imgtitolo {
-        border-radius: 50%;
-        width: 80px;
         
-       
+        /*border-radius: 50%;*/
+        /*width: 80px;*/
+        /*background-size: 80%;*/
+        height: 80px;
+        /*background-position: ;*/
+        padding: 2%;       
     }
     /*navegador/ centralizar/ largura/ */
     nav{
@@ -51,8 +54,17 @@
         text-decoration: none;
 
     }
-    /*imagem de fundo/ tanho da imagem*/
-    .img-main{
-        background-image: url("/imagens/");
+    /*imagem de fundo/ imagem em retrato/ tamanho/ posição da img/ */
+    #minha_foto{
         background-size: cover;
+        height: 400px;
+        float: left;
+        
+    }
+    .div-eu{
+        float: left;
+        margin-left: 25pdx;
+    }
+    #licoes_aprendidas{
+        
     }
