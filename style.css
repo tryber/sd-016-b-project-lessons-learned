@@ -12,33 +12,28 @@ body {
   align-self: start;
 }
 .corpo {
-  padding: 100px 50px 100px 50px;
-}
-
-table , tr , td {
+  padding: 10vh 3vw 5vh;
   margin: 10px;
-  border: 10px;
-  padding: 4px;
 }
 
-.profphoto {
-  width: 200px;
-  top: 10px;
+table , tr , td , th {
+  margin: 2px;
+  border: 1px;
+  padding: 1.2vmax;
+  text-align: left;
 }
-
 .lists {
-  position: absolute;
-  top: 285px;
+  display: block;
+  padding: 1vmax;
 }
 
 .artigos {
-  display: inline;
   line-height: 1.1;
 }
 
 .lado-direito {
   float: left;
-  width: 70%;
+  width: 60%;
 }
 
 .lado-esquerdo {
@@ -47,15 +42,16 @@ table , tr , td {
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   background-color: rgb(5, 73, 100);
   width: 100%;
+  height: 7vh;
 }
 
 #cabecalho {
   position: fixed;
-  width: 1366px;
+  width: 100vw;
   height: 100px;
   display: inline;
   top: 0;
@@ -64,8 +60,7 @@ table , tr , td {
 }
 
 #minha_foto {
-  border-radius: 195px;
+  border-radius: 95px;
   border-top-left-radius: 50px;
-  position: absolute;
   top: 101px;
 } /* stylelint-disable-next-line rule */
