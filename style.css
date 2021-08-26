@@ -45,7 +45,7 @@ body {
   margin-top: 20px;
 }
 
-#secao_list {
+.secao_list {
   display: inline-block;
   margin-right: 20px;
 }
@@ -80,7 +80,7 @@ body {
   margin-top: 20px;
 }
 
-#externo {
+.externo {
   display: inline-block;
   margin-right: 30px;
 }
