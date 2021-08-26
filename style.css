@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: aqua;
+}
+
+#titulo {
+  text-align: center;
+}
+
+#minha_foto {
+  display: block;
+  position: absolute;
+  width: 200px;
+  top: 100px;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+}
+
+#section_list_1 {
+  position: absolute;
+  top: 300px;
+}
+
+#rodape {
+  position: absolute;
+  top: 900px;
+}
+
+#link {
+  position: absolute;
+  top: 850px;
+}
+
+article {
+  position: absolute;
+  top: 560px;
+}
+
+aside {
+  position: absolute;
+  top: 700px;
+}
+
+nav {
+  position: absolute;
+}
+
+table {
+  position: absolute;
+  top: 810px;
+}
