@@ -29,6 +29,7 @@ table , tr , td , th {
 
 .artigos {
   line-height: 1.1;
+  display: inline;
 }
 
 .lado-direito {
@@ -37,7 +38,7 @@ table , tr , td , th {
 }
 
 .lado-esquerdo {
-  width: 30%;
+  width: 20%;
   float: right;
 }
 
