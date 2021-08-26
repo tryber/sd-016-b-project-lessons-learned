@@ -2,22 +2,33 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-header {
-    text-align: left;
-}
-
 #cabecalho {
+    width: 100%;
+    height: 80px;
+    top: 0%;
     position: fixed;
-    top: 0;
-
+    background-color: lightblue;
 }
 
 #titulo {
-    top: 0;
+    position: absolute;
+    font-size: 20px;
+    font-family: monospace;
+    top: 15px;
+    left: 15px;
 }
 
 #minha_foto {
-    position: absolute;
-    width: 200px;
-    top: 120px;
+    width: 250px;
+    margin-top: 50px;
+}
+
+#secao1 {
+    float: left;
+    width: 20%;
+}
+
+#aside1 {
+    float:right;
+    width: 80%;
 }
