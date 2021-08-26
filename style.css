@@ -6,9 +6,9 @@ body { background-color: rgb(253, 251, 251);
     top: 0;
     left: 0;
     right: 0;
-    background-color:pink;
+    background-color: pink;
     margin-right: 900px;
-    border-color: rgb(255, 255, 255);
+    border-color: white;
     
  }
 
@@ -22,10 +22,9 @@ line-height: 1.4;
 
  #minha_foto {
      top: 0;
-     padding: 10px 10px 10px 10px;
+     padding: 10px;
  }
      
-
  #licoes_aprendidas {
      font-family: monospace;
  }
@@ -38,3 +37,11 @@ line-height: 1.4;
      font-family: monospace;
 
 }
+.lado-esquerdo, .lado-direito{
+display: inline-block;
+width: 40%;
+vertical-align: top;
+
+}
+
+
