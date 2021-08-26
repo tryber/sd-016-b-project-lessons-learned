@@ -3,13 +3,14 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: "Roboto", sans-serif;
+  font-size: 5px;
+  line-height: normal;
 }
 #titulo {
   background-color: rgb(42, 126, 4);
   color: rgb(255, 255, 255);
   font-size: 10px;
   width: 768px;
-
   text-align: inherit;
 }
 
@@ -21,10 +22,9 @@ body {
   border: hidden 1px;
 }
 #section_up {
-  margin: 15%;
+  margin-top: 15%;
   padding: 1;
-  border: hidden 1px;
-  font-size: 8px;
+  border: hidden;
 }
 
 #minha_foto {
@@ -36,22 +36,34 @@ table {
   font-size: 5px;
 }
 
-img {
-  height: 80px;
-  width: 80px;
+#minha_foto {
+  height: 55px;
+  width: 75px;
 }
 
 th {
   text-align: justify;
 }
 
-footer {
-  font-size: 5px;
-  width: 50%;
+.lado-direito {
+  float: right;
+  width: 100px;
+  margin: 5px;
+  position: relative;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 100px;
+  margin: 5px;
+  position: relative;
 }
 
 .artigos {
-  font-size: 5px;
   display: inline-block;
   align-items: justify;
+}
+
+footer {
+  font-size: 3px;
 }
