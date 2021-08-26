@@ -18,6 +18,7 @@ nav li {
   margin-left: 50px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 26px;
+  line-height: 10px;
 }
 
 section {
@@ -44,7 +45,7 @@ section th {
 .sub-menu {
   max-width: 93%;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 150px;
   margin-bottom: 40px;   
 }
 
@@ -69,7 +70,10 @@ body h2 {
 }
 
 header {
+  top: 0;
   background-image: url("imagem/capa.jpg");
+  position: fixed;
+  width: 100%;
   text-align: center;
   color: rgb(253, 251, 251);
   height: 100px;
