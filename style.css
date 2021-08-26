@@ -1,0 +1,210 @@
+* {
+  margin: auto;
+  padding: 0;
+}
+
+/* Requisito 01 - OK */
+body {
+  background-color: rgb(253, 251, 251);
+  line-height: 2.5em;
+  font-family: Mina, Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+  font-size: small;
+}
+
+main {
+  padding: 1em;
+}
+
+/* Requisito 02 - OK */
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-family: Lucida Sans, Lucida Sans Regular, Verdana, sans-serif;
+  padding: 0.5em;
+  color: white;
+  text-shadow: rgb(190, 135, 107) 2px 2px 4px;
+}
+
+.barra-superior {
+  width: 100%;
+  height: 3.5em;
+}
+
+/* Requisito 03 - OK */
+#minha_foto {
+  margin-top: 1em;
+  border-radius: 50%;
+  width: 90%;
+  border: 2px solid gray;
+}
+
+/* Requisito 04 e 05- OK */
+ol , ul {
+  margin-left: 2em;
+  text-align: justify;
+  padding: 1em;
+}
+
+.la {
+  background-color: rgb(248, 255, 224);
+  border: 1px solid rgb(190, 135, 107);
+  border-radius: 1em;
+  margin: 1em;
+}
+
+/* Bônus 15 - OK */
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
+.listas {
+  padding-bottom: 1em;
+  margin: 1em;
+  max-width: max-content;
+}
+
+.listas h3 {
+  padding-top: 1em;
+  text-align: center;
+}
+
+.listas:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Requisito 06 e 07 - OK */
+footer {
+  padding: 0 1em;
+  border: 5px solid gray;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer p {
+  float: right;
+  font-style: italic;
+  color: blanchedalmond;
+}
+
+footer a {
+  color: blanchedalmond;
+}
+
+footer:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Requisito 08 - OK */
+article {
+  width: 70%;
+}
+
+article p , article h2 {
+  padding-top: 0 3em 1em;
+}
+
+/* Requisito 09 - OK */
+aside {
+  width: 30%;
+}
+
+.italico {
+  font-style: italic;
+  padding: 0 3em 1em;
+}
+
+
+.centro:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Requisito 10 - OK */
+nav li {
+  display: inline;
+  float: left;
+  margin: 0 1em;
+  color: white;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: springgreen;
+  transition-duration: 200ms;
+  color: black;
+}
+
+/* Requisito 12 - OK */
+.cartao {
+  width: min-content;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 5em;
+  border: 2px gray solid;
+  border-radius: 1em;
+  box-shadow: 2px 2px 4px rgb(190, 135, 107);
+  padding-bottom: 1em;
+  transition-duration: 400ms;
+}
+
+.cartao:hover {
+  transform: scale(1.25) rotate(-2.5deg);
+  transition-duration: 1500ms;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-shadow: 4px 4px 8px black;
+}
+
+.tabela {
+  text-align: center;
+}
+
+table {
+  white-space: nowrap;
+}
+
+th {
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: x-large;
+}
+
+progress {
+  width: 90%;
+}
+
+.cor-1 {
+  background-color: rgb(61, 95, 156);
+}
+
+.cor-2 {
+  background-color: rgb(90, 166, 161);
+}
+
+.cor-3 {
+  background-color: rgb(207, 238, 215);
+}
+
+.cor-4 {
+  background-color: rgb(248, 255, 224);
+}
+
+/* Não esquecer da nova linha no fim do arquivo. */

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mina">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto - 01</title>
+</head>
+<body>
+    <!-- Requisito 01 - OK -->
+    <!-- Requisito 02 - OK -->
+    <div class="barra-superior">
+        <header id="cabecalho" class="cor-1">
+            <h1 id="titulo">Percurso na Trybe</h1>
+        </header>
+    </div>
+
+    <main class="cor-3">
+        <!-- Requisito 03 - OK -->
+        <div class="cartao cor-4">
+            <div class="foto-perfil">
+                <img id="minha_foto" src="pp.jpg" alt="minha foto">
+            </div>
+            <!-- Requisito 12 - OK-->
+            <div class="tabela">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th colspan="2" class="cor-3">Gabriel Rodrigues Leite</th>
+                            <!-- <th>Progresso</th> -->
+                        </tr>
+                        <tr>
+                            <td >HTML5</td>
+                            <td><progress value="85" max="100"></progress></td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td><progress value="15" max="100"></progress></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        
+
+        <!-- Requisito 08 - OK -->
+        <div class="centro">
+            <article class="lado-esquerdo" id="artigo-principal">
+                <h2>Aprendizado</h2>
+                <p>
+                    Asdfasdfasdfasdfasdfasdfasdfasdfasdfasfdasdfasdfasdf
+                    asdfasdfasdfasdfasdfasdfasdfasdfasdfasfdasdfasdfasdf
+                    asdfasdfasdfasdfasdfasdfasdfasdfasdfasfdasdfasdfasdf
+                    asdfasdfasdfasdfasdfasdfasdfasdfasdfasfdasdfasdfasdf
+                    asdfasdfasdfasdfasdfasdfasdfasdfasdfasfdasdfasdfasdf
+                    asdfasdfasdfasdfasdfasdfasdfasdfasdfasfdasdfasdfasd.
+                </p>
+            </article>
+
+                <!-- Requisito 09 - OK -->
+            <aside class="lado-direito">
+                <h2 class=".italico">Trilhando o Aprendizado</h2>
+                <section>
+                    <p class=".italico">
+                        NO PAINS, NO GAINS. If little labour, little are our gains: Man's fate is according to his pains. — Hesperides 752.
+                    </p>
+                </section>
+            </aside>
+            
+        </div>
+        <!-- Requisito 04 - OK -->
+        <div class="listas">
+            <section class="lado-esquerdo la">
+                <h3>Lições aprendidas:</h3>
+                <ol id="licoes_aprendidas">
+                    <li>Fundamentos Web</li>
+                    <li>Unix & Bash</li>
+                    <li>Git e Github</li>
+                    <li>Internet</li>
+                    <li>Html Semântico</li>
+                    <li>CSS</li>
+                    <li>Autoconhecimento</li>
+                    <li>Empatia</li>
+                    <li>Soft Skills</li>
+                    <li>Inteligência Emocional</li>
+                </ol>
+            </section>
+            <!-- Requisito 05 - OK -->
+            <section class="lado-direito la">
+                <h3>Lições a aprender:</h3>
+                <ul id="licoes_a_aprender">
+                    <li>Javascript</li>
+                    <li>React e Redux</li>
+                    <li>Metodologias Ágeis</li>
+                    <li>Bancos de dados</li>
+                    <li>Sockets</li>
+                    <li>SOLID e ORM</li>
+                    <li>Python</li>
+                    <li>OOB</li>
+                    <li>Algoritmos</li>
+                    <li>Estruturas de Dados</li>
+                </ul>
+            </section>
+        </div>
+        
+    </main>
+    <!-- Requisito 06 e 07 - OK -->
+    <footer id="rodape" class="cor-1">
+        <!-- Requisito 10 - OK -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#artigo-principal">Artigo Principal</a></li>
+                <li><a target="_blank" href="https://gabrielrodriguesleite.github.io">Sobre</a></li>
+                <!-- <li>← Site map</li> -->
+            </ul>
+        </nav>
+        <p>Desenvolvido por <a target="_blank" href="https://gabrielrodriguesleite.github.io">Gabriel Rodrigues Leite</a>, 2021.</p>
+    </footer>
+</body>
+</html>
+
+<!-- Requisitos : https://github.com/tryber/sd-016-b-project-lessons-learned -->
+<!-- Barra superior position: fixed; https://www.w3schools.com/css/css_positioning.asp -->
+<!-- OK 01 - Cor do fundo da página rgb(253, 251, 251) -->
+<!-- OK 02 - Barra Superior fixed e top:0 com o título id="cabecalho" e h1 id="titulo" -->
+<!-- OK 03 - Foto id="minha_foto"-->
+<!-- OK 04 - Lista id="licoes_aprendidas" com 10 itens -->
+<!-- OK 05 - Lista id="licoes_a_aprender" com 10 itens -->
+<!-- OK 06 - footer id="rodape" -->
+<!-- OK 07 - >=1 link externo target="_blank" -->
+<!-- OK 08 - article > 300 caracteres < 600 -->
+<!-- OK 09 - seção tag→aside >300 caracteres <600 -->
+<!-- OK 10 - 1 de cada: article header nav section aside footer -->
+<!-- OK 11 - Passar no Codesniffer -->
+<!-- BÔNUS -->
+<!-- OK 12 - 1 table -->
+<!-- OK 13 - altere margin padding e border -->
+<!-- OK 14 - altere a tipografia tamanho cor espaçamento entre linhas e font family -->
+<!-- OK 15 - classes "lado-esquerdo" e "lado-direito" -->
+<!-- OPCIONAL -->
+<!-- Na página do MEU Pull Request adicione a label de "code-review" e marque os colegas
+    * no menu da direita clique em "Labels" e escolha a label [code-review]
+    * no menu da direita clique em "Assignees" e escolha meu usuário
+    * no menu da direita cleque no link do "Reviewers" e digite students, selecione o time [tryber/students-sd-x] -->
+<!-- Form: https://be-trybe.typeform.com/to/ZTeR4IbH -->
