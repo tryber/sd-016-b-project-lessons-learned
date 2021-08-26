@@ -11,8 +11,18 @@ body {
    font: bolder;
 }
 
-.raiz {
-    display: inline-block;
+.aprendi {
+    float: left;
+    text-align: center;
+}
+
+.vouaprender {
+
+    float: right;
+}
+
+#licoes_aprendidas {
+    clear: both;
 }
 
 #minha_foto {
@@ -21,9 +31,14 @@ body {
 }
 
 #artigo {
-    width: 60%;
+    width: 40%;
+}
+
+.tabela {
+    border: 5px solid black;
 }
 
 #rodape {
-    color: red;
+    background-color: blue;
+    color: black;
 }
