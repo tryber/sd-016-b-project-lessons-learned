@@ -76,12 +76,17 @@ body {
   text-indent: 4em;
 }
 
-.aside-txt {
+.aside-section {
   width: 200px;
   height: 300px;
   position: relative;
   display: inline-block;
   padding-left: 120px;
+}
+
+.aside-txt {
+  width: 100%;
+  height: 100%;
 }
 
 .lado-direito {
