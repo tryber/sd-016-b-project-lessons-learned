@@ -1,5 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
+  border: solid 2px;
 }
 
 #cabecalho {
@@ -8,12 +10,14 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  border: solid 2px;
 }
 
 #titulo {
   color: rgb(255, 255, 255);
   float: left;
   margin: 17.44px 72px;
+  border: solid 2px;
 }
 
 #navegacao {
@@ -21,13 +25,34 @@ body {
   font-size: 18px;
   float: right;
   margin: 28.44px 72px;
-
+  border: solid 2px;
 }
 
 .link {
   color: rgb(255, 255, 255);
+  border: solid 2px;
+}
+
+#apresentacao {
+  padding-top: 94px;
+  display: flex;
+  text-align: center;
+  border: solid 2px;
+}
+
+#namassa {
+  border: solid 2px;
+}
+
+#principal {
+  display: flex;
 }
 
 #tabela {
   border-color: green;
+  border: solid 2px;
+}
+
+#rodape {
+  border: solid 2px;
 }
