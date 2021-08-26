@@ -27,7 +27,7 @@ h1 {
   font-family: Lucida Sans, Lucida Sans Regular, Verdana, sans-serif;
   padding: 0.5em;
   color: white;
-  text-shadow: #be876b 2px 2px 4px;
+  text-shadow: rgb(190, 135, 107) 2px 2px 4px;
 }
 
 .barra-superior {
@@ -51,8 +51,8 @@ ol , ul {
 }
 
 .la {
-  background-color: #f8ffe0;
-  border: 1px solid #be876b;
+  background-color: rgb(248, 255, 224);
+  border: 1px solid rgb(190, 135, 107);
   border-radius: 1em;
   margin: 1em;
 }
@@ -77,7 +77,7 @@ ol , ul {
   text-align: center;
 }
 
-.listas::after {
+.listas:after {
   content: '';
   display: table;
   clear: both;
@@ -103,7 +103,7 @@ footer a {
   color: blanchedalmond;
 }
 
-footer::after {
+footer:after {
   content: '';
   display: table;
   clear: both;
@@ -115,7 +115,7 @@ article {
 }
 
 article p , article h2 {
-  padding: 0 3em 1em 3em;
+  padding-top: 0 3em 1em;
 }
 
 /* Requisito 09 - OK */
@@ -125,11 +125,11 @@ aside {
 
 .italico {
   font-style: italic;
-  padding: 0 3em 1em 3em;
+  padding: 0 3em 1em;
 }
 
 
-.centro::after {
+.centro:after {
   content: '';
   display: table;
   clear: both;
@@ -139,7 +139,7 @@ aside {
 nav li {
   display: inline;
   float: left;
-  margin: 0 1em 0 1em;
+  margin: 0 1em;
   color: white;
 }
 
@@ -161,7 +161,7 @@ li a:hover {
   margin-bottom: 5em;
   border: 2px gray solid;
   border-radius: 1em;
-  box-shadow: 2px 2px 4px #be876b;
+  box-shadow: 2px 2px 4px rgb(190, 135, 107);
   padding-bottom: 1em;
   transition-duration: 400ms;
 }
@@ -192,19 +192,19 @@ progress {
 }
 
 .cor-1 {
-  background-color: #3d5f9c;
+  background-color: rgb(61, 95, 156);
 }
 
 .cor-2 {
-  background-color: #5aa6a1;
+  background-color: rgb(90, 166, 161);
 }
 
 .cor-3 {
-  background-color: #cfeed7;
+  background-color: rgb(207, 238, 215);
 }
 
 .cor-4 {
-  background-color: #f8ffe0;
+  background-color: rgb(248, 255, 224);
 }
 
 /* Não esquecer da nova linha no fim do arquivo. */
