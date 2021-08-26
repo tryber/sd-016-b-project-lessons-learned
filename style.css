@@ -8,7 +8,7 @@ body {
 
 #cabecalho {
   background-color: rgb(231, 231, 231);
-  color: #3d495c;
+  color: rgb(61,73,92);
   font-family: Montserrat, sans-serif;
   text-align: center;
   position: fixed;
@@ -18,7 +18,7 @@ body {
 }
 
 #navegacao li {
-  background-color: rgb(46,193,140);
+  background-color: rgb(46, 193 ,140);
   color: white;
   border: 1px solid rgb(221,226,235);
   display: inline-block;
@@ -35,12 +35,12 @@ body {
   margin: 150px 0 0 20px;
   width: 200px;
 
-    /* filter: grayscale(100%); */
+  /* filter: grayscale(100%); */
 
 }
 
 #rodape {
-  background-color: rgb(231, 231, 231);
+  background-color: rgb(231, 231 , 231);
   bottom: 0;
   font-family: 'Montserrat', sans-serif;
   padding: 15px;
@@ -49,7 +49,7 @@ body {
 }
 
 .listas {
-  background-color: rgb(231, 231, 231);
+  background-color: rgb(231, 231 , 231);
   color: rgb(61,73,92);
   font-family: 'Montserrat', sans-serif;
   line-height: 20px;
@@ -59,22 +59,22 @@ body {
   margin-right: 20px;
 }
 
-#licoes_aprendidas ,#licoes_a_aprender {
+#licoes_aprendidas , #licoes_a_aprender {
   margin: 10px 20px 10px 50px;
 }
 
 h2 {
   text-align: center;
-  background-color: rgb(46,193,140);
-  color:white;
+  background-color: rgb(46, 193 ,140);
+  color: white;
   font-weight: lighter;
   padding: 15px;
 }
 
 .lado-esquerdo {
-  background-color: rgb(231, 231, 231);
+  background-color: rgb(231, 231 , 231);
   width: 300px;
-  margin: 30px 10px 20px 10px;
+  margin: 30px 10px 20px;
   display: inline-block;
 
 }
@@ -85,7 +85,7 @@ aside {
 }
 
 .lado-direito {
-  background-color: rgb(231, 231, 231);
+  background-color: rgb(231, 231 , 231);
   display: inline-block;
   width: 200px;
 
@@ -94,8 +94,9 @@ aside {
 #tabela {
   display: inline-block;
 
-    /* border: 1px solid black; */
-    /* margin-left: 10px; */
+  /* border: 1px solid black; */
+
+  /* margin-left: 10px; */
 
   border-spacing: 10px;
   font-family: 'Montserrat', sans-serif;
@@ -103,11 +104,12 @@ aside {
 }
 
 #conteudo-central {
-  background-color: rgb(231, 231, 231);
+  background-color: rgb(231, 231 , 231);
   display: inline-block;
   align-items: center;
-  
+
 }
+
 .clear {
   clear: both;
 }
