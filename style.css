@@ -66,6 +66,10 @@ body {
 
 #links_externos {
     display: flex;
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
 }
 
 .lado-esquerdo {
