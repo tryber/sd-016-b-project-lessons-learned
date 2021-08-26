@@ -50,17 +50,8 @@ footer {
   width: 50%;
 }
 
-.lado-direito {
-  font-size: 5px;
-  display: inline-block;
-}
-
-.lado-esquerdo {
-  font-size: 5px;
-  display: inline-block;
-}
-
 .artigos {
+  font-size: 5px;
   display: inline-block;
   align-items: justify;
 }
