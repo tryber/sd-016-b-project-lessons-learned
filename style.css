@@ -16,14 +16,14 @@ h1 , h2 {
 }
 
 #titulo {
-  color: rgb(255, 255, 255);
+  color: rgb(253, 255, 255);
   float: left;
   margin: 17.44px 72px;
   letter-spacing: 2.5px;
 }
 
 #navegacao {
-  color: rgb(255, 255, 255);
+  color: rgb(253, 255, 255);
   font-size: 18px;
   float: right;
   margin: 28.44px 72px;
@@ -53,7 +53,7 @@ h1 , h2 {
 #minha_foto {
   border-radius: 50%;
   border: solid 3px rgb(3, 107, 82);
-  max-width:267.2px;
+  max-width: 267.2px;
   width: auto;
   height: auto;
 }
@@ -64,6 +64,7 @@ h1 , h2 {
 
 #principal {
   display: flex;
+  line-height: 141%;
 }
 
 .lado-esquerdo {
@@ -89,7 +90,7 @@ h1 , h2 {
 #aspa {
   color: rgb(47, 193, 140);
   font-size: 90px;
-  font-family: auto;
+  font-family: fantasy;
   margin: -24px 7px 0 3px;
 }
 
