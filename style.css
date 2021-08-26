@@ -1,209 +1,210 @@
 * {
-    margin: auto;
-    padding: 0;
+  margin: auto;
+  padding: 0;
 }
 
 /* Requisito 01 - OK */
 body {
-    background-color: rgb(253, 251, 251);    ;
-    line-height: 2.5em;
-    font-family: 'Mina', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: small;
+  background-color: rgb(253, 251, 251);
+  line-height: 2.5em;
+  font-family: Mina, Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+  font-size: small;
 }
 
 main {
-    padding: 1em;
+  padding: 1em;
 }
 
 /* Requisito 02 - OK */
 #cabecalho {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
 }
 
 h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: .5em;
-    
-    color: white;
-    text-shadow:#BE876B 2px 2px 4px;
+  font-family: Lucida Sans, Lucida Sans Regular, Verdana, sans-serif;
+  padding: 0.5em;
+  color: white;
+  text-shadow: #be876b 2px 2px 4px;
 }
 
 .barra-superior {
-    width: 100%;
-    height: 3.5em;
+  width: 100%;
+  height: 3.5em;
 }
 
 /* Requisito 03 - OK */
 #minha_foto {
-    margin-top: 1em;
-    border-radius: 50%;
-    width: 90%;
-    border: 2px solid gray;
+  margin-top: 1em;
+  border-radius: 50%;
+  width: 90%;
+  border: 2px solid gray;
 }
 
 /* Requisito 04 e 05- OK */
-ol, ul {
-    margin-left: 2em;
-    text-align: justify;
-    padding: 1em;
+ol , ul {
+  margin-left: 2em;
+  text-align: justify;
+  padding: 1em;
 }
 
 .la {
-    background-color: #F8FFE0;
-    border: 1px solid #be876b;
-    border-radius: 1em;
-    margin: 1em
+  background-color: #f8ffe0;
+  border: 1px solid #be876b;
+  border-radius: 1em;
+  margin: 1em;
 }
 
 /* Bônus 15 - OK */
 .lado-esquerdo {
-    float: left;
+  float: left;
 }
 
 .lado-direito {
-    float: right;
+  float: right;
 }
 
 .listas {
-    padding-bottom: 1em;
-    margin: 1em;
-    max-width: max-content;
+  padding-bottom: 1em;
+  margin: 1em;
+  max-width: max-content;
 }
 
 .listas h3 {
-    padding: 1em 1em 0 1em;
-    text-align: center;
+  padding-top: 1em;
+  text-align: center;
 }
 
 .listas::after {
-    content: "";
-    display: table;
-    clear: both;
+  content: '';
+  display: table;
+  clear: both;
 }
 
 /* Requisito 06 e 07 - OK */
 footer {
-    padding: 0 1em;
-    border: 5px solid gray;
+  padding: 0 1em;
+  border: 5px solid gray;
 }
 
 footer ul {
-    padding: 0;
+  padding: 0;
 }
 
 footer p {
-    float: right;
-    font-style: italic;
-    color: blanchedalmond;
+  float: right;
+  font-style: italic;
+  color: blanchedalmond;
 }
 
 footer a {
-    color: blanchedalmond;
+  color: blanchedalmond;
 }
 
 footer::after {
-    content: "";
-    display: table;
-    clear: both;
+  content: '';
+  display: table;
+  clear: both;
 }
 
 /* Requisito 08 - OK */
 article {
-    width: 70%;
+  width: 70%;
 }
 
-article p, article h2 {
-    padding: 0 3em 1em 3em;
+article p , article h2 {
+  padding: 0 3em 1em 3em;
 }
 
 /* Requisito 09 - OK */
 aside {
-    width: 30%;
+  width: 30%;
 }
 
-aside p, aside h2 {
-    font-style: italic;
-    padding: 0 3em 1em 3em;
+.italico {
+  font-style: italic;
+  padding: 0 3em 1em 3em;
 }
 
 
 .centro::after {
-    content: "";
-    display: table;
-    clear: both;
+  content: '';
+  display: table;
+  clear: both;
 }
 
 /* Requisito 10 - OK */
 nav li {
-    display: inline;
-    float: left;
-    margin: 0 1em 0 1em;
-    color: white;
+  display: inline;
+  float: left;
+  margin: 0 1em 0 1em;
+  color: white;
 }
 
 li a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 li a:hover {
-    background-color: springgreen;
-    transition-duration: 200ms;
-    color: black;
+  background-color: springgreen;
+  transition-duration: 200ms;
+  color: black;
 }
 
 /* Requisito 12 - OK */
 .cartao {
-    width: min-content;
-    text-align: center;
-    margin-top: 2em;
-    margin-bottom: 5em;
-    border: 2px gray solid;
-    border-radius: 1em;
-    box-shadow: 2px 2px 4px #BE876B;
-    padding-bottom: 1em;
-    transition-duration: 400ms;
+  width: min-content;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 5em;
+  border: 2px gray solid;
+  border-radius: 1em;
+  box-shadow: 2px 2px 4px #be876b;
+  padding-bottom: 1em;
+  transition-duration: 400ms;
 }
 
 .cartao:hover {
-    transform: scale(1.25) rotate(-2.5deg);
-    transition-duration: 1500ms;
-    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-    box-shadow: 4px 4px 8px black;
+  transform: scale(1.25) rotate(-2.5deg);
+  transition-duration: 1500ms;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-shadow: 4px 4px 8px black;
 }
 
 .tabela {
-    text-align: center;
+  text-align: center;
 }
 
 table {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 th {
-    padding-left: 1em;
-    padding-right: 1em;
-    font-size: x-large;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: x-large;
 }
 
 progress {
-    width: 90%;
+  width: 90%;
 }
 
 .cor-1 {
-    background-color: #3D5F9C;
+  background-color: #3d5f9c;
 }
 
 .cor-2 {
-    background-color: #5AA6A1;
+  background-color: #5aa6a1;
 }
 
 .cor-3 {
-    background-color: #CFEED7;
+  background-color: #cfeed7;
 }
 
 .cor-4 {
-    background-color: #F8FFE0;
+  background-color: #f8ffe0;
 }
+
+/* Não esquecer da nova linha no fim do arquivo. */
