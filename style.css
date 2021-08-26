@@ -16,14 +16,12 @@ body {
 
 #licoes_aprendidas {
     font-family: sans-serif; 
-    /*font-family: monospace;*/
-
 }
 
 
 #licoes_a_aprender {
     font-family: sans-serif;
-    /* font-family: monospace; */
+}    
 
 /*
 #rodape {
@@ -31,4 +29,3 @@ body {
 
 } */
 
-}
