@@ -8,3 +8,27 @@ body {
     top: 0;
     position: fixed;
 }
+
+#minha_foto {
+    top: 0;
+    padding: 10px;
+}
+
+#licoes_aprendidas {
+    font-family: sans-serif; 
+    /*font-family: monospace;*/
+
+}
+
+
+#licoes_a_aprender {
+    font-family: sans-serif;
+    /* font-family: monospace; */
+
+/*
+#rodape {
+    font-family: sans-serif;
+
+} */
+
+}
