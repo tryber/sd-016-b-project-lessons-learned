@@ -12,6 +12,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     position:fixed;
+    
     top: 0;
     padding: 20px;
     width: 100%;
@@ -20,6 +21,7 @@ body{
 #navegacao li{
     background-color: #2ec18c;
     color: #ffff;
+    border: 1px solid #dde2eb;
     display: inline-block;
     text-align: center;
     padding: 10px;
@@ -31,7 +33,7 @@ body{
 }
 
 #minha_foto{
-    margin-top: 150px;
+    margin: 150px 0 0 20px;
     width:200px;
     /* filter: grayscale(100%); */
 
@@ -54,11 +56,11 @@ body{
     width: 250px;
     float:right;
     margin-top: 150px;
-    margin-right:80px;
+    margin-right:20px;
 }
 
 #licoes_aprendidas ,#licoes_a_aprender{
-    margin:10px 50px 10px 50px;
+    margin:10px 20px 10px 50px;
 }
 
 h2{
@@ -70,17 +72,41 @@ h2{
     padding: 15px;
 }
 
-.article-aprendizado{
-    background-color: cornflowerblue;
+.lado-esquerdo{
+    background-color: rgb(231, 231, 231);
     width: 300px;
-    display: inline-block;
-    margin-top: 100px;
+    margin:30px 10px 20px 10px;
+    display:inline-block;
+
 }
 
-.secao{
-    background-color: crimson;
+aside{
+    display: inline-block;
+
+}
+
+.lado-direito{
+    background-color: rgb(231, 231, 231);
     display: inline-block;
     width: 200px;
-    margin-bottom: 100px;
+
 }
 
+#tabela{
+    display: inline-block;
+    /* border: 1px solid black; */
+    /* margin-left: 10px; */
+    border-spacing: 10px;
+    font-family:'Montserrat', sans-serif;
+
+}
+
+#conteudo-central{
+    background-color: rgb(231, 231, 231);
+    display: inline-block;
+    align-items: center;
+  
+}
+.clear{
+    clear: both;
+}
