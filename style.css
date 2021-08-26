@@ -1,7 +1,10 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: sans-serif;
-  border: solid 2px;
+}
+
+h1, h2 {
+  font-family: Epilogue,Verdana,sans-serif;
 }
 
 #cabecalho {
@@ -10,14 +13,13 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  border: solid 2px;
 }
 
 #titulo {
   color: rgb(255, 255, 255);
   float: left;
   margin: 17.44px 72px;
-  border: solid 2px;
+  letter-spacing: 2.5px;
 }
 
 #navegacao {
@@ -25,34 +27,98 @@ body {
   font-size: 18px;
   float: right;
   margin: 28.44px 72px;
-  border: solid 2px;
 }
 
 .link {
   color: rgb(255, 255, 255);
-  border: solid 2px;
+  text-decoration: none;
+  letter-spacing: 0.5px;
 }
 
 #apresentacao {
   padding-top: 94px;
   display: flex;
   text-align: center;
-  border: solid 2px;
+}
+
+#divfoto {
+  margin: 0 72px 15px 130px;
+}
+
+#divnome {
+  display: flex;
+  align-items: center;
+}
+
+#minha_foto {
+  border-radius: 50%;
+  border: solid 3px rgb(3, 107, 82);
+  max-width:267.2px;
+  width: auto;
+  height: auto;
 }
 
 #namassa {
-  border: solid 2px;
+  margin: 0 100px 0 97px;
 }
 
 #principal {
   display: flex;
 }
 
+#artigo {
+  width: 60%;
+  margin: 0 5%;
+  text-align: justify;
+  font-family: monospace;
+  font-size: large;
+}
+
 #tabela {
-  border-color: green;
   border: solid 2px;
+  width: 60%;
+  margin: 5% 5% 0% 1%;
+}
+
+
+#aspaFrase {
+  display: flex;
+  margin: 0 20px;
+}
+
+#aspa {
+  color: rgb(47, 193, 140);
+  font-size: 90px;
+  font-family: auto;
+  margin: -24px 7px 0 3px;
+}
+
+#frase {
+  font-style: italic;
+  line-height: 180%;
+  margin-right: 8px;
 }
 
 #rodape {
-  border: solid 2px;
+  text-align: center;
+}
+
+#fraseFinal{
+  background-color: rgb(68, 73, 85);
+  margin-top: 5%;
+  padding: 2.2% 0;
+}
+
+#fraseFinal a {
+  color: rgb(253, 251, 251);
+  font-size: 12px;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+#assinatura {
+  background-color: rgb(60, 64, 74);
+  color: hsla(0,0%,100%,.5);
+  font-size: 12px;
+  padding: 3.3% 0;
 }
