@@ -9,7 +9,7 @@ body {
     background-color: lightblue;
 }
 #titulo {
-    position: fixed;
+    position: relative;
     font-size: 20px;
     font-family: monospace;
     top: 15px;
@@ -18,7 +18,7 @@ body {
 #link {
     position: relative;
     left: 500px;
-    top: 30px;
+    bottom: 20px;
 }
 .class {
     float: left;
@@ -26,6 +26,16 @@ body {
 #minha_foto {
     width: 250px;
     margin-top: 50px;
+}
+.lado-esquerdo {
+    display: inline-block;
+    float: none;
+    width: 200px;
+}
+.lado-direito {
+    display: inline;
+    float: right;
+    width: 1500px;
 }
 #artigo {
     line-height: 15px;
