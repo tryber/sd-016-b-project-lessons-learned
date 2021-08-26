@@ -4,12 +4,12 @@
 }
 
 body {
-  background-color: rgb(253 , 251 , 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-  background-color: rgb(231 , 231 , 231);
-  color: rgb(61 , 73 , 92);
+  background-color: rgb(231, 231, 231);
+  color: rgb(61, 73, 92);
   font-family: Montserrat, sans-serif;
   text-align: center;
   position: fixed;
@@ -20,9 +20,9 @@ body {
 }
 
 #navegacao li {
-  background-color: rgb(46 , 193 , 140);
+  background-color: rgb(46, 193, 140);
   color: white;
-  border: 1px solid rgb(221 , 226 , 235);
+  border: 1px solid rgb(221, 226, 235);
   display: inline-block;
   text-align: center;
   padding: 10px;
@@ -42,7 +42,7 @@ body {
 }
 
 #rodape {
-  background-color: rgb(231 , 231 , 231);
+  background-color: rgb(231, 231, 231);
   bottom: 0;
   font-family: Montserrat, sans-serif;
   padding: 15px;
@@ -52,8 +52,8 @@ body {
 }
 
 .listas {
-  background-color: rgb(231 , 231 , 231);
-  color: rgb(61 , 73 , 92);
+  background-color: rgb(231, 231, 231);
+  color: rgb(61, 73, 92);
   font-family: Montserrat, sans-serif;
   line-height: 20px;
   width: 250px;
@@ -69,14 +69,14 @@ body {
 
 h2 {
   text-align: center;
-  background-color: rgb(46 , 193 , 140);
+  background-color: rgb(46, 193, 140);
   color: white;
   padding: 15px;
 
 }
 
 .lado-esquerdo {
-  background-color: rgb(231 , 231 , 231);
+  background-color: rgb(231, 231, 231);
   width: 300px;
   margin: 30px 10px 20px;
   display: inline-block;
@@ -89,7 +89,7 @@ aside {
 }
 
 .lado-direito {
-  background-color: rgb(231 , 231 , 231);
+  background-color: rgb(231, 231, 231);
   display: inline-block;
   width: 200px;
 
@@ -107,7 +107,7 @@ aside {
 }
 
 #conteudo-central {
-  background-color: rgb(231 , 231 , 231);
+  background-color: rgb(231, 231, 231);
   display: inline-block;
   align-items: center;
 
