@@ -11,16 +11,19 @@ body {
   color: rgba(14, 0, 0, 0.568);
   align-self: start;
 }
+.corpo {
+  padding: 100px 50px 100px 50px;
+}
 
 table , tr , td {
   margin: 10px;
   border: 10px;
+  padding: 4px;
 }
 
 .profphoto {
-  width: 150px;
-  position: relative;
-  top: 5px;
+  width: 200px;
+  top: 10px;
 }
 
 .lists {
