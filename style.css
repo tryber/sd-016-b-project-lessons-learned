@@ -1,0 +1,105 @@
+:root {
+  --bg-color: rgb(253, 251, 251);
+  --bg-color-container: rgb(81, 90, 89);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+  background-color: var(--bg-color-container);
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 120px;
+  padding: 15px;
+  width: 90%;
+}
+
+#cabecalho {
+  background-color: rgb(30, 36, 36);
+  color: #ffffff;
+  padding: 15px;
+  padding-bottom: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav ul {
+  margin: 15px 0px;
+}
+
+.nav ul li {
+  display: inline-block;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 25px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  border-bottom: 1px solid #000000;
+  margin-bottom: 15px;
+}
+
+.figure {
+  margin-bottom: 40px;
+}
+
+#minha_foto {
+  border-radius: 5px;
+  width: 420px;
+}
+
+.header p {
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.about-course {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+.lesson-learned {
+  padding-left: 25px;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.to-do {
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  float: left;
+  border: 1px solid red;
+  line-height: 1.5em;
+  width: 45%;
+}
+
+.lado-direito {
+  float: right;
+  border: 1px solid red;
+  width: 45%;
+}
+
+.clear {
+  clear: both;
+}
