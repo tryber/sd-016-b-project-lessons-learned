@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: rgba(253, 251, 251, 0.822);
-  font-family: 'Poppins', 'sans-serif';
+  background-color: rgb(253, 251, 251);
+  font-family: 'Poppins', sans-serif;
   width: 90%;
   margin: auto;
 }
@@ -53,7 +53,6 @@ article {
 .article_img {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
   gap: 50px;
   padding-top: 30px;
   padding-bottom: 20px;
@@ -66,15 +65,11 @@ p {
 }
 
 table {
-  /* border: 1px solid black; */
   padding: 5px;
   display: flex;
-  /* align-items: center; */
 }
 
 tr, th, td {
-  /* justify-content: center; */
-  /* align-items: center; */
   border: 1px solid black;
 }
 
@@ -107,5 +102,4 @@ footer {
   padding: 15px;
   margin-top: 15px;
   text-align: center;
-
 }
