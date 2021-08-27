@@ -9,7 +9,7 @@ body {
   background-color: rgb(160, 196, 255);
   border-bottom: 1px solid rgba(131, 164, 216, 0.664);
   color: rgb(255, 255, 252);
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, sans-serif;
   position: fixed;
   text-align: center;
   top: 0;
@@ -37,10 +37,17 @@ body {
   text-align: end;
 }
 
-#licoes_aprendidas {
+.lists {
   display: inline-block;
 }
 
-#licoes_a_aprender {
+article {
   display: inline-block;
+  width: 50%;
+}
+
+aside {
+  display: inline-block;
+  width: 30%;
+  margin-left: 19%;
 }
