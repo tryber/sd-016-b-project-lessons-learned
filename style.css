@@ -61,38 +61,24 @@ body {
 }
 
 #aprendizado {
-  display: inline-block;
-  margin-left: 100px;
-  width: 50%;
+  font-size: 18px;
   line-height: 20px;
 }
 
 #passagem {
-  /* background-color: rgb(243, 241, 241);
-  border: 1px solid rgba(168, 201, 255);
-  border-radius: 5px; */
-  display: inline-block;
-  margin-left: 10%;
-  padding: 1%;
-  text-align: center;
-  width: 20%;
   line-height: 20px;
+  text-align: center;
 }
 
-/* #principal {
-  background-color: rgb(243, 241, 241);
-  border: 1px solid rgba(168, 201, 255);
-  border-radius: 5px;
-  width: 50%;
-  margin-left: 200px;
-  display: inline-block;
-  padding: 1%;
-} */
-
 .lado-esquerdo {
-
+  display: inline-block;
+  margin-left: 100px;
+  width: 50%;
 }
 
 .lado-direito {
-
+  display: inline-block;
+  margin-left: 10%;
+  padding: 1%;
+  width: 20%;
 }
