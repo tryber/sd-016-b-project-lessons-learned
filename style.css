@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: normal;
+}
+
+#titulo {
+  background-color: rgb(42, 126, 4);
+  color: white;
+  font-size: 20px;
+  width: 768px;
+  text-align: justify;
+}
+
+#cabecalho {
+  top: 0;
+  position: fixed;
+  margin: 1;
+  padding: 1;
+  border: hidden 1px;
+}
+
+#minha_foto {
+  width: 50px;
+  height: 45px;
+}
+
+th {
+  text-align: justify;
+}
+
+.lado-direito {
+  float: right;
+  width: 100px;
+  margin: 5px;
+  position: relative;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 100px;
+  margin: 5px;
+  position: relative;
+}
+
+.artigos {
+  display: inline-block;
+  align-items: justify;
+}
+
+footer {
+  font-size: 10px;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
