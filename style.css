@@ -1,0 +1,143 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(174, 217, 255);
+  text-align: center;
+  z-index: 1;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 1em 1em auto;
+}
+
+main {
+  padding-top: 120px;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+thead , tfoot {
+  text-align: center;
+}
+
+thead {
+  color: rgb(56, 139, 0);
+}
+
+tfoot {
+  font-size: 0.7em;
+}
+
+th , td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0.2em 0.5em;
+}
+
+code {
+  background-color: rgb(199, 199, 199);
+  padding: 2px;
+}
+
+.lado-esquerdo , .lado-direito {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 45%;
+}
+
+.lado-esquerdo {
+  position: absolute;
+  left: 0;
+}
+
+.lado-direito {
+  position: absolute;
+  right: 0;
+  padding-bottom: 3em;
+}
+
+#main_header {
+  text-align: center;
+}
+
+header div:last-child {
+  position: absolute;
+  right: 0;
+}
+
+#main_header div {
+  display: inline-block;
+  text-align: justify;
+}
+
+#main_header h2 {
+  margin: 1em 1em 0;
+}
+
+header {
+  position: relative;
+}
+
+#minha_foto {
+  position: absolute;
+  left: 0;
+  top: 2em;
+}
+
+
+footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(174, 217, 255);
+}
+
+.screen-reader-only {
+  display: none;
+}
+
+.external-link {
+  position: relative;
+}
+
+.external-link:hover .screen-reader-only {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -1.75em;
+  width: 100%;
+  background-color: black;
+  color: aliceblue;
+  padding: 0 0.1em;
+}
+
+.article-section {
+  position: relative;
+}
