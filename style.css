@@ -7,61 +7,66 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: Arial, sans-serif;
-  font-size: 14px;
+  font-size: 2vh;
   color: rgba(14, 0, 0, 0.568);
-  align-self: start;
-}
-.corpo {
-  padding: 10vh 3vw 5vh;
-  margin: 10px;
-}
-
-table , tr , td , th {
-  margin: 2px;
-  border: 1px;
-  padding: 1.2vmax;
-  text-align: left;
-}
-.lists {
-  display: block;
-  padding: 1vmax;
-}
-
-.artigos {
-  line-height: 1.1;
-  display: inline;
-}
-
-.lado-direito {
-  float: left;
-  width: 60%;
-}
-
-.lado-esquerdo {
-  width: 20%;
-  float: right;
-}
-
-.footer {
-  position: fixed;
-  bottom: 0;
-  background-color: rgb(5, 73, 100);
-  width: 100%;
-  height: 7vh;
 }
 
 #cabecalho {
   position: fixed;
-  width: 100vw;
-  height: 100px;
-  display: inline;
   top: 0;
-  margin-bottom: 5px;
-  background-color: rgb(226, 89, 9);
+  width: 100vw;
+  height: 80px;
+  text-align: center;
+  color: teal;
+  background-color: rgba(250, 155, 46, 0.897);
+}
+
+.corpo {
+  padding: 8.5vh 3vw;
+  margin: 0.5vmax;
+  background-color: tomato;
 }
 
 #minha_foto {
   border-radius: 95px;
   border-top-left-radius: 50px;
-  top: 101px;
-} /* stylelint-disable-next-line rule */
+  padding: 0.4vmax;
+}
+
+.lists {
+  display: block;
+  padding: 1vmax;
+  background-color: violet;
+}
+
+table , tr , td , th {
+  margin: 2px;
+  border: 0;
+  padding: 1.2vmax;
+  text-align: left;
+}
+
+.artigos {
+  line-height: 1.1;
+  display: inline;
+  background-color: yellow;
+}
+
+.lado-direito {
+  float: right;
+  width: 60%;
+}
+
+.lado-esquerdo {
+  width: 20%;
+  float: left;
+
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(6, 113, 122);
+  width: 100%;
+  height: 7vh;
+}/* stylelint-disable-next-line rule */
