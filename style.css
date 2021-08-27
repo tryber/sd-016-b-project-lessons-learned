@@ -15,13 +15,14 @@ body {
   position: fixed;
   top: 0;
   width: 100vw;
-  height: 9.5vh;
+  height: 8.9vh;
   padding: 0.2vmax;
   text-align: center;
   color: teal;
   background-color: rgba(250, 155, 46, 0.897);
   text-decoration: none;
-  border-bottom: 0.8vh solid rgba(253, 251, 251);
+  border-bottom: 0.9vh solid rgba(250, 155, 46, 0.897);
+
 }
 
 #titulo {
@@ -36,7 +37,8 @@ body {
   display: inline;
   float: left;
   text-align: center;
-  padding: 0.3vmax;
+  padding: 0.3vmax 0;
+  margin: 0;
   height: 4vh;
 }
 
@@ -46,11 +48,15 @@ body {
   text-decoration: none;
   font-size: 2vh;
   color: teal;
+  border-bottom: 0.9vh solid rgba(250, 155, 46, 0.897);
+  border-top: 0.9vh;
 }
 
 .lista-menu a:hover {
   background-color: rgba(253, 251, 251);
   color: rgba(250, 155, 46, 0.897);
+  border-bottom: 0.9vh solid rgba(253, 251, 251);
+  border-top: 0.9vh solid rgba(253, 251, 251);
 }
 
 .corpo {
