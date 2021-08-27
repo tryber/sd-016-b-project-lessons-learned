@@ -3,3 +3,5 @@ node_modules/
 cypress/reports
 cypress/screenshots
 .DS_Store
+testes.html
+resete.css
