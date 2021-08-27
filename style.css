@@ -15,16 +15,15 @@ body {
   position: fixed;
   top: 0;
   width: 100vw;
-  height: 80px;
+  height: 9vh;
   text-align: center;
   color: teal;
   background-color: rgba(250, 155, 46, 0.897);
 }
 
 .corpo {
-  padding: 8.5vh 3vw;
+  padding: 8vh 2vw;
   margin: 0.5vmax;
-  background-color: tomato;
 }
 
 #minha_foto {
@@ -36,7 +35,6 @@ body {
 .lists {
   display: block;
   padding: 1vmax;
-  background-color: violet;
 }
 
 table , tr , td , th {
@@ -48,20 +46,21 @@ table , tr , td , th {
 
 .artigos {
   line-height: 1.1;
-  display: inline;
-  background-color: yellow;
+  margin: 0;
+  padding: 0.5vmax;
+  border: 0;
+}
+
+.lado-esquerdo {
+  width: 60vw;
+  float: left;
 }
 
 .lado-direito {
   float: right;
-  width: 60%;
+  width: 32vw;
 }
 
-.lado-esquerdo {
-  width: 20%;
-  float: left;
-
-}
 
 .footer {
   position: fixed;
