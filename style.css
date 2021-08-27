@@ -32,16 +32,7 @@ body {
   font-size: x-large;
 }
 
-#menu {
-  text-align: center;
-}
-
-.navibar {
-  position: fixed;
-}
-
 .lista-menu li {
-  display: inline;
   float: left;
   text-align: center;
   padding: 0.3vmax 0;
@@ -51,7 +42,6 @@ body {
 }
 
 .lista-menu a {
-  display: inline-block;
   padding: 0.8vmax;
   text-decoration: none;
   font-size: 2vh;
