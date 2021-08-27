@@ -24,7 +24,7 @@ body {
   text-size: 3vh;
 }
 .navibar {
-  
+
 }
 .corpo {
   padding: 10vh 2vw;
@@ -71,7 +71,9 @@ table , tr , td , th {
   margin-top: 2vh;
   border: 1vh;
 }
-
+.by {
+  text-decoration: solid;
+}
 .footer {
   bottom: 0;
   padding-top: 2vh;
