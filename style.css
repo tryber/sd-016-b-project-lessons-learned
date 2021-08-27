@@ -47,19 +47,9 @@
 }
 
 .lado_esquerdo{
-  color: rgb(1, 0, 66);
-  left: 0;
-  /* position: initial; */
-  width: 260p;
   border: solid red;
   float: left;
 }
 .lado_direito{
-  color: rgb(1, 0, 66);
-  left: 300px;
-  /* position: absolute; */
-  top: 713px;
-  /* float:right; */
-  margin-right: 450px;
   border: solid green;
 }
