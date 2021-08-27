@@ -5,6 +5,7 @@ body {
 header {
     top: 0;
     position: fixed;
+    background-color: rgb(31, 197, 31);
 }
 
 #minha_foto {
