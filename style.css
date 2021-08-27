@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+header {
+    top: 0;
+    position: fixed;
+    background-color: rgb(31, 197, 31);
+}
+
+#minha_foto {
+    margin: 60px;
+    border: 10%;
+    padding: 5%;
+}
+
+#rodape {
+    font-size: larger;
+}
+
+#google {
+    color: rgba(224, 224, 32, 0.842);
+}
+
+.tabela {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.texto1 {
+    line-height: normal;
+}
