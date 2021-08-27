@@ -2,6 +2,7 @@ body {
   background-color: rgb(253, 251, 251);
   font-family: sans-serif;
   line-height: 1.5;
+  text-align: justify;
 }
 
 #cabecalho {
@@ -11,6 +12,7 @@ body {
   right: 0;
   background-color: rgb(174, 217, 255);
   text-align: center;
+  z-index: 1;
 }
 
 nav ul {
@@ -28,6 +30,8 @@ nav a {
 
 main {
   padding-top: 120px;
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 table {
@@ -60,20 +64,30 @@ code {
   padding: 2px;
 }
 
+.lado-esquerdo , .lado-direito {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 45%;
+}
+
 .lado-esquerdo {
-  float: left;
+  position: absolute;
+  left: 0;
 }
 
 .lado-direito {
-  float: right;
-}
-
-.lado-esquerdo , .lado-direito {
-  max-width: 45%;
+  position: absolute;
+  right: 0;
+  padding-bottom: 3em;
 }
 
 #main_header {
   text-align: center;
+}
+
+header div:last-child {
+  position: absolute;
+  right: 0;
 }
 
 #main_header div {
@@ -85,7 +99,45 @@ code {
   margin: 1em 1em 0;
 }
 
+header {
+  position: relative;
+}
+
+#minha_foto {
+  position: absolute;
+  left: 0;
+  top: 2em;
+}
+
+
 footer {
-  clear: both;
+  position: fixed;
   text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(174, 217, 255);
+}
+
+.screen-reader-only {
+  display: none;
+}
+
+.external-link {
+  position: relative;
+}
+
+.external-link:hover .screen-reader-only {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -1.75em;
+  width: 100%;
+  background-color: black;
+  color: aliceblue;
+  padding: 0 0.1em;
+}
+
+.article-section {
+  position: relative;
 }
