@@ -32,7 +32,7 @@
       font-family:Impact,'Arial Narrow Bold', sans-serif;
       font-size: 20px;
   }
-  #licoes_aprendidas {
+  /* #licoes_aprendidas {
     display: inline-block;
     margin:20px;
     padding-left:20px;
@@ -43,13 +43,21 @@
     display: inline-block;
     margin:20px; 
     padding-left:50px;
-    padding-right:20px;
-}
+    padding-right:20px; */
+/* } */
 
 .lado_esquerdo{
   border: solid red;
   float: left;
+  display: inline-block;
+  margin:20px; 
+  padding-left:50px;
+  padding-right:20px;
 }
 .lado_direito{
   border: solid green;
+  display: inline-block;
+    margin:20px;
+    padding-left:20px;
+    padding-right:20px;
 }
