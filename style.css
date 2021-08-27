@@ -10,4 +10,6 @@ header {
 
 #minha_foto {
     margin: 60px;
+    border: 10%;
+    padding: 5%;
 }
