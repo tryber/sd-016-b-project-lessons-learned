@@ -6,29 +6,27 @@
 
     body {
         background-color: rgb(253, 251, 251);
-       
-    }
-    /*inicio do titolo*/
-    .section-title {
-        font-weight: 600;
-        line-height: 42px;
+        font-family: Arial, Helvetica, sans-serif;
     }
     /**/
     #cabecalho {
-        margin-top: 0%;
-        font-weight: 600;
-        margin: 0;
-                         
+        background-color: rgb(36, 62, 182);
+        top: 0;
+                     
     }
     /*cor de fundo/ cor letra/ centralizado/ tamanho da fonte/ tamanho da borda*/
     #titulo {
-        background-color: rgb(36, 62, 182);
-        color: rgb(13, 14, 13);
-        padding: 0px 400px;
-        font-size: 28px;  
+        padding: 2% 2% 2% 2%;      
+        font-size: 28px; 
         line-height: 42px;
-        
-           
+        max-width: 50%;
+        margin: auto;
+        text-align: center; 
+      
+    }
+    .foguete{
+        height: 80px;
+        padding: 0% 10% 0%; 
     }
     /**/
     .imgtitolo {
@@ -36,17 +34,20 @@
         /*border-radius: 50%;*/
         /*width: 80px;*/
         /*background-size: 80%;*/
-        height: 80px;
         /*background-position: ;*/
         padding: 2%;       
     }
     /*navegador/ centralizar/ largura/ */
-    nav{
+    .navegador{
         background-color:  rgb(216, 203, 30);
-        padding: 0px 500px;
         line-height: 30px;
-        font-size: 14px;
+       
         
+    }
+    .navegar{
+        font-size: 14px;
+        max-width: 50%;
+        margin: auto;
     }
     /*botão navegador/ espaço entre eles/ sem sublinhado/*/
     .bot-nav{
@@ -54,17 +55,21 @@
         text-decoration: none;
 
     }
-    /*imagem de fundo/ imagem em retrato/ tamanho/ posição da img/ */
+    /*imagem de fundo/ tamanho/ posição da img/ */
     #minha_foto{
-        background-size: cover;
         height: 400px;
-        float: left;
-        
+       /*float: left;*/
+        max-width: 80%;
+        /*margin-left: 10px;*/
+        padding: 25px;
     }
-    .div-eu{
-        float: left;
-        margin-left: 25pdx;
+    .meus-dados{
+       /* float: left;*/
+        margin-left: 25px;
     }
     #licoes_aprendidas{
         
+    }
+    .modulos{
+        margin-left: 25px;
     }
