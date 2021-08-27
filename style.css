@@ -104,13 +104,13 @@ table , tr , td , th {
   bottom: 0;
   padding-top: 2vh;
   color: rgb(253, 251, 251);
-  background-color:  rgb(6, 113, 122);
+  background-color: rgb(6, 113, 122);
   text-align: center;
   width: 100%;
   height: 7vh;
 }
 
-.footer a {
+#rodape a {
   text-decoration: none;
   color: rgb(253, 251, 251);
 }/* stylelint-disable-next-line rule */
