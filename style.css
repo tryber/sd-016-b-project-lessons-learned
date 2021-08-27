@@ -33,7 +33,7 @@ body {
 
 /*settings - first section*/
 .first-section {
-  width: 100%;
+  width: 60%;
   height: 400px;
   position: relative;
 }
@@ -80,8 +80,9 @@ body {
   width: 200px;
   height: 300px;
   position: relative;
-  display: inline-block;
-  padding-left: 120px;
+  padding-right: 110px;
+  float: right;
+  margin-top: -232px;
 }
 
 .aside-txt {
@@ -90,12 +91,6 @@ body {
 }
 
 .lado-direito {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  text-align: justify;
-  text-indent: 3em;
-  padding-top: 110px;
   line-height: 1.6em;
 }
 
