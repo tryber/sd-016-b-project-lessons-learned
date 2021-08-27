@@ -1,0 +1,112 @@
+body {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(253, 251, 251);
+  border: 1px, solid, black;
+  font-family: Hina Mincho , serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(51, 51, 51);
+}
+
+header {
+  top: 0;
+}
+
+#cabecalho {
+  top: 0;
+  position: fixed;
+  background-color: rgb(216, 216, 216);
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#titulo {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#minha_foto {
+  width: 300px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+main {
+  margin-top: 50px;
+}
+
+#aprendizado {
+  float: left;
+  margin-top: 50px;
+  background-color: rgb(216, 216, 216);
+  border-radius: 5px;
+  width: 300px;
+  height: 300px;
+  margin-left: 10px;
+}
+
+#licoes_aprendidas {
+  float: right;
+  margin-top: 50px;
+  background-color: rgb(216, 216, 216);
+  border-radius: 5px;
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+}
+
+#licoes_a_aprender {
+  float: right;
+  margin-top: 50px;
+  background-color: rgb(216, 216, 216);
+  border-radius: 5px;
+  width: 300px;
+  height: 300px;
+  margin-right: 10px;
+}
+
+aside {
+  float: left;
+  display: inline-block;
+  margin-top: 50px;
+  width: 300px;
+}
+
+#breve_licao {
+  display: inline-block;
+  background-color: rgb(216, 216, 216);
+  border-radius: 5px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+table , th , td {
+  border: 1px solid black;
+  text-align: center;
+  width: 280px;
+  margin-left: 320px;
+  margin-top: 600px;
+}
+
+p {
+  margin: 20px;
+  text-align: justify;
+}
+
+h1 , h2 , h3 {
+  margin: 10px;
+}
+
+article , ol , ul {
+  border: 1px solid black;
+}
+
+footer {
+  margin-top: 300px;
+  display: block;
+}
