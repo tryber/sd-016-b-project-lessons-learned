@@ -15,17 +15,43 @@ body {
   position: fixed;
   top: 0;
   width: 100vw;
-  height: 9vh;
+  height: 9.5vh;
+  padding: 0.2vmax;
   text-align: center;
   color: teal;
   background-color: rgba(250, 155, 46, 0.897);
+  text-decoration: none;
+  border-bottom: 0.8vh solid rgba(253, 251, 251);
 }
-#titulo{
-  text-size: 3vh;
-}
-.navibar {
 
+#titulo {
+  font-size: x-large;
 }
+
+#menu {
+  text-align: center;
+}
+
+.navibar li {
+  display: inline;
+  float: left;
+  text-align: center;
+  padding: 0.3vmax;
+  height: 4vh;
+}
+
+.navibar a {
+  display: block;
+  padding: 0.8vmax;
+  text-decoration: none;
+  font-size: 2vh;
+  color: teal;
+}
+.navibar a:hover {
+  background-color:rgba(253, 251, 251);
+  color: rgba(250, 155, 46, 0.897);
+}
+
 .corpo {
   padding: 10vh 2vw;
   margin: 0.5vmax;
@@ -65,15 +91,14 @@ table , tr , td , th {
   float: right;
   width: 32vw;
 }
+
 .prefooter {
   position: relative;
   display: inline;
   margin-top: 2vh;
   border: 1vh;
 }
-.by {
-  text-decoration: solid;
-}
+
 .footer {
   bottom: 0;
   padding-top: 2vh;
@@ -81,4 +106,8 @@ table , tr , td , th {
   text-align: center;
   width: 100%;
   height: 7vh;
+}
+
+.footer a {
+  text-decoration: none;
 }/* stylelint-disable-next-line rule */
