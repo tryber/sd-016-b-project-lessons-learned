@@ -35,15 +35,13 @@
   #licoes_aprendidas {
     display: inline-block;
     margin:20px;
-    border: solid red;
     padding-left:20px;
     padding-right:20px;
 }
 
 #licoes_a_aprender {
     display: inline-block;
-    margin:20px;
-    border: solid red;
+    margin:20px; 
     padding-left:50px;
     padding-right:20px;
 }
@@ -51,14 +49,17 @@
 .lado_esquerdo{
   color: rgb(1, 0, 66);
   left: 0;
-  position: initial;
-  width: 260p
+  /* position: initial; */
+  width: 260p;
+  border: solid red;
+  float: left;
 }
 .lado_direito{
   color: rgb(1, 0, 66);
   left: 300px;
-  position: absolute;
+  /* position: absolute; */
   top: 713px;
-  float:right;
-  margin right: 450px;
+  /* float:right; */
+  margin-right: 450px;
+  border: solid green;
 }
