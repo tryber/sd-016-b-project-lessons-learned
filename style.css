@@ -27,15 +27,18 @@ body {
     width: 250px;
     margin-top: 50px;
 }
+#div0 {
+    width: 500px;
+}
 .lado-esquerdo {
     display: inline-block;
     float: none;
     width: 200px;
 }
 .lado-direito {
-    display: inline;
+    display: inline-block;
     float: right;
-    width: 1500px;
+    width: 200px;
 }
 #artigo {
     line-height: 15px;
