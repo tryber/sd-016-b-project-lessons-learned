@@ -18,9 +18,20 @@ body {
 
 #minha_foto {
   border-radius: 50%;
-  margin-left: 2%;
+  display: block;
+  margin-left: 150px;
+  margin-right: auto;
   margin-top: 100px;
   width: 300px;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+#licoes_a_aprender{
+  display: inline-block;
 }
 
 #rodape {
@@ -38,19 +49,29 @@ body {
   text-align: end;
 }
 
-.lists {
+#aprendizado {
   display: inline-block;
-}
-
-article {
-  display: inline-block;
-  margin-left: 1%;
+  margin-left: 100px;
   width: 50%;
 }
 
 #passagem {
   display: inline-block;
-  margin-left: 20%;
+  margin-left: 10%;
   text-align: center;
-  width: 28%;
+  width: 20%;
+  padding: 1%;
+  background-color: rgb(243, 241, 241);
+  border: 1px solid rgba(168, 201, 255);
+  border-radius: 5px;
+}
+
+#principal {
+  background-color: rgb(243, 241, 241);
+  border: 1px solid rgba(168, 201, 255);
+  border-radius: 5px;
+  width: 50%;
+  margin-left: 200px;
+  display: inline-block;
+  padding: 1%;
 }
