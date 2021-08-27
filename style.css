@@ -2,11 +2,14 @@
   margin: 0;
   padding: 0;
   border: 0;
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
 }
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: Arial, sans-serif;
   font-size: 2vh;
   color: rgba(14, 0, 0, 0.568);
 }
@@ -48,14 +51,12 @@ body {
   text-decoration: none;
   font-size: 2vh;
   color: teal;
-  border-bottom: 0.9vh solid rgba(250, 155, 46, 0.897);
   border-top: 0.9vh;
 }
 
 .lista-menu a:hover {
   background-color: rgba(253, 251, 251);
   color: rgba(250, 155, 46, 0.897);
-  border-bottom: 0.9vh solid rgba(253, 251, 251);
   border-top: 0.9vh solid rgba(253, 251, 251);
 }
 
