@@ -20,9 +20,14 @@ body {
   color: teal;
   background-color: rgba(250, 155, 46, 0.897);
 }
-
+#titulo{
+  text-size: 3vh;
+}
+.navibar {
+  
+}
 .corpo {
-  padding: 8vh 2vw;
+  padding: 10vh 2vw;
   margin: 0.5vmax;
 }
 
@@ -46,9 +51,9 @@ table , tr , td , th {
 
 .artigos {
   line-height: 1.1;
-  margin: 0;
+  margin: 2vh 0;
   padding: 0.5vmax;
-  border: 0;
+  border: 0 2vh;
 }
 
 .lado-esquerdo {
@@ -60,12 +65,18 @@ table , tr , td , th {
   float: right;
   width: 32vw;
 }
-
+.prefooter {
+  position: relative;
+  display: inline;
+  margin-top: 2vh;
+  border: 1vh;
+}
 
 .footer {
-  position: fixed;
   bottom: 0;
+  padding-top: 2vh;
   background-color: rgb(6, 113, 122);
+  text-align: center;
   width: 100%;
   height: 7vh;
 }/* stylelint-disable-next-line rule */
