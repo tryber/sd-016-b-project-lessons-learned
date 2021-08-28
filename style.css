@@ -2,9 +2,10 @@ body {
   background-color: rgb(253, 251, 251);
   padding-left: 5%;
   padding-right: 5%;
+  border: 5px solid black;
 }
 
-h3 {
+h2 {
   background-color: rgb(110, 196, 154);
   color: antiquewhite;
   font-family: Georgia, Times, serif;
@@ -21,21 +22,21 @@ h3 {
 
 #titulo {
   color: whitesmoke;
-  font-family:'Franklin Gothic Medium';
-  text-align:center;
+  font-family: 'Franklin Gothic Medium';
+  text-align: center;
 }
 
 #minha_foto {
   padding: 130px 30% 30px;
+  margin: 10px;
   width: 300px;  
-  display:block;
 }
 
 #artigo {
   padding-top: 30px;
   padding-left: 10%;
   padding-right: 10%;
-  text-align:justify;
+  text-align: justify;
   width: 75%;
 }
 
@@ -44,11 +45,11 @@ h3 {
   flex-direction: row;
 }
 
-.lado-esquerdo{
+.lado-esquerdo { 
   background-color: rgb(110, 196, 154);
   width: 20%;
   padding: 40px 30px;
-  color:rgb(253, 251, 251);
+  color: rgb(253, 251, 251);
   font-size: 15px;
   font-family: cursive;
 }
@@ -71,7 +72,7 @@ h3 {
 }
 
 #linksExternos {
-  font-family:cursive;
+  font-family: cursive;
   padding-bottom: 30px;
   padding-top: 300px;
   padding-left: 10px;
