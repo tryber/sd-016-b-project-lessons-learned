@@ -54,30 +54,30 @@ li {
   margin: 5px 0;
 }
 
-.lado-esquerdo {
-  width: 60%;
-  float: left;
+.linha {
+  margin-top: 30px;
+}
 
+.lado-esquerdo , .lado-direito {
+  box-sizing: border-box;
+  text-align: justify;
+  float: left;
+  width: 50%;
+}
+
+.lado-esquerdo {
+  padding-right: 20px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .lado-direito {
-  width: 40%;
-  float: left;
+  padding-left: 20px;
 }
 
 .linha:after {
   content: '';
   clear: both;
   display: table;
-}
-
-article {
-  padding-right: 30px;
-}
-
-article , aside {
-  text-align: justify;
-  box-sizing: border-box;
 }
 
 footer {
