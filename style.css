@@ -7,7 +7,6 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-/*configurations - header*/
 .header-Title {
   top: 0px;
   background-color: teal;
@@ -22,21 +21,18 @@ body {
   padding-top: 20px;
 }
 
-/*-----------------settings Main---------------*/
 .container-Main {
   height: 800px;
   width: 100%;
   position: relative;
 }
 
-/*settings - first section*/
 .first-section {
   width: 60%;
   height: 400px;
   position: relative;
 }
 
-/*configurations profile */
 .figurePhotoMain {
   width: 200px;
   height: 200px;
@@ -58,7 +54,6 @@ body {
   width: 150px;
 }
 
-/*configurations - article and aside*/
 .article-txt {
   width: 500px;
   position: relative;
@@ -92,14 +87,12 @@ body {
   line-height: 1.6em;
 }
 
-/*setting - second section*/
 .second-section {
   width: 100%;
   height: 300px;
   position: relative;
 }
 
-/*configurations - section lessons*/
 .lessons {
   position: relative;
   width: 100%;
@@ -161,7 +154,6 @@ ul li {
   margin-left: 70px;
 }
 
-/*Footer configurations*/
 #rodape {
   height: 355px;
   position: relative;
@@ -178,7 +170,6 @@ ul li {
   padding-top: 15px;
 }
 
-/*settings - calendar */
 .calendar {
   width: 100%;
   height: 180px;
