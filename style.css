@@ -37,7 +37,7 @@ main {
   max-width: 720px;
 }
 
-#presentation {
+#apresentacao {
   text-align: center;
 }
 
@@ -48,7 +48,7 @@ main {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
 }
 
-.button {
+.botao {
   text-decoration: none;
   background-color: rgb(48, 167, 81);
   color: white;
@@ -58,8 +58,18 @@ main {
   transition: 100ms;
 }
 
-.button:hover {
+.botao:hover {
   background-color: rgb(42, 141, 70);
+}
+
+.secao-caixa {
+  margin-bottom: 50px;
+}
+
+.secao-titulo {
+  padding: 10px 20px;
+  border-left: 4px solid rgb(48, 167, 81);
+  margin: 20px 0;
 }
 
 td {
@@ -75,20 +85,15 @@ li {
   margin: 5px 0;
 }
 
-.linha {
-  margin-top: 30px;
-}
-
 .lado-esquerdo , .lado-direito {
   box-sizing: border-box;
-  text-align: justify;
   float: left;
   width: 50%;
 }
 
 .lado-esquerdo {
   padding-right: 20px;
-  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .lado-direito {
@@ -101,8 +106,12 @@ li {
   display: table;
 }
 
+article , aside {
+  text-align: justify;
+}
+
 footer {
   text-align: center;
-  padding: 30px;
+  padding: 40px;
   color: gray;
 }
