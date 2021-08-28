@@ -85,8 +85,20 @@ p {
   line-height: 1.5em;
 }
 
+#licoes h3 {
+  text-align: center;
+}
+
+ol {
+  list-style: decimal inside;
+}
+
+ul {
+  list-style: inside;
+}
+
 li {
-  margin: 5px 0;
+  line-height: 30px;
 }
 
 .lado-esquerdo , .lado-direito {
