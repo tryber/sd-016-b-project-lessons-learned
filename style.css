@@ -17,35 +17,42 @@ h3 {
   right: 0;
   background-color: rgb(52, 110, 84);
   height: 100px;
-  z-index: 1;
 } 
 
 
 #titulo {
   color: whitesmoke;
-  font-family: Georgia, Times, serif;
+  font-family:'Franklin Gothic Medium';
   text-align: center;
 }
 
 #minha_foto {
-  padding: 130px 30% 30px 35%;
+  padding: 130px 30% 30px 30%;
   width: 300px;  
   display: block;  
 }
 
 #artigo {
- padding-top: 30px;
- padding-left: 10%;
- padding-right: 10%;
- text-align:justify;
- width: 75%;
-
+  padding-top: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align:justify;
+  width: 75%;
 }
 
-#listas {
-  padding-right: 10px;
+#estrutura_central {
+  display: flex;
+  flex-direction: row;
 }
 
+#aside{
+  background-color: rgb(110, 196, 154);
+  width: 20%;
+  padding: 40px 30px 40px 30px;
+  color:rgb(253, 251, 251);
+  font-size: 15px;
+  font-family: cursive;
+}
 #licoes_aprendidas {
   line-height: 30px;
   padding: 30px 5% 10px 10%;
