@@ -134,23 +134,23 @@ a:active {
   font-size: 20px;
 }
 
-ol {
+#licoes_aprendidas {
   float: left;
   padding-left: 35%;
   position: absolute;
 }
 
-ul {
+#licoes_a_aprender {
   float: left;
   margin-left: 60px;
   position: absolute;
 }
 
-ol li {
+.aprendidas {
   margin-left: 70px;
 }
 
-ul li {
+.a_aprender {
   margin-left: 70px;
 }
 
