@@ -7,34 +7,108 @@ body {
     background-color: rgb(253, 251, 251);
     font-family: 'Lato', sans-serif;
 }
+h2 { 
+    margin: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    left: 0px;
 
+    font-size: 29px;
+}
 #cabecalho {
-    color: red;
-    background-color: yellow;
-    position:fixed;
-    top: 0;
+    color: rgb(255, 255, 255);
+    background-color: rgb(94, 158, 74);
+    position:absolute;
+    top: 0px;
     left: 0;
     right: 0;
     text-align: center;
 }
 
+nav { 
+    position: relative;
+    left: 8px;
+    display: flex;   
+
+}
+
 #minhafoto { 
+    border-radius: 20%;
+    position: absolute;
     width: 250px;
+    top: 110px;
+    left: 2px;
 }
-#licoes_aprendidas, #licoes_a_aprender  { 
-    margin-top: 10px;
-    margin-left: 50px;
+#linkedin { 
+    position: absolute;
+    top: 490px;
+    left: 57px;
+    
+    }
+
+.div-1 {
+    position: absolute;
+    left: 50px;
+    top: 550px;
+    left: 50px;
 }
+
 .div-2 {
-    margin-left: 80px;
-    bottom: 500px;
+    position: absolute;
+    top: 550px;
+    left: 450px;
+}
+p { 
+    line-height: 28px;
+    text-align: justify;
+}
+h2 { 
+
+}
+
+article { 
+padding: 50px 0em 0em;
+text-align: justify;
 }
 
 
-title{
- 
-}
-body {
-    background-color: rgb(253, 251, 251);
+.lado-direito {
+    
+    position: absolute;
+    left: 260px;
+    top: 170px;
+    text-align: justify;
 }
 
+#caminhada-trybe { 
+    margin-bottom: 10px;
+}
+
+article {
+   
+}
+
+.descoberta-int { 
+
+    position: absolute;
+    left: 25px;
+    bottom: -200px;
+    text-align: justify;
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    top: 1000px; 
+    height: 80px;
+    font-size: large;
+    background-color: rgb(94, 158, 74); 
+}
+
+.rodape2 {
+    text-align: left;
+    padding: 25px;
+    
+}
