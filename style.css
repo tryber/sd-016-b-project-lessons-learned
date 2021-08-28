@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+.header-Title {
+  top: 0px;
+  background-color: teal;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+}
+
+#titulo {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.container-Main {
+  height: 800px;
+  width: 100%;
+  position: relative;
+}
+
+.first-section {
+  width: 60%;
+  height: 400px;
+  position: relative;
+}
+
+.figurePhotoMain {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin-top: 130px;
+  padding-left: 50px;
+  background-color: transparent;
+  display: inline-block;
+}
+
+.my-photo {
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+}
+
+.figcaption-my-photo {
+  margin-left: 35px;
+  width: 150px;
+}
+
+.article-txt {
+  width: 500px;
+  position: relative;
+  display: inline-block;
+  padding-left: 40px;
+}
+
+.lado-esquerdo {
+  width: 100%;
+  height: 100%;
+  line-height: 25px;
+  text-align: justify;
+  text-indent: 4em;
+}
+
+.aside-section {
+  width: 200px;
+  height: 300px;
+  position: relative;
+  padding-right: 110px;
+  float: right;
+  margin-top: -232px;
+}
+
+.aside-txt {
+  width: 100%;
+  height: 100%;
+}
+
+.lado-direito {
+  line-height: 1.6em;
+}
+
+.second-section {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.lessons {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  background-color: #008080;
+  margin-top: 80px;
+}
+
+.lessons h1 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+  color: rgb(212, 248, 104);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(3, 211, 238);
+  font-size: 1.3em;
+}
+
+a:active {
+  color: black;
+}
+
+
+.list {
+  position: relative;
+  background-color: rgb(49, 49, 51);
+  height: 300px;
+  padding-top: 30px;
+  padding-left: 25%;
+  color: yellowgreen;
+  font-size: 20px;
+}
+
+#licoes_aprendidas {
+  float: left;
+  padding-left: 35%;
+  position: absolute;
+}
+
+#licoes_a_aprender {
+  float: left;
+  margin-left: 60px;
+  position: absolute;
+}
+
+.aprendidas {
+  margin-left: 70px;
+}
+
+.a_aprender {
+  margin-left: 70px;
+}
+
+#rodape {
+  height: 355px;
+  position: relative;
+  background-color: teal;
+  padding-top: 30px;
+  margin-top: 5%;
+}
+
+.div-rodape img {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin-left: 20%;
+  padding-top: 15px;
+}
+
+.calendar {
+  width: 100%;
+  height: 180px;
+  clear: both;
+  position: relative;
+  box-shadow: 0px 0px 42px 20px rgb(0 0 0);
+  margin-top: 167px;
+  padding-left: 30%;
+  background-color: #313133;
+}
+
+.th-calendario {
+  width: 123px;
+  height: 20px;
+  margin-top: 25px;
+}
+
+.day-week {
+  width: 60px;
+}
