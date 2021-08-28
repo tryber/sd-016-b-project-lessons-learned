@@ -40,12 +40,12 @@ h3 {
   width: 75%;
 }
 
-#estrutura_central {
+.lado-direito {
   display: flex;
   flex-direction: row;
 }
 
-#aside{
+.lado-esquerdo{
   background-color: rgb(110, 196, 154);
   width: 20%;
   padding: 40px 30px 40px 30px;
