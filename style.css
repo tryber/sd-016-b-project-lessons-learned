@@ -1,6 +1,6 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -25,15 +25,15 @@ body {
 #minha_foto {
   border-radius: 100px;
   display: block;
-  margin: 80px auto 30px auto;
+  margin: 80px auto 30px;
 }
 
 #texto_principal {
-  margin: 30px 20px 50px 20px;
+  margin: 30px 20px 50px;
 }
 
 #subtexto {
-  margin: 30px 20px 50px 20px;
+  margin: 30px 20px 50px;
 }
 
 #licoes_aprendidas {
@@ -50,7 +50,7 @@ body {
 
 #tabela {
   clear: both;
-  margin: 80px 20px 30px 20px;
+  margin: 80px 20px 30px;
 }
 
 footer {
