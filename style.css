@@ -109,6 +109,9 @@ li {
 
 .lado-esquerdo {
   padding-right: 20px;
+}
+
+#licoes .lado-esquerdo {
   border-right: 1px solid rgba(0, 0, 0, 0.06);
 }
 
