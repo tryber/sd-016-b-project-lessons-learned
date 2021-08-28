@@ -1,0 +1,69 @@
+body  { 
+  background-color: rgb(253, 251, 251);
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#cabecalho {
+  position:fixed; 
+  top: 0;
+  width: 100%; 
+  height: 75px;
+  background-color:#04AA6D;
+}
+
+#div-title {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+#minha_foto {
+  margin-top: 50px;
+  width: 200px;
+  border-radius: 20%;
+  border: 1px snow;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#aside {
+  margin-top: 75px;
+  float:right;
+  margin-left: 100px;
+  width: 25%;
+  text-align: center;
+}
+
+.section-box {
+  margin-top: 75px;
+  width: 25%;
+  padding: 5px;
+  display: inline-block;
+}
+
+.lista_de_licoes {
+  display: inline-block;
+  width: 25%;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#table-style th {
+  border-collapse: collapse;
+  border: 2px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 45%;
+}
+
+.lado-direito {
+  float: right;
+  width: 45%;
+}
