@@ -23,14 +23,10 @@ h2 {
     left: 0;
     right: 0;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
-nav { 
-    position: relative;
-    left: 8px;
-    display: flex;   
-
-}
 
 #minhafoto { 
     border-radius: 20%;
@@ -42,17 +38,17 @@ nav {
 #linkedin {
     font-style:oblique; 
     position: absolute;
+    /* text decoration reference: (www.br.ccm.net) taught how to remove hyperlink highlight */
     text-decoration: none;
     top: 490px;
     left: 57px;
-    border: 2px solid rgb(8, 8, 8);
+    border: 2px  solid rgb(8, 8, 8);
     border-radius: 10px;
     background: rgb(92, 155, 73);
     color: rgb(255, 255, 255);
-    width: 10%;
+    width:fit-content;
     margin: auto;
-    padding-left: 10px;
-    padding-bottom: 4px;
+    
     
     }
     #linkedin:hover { 
@@ -78,6 +74,8 @@ p {
     text-align: justify;
 }
 h2 { 
+margin-top: 10px; 
+margin-bottom: 10px;
 
 }
 
@@ -86,6 +84,32 @@ padding: 50px 0em 0em;
 text-align: justify;
 }
 
+
+
+
+#inicio {
+    position: absolute;
+    padding-left: 350px;
+    padding-top: 50px;
+} 
+
+#contato {
+    width:fit-content;
+    position: absolute;
+    padding-left: 420px;
+    padding-top: 50px;
+}  
+#sobre {
+    width:fit-content;
+    position: absolute;
+    padding-left: 500px;
+    padding-top: 50px;
+    
+}
+li { 
+    margin-left: 20px;
+    line-height: 28px;
+}
 
 .lado-direito {
     
@@ -104,7 +128,7 @@ article {
 }
 
 .descoberta-int { 
-
+    margin-top: 10px;
     position: absolute;
     left: 25px;
     top: 900px;
@@ -116,7 +140,7 @@ footer {
     bottom: 0px;
     left: 0px;
     right: 0px;
-    top: 1000px; 
+    top: 1150px; 
     height: 80px;
     font-size: large;
     background-color: rgb(94, 158, 74); 
