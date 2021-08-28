@@ -17,7 +17,7 @@ h3 {
   right: 0;
   background-color: rgb(52, 110, 84);
   height: 100px;
-  z-index: 2;
+  z-index: 1;
 } 
 
 
@@ -28,32 +28,45 @@ h3 {
 }
 
 #minha_foto {
-
-  padding: 110px 0px 0px 0;
+  padding: 130px 30% 30px 35%;
   width: 300px;  
-  display: block;
+  display: block;  
+}
+
+#artigo {
+ padding-top: 30px;
+ padding-left: 10%;
+ padding-right: 10%;
+ text-align:justify;
+ width: 75%;
+
+}
+
+#listas {
+  padding-right: 10px;
 }
 
 #licoes_aprendidas {
   line-height: 30px;
-  padding: 30px 5% 10px 2%;
-  width: 40%;
+  padding: 30px 5% 10px 10%;
+  width: 30%;
   margin: 0;
   display: inline-table;
 }
 
 #licoes_a_aprender {
   line-height: 30px;
-  padding: 30px 2% 10px 5%;
-  width: 40%;
+  padding: 30px 5% 10px 10%;
+  width: 30%;
   margin: 0;
   display: inline-table;
+
 }
 
 #linksExternos {
   font-family:cursive;
   padding-bottom: 30px;
-  padding-top: 50px;
+  padding-top: 300px;
   padding-left: 10px;
   font-size: 12px;
 }
