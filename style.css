@@ -27,18 +27,39 @@ h1 , h2 , h3 , th {
 }
 
 .trybe-green {
-  color: rgb(15, 163, 107);
+  color: rgb(48, 167, 81);
   font-weight: 400;
 }
 
 main {
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 110px;
   max-width: 720px;
+}
+
+#presentation {
+  text-align: center;
 }
 
 #minha_foto {
   width: 300px;
+  border-radius: 50%;
+  margin-bottom: -15px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button {
+  text-decoration: none;
+  background-color: rgb(48, 167, 81);
+  color: white;
+  font-weight: 400;
+  padding: 15px 30px;
+  border-radius: 10px;
+  transition: 100ms;
+}
+
+.button:hover {
+  background-color: rgb(42, 141, 70);
 }
 
 td {
