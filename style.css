@@ -13,6 +13,7 @@ nav {
         position: fixed;
         top: 100px;
         background-color: darkcyan;
+        font-family: Arial, Helvetica, sans-serif;
 }
 
 section {
@@ -42,9 +43,20 @@ h2:nth-of-type(2) {
         border: 1px solid black;
         position: absolute;
         top: 400px;
+        font-size: 20px;
+        line-height: 1.5;
 }
 
 #licoes_a_aprender {
+        border: 1px solid black;
+        position: absolute;
+        top: 400px;
+        left: 300px;
+        font-size: 20px;
+        line-height: 1.5;
+}
+
+.table {
         border: 1px solid black;
         position: absolute;
         top: 400px;
@@ -55,6 +67,7 @@ article {
         border: 1px solid black;
         position: absolute;
         top: 600px;
+        font-family: sans-serif;
 }
 
 aside {
