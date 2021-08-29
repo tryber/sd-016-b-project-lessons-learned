@@ -1,6 +1,12 @@
 body{background-color: rgb(253, 251, 251); }
 #cabecalho{ top: 0;
-background-color: rgb(181, 181, 197);}
+background-color: rgb(181, 181, 197);
+position: fixed;
+height: 100px;
+width: 100%;}
 #titulo{}
-#minha_foto{width: 100px;}
-#licoes_apendidas { }
+#minha_foto{width: 180px;
+padding-top: 100px;}
+
+#licoes_aprendidas { }
+#rodape{    }
