@@ -18,21 +18,51 @@ h2 {
 #cabecalho {
     color: rgb(255, 255, 255);
     background-color: rgb(94, 158, 74);
-    position:absolute;
+    position: fixed;
     top: 0px;
-    left: 0;
-    right: 0;
+    left: 0px;
+    right: 0px;
     text-align: center;
-    padding-top: 50px;
     padding-bottom: 100px;
+    z-index: 10;
 }
 
+.menu{
+    list-style-type: none;
 
-#minhafoto { 
-    border-radius: 20%;
+    
+}
+
+#inicio {
+    float: left;
+    position: absolute;
+    text-decoration: none;
+    top: 115px ;
+    left: 250px;
+    z-index: 1;
+} 
+
+#contato {
+    position: absolute;
+    float: left;
+    top: 115px;
+    left: 320px;
+  
+}  
+#sobre {
+    position: absolute;
+    float: left;
+    top: 115px;
+    left: 410px;
+    
+    
+}
+
+#minha_foto { 
+    border-radius: 80%;
     position: absolute;
     width: 250px;
-    top: 110px;
+    top: 150px;
     left: 2px;
 }
 #linkedin {
@@ -40,11 +70,11 @@ h2 {
     position: absolute;
     /* text decoration reference: (www.br.ccm.net) taught how to remove hyperlink highlight */
     text-decoration: none;
-    top: 490px;
-    left: 57px;
-    border: 2px  solid rgb(8, 8, 8);
+    top: 470px;
+    left: 65px;
+    border: 2px  solid rgb(211, 162, 162);
     border-radius: 10px;
-    background: rgb(92, 155, 73);
+    background: rgb(57, 78, 50);
     color: rgb(255, 255, 255);
     width:fit-content;
     margin: auto;
@@ -56,19 +86,31 @@ h2 {
 
     }
 
-
-.div-1 {
+.lado-direitocaminhada {
+    float: right;
     position: absolute;
+    left: 270px;
+    top: 170px;
+    text-align: justify; 
+    z-index: 1;
+    }
+
+.lado-direito {
+    left: 500px;
+  float: right;
+}
+/*  position: absolute;
     left: 50px;
     top: 550px;
-    left: 50px;
+    left: 50px;*/
+
+.lado-esquerdo, .lado-direito{ 
+    float: left;
+    margin-left: 100px;
+    margin-top:550px
+    
 }
 
-.div-2 {
-    position: absolute;
-    top: 550px;
-    left: 450px;
-}
 p { 
     line-height: 28px;
     text-align: justify;
@@ -86,37 +128,15 @@ text-align: justify;
 
 
 
-
-#inicio {
-    position: absolute;
-    padding-left: 350px;
-    padding-top: 50px;
-} 
-
-#contato {
-    width:fit-content;
-    position: absolute;
-    padding-left: 420px;
-    padding-top: 50px;
-}  
-#sobre {
-    width:fit-content;
-    position: absolute;
-    padding-left: 500px;
-    padding-top: 50px;
-    
-}
 li { 
     margin-left: 20px;
     line-height: 28px;
 }
 
-.lado-direito {
-    
-    position: absolute;
-    left: 260px;
-    top: 170px;
-    text-align: justify;
+
+
+.lado-esquerdofoto { 
+    float: left;
 }
 
 #caminhada-trybe { 
@@ -135,7 +155,21 @@ article {
     text-align: justify;
 }
 
+table { 
+    margin-left: 1000px;
+    margin-top: -58px;
+    width: 17%;
+    
+}
+
+table, td { 
+    border: 1px solid black;
+}
+td {
+    text-align: center;
+}
 footer {
+    clear: both;
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -143,7 +177,7 @@ footer {
     top: 1150px; 
     height: 80px;
     font-size: large;
-    background-color: rgb(94, 158, 74); 
+    background-color: rgb(94, 158, 74);
 }
 
 .rodape2 {
@@ -151,3 +185,8 @@ footer {
     padding: 25px;
     
 }
+
+
+/*    
+
+    /*     */
