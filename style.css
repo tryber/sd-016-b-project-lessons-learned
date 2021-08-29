@@ -1,0 +1,214 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
+  color: black;
+  font-size: 16px;
+  font-variant: normal;
+  line-height: normal;
+  margin: 0;
+}
+
+#cabecalho {
+  top: 0;
+  left: 0;
+  background-color: rgb(3, 107, 82);
+  border-bottom: 7px solid lightgreen;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: fixed;
+  z-index: 10;
+}
+
+#titulo {
+  color: white;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+#minha_foto {
+  width: 25%;
+  border-radius: 10%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: grey;
+  margin-top: 200px;
+  margin-left: 100px;
+  display: flex;
+  position: absolute;
+}
+
+#nome {
+  color: green;
+  position: absolute;
+  top: 560px;
+  left: 190px;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+  margin-left: 700px;
+  margin-top: 170px;
+  line-height: 30px;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+  padding-left: 170px;
+  padding-top: 10px;
+  line-height: 30px;
+}
+
+#rodape {
+  height: 140px;
+  background-color: rgb(3, 107, 82);
+  border-bottom: 10px solid lightgreen;
+  margin-top: 100px;
+}
+
+.registrado {
+  display: flex;
+  position: absolute;
+  z-index: 9;
+  top: 1910px;
+  left: 545px;
+}
+
+.trybe_link {
+  position: static;
+  float: left;
+  margin: 30px;
+  padding-left: 34px;
+  box-sizing: border-box;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  background-color: rgba(102, 102, 102, 0.212);
+  width: 600px;
+  padding: 50px;
+  padding-top: 70px;
+  margin-top: 150px;
+  margin-left: 140px;
+  border-radius: 30px;
+}
+
+.lado-direito {
+  display: inline-block;
+  background-color: rgba(102, 102, 102, 0.212);
+  width: 186px;
+  padding: 50px;
+  margin: 5\0px;
+  margin-left: 50px;
+  border-radius: 30px;
+}
+
+h1 {
+  color: green;
+}
+
+#links {
+  display: flex;
+  margin-left: 10px;
+}
+
+#links a:link , #links a:active {
+  display: inline-block;
+  background-color: white;
+  color: white;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 25px;
+  margin-left: 180px;
+  border-radius: 60px;
+}
+
+#links a:hover , #links a:active {
+  background-color: lightgreen;
+}
+
+.skills {
+  background-color: rgba(102, 102, 102, 0.212);
+  margin-top: 100px;
+}
+
+* {
+  font-family: sans-serif;
+  list-style: none;
+  padding: 0.1px;
+}
+
+.minhaSkill {
+  display: inline-block;
+  width: 425px;
+  margin: 60px auto;
+  color: black;
+  padding: 20px;
+  margin-left: 140px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.minhaSkill li {
+  margin: 20px 0;
+}
+
+.bar {
+  background-color: rgba(0, 110, 255, 0.151);
+  display: block;
+  height: 5px;
+  border: 1px solid darkgray;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px lightskyblue;
+}
+
+.bar span {
+  height: 5px;
+  float: left;
+  background-color: blue;
+}
+
+.unix {
+  width: 20%;
+}
+
+.git {
+  width: 30%;
+}
+
+.github {
+  width: 30%;
+}
+
+.empatia {
+  width: 80%;
+}
+
+.html {
+  width: 20%;
+}
+
+.css3 {
+  width: 20%;
+  animation: 2s;
+}
+
+.slack {
+  width: 10%;
+}
+
+.zoom {
+  width: 10%;
+}
+
+.inspect {
+  width: 20%;
+}
+
+.semantica {
+  width: 40%;
+}
