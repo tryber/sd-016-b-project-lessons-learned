@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  margin-left: 20px;
+  margin-left: 100px;
 }
 
 #cabecalho {
@@ -39,19 +39,18 @@ body {
 
 #licoes_aprendidas {
   display: inline-block;
-  padding: auto;
   background-color: darkolivegreen;
-  width: 50%;
+  width: 280px;
   height: 100%;
+  padding-left: 20px;
 }
 
 #licoes_a_aprender {
   display: inline-block;
-  padding: auto;
+  padding-left: 20;
   background-color: darkslategray;
   height: 100%;
-  width: 30%;
-  margin-left: -6px;
+  width: 170px;
 }
 
 .lado-esquerdo {
@@ -61,41 +60,43 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   line-height: 30px;
-  width: 460px;
+  width: 500px;
   height: 100%;
+  float: left;
+  margin-right: 30px;
   display: inline-block;
 }
 
 .lado-direito {
-  font-size: 20px;
+  font-size: 15px;
   line-height: 45px;
-  margin-left: auto;
-  display: inline-block;
-  width: 770px;
-  height: 450px;
+  width: 700px;
+  height: 465px;
   z-index: 5;
+  display: inline-block;
   position: relative;
+  margin-top: 102px;
 }
 
 .background {
   position: absolute;
-  top: 110px;
-  left: 480px;
-  width: 700px;
-  height: 510px;
+  top: 70px;
+  left: 600px;
+  width: 760px;
+  height: 520px;
   z-index: 2;
 }
 
 #esquerdo {
   background-color: darkolivegreen;
-  width: 428px;
-  height: 100%;
+  width: 330px;
+  height: 480px;
   display: inline-block;
 }
 
 #direito {
   background-color: darkslategray;
-  width: 271px;
+  width: 329px;
   height: 100%;
   display: inline-block;
   margin-left: -4px;
@@ -120,6 +121,7 @@ body {
   background-color: lightgray;
   width: 1159px;
   margin-right: 80px;
+  clear: both;
 }
 
 .tabela {
