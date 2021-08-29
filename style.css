@@ -3,10 +3,13 @@ body{background-color: rgb(253, 251, 251); }
 background-color: rgb(181, 181, 197);
 position: fixed;
 height: 100px;
-width: 100%;}
+width: 100%;
+border: solid 0;}
 #titulo{}
 #minha_foto{width: 180px;
 padding-top: 100px;}
 
-#licoes_aprendidas { }
-#rodape{    }
+#licoes_aprendidas { padding: 10px;
+ }
+#rodape{  padding: 10px;  }
+
