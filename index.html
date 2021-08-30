@@ -2,48 +2,82 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8">
-    <title>Posicionamento de elementos</title>
+    <title>First Project</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
+
   <body>
-      <header id="cabecalho">
-        <h1 id="titulo">Projeto 1 - Lições aprendidas!</h1>
+      <header id="cabecalho" class="Titulo">
+        <h1 id="titulo">Projeto 1</h1>
+        <nav>
+          <h1 class="oculto">Navegação</h1>
+          Home; Login;
+        </nav>
       </header>
-      <img id="minha_foto" src="project-2-img.jpeg" alt="Luis Borba com seu óculos novo!!">
+
+      <img id="minha_foto" src="project-1-img.jpeg" alt="Luis Borba com seu óculos novo!!" width="150px">
+
       <main>
-        <ol id="licoes_aprendidas"> Lições Aprendidas:
-            <li>Introdução ao que é Internet;</li>
-            <li>Introdução ao Unix;</li>
-            <li>Git;</li>
-            <li>Github;</li>
-            <li>Introdução a HTML;</li>
-            <li>HTML Semântico;</li>
-            <li>CSS;</li>
-            <li>Estrutura de páginas (HTML & CSS);</li>
-            <li>Introdução a Soft Skills;</li>
-            <li>Autoconhecimento;</li>
-          </ol>
-        <ol id="licoes_a_aprender"> Lições para aprender:
-            <li>Javascript;</li>
-            <li>Lógica de programação;</li>
-            <li>React;</li>
-            <li>Metodologias Ágeis;</li>
-            <li>SQL;</li>
-            <li>MongoDB;</li>
-            <li>NodeJS;</li>
-            <li>Python;</li>
-            <li>Programação Orientada a Objetos;</li>
-            <li>Algoritmos;</li>
-        </ol>
+        <div id="Listas">
+          <div class="text-listas">
+             <ol id="licoes_aprendidas">
+               <h1>Lições Aprendidas:</h1>
+               <li>Introdução ao que é Internet;</li>
+               <li>Introdução ao Unix;</li>
+               <li>Git;</li>
+               <li>Github;</li>
+               <li>Introdução a HTML;</li>
+               <li>HTML Semântico;</li>
+               <li>CSS;</li>
+               <li>Estrutura de páginas (HTML & CSS);</li>
+               <li>Introdução a Soft Skills;</li>
+               <li>Autoconhecimento;</li>
+            </ol>
+          </div> 
+
+          <div class="text-listas">
+              <ol id="licoes_a_aprender">
+                <h1>Lições para aprender:</h1>
+               <li>Javascript;</li>
+               <li>Lógica de programação;</li>
+               <li>React;</li>
+               <li>Metodologias Ágeis;</li>
+               <li>SQL;</li>
+               <li>MongoDB;</li>
+               <li>NodeJS;</li>
+               <li>Python;</li>
+               <li>Programação Orientada a Objetos;</li>
+               <li>Algoritmos;</li>
+              </ol>
+          </div>
+        </div>
       </main>
-      <article> Como é a Trybe?
-          <p>Acredito que posso definir a Trybe em uma palavra: <strong>Intenso</strong>. Entrei no curso sem nenhum conhecimento prévio na área de programação e sem nenhum background para parte de lógica e devo dizer que estou surpreso com os resultados, o aprendizado e constante mas "sólido", a base que está sendo criada através do course, exercícios e das aulas ao vivo incrível e  usando esse aprendizado quero ver até aonde posso chegar. #vqv</p>
-      </article>
-      <aside> Softskills
-          <p>Ontem (23/08/21) nós tivemos uma aula com o Bruno (Softskills) que tratou o assunto de empatia, foi apresentado um vídeo sobre o assunto junto a uma explicação esclarecedora onde me fez perceber que eu fazia muitas coisas erradas e acabava atrapalhando ao invés de ajudar.</p>
-      </aside>
-      <footer>
-          <img id="logo-trybe" src="project-1-img.png" alt="Logo Trybe"> 
-          #Betrybe #vqv
+      
+      <section>
+        <h1 class="oculto">Curiosidades sobre a Trybe</h1>
+        <article>
+          <div id="Trybe" class="article_aside">
+            <h1>Como é a Trybe?</h1>
+             <p>Acredito que posso definir a Trybe em uma palavra: <strong>Intenso</strong>. Entrei no curso sem nenhum conhecimento prévio na área de programação e sem nenhum background para parte de lógica e devo dizer que estou surpreso com os resultados, o aprendizado e constante mas "sólido", a base que está sendo criada através do course, exercícios e das aulas ao vivo incrível e  usando esse aprendizado quero ver até aonde posso chegar. #vqv</p>
+          </div>
+         </article>
+        
+        <aside>
+          <div id="Softskills" class="article_aside">
+           <h1>Softskills</h1>
+             <p>Ontem (23/08/21) nós tivemos uma aula com o Bruno (Softskills) que tratou o assunto de empatia, foi apresentado um vídeo sobre o assunto junto a uma explicação esclarecedora onde me fez perceber que eu fazia muitas coisas erradas e acabava atrapalhando ao invés de ajudar.</p>
+          </div>
+        </aside>
+      </section>
+
+      <footer class="Rodapé">
+        <div> 
+          Criado por: Luis Fernando
+          <a href="https://www.linkedin.com/in/luisfpborba/" target="_blank">
+            (linkedin)</a>
+        </div>
+          <img id="logo-trybe" src="trybeimg.jpg" alt="Logo Trybe" width="50px">
+          <strong>#Betrybe #vqv</strong>
       </footer>
+
   </body>

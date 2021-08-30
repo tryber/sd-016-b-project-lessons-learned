@@ -1,3 +1,71 @@
-body {
-    background-color: rgb(253,251,251);
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif
+}
+
+header {
+    background-color: rgb(52, 155, 158);
+    text-align: center;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+nav {
+    font-weight: bolder;
+}
+
+main {
+    background-color: rgb(235, 231, 231);
+}
+
+#minha_foto {
+    padding-top: 1em;
+    padding-left: 38em;
+    margin:auto;
+    }
+
+#Listas {
+    padding: 30px 70px 50px 70px;
+    margin: auto;
+    text-align: center;
+}
+
+.text-listas {
+    width: 30%;
+    display: inline-block;
+}
+
+#Trybe {
+    padding-bottom: 30px;
+    padding-left: 150px;
+    text-align: center;
+    margin: auto;
+    float:left;
+}
+
+#Softskills {
+    padding-bottom: 30px;
+    padding-right: 150px;
+    text-align: center;
+    margin: auto;
+    float: right;
+}
+
+.article_aside {
+    width: 30%;
+    display: inline-block;
+}
+
+footer {
+    margin: 0%;
+    text-align: center;
+    background-color: rgb(52, 155, 158);
+    clear:both;
+}
+
+.oculto {
+    display: none;
 }
