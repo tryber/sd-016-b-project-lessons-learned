@@ -1,7 +1,8 @@
 * {
     padding: 0;
     margin: 0;
-    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif
+    font-family: 'Sans-Serif';
+    background-color: rgb(235, 231, 231);
 }
 
 header {
@@ -17,9 +18,6 @@ nav {
     font-weight: bolder;
 }
 
-main {
-    background-color: rgb(235, 231, 231);
-}
 
 #minha_foto {
     padding-top: 1em;
