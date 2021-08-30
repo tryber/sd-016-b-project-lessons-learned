@@ -1,83 +1,80 @@
-    /*Todos começão om margem 0 e preenchimento 0 */
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    /*Cor de fundo/ fonte/ cor do texto*/
-    body {
-        background-color: rgb(253, 251, 251);
-        font-family: Arial, Helvetica, sans-serif;
-        color: rgb(0, 0, 0);
-    } 
-    /*cor de fundo/ top 0/ barra fixa/ largura 100%/centralizado */
-    #cabecalho {
-        background-color: rgb(3, 21, 184);
-        top: 0;
-        position: fixed;
-        width: 100%;
-        text-align: center;              
-    }
-    /* fonte/ altura da linha/ bordas*/
-    #titulo {     
-        font-size: 28px; 
-        line-height: 20px;
-        padding: 20px 0px 20px 0px;
-      
-    }
-    
-    /*barra de navegador/ cor de fundo/ altura da linha/ centralizado */
-    .navegador{
-        background-color:  rgb(216, 203, 30);
-        line-height: 20px; 
-        text-align: center;
-    }
-    
-    /*botões do navegador/ espaço entre eles/ sem sublinhado/*/
-    .bot-nav{
-        padding: 10px;
-        text-decoration: none;
-    }
-    /**/
-    .conteudo{
-        text-align: center;
-        margin: 5px;
-        margin-top: 230px;
-        
-    }
-    .conteudo-esquerda{
-        margin: auto;
-        
-    }
-    
-    /*cor de fundo/ cor letra/ centralizado/ tamanho da fonte/ tamanho da borda*/
-  
-    .foguete{
-        height: 80px;
-         
-    }
-    /**/
-    
-   
-    /*imagem de fundo/ tamanho/ posição da img/ */
-    #minha_foto{
-        height: 400px;
-       /*float: left;*/
-        max-width: 80%;
-        /*margin-left: 10px;*/
-        padding: 25px;
-    }
-    .meus-dados{
-       /* float: left;*/
-        margin-left: 25px;
-    }
-    #licoes_aprendidas{
-        
-    }
-    #licoes_a_aprender{
+/*Todos começão om margem 0 e preenchimento 0 */
+* {
+margin: 0;
+padding: 0;
+}
+/*Cor de fundo/ fonte/ cor do texto*/
+body {
+background-color: rgb(253, 251, 251);
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(0, 0, 0);
+} 
+/*cor de fundo/ top 0/ barra fixa/ largura 100%/centralizado */
+#cabecalho {
+background-color: rgb(3, 21, 184);
+top: 0;
+position: fixed;
+width: 100%;
+text-align: center;              
+}
+/* fonte/ altura da linha/ bordas*/
+#titulo {     
+font-size: 28px; 
+line-height: 20px;
+padding: 20px 0px 20px 0px;
 
-    }
-    
-    #rodape{
-        background-color:  rgb(216, 203, 30);
-        line-height: 30px;   
-    }
+}
+
+/*barra de navegador/ cor de fundo/ altura da linha/ centralizado */
+.navegador{
+background-color:  rgb(216, 203, 30);
+line-height: 20px; 
+text-align: center;
+}
+
+/*botões do navegador/ espaço entre eles/ sem sublinhado/*/
+.bot-nav{
+padding: 10px;
+text-decoration: none;
+}
+/*centralizado/ margem geral/ margem superior*/
+.conteudo{
+text-align: center;
+margin: 5px;
+margin-top: 200px;
+d
+
+}
+
+/* */
+.foguete{
+height: 80px;
+
+}
+/**/
+
+
+/*imagem de fundo/ tamanho/ posição da img/ */
+#minha_foto{
+height: 420px;
+/*float: left;*/
+max-width: 80%;
+/*margin-left: 10px;*/
+padding: 10px;
+}
+.meus-dados{
+/* float: left;*/
+margin-left: 25px;
+}
+#licoes_aprendidas{
+
+}
+#licoes_a_aprender{
+
+}
+
+#rodape{
+background-color:  rgb(216, 203, 30);
+line-height: 30px; 
+text-align: center;  
+}
