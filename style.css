@@ -14,10 +14,12 @@ body {
 }
 
 #div-title {
+  margin-top: 25px;
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
 }
+
 
 #minha_foto {
   margin-top: 50px;
@@ -59,11 +61,28 @@ body {
 }
 
 .lado-esquerdo {
+  left: auto;
+  padding: 5px;
   float: left;
   width: 45%;
 }
 
 .lado-direito {
+  right: auto;
+  padding: 5px;
   float: right;
   width: 45%;
+}
+
+#rodape {
+  margin-top: 300px;
+  display: inline-block;
+  min-width: 100%;
+  min-height: 50px;
+  flex: none;
+}
+
+.div-footer {
+  display: inline-block;
+  padding: 5px;
 }
