@@ -3,12 +3,14 @@
 margin: 0;
 padding: 0;
 }
+
 /*Cor de fundo/ fonte/ cor do texto*/
 body {
 background-color: rgb(253, 251, 251);
 font-family: Arial, Helvetica, sans-serif;
 color: rgb(0, 0, 0);
 } 
+
 /*cor de fundo/ top 0/ barra fixa/ largura 100%/centralizado */
 #cabecalho {
 background-color: rgb(3, 21, 184);
@@ -17,6 +19,7 @@ position: fixed;
 width: 100%;
 text-align: center;              
 }
+
 /* fonte/ altura da linha/ bordas*/
 #titulo {     
 font-size: 28px; 
@@ -37,42 +40,40 @@ text-align: center;
 padding: 10px;
 text-decoration: none;
 }
+
 /*centralizado/ margem geral/ margem superior*/
 .conteudo{
 text-align: center;
 margin: 5px;
 margin-top: 200px;
-d
 
 }
 
-/* */
+/*tamanho */
 .foguete{
 height: 80px;
-
 }
-/**/
-
 
 /*imagem de fundo/ tamanho/ posição da img/ */
 #minha_foto{
 height: 420px;
-/*float: left;*/
 max-width: 80%;
-/*margin-left: 10px;*/
 padding: 10px;
 }
+
 .meus-dados{
 /* float: left;*/
 margin-left: 25px;
 }
+/*fonte letra*/
 #licoes_aprendidas{
-
+font-size: 15px; 
 }
+/*fonte letra*/
 #licoes_a_aprender{
-
+font-size: 15px; 
 }
-
+/*cor de fundo/ tamanho barra/ centralizado*/
 #rodape{
 background-color:  rgb(216, 203, 30);
 line-height: 30px; 
