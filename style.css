@@ -3,67 +3,57 @@
         margin: 0;
         padding: 0;
     }
-    /*Corpo*/
+    /*Cor de fundo/ fonte/ cor do texto*/
     body {
         background-color: rgb(253, 251, 251);
         font-family: Arial, Helvetica, sans-serif;
         color: rgb(0, 0, 0);
     } 
-    /*cabeçario/ */
+    /*cor de fundo/ top 0/ barra fixa/ largura 100%/centralizado */
     #cabecalho {
         background-color: rgb(3, 21, 184);
         top: 0;
         position: fixed;
         width: 100%;
-                     
+        text-align: center;              
     }
-    #titulo {
-        padding: 2% 2% 2% 2%;      
+    /* fonte/ altura da linha/ bordas*/
+    #titulo {     
         font-size: 28px; 
         line-height: 20px;
-        max-width: 50%;
-        margin: auto;
-        text-align: center; 
+        padding: 20px 0px 20px 0px;
       
     }
-    .imgtitolo {
-        padding: 3%;       
-    }
     
-    /*barra de navegador/ */
+    /*barra de navegador/ cor de fundo/ altura da linha/ centralizado */
     .navegador{
         background-color:  rgb(216, 203, 30);
-        line-height: 30px;   
+        line-height: 20px; 
+        text-align: center;
     }
-    /*div do navegador/ centralizar/ largura/ */  
-    .navegar{
-        font-size: 14px;
-        max-width: 50%;
-        margin: auto;
-    }
+    
     /*botões do navegador/ espaço entre eles/ sem sublinhado/*/
     .bot-nav{
-        padding: 0px 10px;
+        padding: 10px;
         text-decoration: none;
     }
-   
+    /**/
     .conteudo{
         text-align: center;
         margin: 5px;
-        display: inline-block; 
+        margin-top: 230px;
         
     }
     .conteudo-esquerda{
         margin: auto;
         
     }
-
     
     /*cor de fundo/ cor letra/ centralizado/ tamanho da fonte/ tamanho da borda*/
   
     .foguete{
         height: 80px;
-        padding: 0% 10% 0%; 
+         
     }
     /**/
     
@@ -86,9 +76,7 @@
     #licoes_a_aprender{
 
     }
-    .modulos{
-        margin-left: 25px;
-    }
+    
     #rodape{
         background-color:  rgb(216, 203, 30);
         line-height: 30px;   
