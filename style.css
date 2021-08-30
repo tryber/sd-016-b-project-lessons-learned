@@ -1,9 +1,12 @@
-* { margin: 0;
-  padding: 0;}
+* {
+  margin: 0;
+  padding: 0;
+}
 
-body { background-color: rgb(253, 251, 251);
-  font-family: Lato, sans-serif; }
-
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Lato, sans-serif;
+}
 
 #cabecalho {
   color: white;
