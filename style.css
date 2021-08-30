@@ -1,3 +1,14 @@
+/**
+
+* Além do material do Course, consultei o site W3 Schools.
+* Link: https://www.w3schools.com/css/default.asp
+* Para a estilização da tabela, usei a solução sugerida
+pelo usuário "hugocsl" no Stack Overflow.
+* Link: https://pt.stackoverflow.com/questions/252254/
+como-colocar-colunas-de-uma-tabela-todas-com-o-mesmo-tamanho
+
+**/
+
 a {
   color: rgb(40, 36, 36);
   font-weight: 600;
@@ -114,4 +125,23 @@ nav a {
   padding: 30px 0 30px 60px;
   vertical-align: top;
   width: 30%;
+}
+
+table {
+  overflow-x: auto;
+  table-layout: fixed;
+  width: 65%;
+  margin: 20px 60px;
+}
+
+table , th , td {
+  border: 1px solid rgb(252, 237, 233);
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+th {
+  text-align: left;
+  background: rgb(252, 237, 233);
+  color: rgb(40, 36, 36);
 }
