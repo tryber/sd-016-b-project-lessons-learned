@@ -1,0 +1,118 @@
+body {
+  background-color: rgb(253, 251, 251);
+  padding-left: 5%;
+  padding-right: 5%;
+  border: 5px solid black;
+}
+
+h2 {
+  background-color: rgb(110, 196, 154);
+  color: antiquewhite;
+  font-family: Georgia, Times, serif;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(52, 110, 84);
+  height: 100px;
+}
+
+#titulo {
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium';
+  text-align: center;
+}
+
+#minha_foto {
+  padding: 130px 20% 30px;
+  margin: 10px;
+  width: 300px;  
+}
+
+#artigo {
+  padding-top: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: justify;
+  width: 75%;
+}
+
+.lado-direito {
+  display: flex;
+  flex-direction: row;
+}
+
+.lado-esquerdo { 
+  background-color: rgb(110, 196, 154);
+  width: 20%;
+  padding: 40px 30px;
+  color: rgb(253, 251, 251);
+  font-size: 15px;
+  font-family: cursive;
+}
+
+#licoes_aprendidas {
+  line-height: 30px;
+  padding: 30px 5% 10px 10%;
+  width: 30%;
+  margin: 0;
+  display: inline-table;
+}
+
+#licoes_a_aprender {
+  line-height: 30px;
+  padding: 30px 5% 10px 10%;
+  width: 30%;
+  margin: 0;
+  display: inline-table;
+
+}
+
+h3{
+ padding-left: 10%;
+ padding-right: 20%;
+ text-decoration:underline;
+ font-size: 16px;
+}
+
+#table-block {
+  padding-top: 100px;
+  padding-left: 6%;
+
+}
+
+table, th, td {
+  border: 1px solid black;
+  background-color: rgb(52, 110, 84);
+  width: 70%;
+} 
+
+th {
+  background-color: rgb(50, 118, 85);
+  color: rgb(253, 251, 251);
+}
+
+td {
+  background-color: rgb(253, 251, 251);
+}
+
+#linksExternos {
+  font-family: cursive;
+  padding-bottom: 30px;
+  padding-top: 300px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+#rodape {
+  position: absolute;
+  background-color: rgb(52, 110, 84);
+  text-align: center;
+  color: antiquewhite;
+  height: 50px;
+  left: 0;
+  right: 0;
+}
