@@ -1,4 +1,6 @@
-body {background-color: rgb(253, 251, 251);
+body {
+    background-color: rgb(253, 251, 251);
 }
 
-header { top: 0;}
+#cabecalho {
+    top: 0%;}
