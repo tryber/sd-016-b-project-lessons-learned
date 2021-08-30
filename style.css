@@ -1,61 +1,73 @@
-    /*cor da de fundo da pagina toda*/
+    /*Todos começão om margem 0 e preenchimento 0 */
     * {
         margin: 0;
         padding: 0;
     }
-
+    /*Corpo*/
     body {
         background-color: rgb(253, 251, 251);
         font-family: Arial, Helvetica, sans-serif;
         color: rgb(0, 0, 0);
-    }
-    /**/
+    } 
+    /*cabeçario/ */
     #cabecalho {
-        background-color: rgb(36, 62, 182);
+        background-color: rgb(3, 21, 184);
         top: 0;
+        position: fixed;
+        width: 100%;
                      
     }
-    /*cor de fundo/ cor letra/ centralizado/ tamanho da fonte/ tamanho da borda*/
     #titulo {
         padding: 2% 2% 2% 2%;      
         font-size: 28px; 
-        line-height: 42px;
+        line-height: 20px;
         max-width: 50%;
         margin: auto;
         text-align: center; 
       
     }
-    .foguete{
-        height: 80px;
-        padding: 0% 10% 0%; 
-    }
-    /**/
     .imgtitolo {
-        
-        /*border-radius: 50%;*/
-        /*width: 80px;*/
-        /*background-size: 80%;*/
-        /*background-position: ;*/
-        padding: 2%;       
+        padding: 3%;       
     }
-    /*navegador/ centralizar/ largura/ */
+    
+    /*barra de navegador/ */
     .navegador{
         background-color:  rgb(216, 203, 30);
-        line-height: 30px;
-       
-        
+        line-height: 30px;   
     }
+    /*div do navegador/ centralizar/ largura/ */  
     .navegar{
         font-size: 14px;
         max-width: 50%;
         margin: auto;
     }
-    /*botão navegador/ espaço entre eles/ sem sublinhado/*/
+    /*botões do navegador/ espaço entre eles/ sem sublinhado/*/
     .bot-nav{
         padding: 0px 10px;
         text-decoration: none;
-
     }
+   
+    .conteudo{
+        text-align: center;
+        margin: 5px;
+        display: inline-block; 
+        
+    }
+    .conteudo-esquerda{
+        margin: auto;
+        
+    }
+
+    
+    /*cor de fundo/ cor letra/ centralizado/ tamanho da fonte/ tamanho da borda*/
+  
+    .foguete{
+        height: 80px;
+        padding: 0% 10% 0%; 
+    }
+    /**/
+    
+   
     /*imagem de fundo/ tamanho/ posição da img/ */
     #minha_foto{
         height: 400px;
@@ -71,6 +83,13 @@
     #licoes_aprendidas{
         
     }
+    #licoes_a_aprender{
+
+    }
     .modulos{
         margin-left: 25px;
+    }
+    #rodape{
+        background-color:  rgb(216, 203, 30);
+        line-height: 30px;   
     }
