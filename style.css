@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(253, 251, 251)
+}
+
+#cabecalho {
+/*     position: fixed; */
+    top: 0;
+    background-color: #F5BC5B;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+#minha_foto {
+    width: 200px;
+    border-radius: 100%;
+    text-align: center;
+    border: #F5BC5B solid;
+}
+
+#listas {
+    text-align: center;
+    background-color: #F5BC5B;
+}
+
+#licoes_aprendidas {
+    background-color: #FDD5B1;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 3%;
+}
+
+#licoes_a_aprender {
+    background-color: #FDD5B1;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 3%;
+}
+#profile_image {
+    padding: 50px;
+    text-align: center;
+    background-color: #FDD5B1;
+}
+
+#text_about_experience {
+    text-align: center;
+    padding: 50px;
+    background-color: #FDD5B1;
+}
+
+#text_about_apprenticeship {
+    background-color: #F5BC5B;
+    margin-left: 40px;
+    padding: 20px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 3%;
+}
+
+#rodape {
+    text-align: end;
+    padding: 20px;
+    background-color: #F5BC5B;
+}
+
+#recommendation {
+    color: #FF2965;
+    text-decoration-line: none;
+}
