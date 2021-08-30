@@ -1,12 +1,11 @@
 a {
   color: rgb(40, 36, 36);
   font-weight: 600;
-  margin: 10px;
   text-decoration: none;
 }
 
-article , aside , .rodape , section {
-  padding: 20px 50px;
+article {
+  padding: 20px 0 20px 60px;
 }
 
 article h2 {
@@ -22,6 +21,10 @@ article p , aside p {
 
 aside p {
   font-weight: 700;
+}
+
+aside , .rodape {
+  padding: 20px 60px;
 }
 
 body {
@@ -43,7 +46,7 @@ h3 {
   background-color: rgb(252, 237, 233);
   border: none;
   margin: 0;
-  padding: 20px;
+  padding: 15px 30px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -55,10 +58,22 @@ h3 {
   text-align: left;
 }
 
+.lado-direito {
+  display: block;
+  float: right;
+  width: 25%;
+}
+
+.lado-esquerdo {
+  display: block;
+  width: 65%;
+}
+
 .menu {
   background-color: rgb(252, 237, 233);
   line-height: 30px;
-  padding-top: 100px;
+  margin-bottom: 30px;
+  padding: 100px 10px 10px;
   text-align: center;
 }
 
@@ -80,6 +95,7 @@ h3 {
 
 nav a {
   color: rgb(40, 138, 138);
+  margin: 10px;
 }
 
 .rodape {
@@ -91,4 +107,11 @@ nav a {
 
 .rodape p {
   margin: 0;
+}
+
+.secao-direita , .secao-esquerda {
+  display: inline-block;
+  padding: 30px 0 30px 60px;
+  vertical-align: top;
+  width: 30%;
 }
