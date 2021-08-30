@@ -1,28 +1,32 @@
 a {
+  color: rgb(40, 36, 36);
   font-weight: 600;
+  margin: 10px;
   text-decoration: none;
-  color: #202426;
+}
+
+article , aside , .rodape , section {
+  padding: 20px 50px;
 }
 
 article h2 {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 700;
   text-align: center;
 }
 
-article p {
+article p , aside p {
   text-align: justify;
   text-indent: 30px;
 }
 
 aside p {
   font-weight: 700;
-  text-align: center;
 }
 
 body {
   background-color: rgb(253, 251, 251);
-  color: #202426;
+  color: rgb(40, 36, 36);
   font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-size: 16px;
   line-height: 25px;
@@ -36,7 +40,7 @@ h3 {
 }
 
 .cabecalho {
-  background-color: #F2EBC4;
+  background-color: rgb(252, 237, 233);
   border: none;
   margin: 0;
   padding: 20px;
@@ -46,34 +50,21 @@ h3 {
 }
 
 .cabecalho h1 {
-  font-size: 32px;
+  font-size: 28px;
   margin: 0;
-  text-align: center;
-}
-
-.rodape {
-  color: #476C5E;
-  font-size: 14px;
-  font-style: italic;
-  padding: 20px;
-  text-align: right;
-}
-
-.rodape p {
-  margin: 0;
+  text-align: left;
 }
 
 .menu {
-  background-color: #476C5E;
-  color: #F2F2F2;
+  background-color: rgb(252, 237, 233);
   line-height: 30px;
   padding-top: 100px;
   text-align: center;
 }
 
 .menu h2 {
-  font-size: 24px;
-  margin-bottom: 0px;
+  font-size: 22px;
+  margin-bottom: 0;
 }
 
 .menu img {
@@ -88,5 +79,16 @@ h3 {
 }
 
 nav a {
-  color: #F2EBC4;
+  color: rgb(40, 138, 138);
+}
+
+.rodape {
+  color: rgb(40, 138, 138);
+  font-size: 14px;
+  font-style: italic;
+  text-align: right;
+}
+
+.rodape p {
+  margin: 0;
 }
