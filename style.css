@@ -1,8 +1,11 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Sans-Serif';
     background-color: rgb(253, 251, 251);
+}
+
+body {
+    font-family: 'Helvetica, Arial, Verdana, Tahoma, sans-serif;'
 }
 
 header {
