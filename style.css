@@ -17,6 +17,10 @@ body {
   height: 110px;
 }
 
+#rodape a {
+  color: rgb(255, 255, 252);
+}
+
 #cabecalho nav a {
   background-color: rgb(131, 164, 216);
   color: rgb(253, 251, 251);
@@ -48,10 +52,6 @@ body {
 #rodape {
   background-color: rgb(160, 196, 255);
   width: 100%;
-}
-
-#rodape a {
-  color: rgb(255, 255, 252);
 }
 
 #rodape p {
