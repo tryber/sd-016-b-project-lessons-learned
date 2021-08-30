@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Lato, sans-serif;
+}
+
+#cabecalho {
+  color: white;
+  background-color: rgb(94, 158, 74);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding-bottom: 100px;
+  z-index: 10;
+}
+
+#titulo {
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+
+.menu {
+  list-style-type: none;
+}
+
+#inicio {
+  float: left;
+  position: absolute;
+  text-decoration: none;
+  top: 115px;
+  left: 250px;
+  z-index: 1;
+}
+
+#contato {
+  position: absolute;
+  float: left;
+  top: 115px;
+  left: 320px;
+}
+
+#sobre {
+  position: absolute;
+  float: left;
+  top: 115px;
+  left: 410px;
+}
+
+#minha_foto {
+  border-radius: 80%;
+  position: absolute;
+  width: 250px;
+  top: 150px;
+  left: 2px;
+}
+
+#linkedin {
+  font-style: oblique;
+  position: absolute;
+
+  /* text decoration reference: (www.br.ccm.net) */
+  text-decoration: none;
+  top: 470px;
+  left: 65px;
+  border: 2px  solid rgb(211, 162, 162);
+  border-radius: 10px;
+  background: rgb(89, 185, 56);
+  color: white;
+  width: fit-content;
+  margin: auto;
+}
+
+#linkedin:hover {
+  background-color: rgb(245, 13, 13);
+}
+
+.lado-direitocaminhada {
+  float: right;
+  position: absolute;
+  left: 270px;
+  top: 250px;
+  text-align: justify;
+  z-index: 1;
+}
+
+.lado-direito {
+  left: 500px;
+  float: right;
+}
+
+.lado-esquerdo , .lado-direito {
+  float: left;
+  margin-left: 100px;
+  margin-top: 550px;
+}
+
+p {
+  line-height: 28px;
+  text-align: justify;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+article {
+  padding: 50px em em;
+  text-align: justify;
+}
+
+li {
+  margin-left: 20px;
+  line-height: 28px;
+}
+
+.lado-esquerdofoto {
+  float: left;
+}
+
+#caminhada-trybe {
+  margin-bottom: 10px;
+}
+
+.descoberta-int {
+  margin-top: 10px;
+  position: absolute;
+  left: 25px;
+  top: 900px;
+  text-align: justify;
+}
+
+table {
+  margin-left: 1000px;
+  margin-top: -58px;
+  width: 17%;
+}
+
+table , td {
+  border: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
+
+footer {
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 1150px;
+  height: 80px;
+  font-size: large;
+  background-color: rgb(94, 158, 74);
+}
+
+.rodape2 { text-align: left;
+  padding: 25px;
+}
