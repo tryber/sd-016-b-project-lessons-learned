@@ -16,6 +16,7 @@ nav {
   position: fixed;
   top: 80px;
   background-color: darkcyan;
+  border: 1px solid black;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
   z-index: 2;
@@ -23,17 +24,16 @@ nav {
 
 .indices li  {
   display: inline;
-  padding: 30px;      
+  padding: 30px;
 }
 
 a {
   text-decoration: none;  
   color: white;   
 }
-      
+
 section {
   display: inline-block;
-  border: 1px solid black;
   padding: 10px;
 }
 
@@ -43,7 +43,15 @@ section {
   top: 170px;
   border-radius: 20%;
   left: 400px;
-} 
+}
+
+#trybe {
+  width: 300px;
+  position: absolute;
+  top: 1400px;
+  border-radius: 20%;
+  left: 400px;  
+}
 
 h2:nth-of-type(1) {
   position: absolute;
@@ -53,7 +61,7 @@ h2:nth-of-type(1) {
 h2:nth-of-type(2) {
   position: absolute;
   top: 400px;
-  left: 340px;
+  left: 400px;
 }
 
 #licoes_aprendidas {
@@ -73,7 +81,7 @@ h2:nth-of-type(2) {
   border: 1px solid black;
   position: absolute;
   top: 450px;
-  left: 340px;
+  left: 400px;
   font-size: 20px;
   line-height: 1.5;
   color: white;
@@ -99,9 +107,11 @@ article {
   position: absolute;
   top: 1000px;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   padding: 20px;
-  width: 500px;
+  width: 600px;
+  height: 200px;
+  overflow: auto;
 }
 
 aside {
@@ -110,25 +120,32 @@ aside {
   background-color: teal;
   color: white;
   position: absolute;
-  top: 1000px;
-  left: 700px;
+  top: 400px;
+  left: 1100px;
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
-  width: 300px;
-  padding: 30px;
+  width: 120px;
+  padding: 50px;
+  height: 1300px;
+  text-align: center;
 }
 
 #curriculo {
-  display: inline-block;
+  display: inline;
   border: 1px solid black;
   background-color: teal;
-  color: white;
   position: absolute;
-  top: 1500px;
+  top: 1700px;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 15px;
-  width: 200px;
+  width: 600px;
   padding: 30px;
+}
+
+#curriculo a {
+margin: 30px; 
+color: white;
+font-size: 20px; 
+text-align: center;
 }
 
 #rodape {
@@ -143,5 +160,5 @@ aside {
 
 a:hover {
 border: 1px solid white;
-margin: 30px;       
+margin: 30px;
 }
