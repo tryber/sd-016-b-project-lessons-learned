@@ -1,0 +1,112 @@
+* {
+  margin: auto;
+  border: 1px solid black;
+}
+
+
+body {
+  margin: auto;
+  background-color: rgb(253, 251, 251);
+  font-size: 20px;
+}
+
+h1 , h2 , h3 , h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 18%;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li a:hover {
+  color: aqua;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 2em;
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+#cabecalho {
+  top: 0;
+}
+
+#minha_foto {
+  width: 300px;
+  float: left;
+}
+
+#table-info {
+  width: 6%;
+}
+
+#titulo a {
+  text-decoration: none;
+  color: black;
+}
+
+#table-info td a {
+  text-decoration: none;
+  color: black;
+}
+
+#table-info td a :hover {
+  color: aqua;
+}
+
+#titulo a:hover {
+  color: aqua;
+}
+
+.lado-esquerdo , .lado-direito {
+  line-height: 25px;
+  text-align: justify;
+  padding: 10px;
+}
+
+.lado-esquerdo h3 {
+  margin-bottom: 30px;
+}
+
+.lado-esquerdo p {
+  padding-left: 10px;
+}
+
+.lessons_learned {
+  display: inline-block;
+}
+
+.lessons_to_learn {
+  display: inline-block;
+}
+
+#apprenticeship {
+  height: 550px;
+}
+
+.lado-esquerdo {
+  float: left;
+  height: 1;
+  width: 64%;
+  display: block;
+  font-size: 1.5em;
+}
+
+.lado-direito {
+  float: right;
+  height: 1;
+  padding-left: 10px;
+  width: 30%;
+  font-size: 0.75em;
+}
