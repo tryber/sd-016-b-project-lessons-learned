@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Helvetica, sans-serif;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-top: 115px;
+}
+
+#cabecalho {
+  background-color: greenyellow;
+  color: white;
+  padding-right: 50%;
+  position: fixed;
+  top: 0%;
+}
+
+nav {
+  color: white;
+}
+
+#titulo {
+  font-size: xx-large;
+}
+
+#minha_foto {
+  width: 175px;
+}
+
+table , td , th , tfoot {
+  border: solid 1px black;
+  display: inline-block;
+  padding: 5px;
+}
+
+#licoes_aprendidas {
+  font-size: small;
+}
+
+#licoes_a_aprender {
+  font-size: small;
+}
+
+#rodape {
+  float: left;
+  font-size: small;
+}
+
+#meu_aprendizado {
+  display: block;
+  float: right;
+  font-size: medium;
+  width: 450px;
+}
+
+.lista_de_licoes {
+  font-size: medium;
+}
+
+.lado-esquerdo {
+  display: block;
+  float: left;
+  font-size: medium;
+  line-height: 20px;
+  width: 450px;
+}
+
+.lado-direito {
+  line-height: 20px;
+}
