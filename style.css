@@ -24,7 +24,6 @@ body {
 h1 {
   font-size: 40px;
   color: white;
-  font-size: 50px;
 }
 
 ul , ol {
@@ -49,8 +48,8 @@ ul , ol {
 }
 
 .lado-direito {
-float: right;
-width: 50%;
+  float: right;
+  width: 50%;
 }
 
 table {
@@ -59,7 +58,7 @@ table {
 
 a {
   padding: 30px 574px;
-  font-family:  Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
   font-size: 16px;
 }
