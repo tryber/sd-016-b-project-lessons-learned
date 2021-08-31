@@ -1,0 +1,142 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+h2 {
+  font-size: 1.1em;
+  margin: 0 0 10px;
+}
+
+#cabecalho {
+  background-color: rgb(162, 216, 185);
+  left: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+#cabecalho nav a {
+  color: rgba(255, 255, 255, 0.8);
+  float: left;
+  font-weight: 700;
+  list-style: none;
+  margin: 5px;
+  text-decoration: none;
+}
+
+#cabecalho h1 {
+  margin: 5px;
+}
+
+#navegacao {
+  background-color: rgb(162, 216, 185);
+  border-top: 1px dotted rgba(255, 255, 255, 0.8);
+  height: 40px;
+  padding: 0 35px;
+  width: 100%;
+}
+
+#navegacao ul li {
+  display: inline;
+}
+
+#titulo {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Ubuntu, Cantarell, sans-serif;
+  font-size: 2.2em;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+#minha_foto {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+
+#container-principal {
+  height: 720px;
+  margin: 120px auto 10px;
+  width: 90%;
+}
+
+.container-lado-esquerdo {
+  float: left;
+  height: 270px;
+  margin: 20px 10px;
+  padding: 20px;
+  width: 66%;
+}
+
+.container-tabela {
+  float: left;
+  height: 250px;
+  margin: 20px 0;
+  padding: 20px;
+  width: 23%;
+}
+
+.lado-esquerdo {
+  float: left;
+  height: 250px;
+  margin: 0 7px;
+  padding: 10px;
+  width: 45%;
+}
+
+.lado-direito {
+  float: left;
+  height: 250px;
+  margin: 0 7px;
+  padding: 10px;
+  width: 45%;
+}
+
+table , thead , tr {
+  border: 1px solid;
+  text-align: justify;
+  width: 100%;
+}
+
+td {
+  border: 1px solid;
+}
+
+.celula {
+  border: 1px solid;
+  text-align: center;
+}
+
+#licoes_a_aprender {
+  list-style: decimal;
+}
+
+#licoes_aprendidas , #licoes_a_aprender {
+  float: left;
+  height: 240px;
+  list-style-position: inside;
+  margin: 0 10px;
+  padding: 35px;
+  width: 28%;
+}
+
+#rodape {
+  background-color: rgb(162, 216, 185);
+  clear: both;
+  font-family: Ubuntu, Cantarell, sans-serif;
+  font-weight: 600;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
