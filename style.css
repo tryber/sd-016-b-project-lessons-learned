@@ -18,7 +18,6 @@ h2 {
 
 #cabecalho {
   background-color: rgb(162, 216, 185);
-  height: 16%;
   left: 0;
   position: fixed;
   text-align: center;
@@ -30,9 +29,9 @@ h2 {
   color: rgba(255, 255, 255, 0.8);
   float: left;
   font-weight: 700;
+  list-style: none;
   margin: 5px;
   text-decoration: none;
-  list-style: none;
 }
 
 #cabecalho h1 {
@@ -47,6 +46,10 @@ h2 {
   width: 100%;
 }
 
+#navegacao ul li {
+  display: inline;
+}
+
 #titulo {
   color: rgba(255, 255, 255, 0.8);
   font-family: Ubuntu, Cantarell, sans-serif;
@@ -56,15 +59,14 @@ h2 {
 }
 
 #minha_foto {
-  left: 3%;
-  position: absolute;
-  top: 25%;
-  width: 80px;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
 }
 
 #container-principal {
   height: 720px;
-  margin: 110px auto 10px;
+  margin: 120px auto 10px;
   width: 90%;
 }
 
