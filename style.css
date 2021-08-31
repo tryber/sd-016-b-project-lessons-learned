@@ -11,6 +11,8 @@ body {
 header {
     background-color: rgb(52, 155, 158);
     text-align: center;
+    position: fixed;
+    top: 0;
 }
 
 h1 {
