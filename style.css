@@ -13,3 +13,5 @@ body {background-color: rgb(253, 251, 251);
 }
 
 #rodape { color: violet; }
+
+aside { left: 10;}
