@@ -1,80 +1,81 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
+
 body {
-    background-color: rgb(253, 251, 251)
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-/*     position: fixed; */
-    top: 0;
-    background-color: #F5BC5B;
-    color: white;
-    text-align: center;
-    padding: 50px;
+  top: 0;
+  background-color: rgb(245, 188, 91);
+  color: white;
+  text-align: center;
+  padding: 50px;
 }
 
 #minha_foto {
-    width: 200px;
-    border-radius: 100%;
-    text-align: center;
-    border: #F5BC5B solid;
+  width: 200px;
+  border-radius: 100%;
+  text-align: center;
+  border: rgb(245, 188, 91);
 }
 
 #listas {
-    text-align: center;
-    background-color: #F5BC5B;
+  text-align: center;
+  background-color: rgb(245, 188, 91);
 }
 
 #licoes_aprendidas {
-    background-color: #FDD5B1;
-    margin: 10px;
-    padding: 20px;
-    width: 200px;
-    display: inline-block;
-    vertical-align: top;
-    border-radius: 3%;
+  background-color: rgb(253, 213, 177);
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 3%;
 }
 
 #licoes_a_aprender {
-    background-color: #FDD5B1;
-    margin: 10px;
-    padding: 20px;
-    width: 200px;
-    display: inline-block;
-    vertical-align: top;
-    border-radius: 3%;
+  background-color: rgb(253, 213, 177);
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 3%;
 }
+
 #profile_image {
-    padding: 50px;
-    text-align: center;
-    background-color: #FDD5B1;
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(253, 213, 177);
 }
 
 #text_about_experience {
-    text-align: center;
-    padding: 50px;
-    background-color: #FDD5B1;
+  text-align: center;
+  padding: 50px;
+  background-color: rgb(253, 213, 177);
 }
 
 #text_about_apprenticeship {
-    background-color: #F5BC5B;
-    margin-left: 40px;
-    padding: 20px;
-    width: 200px;
-    display: inline-block;
-    vertical-align: top;
-    border-radius: 3%;
+  background-color: rgb(245, 188, 91);
+  margin-left: 40px;
+  padding: 20px;
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 3%;
 }
 
 #rodape {
-    text-align: end;
-    padding: 20px;
-    background-color: #F5BC5B;
+  text-align: end;
+  padding: 20px;
+  background-color: rgb(245, 188, 91);
 }
 
 #recommendation {
-    color: #FF2965;
-    text-decoration-line: none;
+  color: rgb(255, 41, 101);
+  text-decoration-line: none;
 }
