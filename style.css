@@ -1,16 +1,15 @@
 body {background-color: rgb(253, 251, 251);
 }
 
-#cabecalho { position: fixed; top: 0;}
+#cabecalho { position: fixed;
+    top: 0;}
 
 #minha_foto { margin-top: 80;}
 
-#licoes_aprendidas {
-    display: inline-block;
+#licoes_aprendidas {display: inline-block;
 }
 
-#licoes_a_aprender {
-    display: inline-block;
+#licoes_a_aprender {display: inline-block;
 }
 
-#rodape {color: violet;}
+#rodape { color: violet; }
