@@ -1,14 +1,18 @@
 * {
   margin: 0;
   box-sizing: border-box;
+	font-family: Architects Daughter;
 }
 
 body {
   background-color: rgb(253, 251, 251);
+	font-size: 14px;
 }
 
 #cabecalho {
+	position: fixed;
   top: 0;
+	width: 100%;
   background-color: rgb(245, 188, 91);
   color: white;
   text-align: center;
@@ -19,7 +23,7 @@ body {
   width: 200px;
   border-radius: 100%;
   text-align: center;
-  border: rgb(245, 188, 91);
+  border: solid rgb(245, 188, 91);
 }
 
 #listas {
@@ -48,6 +52,7 @@ body {
 }
 
 #profile_image {
+	margin-top: 110px;
   padding: 50px;
   text-align: center;
   background-color: rgb(253, 213, 177);
