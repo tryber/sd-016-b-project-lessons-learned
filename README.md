@@ -131,7 +131,140 @@ Através desta aplicação, será possível realizar a construção de código H
   * Usando o exemplo anterior: `git push -u origin maria-soares-lessons-learned`
 
 6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-016-b-project-lessons-learned/pulls)
+  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://### Termos e acordos
+
+Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
+
+# Boas vindas ao repositório do projeto Lições Aprendidas!
+
+Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Atenção a cada passo e, se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
+
+Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
+
+---
+
+## SUMÁRIO
+
+- [Habilidades](#habilidades)
+- [Entregáveis](#entregáveis)
+  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
+  - [Desenvolvimento](#desenvolvimento)
+  - [Data de entrega](#data-de-entrega)
+- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
+  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
+  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
+- [Como desenvolver](#como-desenvolver)
+  - [Linter](#linter)
+  - [Avaliador Automático](#avaliador-automático)
+- [Requisitos](#requisitos)
+  - [Dicas](#dicas)
+  - [Lista de requisitos](#lista-de-requisitos)
+    - [1. Adicione uma cor de fundo específica para a página](#1-adicione-uma-cor-de-fundo-específica-para-a-página)
+    - [2. Adicione uma barra superior com um título](#2-adicione-uma-barra-superior-com-um-título)
+    - [3. Adicione uma foto sua à página](#3-adicione-uma-foto-sua-à-página)
+    - [4. Adicione uma lista de lições aprendidas à página](#4-adicione-uma-lista-de-lições-aprendidas-à-página)
+    - [5. Crie uma lista de lições que ainda deseja aprender para a página](#5-crie-uma-lista-de-lições-que-ainda-deseja-aprender-para-a-página)
+    - [6. Adicione um rodapé para a página](#6-adicione-um-rodapé-para-a-página)
+    - [7. Insira pelo menos um link externo na página](#7-insira-pelo-menos-um-link-externo-na-página)
+    - [8. Crie um artigo sobre seu aprendizado](#8-crie-um-artigo-sobre-seu-aprendizado)
+    - [9. Crie uma seção que conta uma passagem sobre seu aprendizado](#9-crie-uma-seção-que-conta-uma-passagem-sobre-seu-aprendizado)
+    - [10. Aplique elementos HTML de acordo com o sentido e propósito de cada um deles](#10-aplique-elementos-html-de-acordo-com-o-sentido-e-propósito-de-cada-um-deles)
+  - [Bônus](#bônus)
+    - [11. Teste a semântica da sua página está aprovada pelo site CodeSniffer](#11-teste-a-semântica-da-sua-página-está-aprovada-pelo-site-codesniffer)
+    - [12. Adicione uma tabela à página](#12-adicione-uma-tabela-à-página)
+    - [13. Utilize o Box model](#13-utilize-o-box-model)
+    - [14. Altere atributos relacionados as fontes](#14-altere-atributos-relacionados-as-fontes)
+    - [15. Posicione o seu artigo e a seção sobre aprendizados um ao lado do outro](#15-posicione-o-seu-artigo-e-a-seção-sobre-aprendizados-um-ao-lado-do-outro)
+- [Depois de terminar o desenvolvimento](#depois-de-terminar-o-desenvolvimento)
+- [Revisando um pull request](#revisando-um-pull-request)
+- [Avisos Finais](#avisos-finais)
+
+
+## Habilidades
+
+Neste projeto, você será capaz de:
+
+* Utilizar _HTML_ para construir páginas WEB.
+* Utilizar _HTML_ semântico para tornar sua página mais acessível e melhor ranqueada.
+* Utilizar _CSS_ para adicionar estilo e posicionar elementos.
+
+---
+
+## Entregáveis
+
+Para entregar o seu projeto você deverá criar um Pull Request neste repositório.
+
+Lembre-se que você pode consultar nosso conteúdo sobre
+[Git & GitHub](https://app.betrybe.com/course/fundamentals/git-github-e-internet/git-github-o-que-e-e-para-que-serve/82dcab41-249a-4738-8920-f0eb2cb91d1c/dinamica-de-controle-de-versao/4cbb1980-92f0-4663-9121-dbc0f8d207a7?use_case=calendar ) sempre que precisar!
+
+---
+
+## O que deverá ser desenvolvido
+
+Você vai desenvolver um site que contenha uma série de informações sobre o que você aprendeu aqui na Trybe ao longo dos últimos três blocos. Seu site deverá estar com elementos posicionados e estilizados e além disto, deverá conter semântica apropriada para que seja acessível e melhor ranqueado.
+
+💡Veja o exemplo a seguir de como o projeto pode se parecer depois de pronto. Lembre-se que você pode ~~e deve~~ ir além para deixar o projeto com a sua cara e impressionar todas as pessoas!
+
+![exemplo](./exemplo.png)
+
+## Desenvolvimento
+
+Você deve desenvolver uma página HTML estilizada com CSS.
+
+Através desta aplicação, será possível realizar a construção de código HTML, posicionamento e estilização CSS.
+
+## Data de Entrega
+
+  - Serão `1` dia de projeto.
+  - Data de entrega para avaliação final do projeto: `31/08/2021 - 14:00h`.
+
+---
+
+## Instruções para  entregar seu projeto
+
+### Antes de começar a desenvolver
+
+1. Clone o repositório
+  * `git clone git@github.com:tryber/sd-016-b-project-lessons-learned.git`.
+  * Entre na pasta do repositório que você acabou de clonar:
+    * `cd sd-016-b-project-lessons-learned`
+
+2. Instale as dependências e inicialize o projeto
+  * Instale as dependências:
+    * npm install
+
+2. Crie uma branch a partir da branch `master`
+  * Verifique que você está na branch `master`
+    * Exemplo: `git branch`
+  * Se não estiver, mude para a branch `master`
+    * Exemplo: `git checkout master`
+  * Agora, crie uma branch onde você vai guardar os `commits` do seu projeto
+    * Você deve criar uma branch no seguinte formato: `nome-sobrenome-nome-do-projeto`
+    * Exemplo: `git checkout -b maria-soares-lessons-learned`
+
+3. Crie na raiz do projeto os arquivos que você precisará desenvolver:
+  * Verifique que você está na raiz do projeto
+    * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/maria/code/**sd-016-b-project-lessons-learned**_
+  * Crie os arquivos index.html e style.css
+    * Exemplo: `touch index.html style.css`
+
+4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
+  * Verifique que as mudanças ainda não estão no _stage_
+    * Exemplo: `git status` (devem aparecer listados os novos arquivos em vermelho)
+  * Adicione o novo arquivo ao _stage_ do Git
+      * Exemplo:
+        * `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
+        * `git status` (devem aparecer listados os arquivos em verde)
+  * Faça o `commit` inicial
+      * Exemplo:
+        * `git commit -m 'iniciando o projeto. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
+        * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
+
+5. Adicione a sua branch com o novo `commit` ao repositório remoto
+  * Usando o exemplo anterior: `git push -u origin maria-soares-lessons-learned`
+
+6. Crie um novo `Pull Request` _(PR)_
+  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://githgithub.com/tryber/sd-016-b-project-lessons-learned/pulls)
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
   * Clique no botão verde _"Create pull request"_
