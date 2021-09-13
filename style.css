@@ -4,19 +4,39 @@ body{
 #cabecalho{
     position: fixed;
     top: 0;
+    background-color: green;
+    width: 100%;
 }
 #titulo{
+
+}
+#container_img{
 
 }
 #minha_foto{
 
 }
+#sec_listas{
+
+}
+#container_aprendidas{
+
+}
 #licoes_aprendidas{
+
+}
+#container_a_aprender{
 
 }
 #licoes_a_aprender{
 
 }
+#container_artigo{
+
+}
 #rodape{
     
+}
+#links_externos{
+
 }
