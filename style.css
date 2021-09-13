@@ -1,11 +1,20 @@
+
 body{
     background-color: rgb(253, 251, 251);
+    margin: 0;
+}
+#container-pai{
+    padding: 0 10%;
 }
 #cabecalho{
     position: fixed;
     top: 0;
-    background-color: green;
+    background-color: #036b52;;
     width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: whitesmoke;
+    height: 100px;
 }
 #titulo{
 
@@ -14,7 +23,7 @@ body{
 
 }
 #minha_foto{
-
+margin-top: 5em;
 }
 #sec_listas{
 
@@ -32,11 +41,33 @@ body{
 
 }
 #container_artigo{
-
+    line-height: 1.5em;
+    width: 100%;
+    height: 200px;
+    text-align: center;
 }
 #rodape{
-    
+    margin: 50px 0;
+    clear: both;
 }
 #links_externos{
 
+}
+
+.lado-direito{
+    float:right ;
+    width: 49%;
+    height: 200px;
+}
+.lado-esquerdo{
+    float: left;
+    width: 49%;
+    height: 200px;
+}
+table, th, td {
+      }
+#container-table{
+    text-align: center;
+    margin: auto;
+    clear: both;
 }
