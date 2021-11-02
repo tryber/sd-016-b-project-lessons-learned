@@ -24,7 +24,7 @@ body {
 .lado-esquerdo {
   width: 400px;
   float: left;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, serif;
   font-size: 20px;
   line-height: 25px;
   color: chocolate;
@@ -35,7 +35,7 @@ body {
 
 .lado-direito {
   width: 300px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier, monospace;
   font-size: 20px;
   color: coral;
   float: right;
