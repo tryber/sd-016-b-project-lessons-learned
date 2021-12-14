@@ -142,10 +142,10 @@ aside {
 }
 
 #curriculo a {
-margin: 30px; 
-color: white;
-font-size: 20px; 
-text-align: center;
+  margin: 30px; 
+  color: white;
+  font-size: 20px; 
+  text-align: center;
 }
 
 #curriculo h3 {
@@ -165,13 +165,13 @@ text-align: center;
 }
 
 a:hover {
-border: 1px solid white;
-margin: 30px;
-font-size: 20px;
+  border: 1px solid white;
+  margin: 30px;
+  font-size: 20px;
 }
 
 #foguete {
-position: absolute;
-top: 1400px;
-left: 1100px;
+  position: absolute;
+  top: 1400px;
+  left: 1100px;
 }
