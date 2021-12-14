@@ -24,12 +24,12 @@ nav {
 
 .indices li  {
   display: inline;
-  padding: 30px;
+  padding: 100px;
 }
 
 a {
   text-decoration: none;  
-  color: white;   
+  color: white; 
 }
 
 section {
@@ -107,7 +107,7 @@ article {
   position: absolute;
   top: 1000px;
   font-family: sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   padding: 20px;
   width: 600px;
   height: 200px;
@@ -126,7 +126,7 @@ aside {
   font-size: 20px;
   width: 120px;
   padding: 50px;
-  height: 1300px;
+  height: 800px;
   text-align: center;
 }
 
@@ -148,6 +148,12 @@ font-size: 20px;
 text-align: center;
 }
 
+#curriculo h3 {
+  margin: 30px; 
+  color: white;
+  font-size: 40px; 
+  }
+
 #rodape {
   background-color:white;
   position: absolute;
@@ -161,4 +167,11 @@ text-align: center;
 a:hover {
 border: 1px solid white;
 margin: 30px;
+font-size: 20px;
+}
+
+#foguete {
+position: absolute;
+top: 1400px;
+left: 1100px;
 }
