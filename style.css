@@ -22,7 +22,7 @@ nav {
   z-index: 2;
 }
 
-.indices li  {
+.indices li {
   display: inline;
   padding: 100px;
 }
@@ -152,7 +152,7 @@ aside {
   margin: 30px; 
   color: white;
   font-size: 40px; 
-  }
+}
 
 #rodape {
   background-color:white;
